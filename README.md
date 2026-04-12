@@ -2,6 +2,12 @@
 
 Este repositorio contiene una base local para escanear documentos con OCR. Incluye una CLI directa con Tesseract y una interfaz web para que cualquier persona cargue un PDF, genere texto y descargue un PDF buscable.
 
+## GitHub Pages
+
+El archivo `index.html` en la raiz es la version estatica para GitHub Pages. Esa version corre completamente en el navegador con PDF.js y Tesseract.js, por lo que permite cargar un PDF y extraer texto sin servidor.
+
+Limitacion importante: GitHub Pages no ejecuta Python, Tesseract nativo ni OCRmyPDF. Por eso la version estatica genera texto `.txt`; para PDF buscable, OCRmyPDF, `unpaper` o mejoras de servidor, usa la aplicacion Python local descrita abajo.
+
 ## Motor recomendado para PDF
 
 Tesseract es un motor OCR open source con licencia Apache 2.0 y documentacion vigente para la version 5.x. Soporta multiples idiomas mediante archivos `traineddata`, incluidos `spa` y `eng`.
