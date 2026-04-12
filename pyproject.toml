@@ -7,12 +7,17 @@ requires-python = ">=3.11"
 dependencies = []
 
 [project.optional-dependencies]
+web = [
+  "Flask>=3.0",
+]
+
 dev = [
   "pytest>=8.0",
 ]
 
 [project.scripts]
 ocr-scan = "ocr_engine.cli:main"
+ocr-web = "ocr_engine.web.app:main"
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
