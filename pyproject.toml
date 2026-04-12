@@ -9,6 +9,8 @@ dependencies = []
 [project.optional-dependencies]
 web = [
   "Flask>=3.0",
+  "ocrmypdf>=17.4",
+  "pypdfium2>=5.7",
 ]
 
 dev = [
