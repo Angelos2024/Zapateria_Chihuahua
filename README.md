@@ -4,7 +4,7 @@ Este repositorio contiene una base local para escanear documentos con OCR. Inclu
 
 ## GitHub Pages
 
-El archivo `index.html` en la raiz es la version estatica para GitHub Pages. Esa version corre completamente en el navegador con PDF.js y Tesseract.js, por lo que permite cargar un PDF y extraer texto sin servidor.
+El archivo `index.html` en la raiz es la version estatica para GitHub Pages. Esa version corre completamente en el navegador con PDF.js y Tesseract.js, por lo que permite cargar un PDF y extraer texto sin servidor. Incluye selector para `spa+eng+heb+ell`, es decir espanol, ingles, hebreo y griego.
 
 Limitacion importante: GitHub Pages no ejecuta Python, Tesseract nativo ni OCRmyPDF. Por eso la version estatica genera texto `.txt`; para PDF buscable, OCRmyPDF, `unpaper` o mejoras de servidor, usa la aplicacion Python local descrita abajo.
 

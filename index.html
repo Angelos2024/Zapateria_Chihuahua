@@ -228,9 +228,14 @@
             <label>
               Idioma OCR
               <select id="language">
-                <option value="spa+eng">Espanol + English</option>
+                <option value="spa+eng+heb+ell">Espanol + English + Hebreo + Griego</option>
                 <option value="spa">Espanol</option>
                 <option value="eng">English</option>
+                <option value="heb">Hebreo</option>
+                <option value="ell">Griego</option>
+                <option value="spa+eng">Espanol + English</option>
+                <option value="heb+ell">Hebreo + Griego</option>
+                <option value="eng+heb+ell">English + Hebreo + Griego</option>
               </select>
             </label>
 
@@ -252,7 +257,7 @@
             <img id="pagePreview" class="preview hidden" alt="Vista previa de la pagina procesada">
 
             <div class="notice">
-              En GitHub Pages el OCR usa Tesseract.js en el navegador. Para PDF buscable, limpieza con unpaper o OCRmyPDF, se necesita el backend Python local.
+              En GitHub Pages el OCR usa Tesseract.js en el navegador. El modo combinado descarga modelos de espanol, ingles, hebreo y griego. Para PDF buscable, limpieza con unpaper o OCRmyPDF, se necesita el backend Python local.
             </div>
           </form>
         </section>
