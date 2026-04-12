@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import os
 import shutil
 import subprocess
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -11,9 +13,11 @@ class PdfOcrOptions:
     languages: str = "spa+eng"
     rotate_pages: bool = True
     deskew: bool = True
-    clean: bool = True
+    clean: bool = False
     force_ocr: bool = False
     redo_ocr: bool = False
+    rasterizer: str = "pypdfium"
+    output_type: str = "pdf"
 
 
 @dataclass(frozen=True)
@@ -57,8 +61,17 @@ class PdfOcrService:
             command=command,
         )
 
+    def _command_prefix(self) -> list[str]:
+        if self.command == "ocrmypdf":
+            return [sys.executable, "-m", "ocrmypdf"]
+        if shutil.which(self.command) or Path(self.command).exists():
+            return [self.command]
+        raise RuntimeError(
+            "OCRmyPDF is not available. Install OCRmyPDF or pass a valid OCRmyPDF command."
+        )
+
     def _validate_input(self, input_pdf: Path, options: PdfOcrOptions) -> None:
-        if not shutil.which(self.command) and not Path(self.command).exists():
+        if not self._command_exists():
             raise RuntimeError(
                 "OCRmyPDF is not available. Install OCRmyPDF and its system dependencies."
             )
@@ -79,9 +92,13 @@ class PdfOcrService:
         options: PdfOcrOptions,
     ) -> list[str]:
         command = [
-            self.command,
+            *self._command_prefix(),
             "--language",
             options.languages,
+            "--rasterizer",
+            options.rasterizer,
+            "--output-type",
+            options.output_type,
             "--sidecar",
             str(output_text),
         ]
@@ -100,7 +117,18 @@ class PdfOcrService:
         command.extend([str(input_pdf), str(output_pdf)])
         return command
 
+    def _command_exists(self) -> bool:
+        if self.command == "ocrmypdf":
+            check = subprocess.run(
+                [sys.executable, "-m", "ocrmypdf", "--version"],
+                capture_output=True,
+                text=True,
+            )
+            return check.returncode == 0
+        return bool(shutil.which(self.command) or Path(self.command).exists())
+
     def _run(self, command: list[str]) -> None:
+        env = self._process_env()
         try:
             subprocess.run(
                 command,
@@ -109,7 +137,25 @@ class PdfOcrService:
                 text=True,
                 encoding="utf-8",
                 errors="replace",
+                env=env,
             )
         except subprocess.CalledProcessError as exc:
             stderr = exc.stderr.strip() or "no stderr"
             raise RuntimeError(f"OCRmyPDF failed: {stderr}") from exc
+
+    def _process_env(self) -> dict[str, str]:
+        env = os.environ.copy()
+        tesseract_dir = Path(r"C:\Program Files\Tesseract-OCR")
+        if tesseract_dir.exists():
+            env["PATH"] = f"{tesseract_dir}{os.pathsep}{env.get('PATH', '')}"
+
+        local_tessdata = Path("var/tessdata").resolve()
+        if local_tessdata.exists():
+            env["TESSDATA_PREFIX"] = str(local_tessdata)
+
+        temp_dir = Path("var/tmp").resolve()
+        temp_dir.mkdir(parents=True, exist_ok=True)
+        env["TMP"] = str(temp_dir)
+        env["TEMP"] = str(temp_dir)
+        env["TMPDIR"] = str(temp_dir)
+        return env
