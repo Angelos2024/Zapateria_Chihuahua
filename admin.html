@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Administrador | Zapateria Chihuahua</title>
+  <meta name="description" content="Area privada de administracion de Zapateria Chihuahua." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page-category="admin" class="admin-locked">
+
+  <div class="topbar">
+    <div class="container">
+      <span><strong class="badge">Calzado de seguridad</strong> · Chihuahua, Chih.</span>
+      <span>Area privada de administracion</span>
+    </div>
+  </div>
+
+  <header class="admin-header">
+    <div class="container nav admin-nav">
+      <a class="brand" href="admin.html" aria-label="Administrador Zapateria Chihuahua">
+        <img class="brand-logo-img" src="img/Imagen12.png" alt="Zapateria Chihuahua">
+        <div>
+          <h1>Administrador</h1>
+          <small>Zapateria Chihuahua</small>
+        </div>
+      </a>
+      <nav aria-label="Menu de administrador">
+        <ul>
+          <li><a href="#cotizaciones">Cotizaciones</a></li>
+          <li><a href="#compras">Compras</a></li>
+          <li><a href="#ventas">Ventas</a></li>
+          <li><a href="#zapatos">Zapatos</a></li>
+          <li><a href="#empresas">Empresas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="admin-main">
+    <section class="section admin-hero">
+      <div class="container admin-hero-grid">
+        <div>
+          <span class="eyebrow" style="color:var(--rojo)">Panel interno</span>
+          <h2>Area de administracion</h2>
+          <p>Este panel queda separado del sitio publico. Por ahora estan preparadas las cinco areas principales para empezar a organizar la operacion.</p>
+        </div>
+        <aside class="admin-summary-card">
+          <strong>Acceso protegido</strong>
+          <span>Entrada oculta con secuencia de 7 clics exactos y contraseña.</span>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container admin-sections">
+        <article class="admin-panel" id="cotizaciones">
+          <h3>Cotizaciones</h3>
+          <p>Espacio reservado para solicitudes, seguimientos y propuestas enviadas.</p>
+        </article>
+        <article class="admin-panel" id="compras">
+          <h3>Compras</h3>
+          <p>Espacio reservado para pedidos a proveedores, entradas y control de abastecimiento.</p>
+        </article>
+        <article class="admin-panel" id="ventas">
+          <h3>Ventas</h3>
+          <p>Espacio reservado para ventas realizadas, movimientos diarios y resumen comercial.</p>
+        </article>
+        <article class="admin-panel" id="zapatos">
+          <h3>Zapatos</h3>
+          <p>Espacio reservado para productos, tallas, fotos, modelos y existencias.</p>
+        </article>
+        <article class="admin-panel" id="empresas">
+          <h3>Empresas</h3>
+          <p>Espacio reservado para clientes empresariales, contactos y cuentas por atender.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="copy">© <span id="year"></span> Zapateria Chihuahua. Panel privado.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

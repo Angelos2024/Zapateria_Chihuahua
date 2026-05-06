@@ -1,17 +1,183 @@
-
-const WHATSAPP = '526521926845';
+const WHATSAPP = '526142832898';
+const DEFAULT_SIZES = Array.from({ length: 11 }, (_, index) => 22 + index);
+const ADMIN_PASSWORD = 'skytahor';
+const ADMIN_SESSION_KEY = 'zapateria_admin_auth';
+const ADMIN_TRIGGER_SELECTOR = '.badge';
+const ADMIN_CLICK_TARGET = 7;
+const ADMIN_CLICK_TIMEOUT_MS = 900;
 
 const products = [
-  { name: 'Tenis de Seguridad Modelo 021', category: 'tenis', price: 850, old: null, specs: ['Casco', 'Antiderrapante', 'Ligero'], sale: false },
-  { name: 'Tenis de Seguridad Modelo 030', category: 'tenis', price: 780, old: null, specs: ['Dieléctrico', 'Antifatiga', 'NOM'], sale: false },
-  { name: 'Tenis de Seguridad Modelo Maxi', category: 'tenis', price: 750, old: 1200, specs: ['Casco poliamida', 'Ligero', 'Confort'], sale: true },
-  { name: 'Tenis de Seguridad Modelo Xport', category: 'tenis', price: 590, old: 1050, specs: ['Industrial', 'Antiderrapante', 'Oferta'], sale: true },
-  { name: 'Tenis Ultra Protect', category: 'tenis', price: 750, old: null, specs: ['Ultra ligero', 'Antifatiga', 'Casco'], sale: false },
-
-  { name: 'Bota de Seguridad Modelo Raptor', category: 'botas', price: 980, old: null, specs: ['Trabajo pesado', 'Resistente', 'Casco'], sale: false },
-  { name: 'Bota de Seguridad Modelo Soldador', category: 'botas', price: 780, old: null, specs: ['Soldador', 'Piel', 'Protección'], sale: false },
-  { name: 'Botas de Seguridad Modelo 501', category: 'botas', price: 480, old: null, specs: ['Económica', 'Industrial', 'Resistente'], sale: false },
-  { name: 'Bota Táctica Industrial', category: 'botas', price: 1050, old: null, specs: ['Táctica', 'Trabajo', 'Alta tracción'], sale: false }
+  {
+    slug: 'tenis-modelo-021',
+    name: 'Tenis de Seguridad Modelo 021',
+    shortName: 'Modelo 021',
+    category: 'tenis',
+    price: 850,
+    old: null,
+    specs: ['Casco', 'Antiderrapante', 'Ligero'],
+    sale: false,
+    image: null,
+    sizes: DEFAULT_SIZES,
+    description: 'Tenis de seguridad ligero para trabajo diario, pensado para jornadas largas con buena estabilidad y comodidad.',
+    details: [
+      'Diseno comodo para uso continuo.',
+      'Suela con buen agarre para piso de taller y almacen.',
+      'Estructura resistente para trabajo operativo.'
+    ],
+    gallery: ['Vista principal', 'Perfil lateral', 'Suela y traccion']
+  },
+  {
+    slug: 'tenis-modelo-030',
+    name: 'Tenis de Seguridad Modelo 030',
+    shortName: 'Modelo 030',
+    category: 'tenis',
+    price: 780,
+    old: null,
+    specs: ['Dielectrico', 'Antifatiga', 'NOM'],
+    sale: false,
+    image: null,
+    sizes: DEFAULT_SIZES,
+    description: 'Modelo deportivo con enfoque en proteccion electrica y soporte para actividades de planta y operacion ligera.',
+    details: [
+      'Construccion enfocada en seguridad industrial.',
+      'Buena respuesta para trayectos largos dentro de planta.',
+      'Facil de combinar con uniforme de trabajo.'
+    ],
+    gallery: ['Frente', 'Lateral', 'Detalle del casco']
+  },
+  {
+    slug: 'tenis-modelo-maxi',
+    name: 'Tenis de Seguridad Modelo Maxi',
+    shortName: 'Modelo Maxi',
+    category: 'tenis',
+    price: 750,
+    old: 1200,
+    specs: ['Casco poliamida', 'Ligero', 'Confort'],
+    sale: true,
+    image: null,
+    sizes: DEFAULT_SIZES,
+    description: 'Tenis industrial con sensacion mas ligera y construccion pensada para confort durante el turno completo.',
+    details: [
+      'Casco de poliamida en un perfil discreto.',
+      'Ideal para quien busca una silueta menos robusta.',
+      'Opcion comoda para uso diario.'
+    ],
+    gallery: ['Vista principal', 'Costado', 'Zona del talon']
+  },
+  {
+    slug: 'tenis-modelo-xport',
+    name: 'Tenis de Seguridad Modelo Xport',
+    shortName: 'Modelo Xport',
+    category: 'tenis',
+    price: 590,
+    old: 1050,
+    specs: ['Industrial', 'Antiderrapante', 'Oferta'],
+    sale: true,
+    image: null,
+    sizes: DEFAULT_SIZES,
+    description: 'Alternativa accesible para operacion general con buena traccion y una imagen deportiva.',
+    details: [
+      'Precio competitivo en catalogo.',
+      'Buen agarre para zonas de alto movimiento.',
+      'Pensado para uso practico y diario.'
+    ],
+    gallery: ['Frente', 'Perfil', 'Detalle de suela']
+  },
+  {
+    slug: 'tenis-ultra-protect',
+    name: 'Tenis Ultra Protect',
+    shortName: 'Ultra Protect',
+    category: 'tenis',
+    price: 750,
+    old: null,
+    specs: ['Ultra ligero', 'Antifatiga', 'Casco'],
+    sale: false,
+    image: null,
+    sizes: DEFAULT_SIZES,
+    description: 'Tenis de seguridad orientado a ligereza y movilidad para quienes pasan muchas horas caminando.',
+    details: [
+      'Perfil ligero con buena sensacion al caminar.',
+      'Pensado para reducir cansancio durante la jornada.',
+      'Buena opcion para almacen y supervision.'
+    ],
+    gallery: ['Vista principal', 'Lateral', 'Interior']
+  },
+  {
+    slug: 'bota-raptor',
+    name: 'Bota de Seguridad Modelo Raptor',
+    shortName: 'Modelo Raptor',
+    category: 'botas',
+    price: 980,
+    old: null,
+    specs: ['Trabajo pesado', 'Resistente', 'Casco'],
+    sale: false,
+    image: null,
+    sizes: DEFAULT_SIZES,
+    description: 'Bota de seguridad para trabajo rudo con estructura firme y soporte para entornos de mayor exigencia.',
+    details: [
+      'Ideal para actividades de obra, patio y manejo de material.',
+      'Diseno robusto para condiciones demandantes.',
+      'Ajuste alto con mayor sensacion de soporte.'
+    ],
+    gallery: ['Vista principal', 'Perfil lateral', 'Detalle de suela']
+  },
+  {
+    slug: 'bota-soldador',
+    name: 'Bota de Seguridad Modelo Soldador',
+    shortName: 'Modelo Soldador',
+    category: 'botas',
+    price: 780,
+    old: null,
+    specs: ['Soldador', 'Piel', 'Proteccion'],
+    sale: false,
+    image: null,
+    sizes: DEFAULT_SIZES,
+    description: 'Bota pensada para labores de soldadura y procesos donde se necesita un perfil mas cubierto y resistente.',
+    details: [
+      'Construccion enfocada en seguridad y cobertura.',
+      'Materiales resistentes para trabajo industrial.',
+      'Perfil clasico de bota de taller.'
+    ],
+    gallery: ['Frente', 'Costado', 'Detalle superior']
+  },
+  {
+    slug: 'bota-modelo-501',
+    name: 'Botas de Seguridad Modelo 501',
+    shortName: 'Modelo 501',
+    category: 'botas',
+    price: 480,
+    old: null,
+    specs: ['Economica', 'Industrial', 'Resistente'],
+    sale: false,
+    image: null,
+    sizes: DEFAULT_SIZES,
+    description: 'Modelo de entrada para necesidades operativas basicas, manteniendo una presentacion resistente y funcional.',
+    details: [
+      'Opcion economica para surtido general.',
+      'Pensada para uso operativo basico.',
+      'Buena alternativa para compras por volumen.'
+    ],
+    gallery: ['Vista principal', 'Lateral', 'Base']
+  },
+  {
+    slug: 'bota-tactica-industrial',
+    name: 'Bota Tactica Industrial',
+    shortName: 'Tactica Industrial',
+    category: 'botas',
+    price: 1050,
+    old: null,
+    specs: ['Tactica', 'Trabajo', 'Alta traccion'],
+    sale: false,
+    image: null,
+    sizes: DEFAULT_SIZES,
+    description: 'Bota con presencia tactica y suela de buena traccion para trabajo operativo que requiere mayor soporte al tobillo.',
+    details: [
+      'Silueta alta con imagen firme.',
+      'Pensada para exterior, patio y recorridos largos.',
+      'Buena estabilidad en movimiento.'
+    ],
+    gallery: ['Frente', 'Perfil', 'Detalle de traccion']
+  }
 ];
 
 const productsEl = document.getElementById('products');
@@ -19,7 +185,181 @@ const searchEl = document.getElementById('search');
 const categoryEl = document.getElementById('category');
 const sortEl = document.getElementById('sort');
 const clearEl = document.getElementById('clearFilters');
+const yearEl = document.getElementById('year');
+const detailRootEl = document.getElementById('product-detail');
 const pageCategory = document.body.dataset.pageCategory || 'todos';
+let adminClickCount = 0;
+let adminClickTimer = null;
+
+function isAdminAuthenticated() {
+  return sessionStorage.getItem(ADMIN_SESSION_KEY) === 'true';
+}
+
+function setAdminAuthenticated() {
+  sessionStorage.setItem(ADMIN_SESSION_KEY, 'true');
+}
+
+function getAdminModalElements() {
+  return {
+    overlay: document.getElementById('admin-access-overlay'),
+    form: document.getElementById('admin-access-form'),
+    input: document.getElementById('admin-access-input'),
+    error: document.getElementById('admin-access-error'),
+    title: document.getElementById('admin-access-title'),
+    close: document.getElementById('admin-access-close')
+  };
+}
+
+function closeAdminModal() {
+  const { overlay, input, error } = getAdminModalElements();
+  if (!overlay) return;
+  overlay.hidden = true;
+  if (input) input.value = '';
+  if (error) error.textContent = '';
+}
+
+function unlockAdminPage() {
+  document.body.classList.remove('admin-locked');
+}
+
+function handleAdminAccessSuccess() {
+  setAdminAuthenticated();
+  unlockAdminPage();
+
+  if (pageCategory === 'admin') {
+    closeAdminModal();
+    return;
+  }
+
+  window.location.href = 'admin.html';
+}
+
+function openAdminModal(force = false) {
+  const { overlay, input, error, title, close } = getAdminModalElements();
+  if (!overlay) return;
+
+  document.body.classList.toggle('admin-locked', force && pageCategory === 'admin');
+  overlay.hidden = false;
+
+  if (title) {
+    title.textContent = force ? 'Acceso de administrador' : 'Area de administrador';
+  }
+
+  if (close) {
+    close.hidden = force;
+  }
+
+  if (error) {
+    error.textContent = '';
+  }
+
+  window.setTimeout(() => {
+    if (input) input.focus();
+  }, 20);
+}
+
+function ensureAdminModal() {
+  if (document.getElementById('admin-access-overlay')) return;
+
+  document.body.insertAdjacentHTML('beforeend', `
+    <div class="admin-access-overlay" id="admin-access-overlay" hidden>
+      <div class="admin-access-modal" role="dialog" aria-modal="true" aria-labelledby="admin-access-title">
+        <button class="admin-access-close" id="admin-access-close" type="button" aria-label="Cerrar acceso">×</button>
+        <p class="admin-access-kicker">Acceso oculto</p>
+        <h2 id="admin-access-title">Area de administrador</h2>
+        <p>Ingresa la contraseña para continuar.</p>
+        <form id="admin-access-form" class="admin-access-form">
+          <label for="admin-access-input">Contraseña</label>
+          <input id="admin-access-input" name="password" type="password" autocomplete="current-password" required>
+          <p class="admin-access-error" id="admin-access-error" aria-live="polite"></p>
+          <button class="btn btn-primary" type="submit">Entrar</button>
+        </form>
+      </div>
+    </div>`);
+
+  const { form, input, error, close } = getAdminModalElements();
+
+  if (form) {
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      const password = input ? input.value.trim() : '';
+
+      if (password === ADMIN_PASSWORD) {
+        handleAdminAccessSuccess();
+        return;
+      }
+
+      if (error) {
+        error.textContent = 'Contraseña incorrecta.';
+      }
+
+      if (input) {
+        input.select();
+      }
+    });
+  }
+
+  if (close) {
+    close.addEventListener('click', () => {
+      if (pageCategory === 'admin' && !isAdminAuthenticated()) {
+        window.location.href = 'index.html';
+        return;
+      }
+
+      closeAdminModal();
+    });
+  }
+}
+
+function resetAdminClickSequence() {
+  adminClickCount = 0;
+
+  if (adminClickTimer) {
+    window.clearTimeout(adminClickTimer);
+    adminClickTimer = null;
+  }
+}
+
+function scheduleAdminClickValidation() {
+  if (adminClickTimer) {
+    window.clearTimeout(adminClickTimer);
+  }
+
+  adminClickTimer = window.setTimeout(() => {
+    if (adminClickCount === ADMIN_CLICK_TARGET) {
+      openAdminModal(false);
+    }
+
+    resetAdminClickSequence();
+  }, ADMIN_CLICK_TIMEOUT_MS);
+}
+
+function initHiddenAdminAccess() {
+  ensureAdminModal();
+
+  const trigger = document.querySelector(ADMIN_TRIGGER_SELECTOR);
+  if (!trigger) return;
+
+  trigger.addEventListener('click', () => {
+    adminClickCount += 1;
+
+    if (adminClickCount > ADMIN_CLICK_TARGET) {
+      resetAdminClickSequence();
+      return;
+    }
+
+    scheduleAdminClickValidation();
+  });
+
+  if (pageCategory === 'admin') {
+    if (isAdminAuthenticated()) {
+      unlockAdminPage();
+      return;
+    }
+
+    openAdminModal(true);
+  }
+}
 
 function shoeSVG(category) {
   const boot = category === 'botas' || category === 'tactico';
@@ -32,6 +372,22 @@ function shoeSVG(category) {
   </svg>`;
 }
 
+function getCategoryLabel(category) {
+  return category === 'botas' ? 'Botas de Seguridad' : 'Tenis de Seguridad';
+}
+
+function getCategoryUrl(category) {
+  return category === 'botas' ? 'botas-seguridad.html' : 'tenis-seguridad.html';
+}
+
+function getProductImageMarkup(product, extraClass = '') {
+  if (product.image) {
+    return `<img class="${extraClass}" src="${product.image}" alt="${product.name}" loading="lazy">`;
+  }
+
+  return shoeSVG(product.category);
+}
+
 function renderProducts() {
   if (!productsEl) return;
 
@@ -39,37 +395,122 @@ function renderProducts() {
   const cat = categoryEl ? categoryEl.value : pageCategory;
   const sort = sortEl ? sortEl.value : 'default';
 
-  let list = products.filter(p => {
-    const matchesPage = pageCategory === 'todos' || p.category === pageCategory || (pageCategory === 'botas' && p.category === 'tactico');
-    const matchesTerm = [p.name, p.category, ...p.specs].join(' ').toLowerCase().includes(term);
-    const matchesCat = cat === 'todos' || p.category === cat || (cat === 'botas' && p.category === 'tactico');
+  let list = products.filter(product => {
+    const matchesPage = pageCategory === 'todos' || product.category === pageCategory || (pageCategory === 'botas' && product.category === 'tactico');
+    const matchesTerm = [product.name, product.category, ...product.specs].join(' ').toLowerCase().includes(term);
+    const matchesCat = cat === 'todos' || product.category === cat || (cat === 'botas' && product.category === 'tactico');
     return matchesPage && matchesTerm && matchesCat;
   });
 
-  if (sort === 'price-asc') list.sort((a,b) => a.price - b.price);
-  if (sort === 'price-desc') list.sort((a,b) => b.price - a.price);
-  if (sort === 'name') list.sort((a,b) => a.name.localeCompare(b.name));
+  if (sort === 'price-asc') list.sort((a, b) => a.price - b.price);
+  if (sort === 'price-desc') list.sort((a, b) => b.price - a.price);
+  if (sort === 'name') list.sort((a, b) => a.name.localeCompare(b.name));
 
-  productsEl.innerHTML = list.map(p => {
-    const msg = encodeURIComponent(`Hola, quiero información sobre ${p.name}. ¿Tienen talla disponible?`);
+  productsEl.innerHTML = list.map(product => {
+    const sizes = product.sizes && product.sizes.length ? product.sizes : DEFAULT_SIZES;
+
     return `
-      <article class="product">
-        <div class="product-img">${p.sale ? '<span class="sale">Oferta</span>' : ''}${shoeSVG(p.category)}</div>
+      <a class="product product-link" href="producto.html?slug=${product.slug}" aria-label="Ver detalle de ${product.name}">
+        <div class="product-img">${product.sale ? '<span class="sale">Oferta</span>' : ''}${getProductImageMarkup(product)}</div>
         <div class="product-body">
-          <h3>${p.name}</h3>
-          <div class="specs">${p.specs.map(s => `<span>${s}</span>`).join('')}</div>
-          <div class="price"><strong>$${p.price.toLocaleString('es-MX')}.00</strong>${p.old ? `<small>$${p.old.toLocaleString('es-MX')}.00</small>` : ''}</div>
-          <div class="product-actions">
-            <a class="btn btn-primary" href="https://wa.me/${WHATSAPP}?text=${msg}" target="_blank" rel="noopener">Pedir talla</a>
-            <a class="btn btn-outline" href="index.html#ubicacion">Ver tienda</a>
+          <div class="product-copy">
+            <h3>${product.name}</h3>
+            <div class="specs">${product.specs.map(spec => `<span>${spec}</span>`).join('')}</div>
+            <div class="price"><strong>$${product.price.toLocaleString('es-MX')}.00</strong>${product.old ? `<small>$${product.old.toLocaleString('es-MX')}.00</small>` : ''}</div>
+            <div class="sizes-block">
+              <p>Tallas disponibles</p>
+              <div class="sizes">${sizes.map(size => `<span>${size}</span>`).join('')}</div>
+            </div>
+          </div>
+          <div class="product-actions product-actions-corner">
+            <span class="product-card-cta">Ver detalle</span>
           </div>
         </div>
-      </article>`;
-  }).join('') || `<p>No hay productos con esos filtros.</p>`;
+      </a>`;
+  }).join('') || '<p>No hay productos con esos filtros.</p>';
 }
 
-[searchEl, categoryEl, sortEl].forEach(el => {
-  if (el) el.addEventListener('input', renderProducts);
+function renderProductDetail() {
+  if (!detailRootEl) return;
+
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get('slug');
+  const product = products.find(item => item.slug === slug);
+
+  if (!product) {
+    detailRootEl.innerHTML = `
+      <section class="section">
+        <div class="container detail-empty">
+          <h2>Producto no encontrado</h2>
+          <p>Regresa al catalogo para elegir un modelo valido.</p>
+          <a class="btn btn-primary" href="index.html">Ir al inicio</a>
+        </div>
+      </section>`;
+    return;
+  }
+
+  document.title = `${product.name} | Zapateria Chihuahua`;
+
+  const sizes = product.sizes && product.sizes.length ? product.sizes : DEFAULT_SIZES;
+  const whatsappText = encodeURIComponent(`Hola, quiero informacion sobre ${product.name}.`);
+
+  detailRootEl.innerHTML = `
+    <section class="section product-detail-page">
+      <div class="container">
+        <div class="detail-toolbar">
+          <a class="btn btn-outline btn-back" href="${getCategoryUrl(product.category)}">Volver atras</a>
+        </div>
+
+        <article class="detail-layout">
+          <div class="detail-visuals">
+            <div class="detail-main-visual">
+              ${getProductImageMarkup(product, 'detail-main-image')}
+            </div>
+            <div class="detail-gallery">
+              ${product.gallery.map(label => `
+                <div class="detail-thumb">
+                  <div class="detail-thumb-media">${getProductImageMarkup(product)}</div>
+                  <span>${label}</span>
+                </div>`).join('')}
+            </div>
+          </div>
+
+          <div class="detail-info">
+            <span class="detail-category">${getCategoryLabel(product.category)}</span>
+            <h2>${product.name}</h2>
+            <p class="detail-description">${product.description}</p>
+
+            <div class="detail-price">
+              <strong>$${product.price.toLocaleString('es-MX')}.00</strong>
+              ${product.old ? `<small>$${product.old.toLocaleString('es-MX')}.00</small>` : ''}
+            </div>
+
+            <div class="specs">${product.specs.map(spec => `<span>${spec}</span>`).join('')}</div>
+
+            <section class="detail-card">
+              <h3>Tallas disponibles</h3>
+              <div class="sizes">${sizes.map(size => `<span>${size}</span>`).join('')}</div>
+            </section>
+
+            <section class="detail-card">
+              <h3>Descripcion</h3>
+              <ul class="detail-list">
+                ${product.details.map(item => `<li>${item}</li>`).join('')}
+              </ul>
+            </section>
+
+            <div class="detail-actions">
+              <a class="btn btn-primary" href="https://wa.me/${WHATSAPP}?text=${whatsappText}" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+              <a class="btn btn-outline" href="${getCategoryUrl(product.category)}">Volver al catalogo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>`;
+}
+
+[searchEl, categoryEl, sortEl].forEach(element => {
+  if (element) element.addEventListener('input', renderProducts);
 });
 
 if (clearEl) {
@@ -81,7 +522,8 @@ if (clearEl) {
   });
 }
 
-const yearEl = document.getElementById('year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
+initHiddenAdminAccess();
 renderProducts();
+renderProductDetail();

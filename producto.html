@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Botas de Seguridad | Zapateria Chihuahua</title>
-  <meta name="description" content="Botas de seguridad en Zapateria Chihuahua. Catalogo de calzado de seguridad industrial en Chihuahua." />
+  <title>Detalle del Producto | Zapateria Chihuahua</title>
+  <meta name="description" content="Detalle de producto de calzado de seguridad en Zapateria Chihuahua." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body data-page-category="botas">
+<body data-page-category="detalle">
 
   <div class="topbar">
     <div class="container">
@@ -32,7 +32,7 @@
         <ul>
           <li><a href="index.html">Inicio</a></li>
           <li><a href="tenis-seguridad.html">Tenis de Seguridad</a></li>
-          <li><a href="botas-seguridad.html" style="color:var(--rojo)">Botas de Seguridad</a></li>
+          <li><a href="botas-seguridad.html">Botas de Seguridad</a></li>
           <li><a href="index.html#ubicacion">Ubicacion</a></li>
         </ul>
       </nav>
@@ -40,43 +40,7 @@
     </div>
   </header>
 
-  <main>
-    <section id="catalogo" class="section catalog-only-section">
-      <div class="container">
-        <div class="catalog-wrap">
-          <aside class="filters">
-            <h3>Filtrar productos</h3>
-            <div class="filter-group">
-              <label for="search">Buscar</label>
-              <input id="search" type="search" placeholder="Ej. dielectrico, casco..." />
-            </div>
-            <div class="filter-group">
-              <label for="category">Categoria</label>
-              <select id="category">
-                <option value="botas">Botas industriales</option>
-                <option value="tactico">Botas tacticas</option>
-              </select>
-            </div>
-            <div class="filter-group">
-              <label for="sort">Ordenar</label>
-              <select id="sort">
-                <option value="default">Mas relevantes</option>
-                <option value="price-asc">Precio menor a mayor</option>
-                <option value="price-desc">Precio mayor a menor</option>
-                <option value="name">Nombre A-Z</option>
-              </select>
-            </div>
-            <button class="btn btn-primary" style="width:100%" id="clearFilters">Borrar filtros</button>
-            <div class="quick-tags">
-              <span class="tag">NOM</span><span class="tag">Dielectrico</span><span class="tag">Antiderrapante</span><span class="tag">Poliamida</span>
-            </div>
-          </aside>
-
-          <div class="product-grid" id="products"></div>
-        </div>
-      </div>
-    </section>
-  </main>
+  <main id="product-detail"></main>
 
   <footer>
     <div class="container">
