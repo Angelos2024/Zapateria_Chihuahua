@@ -1,44 +1,192 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-MX">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tenis de Seguridad</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tenis de Seguridad | Zapatería Chihuahua</title>
+  <meta name="description" content="Tenis de Seguridad en Zapatería Chihuahua. Calzado de seguridad industrial en Chihuahua." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-page-category="tenis">
 
-<header class="navbar">
-<div class="navbar-brand">
-<img src="img/Imagen12.png" class="logo">
-<div class="brand-text">
-<h1>Tenis de Seguridad</h1>
-<span>Zapatería Chihuahua</span>
+  <div class="topbar">
+    <div class="container">
+      <span><strong class="badge">Calzado de seguridad</strong> · Chihuahua, Chih.</span>
+      <span>WhatsApp: <strong>614 283 2898</strong> · Domingo a viernes 9:00 AM - 7:00 PM</span>
+    </div>
+  </div>
+
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Zapatería Chihuahua">
+        <img class="brand-logo-img" src="img/Imagen12.png" alt="Zapatería Chihuahua">
+        <div>
+          <h1>Zapatería Chihuahua</h1>
+          <small>Calzado de seguridad y más</small>
+        </div>
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html" >Inicio</a></li>
+          <li><a href="tenis-seguridad.html" style="color:var(--rojo)">Tenis de Seguridad</a></li>
+          <li><a href="botas-seguridad.html" >Botas de Seguridad</a></li>
+          <li><a href="index.html#ubicacion">Ubicación</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-primary" href="https://wa.me/526142832898?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20calzado%20de%20seguridad" target="_blank" rel="noopener">Cotizar ahora</a>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="hero category-hero" style="--cat-bg:url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1600&q=70')">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Catálogo especializado</div>
+          <h2>Tenis de Seguridad</h2>
+          <p>Tenis ligeros, dieléctricos, antiderrapantes y cómodos para jornadas largas.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#catalogo">Ver modelos</a>
+            <a class="btn btn-outline" style="color:white;border-color:white" href="index.html">Volver al inicio</a>
+          </div>
+        </div>
+        <aside class="page-card">
+          <h3>Consulta disponibilidad</h3>
+          <p>Los modelos, precios y tallas pueden actualizarse. Escríbenos por WhatsApp para confirmar existencia antes de visitar la tienda.</p>
+          <div class="tabs-nav">
+            <a class="btn btn-primary" href="https://wa.me/526142832898" target="_blank">WhatsApp</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="catalogo" class="section">
+      <div class="container">
+        <div class="section-title">
+          <div>
+            <span class="eyebrow" style="color:var(--rojo)">Catálogo</span>
+            <h2>Tenis de Seguridad</h2>
+          </div>
+          <p>Catálogo demostrativo editable. Sustituye nombres, precios y características por tus productos reales.</p>
+        </div>
+
+        <div class="catalog-wrap">
+          <aside class="filters">
+            <h3>Filtrar productos</h3>
+            <div class="filter-group">
+              <label for="search">Buscar</label>
+              <input id="search" type="search" placeholder="Ej. dieléctrico, casco..." />
+            </div>
+            <div class="filter-group">
+              <label for="category">Categoría</label>
+              <select id="category">
+
+                <option value="tenis">Tenis de seguridad</option>
+    
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="sort">Ordenar</label>
+              <select id="sort">
+                <option value="default">Más relevantes</option>
+                <option value="price-asc">Precio menor a mayor</option>
+                <option value="price-desc">Precio mayor a menor</option>
+                <option value="name">Nombre A-Z</option>
+              </select>
+            </div>
+            <button class="btn btn-primary" style="width:100%" id="clearFilters">Borrar filtros</button>
+            <div class="quick-tags">
+              <span class="tag">NOM</span><span class="tag">Dieléctrico</span><span class="tag">Antiderrapante</span><span class="tag">Poliamida</span>
+            </div>
+          </aside>
+
+          <div class="product-grid" id="products"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+  <div class="container">
+
+    <div class="footer-grid">
+
+      <div>
+        <h3>Zapatería Chihuahua</h3>
+
+        <p>
+          Calzado de seguridad industrial,
+          botas de trabajo, tenis dieléctricos
+          y modelos antifatiga.
+        </p>
+      </div>
+
+      <div>
+        <h3>Contacto</h3>
+
+        <p>
+          WhatsApp:
+          <a href="https://wa.me/526142832898">
+            614 283 2898
+          </a>
+        </p>
+
+        <p>
+          Chihuahua, Chihuahua
+        </p>
+      </div>
+
+<div class="footer-hours">
+
+  <h3>Horario</h3>
+
+  <div class="hours-grid">
+
+    <div>
+      <strong>Lunes a Jueves</strong><br>
+      9:00 AM – 7:00 PM
+    </div>
+
+    <div>
+      <strong>Domingo</strong><br>
+      10:00 AM – 5:00 PM
+    </div>
+
+    <div>
+      <strong>Viernes</strong><br>
+      9:00 AM – 6:00 PM
+    </div>
+
+  </div>
+
+  <p class="shabat">
+    Sábados cerrado 
+  </p>
+
 </div>
-</div>
 
-<nav>
-<a href="index.html">Inicio</a>
-<a href="tenis-seguridad.html">Tenis</a>
-<a href="botas-seguridad.html">Botas</a>
-</nav>
-</header>
+    </div>
 
-<section class="products">
-<div class="product-card">
-<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop">
-<h3>Tenis Industrial Pro</h3>
-<p>Casquillo reforzado y suela antiderrapante.</p>
-<button>Cotizar</button>
-</div>
+    <div class="copy">
+      © <span id="year"></span>
+      Zapatería Chihuahua.
+    </div>
 
-<div class="product-card">
-<img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=1200&auto=format&fit=crop">
-<h3>Tenis Flex Security</h3>
-<p>Diseño ligero y cómodo para uso diario.</p>
-<button>Cotizar</button>
-</div>
-</section>
+  </div>
+</footer>
 
+<a class="whatsapp-float"
+   href="https://wa.me/526142832898"
+   target="_blank"
+   rel="noopener"
+   aria-label="WhatsApp">
+   ☘
+</a>
+
+<script src="script.js"></script>
 </body>
 </html>
