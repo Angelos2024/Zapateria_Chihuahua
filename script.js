@@ -1,5 +1,8 @@
-const WHATSAPP = '526142832898';
+﻿const WHATSAPP = '526142832898';
 const DEFAULT_SIZES = Array.from({ length: 11 }, (_, index) => 22 + index);
+const ADMIN_PASSWORD = 'skytahor';
+const PRODUCT_ADMIN_STORAGE_KEY = 'zapateria_chihuahua_product_admin_v1';
+const PRODUCT_ADMIN_SYNC_URL = 'http://127.0.0.1:45126/api/product-admin-state';
 
 function normalizeInventoryText(value) {
   return String(value || '')
@@ -13,6 +16,91 @@ function normalizeInventoryText(value) {
 
 function slugifyProductName(value) {
   return normalizeInventoryText(value).replace(/\s+/g, '-');
+}
+
+function escapeHtml(value) {
+  return String(value || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function getStoredProductAdminState() {
+  const fileState = window.PRODUCT_ADMIN_DATA?.products;
+  if (fileState && typeof fileState === 'object') {
+    return fileState;
+  }
+
+  try {
+    const parsed = JSON.parse(window.localStorage.getItem(PRODUCT_ADMIN_STORAGE_KEY) || '{}');
+    return parsed && typeof parsed === 'object' ? parsed : {};
+  } catch (error) {
+    return {};
+  }
+}
+
+function setAdminSaveStatus(message, isError = false) {
+  const status = document.getElementById('admin-save-status');
+  if (!status) return;
+  status.textContent = message || '';
+  status.classList.toggle('is-error', Boolean(isError));
+}
+
+async function saveProductAdminState(state) {
+  const payload = {
+    savedAt: new Date().toISOString(),
+    source: 'product-admin',
+    products: state || {}
+  };
+
+  window.PRODUCT_ADMIN_DATA = payload;
+  window.localStorage.setItem(PRODUCT_ADMIN_STORAGE_KEY, JSON.stringify(state || {}));
+
+  try {
+    const response = await window.fetch(PRODUCT_ADMIN_SYNC_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(payload)
+    });
+
+    if (!response.ok) throw new Error('No se pudo guardar.');
+    setAdminSaveStatus('Guardado en product-admin-data.js');
+  } catch (error) {
+    setAdminSaveStatus('No se pudo escribir el archivo. Abre la pagina desde el servidor local de respaldo.', true);
+  }
+}
+
+function getProductAdminKey(product) {
+  return product.adminKey || product.slug;
+}
+
+function getSizeRange(minSize, maxSize) {
+  const min = Number(minSize);
+  const max = Number(maxSize);
+  if (!Number.isFinite(min) || !Number.isFinite(max) || min > max) return [];
+  return DEFAULT_SIZES.filter(size => size >= min && size <= max);
+}
+
+function applyProductAdminState(productList) {
+  const adminState = getStoredProductAdminState();
+
+  return productList.map(product => {
+    const key = getProductAdminKey(product);
+    const meta = adminState[key] || {};
+    const currentSizes = product.sizes && product.sizes.length ? product.sizes : DEFAULT_SIZES;
+    const manufacturedSizes = getSizeRange(meta.minSize, meta.maxSize);
+
+    return {
+      ...product,
+      image: meta.image || product.image,
+      manufacturedSizes: manufacturedSizes.length ? manufacturedSizes : currentSizes,
+      adminMeta: meta
+    };
+  });
 }
 
 function parseInventorySizeQuantities(sizeDetails, fallbackSizeValue = '') {
@@ -55,27 +143,31 @@ function buildInventoryProducts() {
   const grouped = new Map();
 
   (inventoryState?.rows || []).forEach(row => {
-    if (row?.productGroup !== 'tenis') return;
+    const productGroup = String(row?.productGroup || '').trim();
+    const category = productGroup === 'tenis' ? 'tenis' : 'botas';
+    const categoryLabel = category === 'tenis' ? 'Tenis de Seguridad' : 'Calzado de Seguridad';
 
     const model = String(row?.model || '').trim();
     const sizes = getInventoryRowSizes(row);
     if (!model || !sizes.length) return;
 
-    const key = normalizeInventoryText(model);
+    const key = `${category}:${normalizeInventoryText(model)}`;
     if (!key) return;
 
     const existing = grouped.get(key) || {
-      slug: `tenis-${slugifyProductName(model) || 'modelo'}`,
-      name: `Tenis de Seguridad Modelo ${model}`,
+      slug: `${category}-${slugifyProductName(model) || 'modelo'}`,
+      name: `${categoryLabel} Modelo ${model}`,
       shortName: model,
-      category: 'tenis',
+      category,
       price: 0,
       old: null,
-      specs: ['Tallas activas', 'Inventario local'],
+      specs: ['Tallas activas', productGroup === 'calzado-vaquero' ? 'Vaquero' : 'Inventario local'],
       sale: false,
       image: null,
       sizes: [],
-      description: `Tenis de seguridad modelo ${model} disponible en tienda.`,
+      manufacturedSizes: [],
+      adminKey: `inventory:${key}`,
+      description: `${categoryLabel} modelo ${model} disponible en tienda.`,
       details: [
         `Modelo ${model} con tallas activas sujetas a disponibilidad.`,
         'Seleccion de tallas tomada del inventario actual de tienda.',
@@ -103,11 +195,12 @@ function buildInventoryProducts() {
 function buildCatalogProducts() {
   const inventoryProducts = buildInventoryProducts();
   if (!inventoryProducts.length) {
-    return staticProducts;
+    return applyProductAdminState(staticProducts);
   }
 
-  const staticNonTenis = staticProducts.filter(product => product.category !== 'tenis');
-  return [...inventoryProducts, ...staticNonTenis];
+  const inventoryCategories = new Set(inventoryProducts.map(product => product.category));
+  const staticFallbackProducts = staticProducts.filter(product => !inventoryCategories.has(product.category));
+  return applyProductAdminState([...inventoryProducts, ...staticFallbackProducts]);
 }
 
 
@@ -323,6 +416,29 @@ function getProductImageMarkup(product, extraClass = '') {
   return shoeSVG(product.category);
 }
 
+function getProductStockSizes(product) {
+  return product.sizes && product.sizes.length ? product.sizes : DEFAULT_SIZES;
+}
+
+function getProductManufacturedSizes(product) {
+  return product.manufacturedSizes && product.manufacturedSizes.length
+    ? product.manufacturedSizes
+    : getProductStockSizes(product);
+}
+
+function renderSizeBadges(product) {
+  const stockSizes = new Set(getProductStockSizes(product).map(size => Number(size)));
+
+  return getProductManufacturedSizes(product)
+    .map(size => {
+      const numericSize = Number(size);
+      const isAvailable = stockSizes.has(numericSize);
+      const title = isAvailable ? 'Disponible en inventario' : 'Fabricada, sin inventario disponible';
+      return `<span class="${isAvailable ? '' : 'is-unavailable'}" title="${title}" aria-disabled="${isAvailable ? 'false' : 'true'}">${numericSize}</span>`;
+    })
+    .join('');
+}
+
 function renderProducts() {
   if (!productsEl) return;
 
@@ -343,8 +459,6 @@ function renderProducts() {
   if (sort === 'name') list.sort((a, b) => a.name.localeCompare(b.name, 'es-MX'));
 
   productsEl.innerHTML = list.map(product => {
-    const sizes = product.sizes && product.sizes.length ? product.sizes : DEFAULT_SIZES;
-
     return `
       <a class="product product-link" href="producto.html?slug=${product.slug}" aria-label="Ver detalle de ${product.name}">
         <div class="product-img">${product.sale ? '<span class="sale">Oferta</span>' : ''}${getProductImageMarkup(product)}</div>
@@ -354,8 +468,8 @@ function renderProducts() {
             <div class="specs">${product.specs.map(spec => `<span>${spec}</span>`).join('')}</div>
             <div class="price"><strong>$${product.price.toLocaleString('es-MX')}.00</strong>${product.old ? `<small>$${product.old.toLocaleString('es-MX')}.00</small>` : ''}</div>
             <div class="sizes-block">
-              <p>Tallas disponibles</p>
-              <div class="sizes">${sizes.map(size => `<span>${size}</span>`).join('')}</div>
+              <p>Tallas fabricadas</p>
+              <div class="sizes">${renderSizeBadges(product)}</div>
             </div>
           </div>
           <div class="product-actions product-actions-corner">
@@ -387,7 +501,6 @@ function renderProductDetail() {
 
   document.title = `${product.name} | Zapateria Chihuahua`;
 
-  const sizes = product.sizes && product.sizes.length ? product.sizes : DEFAULT_SIZES;
   const whatsappText = encodeURIComponent(`Hola, quiero informacion sobre ${product.name}.`);
 
   detailRootEl.innerHTML = `
@@ -424,8 +537,9 @@ function renderProductDetail() {
             <div class="specs">${product.specs.map(spec => `<span>${spec}</span>`).join('')}</div>
 
             <section class="detail-card">
-              <h3>Tallas disponibles</h3>
-              <div class="sizes">${sizes.map(size => `<span>${size}</span>`).join('')}</div>
+              <h3>Tallas fabricadas</h3>
+              <div class="sizes">${renderSizeBadges(product)}</div>
+              <p class="sizes-note">Las tallas en gris se fabrican para este modelo, pero no estan disponibles en inventario en este momento.</p>
             </section>
 
             <section class="detail-card">
@@ -445,6 +559,232 @@ function renderProductDetail() {
     </section>`;
 }
 
+function refreshProductsFromAdminState() {
+  const freshProducts = buildCatalogProducts();
+  products.splice(0, products.length, ...freshProducts);
+  renderProducts();
+  renderProductDetail();
+}
+
+function createAdminSizeOptions(selected) {
+  return DEFAULT_SIZES.map(size => `<option value="${size}" ${Number(selected) === size ? 'selected' : ''}>${size}</option>`).join('');
+}
+
+function renderAdminPanel() {
+  let panel = document.getElementById('product-admin-panel');
+  if (!panel) {
+    panel = document.createElement('div');
+    panel.id = 'product-admin-panel';
+    panel.className = 'admin-panel-overlay';
+    document.body.appendChild(panel);
+  }
+
+  const adminState = getStoredProductAdminState();
+
+  panel.innerHTML = `
+    <div class="admin-panel-box" role="dialog" aria-modal="true" aria-labelledby="admin-panel-title">
+      <div class="admin-panel-head">
+        <div>
+          <strong id="admin-panel-title">Administrador de modelos</strong>
+          <span id="admin-save-status">Tallas fabricadas e imagen particular por modelo.</span>
+        </div>
+        <button class="admin-close" type="button" data-admin-action="close">Cerrar</button>
+      </div>
+      <div class="admin-product-list">
+        ${products.map(product => {
+          const key = getProductAdminKey(product);
+          const meta = adminState[key] || {};
+          const stockSizes = getProductStockSizes(product);
+          const defaultMin = Math.min(...stockSizes);
+          const defaultMax = Math.max(...stockSizes);
+          const minSize = meta.minSize || defaultMin;
+          const maxSize = meta.maxSize || defaultMax;
+
+          return `
+            <article class="admin-product-row" data-admin-product-key="${escapeHtml(key)}">
+              <div class="admin-product-preview">
+                <div class="admin-product-thumb">${getProductImageMarkup(product)}</div>
+                <div>
+                  <strong>${product.name}</strong>
+                  <span>${getCategoryLabel(product.category)}</span>
+                </div>
+              </div>
+              <label>
+                <span>Desde talla</span>
+                <select data-admin-field="minSize">${createAdminSizeOptions(minSize)}</select>
+              </label>
+              <label>
+                <span>Hasta talla</span>
+                <select data-admin-field="maxSize">${createAdminSizeOptions(maxSize)}</select>
+              </label>
+              <label class="admin-file-field">
+                <span>Imagen</span>
+                <input type="file" accept="image/*" data-admin-field="image">
+              </label>
+              <button class="admin-clear-image" type="button" data-admin-action="clear-image">Quitar imagen</button>
+            </article>`;
+        }).join('')}
+      </div>
+    </div>`;
+}
+
+function renderAdminLogin() {
+  let login = document.getElementById('product-admin-login');
+  if (!login) {
+    login = document.createElement('div');
+    login.id = 'product-admin-login';
+    login.className = 'admin-login-overlay';
+    document.body.appendChild(login);
+  }
+
+  login.innerHTML = `
+    <form class="admin-login-box" data-admin-login-form>
+      <strong>Acceso administrador</strong>
+      <label>
+        <span>ContraseÃ±a</span>
+        <input id="admin-password-input" type="password" autocomplete="current-password">
+      </label>
+      <p class="admin-login-error" id="admin-login-error" hidden>ContraseÃ±a incorrecta.</p>
+      <div class="admin-login-actions">
+        <button class="admin-clear-image" type="button" data-admin-action="login-cancel">Cancelar</button>
+        <button class="admin-close" type="submit">Entrar</button>
+      </div>
+    </form>`;
+}
+
+function openAdminLogin() {
+  renderAdminLogin();
+  document.body.classList.add('admin-login-open');
+  window.setTimeout(() => {
+    document.getElementById('admin-password-input')?.focus();
+  }, 0);
+}
+
+function closeAdminLogin() {
+  document.body.classList.remove('admin-login-open');
+}
+
+function openAdminPanel() {
+  renderAdminPanel();
+  document.body.classList.add('admin-panel-open');
+}
+
+function closeAdminPanel() {
+  document.body.classList.remove('admin-panel-open');
+}
+
+function updateProductAdminMeta(productKey, updates) {
+  const adminState = getStoredProductAdminState();
+  adminState[productKey] = {
+    ...(adminState[productKey] || {}),
+    ...updates
+  };
+
+  const min = Number(adminState[productKey].minSize);
+  const max = Number(adminState[productKey].maxSize);
+  if (Number.isFinite(min) && Number.isFinite(max) && min > max) {
+    adminState[productKey].maxSize = min;
+  }
+
+  saveProductAdminState(adminState);
+  refreshProductsFromAdminState();
+  renderAdminPanel();
+}
+
+function installProductAdminAccess() {
+  const logo = document.querySelector('.brand-logo-img');
+  if (!logo) return;
+
+  let clickCount = 0;
+  let resetTimer = null;
+
+  logo.addEventListener('click', event => {
+    event.preventDefault();
+    event.stopPropagation();
+    clickCount += 1;
+    window.clearTimeout(resetTimer);
+    resetTimer = window.setTimeout(() => {
+      clickCount = 0;
+    }, 5000);
+
+    if (clickCount < 7) return;
+    clickCount = 0;
+    window.clearTimeout(resetTimer);
+    openAdminLogin();
+    return;
+  });
+}
+
+document.addEventListener('click', event => {
+  const target = event.target instanceof HTMLElement ? event.target.closest('[data-admin-action]') : null;
+  if (!(target instanceof HTMLElement)) return;
+
+  const action = target.dataset.adminAction;
+  if (action === 'close') {
+    closeAdminPanel();
+    return;
+  }
+
+  if (action === 'login-cancel') {
+    closeAdminLogin();
+    return;
+  }
+
+  if (action === 'clear-image') {
+    const row = target.closest('[data-admin-product-key]');
+    const productKey = row?.dataset.adminProductKey;
+    if (!productKey) return;
+    updateProductAdminMeta(productKey, { image: '' });
+  }
+});
+
+document.addEventListener('submit', event => {
+  const form = event.target instanceof HTMLElement ? event.target.closest('[data-admin-login-form]') : null;
+  if (!(form instanceof HTMLFormElement)) return;
+  event.preventDefault();
+
+  const input = form.querySelector('#admin-password-input');
+  const error = form.querySelector('#admin-login-error');
+  const password = input instanceof HTMLInputElement ? input.value : '';
+
+  if (password === ADMIN_PASSWORD) {
+    closeAdminLogin();
+    openAdminPanel();
+    return;
+  }
+
+  if (error instanceof HTMLElement) {
+    error.hidden = false;
+  }
+});
+
+document.addEventListener('change', event => {
+  const target = event.target;
+  if (!(target instanceof HTMLInputElement || target instanceof HTMLSelectElement)) return;
+  const row = target.closest('[data-admin-product-key]');
+  const productKey = row?.dataset.adminProductKey;
+  const field = target.dataset.adminField;
+  if (!productKey || !field) return;
+
+  if (field === 'minSize' || field === 'maxSize') {
+    updateProductAdminMeta(productKey, { [field]: Number(target.value) });
+    return;
+  }
+
+  if (field === 'image' && target instanceof HTMLInputElement) {
+    const file = target.files?.[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.addEventListener('load', () => {
+      if (typeof reader.result === 'string') {
+        updateProductAdminMeta(productKey, { image: reader.result });
+      }
+    });
+    reader.readAsDataURL(file);
+  }
+});
+
 [searchEl, categoryEl, sortEl].forEach(element => {
   if (element) element.addEventListener('input', renderProducts);
 });
@@ -460,5 +800,6 @@ if (clearEl) {
 
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
+installProductAdminAccess();
 renderProducts();
 renderProductDetail();

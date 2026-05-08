@@ -1,5 +1,5 @@
-﻿window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-08T20:02:10.182Z",
+window.INVENTORY_SITE_DATA = {
+  "savedAt": "2026-05-08T20:04:29.213Z",
   "source": "zapatos",
   "data": {
     "nextId": 105,
@@ -145,15 +145,14 @@
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS coyote",
-        "size": "26, 27 x2, 28 x2, 29, 30",
+        "size": "26, 27 x2, 28 x2, 29",
         "sizeDetails": {
           "26": 1,
           "27": 2,
           "28": 2,
-          "29": 1,
-          "30": 1
+          "29": 1
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -255,7 +254,7 @@
         "id": "inv-23",
         "audienceGroup": "caballero",
         "productGroup": "botas",
-        "model": "TRS Sonic CafÃ©",
+        "model": "TRS Sonic Café",
         "size": "26 x2, 29",
         "sizeDetails": {
           "26": 2,
@@ -311,7 +310,7 @@
         "id": "inv-22",
         "audienceGroup": "caballero",
         "productGroup": "botas",
-        "model": "ATX cafÃ©",
+        "model": "ATX café",
         "size": "26, 30, 31",
         "sizeDetails": {
           "26": 1,
@@ -816,7 +815,7 @@
         "id": "inv-61",
         "audienceGroup": "damas",
         "productGroup": "botas",
-        "model": "ATX CafÃ©",
+        "model": "ATX Café",
         "size": "22, 23, 24, 25, 26",
         "sizeDetails": {
           "22": 1,
@@ -1449,4 +1448,3 @@
     ]
   }
 };
-
