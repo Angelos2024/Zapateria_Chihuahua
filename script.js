@@ -28,16 +28,13 @@ function escapeHtml(value) {
 }
 
 function getStoredProductAdminState() {
-  const fileState = window.PRODUCT_ADMIN_DATA?.products;
-  if (fileState && typeof fileState === 'object') {
-    return fileState;
-  }
-
   try {
-    const parsed = JSON.parse(window.localStorage.getItem(PRODUCT_ADMIN_STORAGE_KEY) || '{}');
+    const raw = window.localStorage.getItem(PRODUCT_ADMIN_STORAGE_KEY);
+    const parsed = raw ? JSON.parse(raw) : null;
     return parsed && typeof parsed === 'object' ? parsed : {};
   } catch (error) {
-    return {};
+    const fileState = window.PRODUCT_ADMIN_DATA?.products;
+    return fileState && typeof fileState === 'object' ? fileState : {};
   }
 }
 
@@ -74,10 +71,10 @@ async function saveProductAdminState(state) {
       window.localStorage.setItem(PRODUCT_ADMIN_STORAGE_KEY, JSON.stringify(result.data.products));
     }
     setAdminSaveStatus('Guardado en product-admin-data.js');
-    return true;
+    return result.data?.products || state || {};
   } catch (error) {
     setAdminSaveStatus('No se pudo escribir el archivo. Abre la pagina desde el servidor local de respaldo.', true);
-    return false;
+    return null;
   }
 }
 
@@ -807,7 +804,8 @@ async function updateProductAdminMeta(productKey, updates) {
     adminState[productKey].maxSize = min;
   }
 
-  const saved = await saveProductAdminState(adminState);
+  setAdminSaveStatus('Guardando...');
+  const savedProducts = await saveProductAdminState(adminState);
   refreshProductsFromAdminState();
   renderAdminPanel();
   const panel = document.getElementById('product-admin-panel');
@@ -816,8 +814,8 @@ async function updateProductAdminMeta(productKey, updates) {
   if (list) list.scrollTop = previousListScroll;
   window.scrollTo({ top: previousWindowScroll, left: 0 });
   setAdminSaveStatus(
-    saved ? 'Guardado en product-admin-data.js' : 'No se pudo escribir el archivo. Abre la pagina desde el servidor local de respaldo.',
-    !saved
+    savedProducts ? 'Guardado en product-admin-data.js' : 'No se pudo escribir el archivo. Abre la pagina desde el servidor local de respaldo.',
+    !savedProducts
   );
 }
 
@@ -929,19 +927,33 @@ document.addEventListener('change', event => {
     const files = Array.from(target.files || []).filter(file => file.type.startsWith('image/'));
     if (!files.length) return;
 
+    target.disabled = true;
+    setAdminSaveStatus(`Procesando ${files.length} foto${files.length === 1 ? '' : 's'}...`);
+
     Promise.all(files.map(file => new Promise(resolve => {
       const reader = new FileReader();
       reader.addEventListener('load', () => {
         resolve(typeof reader.result === 'string' ? reader.result : '');
       });
+      reader.addEventListener('error', () => {
+        resolve('');
+      });
       reader.readAsDataURL(file);
     }))).then(images => {
       const nextImages = images.filter(Boolean);
+      if (!nextImages.length) {
+        target.disabled = false;
+        setAdminSaveStatus('No se pudieron leer las imagenes seleccionadas.', true);
+        return;
+      }
       updateProductAdminMeta(productKey, {
         image: '',
         images: nextImages,
         coverImage: nextImages[0] || ''
       });
+    }).catch(() => {
+      target.disabled = false;
+      setAdminSaveStatus('No se pudieron leer las imagenes seleccionadas.', true);
     });
   }
 });
