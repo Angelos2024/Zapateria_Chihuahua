@@ -608,9 +608,11 @@ footer a:hover{
   border-radius: var(--radius);
   border: 1px solid var(--gris-3);
   background: linear-gradient(135deg, #f8f8f8, #ececec);
-  display: grid;
-  place-items: center;
+  position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .detail-main-visual svg {
@@ -618,24 +620,19 @@ footer a:hover{
   max-height: 280px;
 }
 
-.detail-main-visual img {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-
+.detail-main-visual img,
 .detail-main-visual .detail-main-image {
-  display: block !important;
-  width: auto !important;
-  height: auto !important;
-  max-width: 100% !important;
-  max-height: 100% !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
   object-fit: contain !important;
   object-position: center center !important;
-  margin: auto !important;
+  display: block !important;
+  margin: 0 !important;
 }
+
 
 .detail-gallery {
   display: grid;
@@ -662,9 +659,12 @@ footer a:hover{
 
 .detail-thumb-media {
   height: 120px;
-  display: grid;
-  place-items: center;
+  position: relative;
   background: linear-gradient(135deg, #f7f7f7, #ededed);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .detail-thumb-media svg {
@@ -672,24 +672,17 @@ footer a:hover{
   max-height: 78px;
 }
 
-.detail-thumb-media img {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-
-.detail-thumb-media .detail-thumb-image,
-.detail-thumb-media img {
-  display: block !important;
-  width: auto !important;
-  height: auto !important;
-  max-width: 100% !important;
-  max-height: 100% !important;
+.detail-thumb-media img,
+.detail-thumb-media .detail-thumb-image {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
   object-fit: contain !important;
   object-position: center center !important;
-  margin: auto !important;
+  display: block !important;
+  margin: 0 !important;
 }
 
 .detail-info h2 {
