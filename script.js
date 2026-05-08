@@ -1,7 +1,117 @@
 const WHATSAPP = '526142832898';
 const DEFAULT_SIZES = Array.from({ length: 11 }, (_, index) => 22 + index);
 
-const products = [
+function normalizeInventoryText(value) {
+  return String(value || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function slugifyProductName(value) {
+  return normalizeInventoryText(value).replace(/\s+/g, '-');
+}
+
+function parseInventorySizeQuantities(sizeDetails, fallbackSizeValue = '') {
+  const details = sizeDetails && typeof sizeDetails === 'object' ? sizeDetails : {};
+  const entries = Object.entries(details)
+    .map(([size, qty]) => [String(size), Number(qty)])
+    .filter(([size, qty]) => Number.isFinite(Number(size)) && Number.isFinite(qty) && qty > 0)
+    .sort((a, b) => Number(a[0]) - Number(b[0]));
+
+  if (entries.length) {
+    return Object.fromEntries(entries.map(([size, qty]) => [size, Math.floor(qty)]));
+  }
+
+  const legacySizes = String(fallbackSizeValue || '')
+    .split(',')
+    .map(item => item.trim())
+    .filter(item => /^\d+$/.test(item));
+
+  const quantities = {};
+  legacySizes.forEach(size => {
+    quantities[size] = (quantities[size] || 0) + 1;
+  });
+  return quantities;
+}
+
+function getInventoryRowSizes(row) {
+  return Object.entries(parseInventorySizeQuantities(row?.sizeDetails, row?.size))
+    .filter(([, qty]) => Number(qty) > 0)
+    .map(([size]) => Number(size))
+    .filter(size => Number.isFinite(size))
+    .sort((a, b) => a - b);
+}
+
+function loadInventoryCatalogState() {
+  return window.INVENTORY_SITE_DATA?.data || null;
+}
+
+function buildInventoryProducts() {
+  const inventoryState = loadInventoryCatalogState();
+  const grouped = new Map();
+
+  (inventoryState?.rows || []).forEach(row => {
+    if (row?.productGroup !== 'tenis') return;
+
+    const model = String(row?.model || '').trim();
+    const sizes = getInventoryRowSizes(row);
+    if (!model || !sizes.length) return;
+
+    const key = normalizeInventoryText(model);
+    if (!key) return;
+
+    const existing = grouped.get(key) || {
+      slug: `tenis-${slugifyProductName(model) || 'modelo'}`,
+      name: `Tenis de Seguridad Modelo ${model}`,
+      shortName: model,
+      category: 'tenis',
+      price: 0,
+      old: null,
+      specs: ['Tallas activas', 'Inventario local'],
+      sale: false,
+      image: null,
+      sizes: [],
+      description: `Tenis de seguridad modelo ${model} disponible en tienda.`,
+      details: [
+        `Modelo ${model} con tallas activas sujetas a disponibilidad.`,
+        'Seleccion de tallas tomada del inventario actual de tienda.',
+        'Confirma existencia por WhatsApp antes de apartar.'
+      ],
+      gallery: ['Vista principal', 'Perfil lateral', 'Tallas disponibles'],
+      source: 'inventory'
+    };
+
+    const mergedSizes = Array.from(new Set([...(existing.sizes || []), ...sizes])).sort((a, b) => a - b);
+    const salePrice = Number(row?.salePrice || 0);
+
+    grouped.set(key, {
+      ...existing,
+      price: salePrice > 0 ? salePrice : existing.price,
+      sizes: mergedSizes
+    });
+  });
+
+  return Array.from(grouped.values())
+    .filter(product => product.sizes.length > 0)
+    .sort((a, b) => a.name.localeCompare(b.name, 'es-MX'));
+}
+
+function buildCatalogProducts() {
+  const inventoryProducts = buildInventoryProducts();
+  if (!inventoryProducts.length) {
+    return staticProducts;
+  }
+
+  const staticNonTenis = staticProducts.filter(product => product.category !== 'tenis');
+  return [...inventoryProducts, ...staticNonTenis];
+}
+
+
+const staticProducts = [
   {
     slug: 'tenis-modelo-021',
     name: 'Tenis de Seguridad Modelo 021',
@@ -175,6 +285,8 @@ const products = [
   }
 ];
 
+const products = buildCatalogProducts();
+
 const productsEl = document.getElementById('products');
 const searchEl = document.getElementById('search');
 const categoryEl = document.getElementById('category');
@@ -225,9 +337,10 @@ function renderProducts() {
     return matchesPage && matchesTerm && matchesCat;
   });
 
+  if (sort === 'default' && pageCategory === 'tenis') list.sort((a, b) => a.name.localeCompare(b.name, 'es-MX'));
   if (sort === 'price-asc') list.sort((a, b) => a.price - b.price);
   if (sort === 'price-desc') list.sort((a, b) => b.price - a.price);
-  if (sort === 'name') list.sort((a, b) => a.name.localeCompare(b.name));
+  if (sort === 'name') list.sort((a, b) => a.name.localeCompare(b.name, 'es-MX'));
 
   productsEl.innerHTML = list.map(product => {
     const sizes = product.sizes && product.sizes.length ? product.sizes : DEFAULT_SIZES;
