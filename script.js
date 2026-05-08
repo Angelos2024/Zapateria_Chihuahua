@@ -509,15 +509,14 @@ function renderProducts() {
         <div class="product-body">
           <div class="product-copy">
             <h3>${product.name}</h3>
-            <div class="specs">${product.specs.map(spec => `<span>${spec}</span>`).join('')}</div>
-            <div class="price"><strong>$${product.price.toLocaleString('es-MX')}.00</strong>${product.old ? `<small>$${product.old.toLocaleString('es-MX')}.00</small>` : ''}</div>
+            <div class="product-price-row">
+              <div class="price"><strong>$${product.price.toLocaleString('es-MX')}.00</strong>${product.old ? `<small>$${product.old.toLocaleString('es-MX')}.00</small>` : ''}</div>
+              <span class="product-card-cta">Ver detalle</span>
+            </div>
             <div class="sizes-block">
               <p>Tallas fabricadas</p>
               <div class="sizes">${renderSizeBadges(product)}</div>
             </div>
-          </div>
-          <div class="product-actions product-actions-corner">
-            <span class="product-card-cta">Ver detalle</span>
           </div>
         </div>
       </a>`;
