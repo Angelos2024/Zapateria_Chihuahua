@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-  "savedAt": "2026-05-08T21:03:52.305Z",
+  "savedAt": "2026-05-08T21:52:58.838Z",
   "source": "product-admin",
   "products": {
     "inventory:botas:atx cafe": {
@@ -8,6 +8,19 @@ window.PRODUCT_ADMIN_DATA = {
         "img/productos/inventory-botas-atx-cafe-1.jpg",
         "img/productos/inventory-botas-atx-cafe-2.jpg",
         "img/productos/inventory-botas-atx-cafe-3.jpg"
+      ],
+      "details": [
+        "Modelo ATX café modelo Antiderrapante, Suela de Poliuretano.",
+        "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
+      ]
+    },
+    "inventory:botas:atx negra": {
+      "maxSize": 31,
+      "image": "img/productos/inventory-botas-atx-negra-1.jpg",
+      "images": [
+        "img/productos/inventory-botas-atx-negra-1.jpg",
+        "img/productos/inventory-botas-atx-negra-2.jpg",
+        "img/productos/inventory-botas-atx-negra-3.jpg"
       ]
     }
   }

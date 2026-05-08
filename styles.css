@@ -588,8 +588,12 @@ footer a:hover{
   padding-top: 34px;
 }
 
+.product-detail-page {
+  padding-top: 34px;
+}
+
 .detail-toolbar {
-  margin-bottom: 18px;
+  margin-bottom: 10px;
 }
 
 .btn-back {
@@ -686,16 +690,16 @@ footer a:hover{
 }
 
 .detail-info h2 {
-  font-size: clamp(2rem, 4vw, 3.4rem);
+  font-size: clamp(1.65rem, 3.2vw, 2.7rem);
   line-height: 1;
   text-transform: uppercase;
   font-weight: 900;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 
 .detail-category {
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: var(--rojo);
   font-weight: 900;
   text-transform: uppercase;
