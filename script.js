@@ -106,6 +106,25 @@ function normalizeProductImages(meta, fallbackImage = null) {
   return Array.from(new Set(normalized));
 }
 
+function normalizeProductDetails(value, fallbackDetails = []) {
+  if (Array.isArray(value)) {
+    const details = value
+      .map(item => String(item || '').trim())
+      .filter(Boolean);
+    return details.length ? details : fallbackDetails;
+  }
+
+  if (typeof value === 'string') {
+    const details = value
+      .split(/\r?\n/)
+      .map(item => item.trim())
+      .filter(Boolean);
+    return details.length ? details : fallbackDetails;
+  }
+
+  return fallbackDetails;
+}
+
 function applyProductAdminState(productList) {
   const adminState = getStoredProductAdminState();
 
@@ -120,6 +139,10 @@ function applyProductAdminState(productList) {
       ...product,
       image: images[0] || null,
       images,
+      description: typeof meta.description === 'string' && meta.description.trim()
+        ? meta.description.trim()
+        : product.description,
+      details: normalizeProductDetails(meta.details, product.details || []),
       manufacturedSizes: manufacturedSizes.length ? manufacturedSizes : currentSizes,
       adminMeta: meta
     };
@@ -447,17 +470,15 @@ function getProductGalleryMarkup(product) {
   const images = getProductImageList(product);
   if (images.length) {
     return images.map((image, index) => `
-      <div class="detail-thumb">
+      <button class="detail-thumb ${index === 0 ? 'is-active' : ''}" type="button" data-action="select-detail-image" data-image-src="${escapeHtml(image)}" data-image-alt="${escapeHtml(`${product.name} foto ${index + 1}`)}">
         <div class="detail-thumb-media"><img src="${image}" alt="${product.name} foto ${index + 1}" loading="lazy"></div>
-        <span>${index === 0 ? 'Portada' : `Foto ${index + 1}`}</span>
-      </div>`).join('');
+      </button>`).join('');
   }
 
   return product.gallery.map(label => `
-    <div class="detail-thumb">
+    <button class="detail-thumb" type="button" data-action="select-detail-image" data-image-src="">
       <div class="detail-thumb-media">${getProductImageMarkup(product)}</div>
-      <span>${label}</span>
-    </div>`).join('');
+    </button>`).join('');
 }
 
 function getProductStockSizes(product) {
@@ -481,6 +502,28 @@ function renderSizeBadges(product) {
       return `<span class="${isAvailable ? '' : 'is-unavailable'}" title="${title}" aria-disabled="${isAvailable ? 'false' : 'true'}">${numericSize}</span>`;
     })
     .join('');
+}
+
+function selectDetailImageFromThumb(thumb) {
+  if (!(thumb instanceof HTMLElement)) return;
+  const imageSrc = thumb.dataset.imageSrc;
+  const imageAlt = thumb.dataset.imageAlt || 'Producto de calzado';
+  const mainVisual = document.querySelector('.detail-main-visual');
+  if (!imageSrc || !mainVisual) return;
+
+  mainVisual.innerHTML = `<img class="detail-main-image" src="${escapeHtml(imageSrc)}" alt="${escapeHtml(imageAlt)}">`;
+  document.querySelectorAll('.detail-thumb.is-active').forEach(item => {
+    item.classList.remove('is-active');
+  });
+  thumb.classList.add('is-active');
+}
+
+function installDetailGalleryInteractions() {
+  document.querySelectorAll('.detail-thumb[data-image-src]').forEach(thumb => {
+    thumb.addEventListener('click', () => {
+      selectDetailImageFromThumb(thumb);
+    });
+  });
 }
 
 function renderProducts() {
@@ -578,7 +621,6 @@ function renderProductDetail() {
             <section class="detail-card">
               <h3>Tallas fabricadas</h3>
               <div class="sizes">${renderSizeBadges(product)}</div>
-              <p class="sizes-note">Las tallas en gris se fabrican para este modelo, pero no estan disponibles en inventario en este momento.</p>
             </section>
 
             <section class="detail-card">
@@ -596,6 +638,8 @@ function renderProductDetail() {
         </article>
       </div>
     </section>`;
+
+  installDetailGalleryInteractions();
 }
 
 function refreshProductsFromAdminState() {
@@ -642,6 +686,8 @@ function renderAdminPanel() {
           const imageSummary = images.length
             ? `${images.length} foto${images.length === 1 ? '' : 's'} cargada${images.length === 1 ? '' : 's'}. La primera es portada.`
             : 'Sin fotos cargadas.';
+          const description = typeof meta.description === 'string' ? meta.description : product.description;
+          const details = normalizeProductDetails(meta.details, product.details || []);
 
           return `
             <article class="admin-product-row" data-admin-product-key="${escapeHtml(key)}">
@@ -666,6 +712,14 @@ function renderAdminPanel() {
                 <small>${imageSummary}</small>
               </label>
               <button class="admin-clear-image" type="button" data-admin-action="clear-images">Quitar fotos</button>
+              <label class="admin-description-field">
+                <span>Descripcion principal</span>
+                <textarea data-admin-field="description" rows="3">${escapeHtml(description)}</textarea>
+              </label>
+              <label class="admin-description-field">
+                <span>Descripcion en detalle</span>
+                <textarea data-admin-field="details" rows="4">${escapeHtml(details.join('\n'))}</textarea>
+              </label>
             </article>`;
         }).join('')}
       </div>
@@ -783,6 +837,12 @@ document.addEventListener('click', event => {
     const productKey = row?.dataset.adminProductKey;
     if (!productKey) return;
     updateProductAdminMeta(productKey, { image: '', images: [] });
+    return;
+  }
+
+  if (action === 'select-detail-image') {
+    const thumb = target.closest('.detail-thumb');
+    selectDetailImageFromThumb(thumb);
   }
 });
 
@@ -808,7 +868,7 @@ document.addEventListener('submit', event => {
 
 document.addEventListener('change', event => {
   const target = event.target;
-  if (!(target instanceof HTMLInputElement || target instanceof HTMLSelectElement)) return;
+  if (!(target instanceof HTMLInputElement || target instanceof HTMLSelectElement || target instanceof HTMLTextAreaElement)) return;
   const row = target.closest('[data-admin-product-key]');
   const productKey = row?.dataset.adminProductKey;
   const field = target.dataset.adminField;
@@ -816,6 +876,16 @@ document.addEventListener('change', event => {
 
   if (field === 'minSize' || field === 'maxSize') {
     updateProductAdminMeta(productKey, { [field]: Number(target.value) });
+    return;
+  }
+
+  if (field === 'description') {
+    updateProductAdminMeta(productKey, { description: target.value.trim() });
+    return;
+  }
+
+  if (field === 'details') {
+    updateProductAdminMeta(productKey, { details: normalizeProductDetails(target.value, []) });
     return;
   }
 
