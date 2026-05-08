@@ -471,7 +471,7 @@ function getProductGalleryMarkup(product) {
   if (images.length) {
     return images.map((image, index) => `
       <button class="detail-thumb ${index === 0 ? 'is-active' : ''}" type="button" data-action="select-detail-image" data-image-src="${escapeHtml(image)}" data-image-alt="${escapeHtml(`${product.name} foto ${index + 1}`)}">
-        <div class="detail-thumb-media"><img src="${image}" alt="${product.name} foto ${index + 1}" loading="lazy"></div>
+        <div class="detail-thumb-media"><img class="detail-thumb-image" src="${image}" alt="${product.name} foto ${index + 1}" loading="lazy"></div>
       </button>`).join('');
   }
 
