@@ -3,6 +3,8 @@ window.PRODUCT_ADMIN_DATA = {
   "source": "product-admin",
   "products": {
     "inventory:botas:atx cafe": {
+      "minSize": 22,
+      "maxSize": 31,
       "image": "img/productos/inventory-botas-atx-cafe-1.jpg",
       "images": [
         "img/productos/inventory-botas-atx-cafe-1.jpg",

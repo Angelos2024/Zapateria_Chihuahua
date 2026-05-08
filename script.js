@@ -28,13 +28,17 @@ function escapeHtml(value) {
 }
 
 function getStoredProductAdminState() {
+  const fileState = window.PRODUCT_ADMIN_DATA?.products;
+  if (fileState && typeof fileState === 'object') {
+    return fileState;
+  }
+
   try {
     const raw = window.localStorage.getItem(PRODUCT_ADMIN_STORAGE_KEY);
     const parsed = raw ? JSON.parse(raw) : null;
     return parsed && typeof parsed === 'object' ? parsed : {};
   } catch (error) {
-    const fileState = window.PRODUCT_ADMIN_DATA?.products;
-    return fileState && typeof fileState === 'object' ? fileState : {};
+    return {};
   }
 }
 
@@ -80,6 +84,13 @@ async function saveProductAdminState(state) {
 
 function getProductAdminKey(product) {
   return product.adminKey || product.slug;
+}
+
+function getProductAdminAliases(product) {
+  const aliases = [];
+  if (product.legacyAdminKey) aliases.push(product.legacyAdminKey);
+  if (product.slug) aliases.push(product.slug);
+  return aliases.filter(Boolean);
 }
 
 function getSizeRange(minSize, maxSize) {
@@ -144,7 +155,9 @@ function applyProductAdminState(productList) {
 
   return productList.map(product => {
     const key = getProductAdminKey(product);
-    const meta = adminState[key] || {};
+    const meta = adminState[key] || getProductAdminAliases(product)
+      .map(alias => adminState[alias])
+      .find(Boolean) || {};
     const currentSizes = product.sizes && product.sizes.length ? product.sizes : DEFAULT_SIZES;
     const manufacturedSizes = getManufacturedSizeRange(meta, currentSizes);
     const images = normalizeProductImages(meta, product.image);
@@ -213,7 +226,8 @@ function buildInventoryProducts() {
     const sizes = getInventoryRowSizes(row);
     if (!model || !sizes.length) return;
 
-    const key = `${category}:${normalizeInventoryText(model)}`;
+    const normalizedModel = normalizeInventoryText(model);
+    const key = `${category}:${normalizedModel}`;
     if (!key) return;
 
     const existing = grouped.get(key) || {
