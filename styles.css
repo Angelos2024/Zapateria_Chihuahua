@@ -598,13 +598,13 @@ footer a:hover{
 
 .detail-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(320px, .95fr);
+  grid-template-columns: minmax(300px, .75fr) minmax(320px, 1.05fr);
   gap: 28px;
   align-items: start;
 }
 
 .detail-main-visual {
-  min-height: 300px;
+  height: 300px;
   border-radius: var(--radius);
   border: 1px solid var(--gris-3);
   background: linear-gradient(135deg, #f8f8f8, #ececec);
@@ -621,7 +621,7 @@ footer a:hover{
 .detail-main-visual img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .detail-gallery {
@@ -662,7 +662,7 @@ footer a:hover{
 .detail-thumb-media img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .detail-info h2 {
@@ -780,7 +780,7 @@ footer a:hover{
   }
 
   .detail-main-visual {
-    min-height: 210px;
+    height: 210px;
   }
 
   .detail-actions {
