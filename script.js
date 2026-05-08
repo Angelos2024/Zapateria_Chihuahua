@@ -106,6 +106,11 @@ function normalizeProductImages(meta, fallbackImage = null) {
   return Array.from(new Set(normalized));
 }
 
+function getProductCoverImage(meta, images) {
+  const coverImage = typeof meta?.coverImage === 'string' ? meta.coverImage.trim() : '';
+  return images.includes(coverImage) ? coverImage : images[0] || '';
+}
+
 function normalizeProductDetails(value, fallbackDetails = []) {
   if (Array.isArray(value)) {
     const details = value
@@ -134,11 +139,13 @@ function applyProductAdminState(productList) {
     const currentSizes = product.sizes && product.sizes.length ? product.sizes : DEFAULT_SIZES;
     const manufacturedSizes = getSizeRange(meta.minSize, meta.maxSize);
     const images = normalizeProductImages(meta, product.image);
+    const coverImage = getProductCoverImage(meta, images);
 
     return {
       ...product,
-      image: images[0] || null,
+      image: coverImage || null,
       images,
+      coverImage,
       description: typeof meta.description === 'string' && meta.description.trim()
         ? meta.description.trim()
         : product.description,
@@ -653,6 +660,14 @@ function createAdminSizeOptions(selected) {
   return DEFAULT_SIZES.map(size => `<option value="${size}" ${Number(selected) === size ? 'selected' : ''}>${size}</option>`).join('');
 }
 
+function createAdminCoverOptions(images, selected) {
+  if (!images.length) return '<option value="">Sin fotos</option>';
+  return images.map((image, index) => `
+    <option value="${escapeHtml(image)}" ${image === selected ? 'selected' : ''}>
+      Foto ${index + 1}${index === 0 ? ' (primera)' : ''}
+    </option>`).join('');
+}
+
 function renderAdminPanel() {
   let panel = document.getElementById('product-admin-panel');
   if (!panel) {
@@ -683,8 +698,9 @@ function renderAdminPanel() {
           const minSize = meta.minSize || defaultMin;
           const maxSize = meta.maxSize || defaultMax;
           const images = normalizeProductImages(meta);
+          const coverImage = getProductCoverImage(meta, images);
           const imageSummary = images.length
-            ? `${images.length} foto${images.length === 1 ? '' : 's'} cargada${images.length === 1 ? '' : 's'}. La primera es portada.`
+            ? `${images.length} foto${images.length === 1 ? '' : 's'} cargada${images.length === 1 ? '' : 's'}.`
             : 'Sin fotos cargadas.';
           const description = typeof meta.description === 'string' ? meta.description : product.description;
           const details = normalizeProductDetails(meta.details, product.details || []);
@@ -710,6 +726,10 @@ function renderAdminPanel() {
                 <span>Fotos del modelo</span>
                 <input type="file" accept="image/*" multiple data-admin-field="images">
                 <small>${imageSummary}</small>
+              </label>
+              <label>
+                <span>Portada catalogo</span>
+                <select data-admin-field="coverImage" ${images.length ? '' : 'disabled'}>${createAdminCoverOptions(images, coverImage)}</select>
               </label>
               <button class="admin-clear-image" type="button" data-admin-action="clear-images">Quitar fotos</button>
               <label class="admin-description-field">
@@ -772,6 +792,9 @@ function closeAdminPanel() {
 }
 
 async function updateProductAdminMeta(productKey, updates) {
+  const previousPanelScroll = document.getElementById('product-admin-panel')?.scrollTop || 0;
+  const previousListScroll = document.querySelector('.admin-product-list')?.scrollTop || 0;
+  const previousWindowScroll = window.scrollY || 0;
   const adminState = getStoredProductAdminState();
   adminState[productKey] = {
     ...(adminState[productKey] || {}),
@@ -787,6 +810,11 @@ async function updateProductAdminMeta(productKey, updates) {
   const saved = await saveProductAdminState(adminState);
   refreshProductsFromAdminState();
   renderAdminPanel();
+  const panel = document.getElementById('product-admin-panel');
+  const list = document.querySelector('.admin-product-list');
+  if (panel) panel.scrollTop = previousPanelScroll;
+  if (list) list.scrollTop = previousListScroll;
+  window.scrollTo({ top: previousWindowScroll, left: 0 });
   setAdminSaveStatus(
     saved ? 'Guardado en product-admin-data.js' : 'No se pudo escribir el archivo. Abre la pagina desde el servidor local de respaldo.',
     !saved
@@ -836,7 +864,7 @@ document.addEventListener('click', event => {
     const row = target.closest('[data-admin-product-key]');
     const productKey = row?.dataset.adminProductKey;
     if (!productKey) return;
-    updateProductAdminMeta(productKey, { image: '', images: [] });
+    updateProductAdminMeta(productKey, { image: '', images: [], coverImage: '' });
     return;
   }
 
@@ -879,6 +907,14 @@ document.addEventListener('change', event => {
     return;
   }
 
+  if (field === 'coverImage') {
+    updateProductAdminMeta(productKey, {
+      coverImage: target.value,
+      image: target.value
+    });
+    return;
+  }
+
   if (field === 'description') {
     updateProductAdminMeta(productKey, { description: target.value.trim() });
     return;
@@ -900,9 +936,11 @@ document.addEventListener('change', event => {
       });
       reader.readAsDataURL(file);
     }))).then(images => {
+      const nextImages = images.filter(Boolean);
       updateProductAdminMeta(productKey, {
         image: '',
-        images: images.filter(Boolean)
+        images: nextImages,
+        coverImage: nextImages[0] || ''
       });
     });
   }
