@@ -67,10 +67,17 @@ async function saveProductAdminState(state) {
       body: JSON.stringify(payload)
     });
 
-    if (!response.ok) throw new Error('No se pudo guardar.');
+    const result = await response.json();
+    if (!response.ok || !result?.ok) throw new Error('No se pudo guardar.');
+    if (result.data?.products) {
+      window.PRODUCT_ADMIN_DATA = result.data;
+      window.localStorage.setItem(PRODUCT_ADMIN_STORAGE_KEY, JSON.stringify(result.data.products));
+    }
     setAdminSaveStatus('Guardado en product-admin-data.js');
+    return true;
   } catch (error) {
     setAdminSaveStatus('No se pudo escribir el archivo. Abre la pagina desde el servidor local de respaldo.', true);
+    return false;
   }
 }
 
@@ -85,6 +92,20 @@ function getSizeRange(minSize, maxSize) {
   return DEFAULT_SIZES.filter(size => size >= min && size <= max);
 }
 
+function normalizeProductImages(meta, fallbackImage = null) {
+  const images = Array.isArray(meta?.images) ? meta.images : [];
+  const normalized = images
+    .concat(meta?.image ? [meta.image] : [])
+    .filter(image => typeof image === 'string' && image.trim())
+    .map(image => image.trim());
+
+  if (!normalized.length && fallbackImage) {
+    normalized.push(fallbackImage);
+  }
+
+  return Array.from(new Set(normalized));
+}
+
 function applyProductAdminState(productList) {
   const adminState = getStoredProductAdminState();
 
@@ -93,10 +114,12 @@ function applyProductAdminState(productList) {
     const meta = adminState[key] || {};
     const currentSizes = product.sizes && product.sizes.length ? product.sizes : DEFAULT_SIZES;
     const manufacturedSizes = getSizeRange(meta.minSize, meta.maxSize);
+    const images = normalizeProductImages(meta, product.image);
 
     return {
       ...product,
-      image: meta.image || product.image,
+      image: images[0] || null,
+      images,
       manufacturedSizes: manufacturedSizes.length ? manufacturedSizes : currentSizes,
       adminMeta: meta
     };
@@ -416,6 +439,27 @@ function getProductImageMarkup(product, extraClass = '') {
   return shoeSVG(product.category);
 }
 
+function getProductImageList(product) {
+  return product.images && product.images.length ? product.images : [];
+}
+
+function getProductGalleryMarkup(product) {
+  const images = getProductImageList(product);
+  if (images.length) {
+    return images.map((image, index) => `
+      <div class="detail-thumb">
+        <div class="detail-thumb-media"><img src="${image}" alt="${product.name} foto ${index + 1}" loading="lazy"></div>
+        <span>${index === 0 ? 'Portada' : `Foto ${index + 1}`}</span>
+      </div>`).join('');
+  }
+
+  return product.gallery.map(label => `
+    <div class="detail-thumb">
+      <div class="detail-thumb-media">${getProductImageMarkup(product)}</div>
+      <span>${label}</span>
+    </div>`).join('');
+}
+
 function getProductStockSizes(product) {
   return product.sizes && product.sizes.length ? product.sizes : DEFAULT_SIZES;
 }
@@ -516,11 +560,7 @@ function renderProductDetail() {
               ${getProductImageMarkup(product, 'detail-main-image')}
             </div>
             <div class="detail-gallery">
-              ${product.gallery.map(label => `
-                <div class="detail-thumb">
-                  <div class="detail-thumb-media">${getProductImageMarkup(product)}</div>
-                  <span>${label}</span>
-                </div>`).join('')}
+              ${getProductGalleryMarkup(product)}
             </div>
           </div>
 
@@ -599,6 +639,10 @@ function renderAdminPanel() {
           const defaultMax = Math.max(...stockSizes);
           const minSize = meta.minSize || defaultMin;
           const maxSize = meta.maxSize || defaultMax;
+          const images = normalizeProductImages(meta);
+          const imageSummary = images.length
+            ? `${images.length} foto${images.length === 1 ? '' : 's'} cargada${images.length === 1 ? '' : 's'}. La primera es portada.`
+            : 'Sin fotos cargadas.';
 
           return `
             <article class="admin-product-row" data-admin-product-key="${escapeHtml(key)}">
@@ -618,10 +662,11 @@ function renderAdminPanel() {
                 <select data-admin-field="maxSize">${createAdminSizeOptions(maxSize)}</select>
               </label>
               <label class="admin-file-field">
-                <span>Imagen</span>
-                <input type="file" accept="image/*" data-admin-field="image">
+                <span>Fotos del modelo</span>
+                <input type="file" accept="image/*" multiple data-admin-field="images">
+                <small>${imageSummary}</small>
               </label>
-              <button class="admin-clear-image" type="button" data-admin-action="clear-image">Quitar imagen</button>
+              <button class="admin-clear-image" type="button" data-admin-action="clear-images">Quitar fotos</button>
             </article>`;
         }).join('')}
       </div>
@@ -673,7 +718,7 @@ function closeAdminPanel() {
   document.body.classList.remove('admin-panel-open');
 }
 
-function updateProductAdminMeta(productKey, updates) {
+async function updateProductAdminMeta(productKey, updates) {
   const adminState = getStoredProductAdminState();
   adminState[productKey] = {
     ...(adminState[productKey] || {}),
@@ -686,9 +731,13 @@ function updateProductAdminMeta(productKey, updates) {
     adminState[productKey].maxSize = min;
   }
 
-  saveProductAdminState(adminState);
+  const saved = await saveProductAdminState(adminState);
   refreshProductsFromAdminState();
   renderAdminPanel();
+  setAdminSaveStatus(
+    saved ? 'Guardado en product-admin-data.js' : 'No se pudo escribir el archivo. Abre la pagina desde el servidor local de respaldo.',
+    !saved
+  );
 }
 
 function installProductAdminAccess() {
@@ -730,11 +779,11 @@ document.addEventListener('click', event => {
     return;
   }
 
-  if (action === 'clear-image') {
+  if (action === 'clear-images') {
     const row = target.closest('[data-admin-product-key]');
     const productKey = row?.dataset.adminProductKey;
     if (!productKey) return;
-    updateProductAdminMeta(productKey, { image: '' });
+    updateProductAdminMeta(productKey, { image: '', images: [] });
   }
 });
 
@@ -771,17 +820,22 @@ document.addEventListener('change', event => {
     return;
   }
 
-  if (field === 'image' && target instanceof HTMLInputElement) {
-    const file = target.files?.[0];
-    if (!file) return;
+  if (field === 'images' && target instanceof HTMLInputElement) {
+    const files = Array.from(target.files || []).filter(file => file.type.startsWith('image/'));
+    if (!files.length) return;
 
-    const reader = new FileReader();
-    reader.addEventListener('load', () => {
-      if (typeof reader.result === 'string') {
-        updateProductAdminMeta(productKey, { image: reader.result });
-      }
+    Promise.all(files.map(file => new Promise(resolve => {
+      const reader = new FileReader();
+      reader.addEventListener('load', () => {
+        resolve(typeof reader.result === 'string' ? reader.result : '');
+      });
+      reader.readAsDataURL(file);
+    }))).then(images => {
+      updateProductAdminMeta(productKey, {
+        image: '',
+        images: images.filter(Boolean)
+      });
     });
-    reader.readAsDataURL(file);
   }
 });
 

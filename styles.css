@@ -514,6 +514,14 @@ footer a:hover{
   font-family: inherit;
 }
 
+.admin-file-field small {
+  display: block;
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 700;
+}
+
 .admin-clear-image {
   background: #fee2e2;
   color: var(--rojo);
