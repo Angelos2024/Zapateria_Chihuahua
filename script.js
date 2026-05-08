@@ -3,6 +3,7 @@ const DEFAULT_SIZES = Array.from({ length: 11 }, (_, index) => 22 + index);
 const ADMIN_PASSWORD = 'skytahor';
 const PRODUCT_ADMIN_STORAGE_KEY = 'zapateria_chihuahua_product_admin_v1';
 const PRODUCT_ADMIN_SYNC_URL = 'http://127.0.0.1:45126/api/product-admin-state';
+const PRODUCT_ADMIN_SAVE_TIMEOUT_MS = 12000;
 
 function normalizeInventoryText(value) {
   return String(value || '')
@@ -49,7 +50,16 @@ function setAdminSaveStatus(message, isError = false) {
   status.classList.toggle('is-error', Boolean(isError));
 }
 
+function canWriteProductAdminFiles() {
+  return ['127.0.0.1', 'localhost'].includes(window.location.hostname);
+}
+
 async function saveProductAdminState(state) {
+  if (!canWriteProductAdminFiles()) {
+    setAdminSaveStatus('No se puede guardar desde GitHub Pages. Abre http://127.0.0.1:45126/Zapateria_Chihuahua/botas-seguridad.html', true);
+    return null;
+  }
+
   const payload = {
     savedAt: new Date().toISOString(),
     source: 'product-admin',
@@ -59,14 +69,19 @@ async function saveProductAdminState(state) {
   window.PRODUCT_ADMIN_DATA = payload;
   window.localStorage.setItem(PRODUCT_ADMIN_STORAGE_KEY, JSON.stringify(state || {}));
 
+  let timeoutId = null;
   try {
+    const controller = new AbortController();
+    timeoutId = window.setTimeout(() => controller.abort(), PRODUCT_ADMIN_SAVE_TIMEOUT_MS);
     const response = await window.fetch(PRODUCT_ADMIN_SYNC_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify(payload)
+      body: JSON.stringify(payload),
+      signal: controller.signal
     });
+    window.clearTimeout(timeoutId);
 
     const result = await response.json();
     if (!response.ok || !result?.ok) throw new Error('No se pudo guardar.');
@@ -77,8 +92,13 @@ async function saveProductAdminState(state) {
     setAdminSaveStatus('Guardado en product-admin-data.js');
     return result.data?.products || state || {};
   } catch (error) {
-    setAdminSaveStatus('No se pudo escribir el archivo. Abre la pagina desde el servidor local de respaldo.', true);
+    const message = error?.name === 'AbortError'
+      ? 'El guardado tardo demasiado. Revisa el tamano de las fotos o vuelve a intentar desde http://127.0.0.1:45126.'
+      : 'No se pudo escribir el archivo. Verifica que este abierto el servidor local en http://127.0.0.1:45126.';
+    setAdminSaveStatus(message, true);
     return null;
+  } finally {
+    if (timeoutId) window.clearTimeout(timeoutId);
   }
 }
 
@@ -815,6 +835,11 @@ function closeAdminPanel() {
 }
 
 async function updateProductAdminMeta(productKey, updates) {
+  if (!canWriteProductAdminFiles()) {
+    setAdminSaveStatus('No se puede guardar desde GitHub Pages. Abre http://127.0.0.1:45126/Zapateria_Chihuahua/botas-seguridad.html', true);
+    return;
+  }
+
   const previousPanelScroll = document.getElementById('product-admin-panel')?.scrollTop || 0;
   const previousListScroll = document.querySelector('.admin-product-list')?.scrollTop || 0;
   const previousWindowScroll = window.scrollY || 0;
