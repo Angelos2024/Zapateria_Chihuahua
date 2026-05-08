@@ -89,6 +89,18 @@ function getSizeRange(minSize, maxSize) {
   return DEFAULT_SIZES.filter(size => size >= min && size <= max);
 }
 
+function getManufacturedSizeRange(meta, stockSizes) {
+  const hasMin = Number.isFinite(Number(meta?.minSize));
+  const hasMax = Number.isFinite(Number(meta?.maxSize));
+  if (!hasMin && !hasMax) return [];
+
+  const fallbackMin = Math.min(...stockSizes);
+  const fallbackMax = Math.max(...stockSizes);
+  const minSize = hasMin ? Number(meta.minSize) : fallbackMin;
+  const maxSize = hasMax ? Number(meta.maxSize) : fallbackMax;
+  return getSizeRange(minSize, maxSize);
+}
+
 function normalizeProductImages(meta, fallbackImage = null) {
   const images = Array.isArray(meta?.images) ? meta.images : [];
   const normalized = images
@@ -134,7 +146,7 @@ function applyProductAdminState(productList) {
     const key = getProductAdminKey(product);
     const meta = adminState[key] || {};
     const currentSizes = product.sizes && product.sizes.length ? product.sizes : DEFAULT_SIZES;
-    const manufacturedSizes = getSizeRange(meta.minSize, meta.maxSize);
+    const manufacturedSizes = getManufacturedSizeRange(meta, currentSizes);
     const images = normalizeProductImages(meta, product.image);
     const coverImage = getProductCoverImage(meta, images);
 
