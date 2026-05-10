@@ -51,12 +51,12 @@ function setAdminSaveStatus(message, isError = false) {
 }
 
 function canWriteProductAdminFiles() {
-  return ['127.0.0.1', 'localhost'].includes(window.location.hostname);
+  return window.location.protocol === 'http:' || window.location.protocol === 'https:';
 }
 
 async function saveProductAdminState(state) {
   if (!canWriteProductAdminFiles()) {
-    setAdminSaveStatus('No se puede guardar desde GitHub Pages. Abre http://127.0.0.1:45126/Zapateria_Chihuahua/botas-seguridad.html', true);
+    setAdminSaveStatus('Abre la pagina desde el servidor local: http://127.0.0.1:45126/Zapateria_Chihuahua/botas-seguridad.html', true);
     return null;
   }
 
@@ -89,12 +89,12 @@ async function saveProductAdminState(state) {
       window.PRODUCT_ADMIN_DATA = result.data;
       window.localStorage.setItem(PRODUCT_ADMIN_STORAGE_KEY, JSON.stringify(result.data.products));
     }
-    setAdminSaveStatus('Guardado en product-admin-data.js');
+    setAdminSaveStatus('Guardado en product-admin-data.js e img/productos.');
     return result.data?.products || state || {};
   } catch (error) {
     const message = error?.name === 'AbortError'
       ? 'El guardado tardo demasiado. Revisa el tamano de las fotos o vuelve a intentar desde http://127.0.0.1:45126.'
-      : 'No se pudo escribir el archivo. Verifica que este abierto el servidor local en http://127.0.0.1:45126.';
+      : 'No se pudo guardar. Verifica que ejecutar-zapateria-local.bat este abierto y vuelve a intentar.';
     setAdminSaveStatus(message, true);
     return null;
   } finally {
@@ -836,7 +836,7 @@ function closeAdminPanel() {
 
 async function updateProductAdminMeta(productKey, updates) {
   if (!canWriteProductAdminFiles()) {
-    setAdminSaveStatus('No se puede guardar desde GitHub Pages. Abre http://127.0.0.1:45126/Zapateria_Chihuahua/botas-seguridad.html', true);
+    setAdminSaveStatus('Abre la pagina desde el servidor local: http://127.0.0.1:45126/Zapateria_Chihuahua/botas-seguridad.html', true);
     return;
   }
 
@@ -865,7 +865,7 @@ async function updateProductAdminMeta(productKey, updates) {
   if (list) list.scrollTop = previousListScroll;
   window.scrollTo({ top: previousWindowScroll, left: 0 });
   setAdminSaveStatus(
-    savedProducts ? 'Guardado en product-admin-data.js' : 'No se pudo escribir el archivo. Abre la pagina desde el servidor local de respaldo.',
+    savedProducts ? 'Guardado en product-admin-data.js e img/productos.' : 'No se pudo guardar. Verifica que ejecutar-zapateria-local.bat este abierto.',
     !savedProducts
   );
 }
@@ -1027,3 +1027,7 @@ if (yearEl) yearEl.textContent = new Date().getFullYear();
 installProductAdminAccess();
 renderProducts();
 renderProductDetail();
+
+if (new URLSearchParams(window.location.search).get('admin') === '1') {
+  window.setTimeout(openAdminLogin, 250);
+}
