@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-09T01:08:48.567Z",
+  "savedAt": "2026-05-10T22:30:50.754Z",
   "source": "zapatos",
   "data": {
     "nextId": 105,
@@ -442,11 +442,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Beige 340",
-        "size": "27 x2",
-        "sizeDetails": {
-          "27": 2
-        },
-        "quantity": 2,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
@@ -1042,12 +1040,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "TRS Bota Rosa",
-        "size": "26 x2, 27",
+        "size": "26 x2",
         "sizeDetails": {
-          "26": 2,
-          "27": 1
+          "26": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 460,
         "salePrice": 800
