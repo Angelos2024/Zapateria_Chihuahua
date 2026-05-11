@@ -527,13 +527,13 @@ function getProductGalleryMarkup(product) {
   const images = getProductImageList(product);
   if (images.length) {
     return images.map((image, index) => `
-      <button class="detail-thumb ${index === 0 ? 'is-active' : ''}" type="button" data-action="select-detail-image" data-image-src="${escapeHtml(image)}" data-image-alt="${escapeHtml(`${product.name} foto ${index + 1}`)}">
+      <button class="detail-thumb ${index === 0 ? 'is-active' : ''}" type="button" aria-label="${escapeHtml(`Ver foto ${index + 1} de ${product.name}`)}" data-action="select-detail-image" data-image-src="${escapeHtml(image)}" data-image-alt="${escapeHtml(`${product.name} foto ${index + 1}`)}">
         <div class="detail-thumb-media"><img class="detail-thumb-image" src="${image}" alt="${product.name} foto ${index + 1}" loading="lazy"></div>
       </button>`).join('');
   }
 
-  return product.gallery.map(label => `
-    <button class="detail-thumb" type="button" data-action="select-detail-image" data-image-src="">
+  return product.gallery.map((label, index) => `
+    <button class="detail-thumb ${index === 0 ? 'is-active' : ''}" type="button" aria-label="${escapeHtml(`Ver imagen ${index + 1} de ${product.name}`)}" data-action="select-detail-image" data-image-src="">
       <div class="detail-thumb-media">${getProductImageMarkup(product)}</div>
     </button>`).join('');
 }

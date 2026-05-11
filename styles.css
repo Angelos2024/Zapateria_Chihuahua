@@ -162,10 +162,10 @@
     .product-link { display: block; }
     .product-link:focus-visible { outline: 3px solid rgba(247,198,0,.9); outline-offset: 3px; }
     .product-img {
-      height: 250px; background: #fff; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; padding: 10px; border-radius: 10px; border: 1px solid #eef1f4;
+      height: 250px; background: #f4f6f8; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; padding: 10px; border-radius: 10px; border: 1px solid #eef1f4;
     }
     .product-img svg { width: 68%; max-height: 145px; opacity: .92; }
-    .product-img img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
+    .product-img img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; background: #fff; border-radius: 14px; clip-path: inset(0 round 14px); box-shadow: 0 1px 3px rgba(0,0,0,.08); }
     .sale { position: absolute; left: 12px; top: 12px; background: var(--rojo); color: white; padding: 5px 9px; border-radius: 999px; font-size: .72rem; font-weight: 900; }
     .product-body { padding: 12px 20px 14px; display: block; }
     .product-copy { flex: none; }
@@ -582,15 +582,15 @@ footer a:hover{
   justify-content: center;
   min-height: 44px;
   padding: 0 18px;
-  border: 1px solid var(--gris-3);
+  border: 1px solid rgba(247,198,0,.7);
   border-radius: 999px;
-  background: var(--blanco);
+  background: var(--amarillo);
   color: var(--negro);
   font-family: inherit;
   font-size: .95rem;
   font-weight: 800;
   cursor: pointer;
-  box-shadow: 0 8px 20px rgba(16,16,16,.08);
+  box-shadow: 0 10px 22px rgba(247,198,0,.24);
 }
 
 .filters-sheet-header {
@@ -1245,8 +1245,34 @@ footer a:hover{
   }
 
   .detail-gallery {
-    grid-template-columns: 1fr;
-    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .detail-thumb {
+    width: 10px;
+    height: 10px;
+    min-width: 10px;
+    border-radius: 999px;
+    border: 0;
+    background: #d1d5db;
+    box-shadow: none;
+    overflow: visible;
+  }
+
+  .detail-thumb:hover,
+  .detail-thumb.is-active {
+    background: var(--amarillo);
+    box-shadow: 0 0 0 3px rgba(247,198,0,.2);
+    border-color: transparent;
+  }
+
+  .detail-thumb-media {
+    display: none;
   }
 
   .detail-main-visual {
