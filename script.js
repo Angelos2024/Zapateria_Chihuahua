@@ -484,6 +484,10 @@ const clearEl = document.getElementById('clearFilters');
 const yearEl = document.getElementById('year');
 const detailRootEl = document.getElementById('product-detail');
 const pageCategory = document.body.dataset.pageCategory || 'todos';
+const filtersEl = document.querySelector('.filters');
+const filtersTriggerEl = document.querySelector('.filters-mobile-trigger');
+const filtersCloseEls = Array.from(document.querySelectorAll('[data-close-filters]'));
+const mobileFiltersMedia = window.matchMedia('(max-width: 980px)');
 
 function shoeSVG(category) {
   const boot = category === 'botas' || category === 'tactico';
@@ -690,6 +694,66 @@ function renderProductDetail() {
     </section>`;
 
   installDetailGalleryInteractions();
+}
+
+function isMobileFiltersViewport() {
+  return mobileFiltersMedia.matches;
+}
+
+function closeMobileFilters() {
+  if (!filtersEl || !filtersTriggerEl) return;
+  document.body.classList.remove('filters-sheet-open');
+  filtersTriggerEl.setAttribute('aria-expanded', 'false');
+  if (isMobileFiltersViewport()) {
+    filtersEl.setAttribute('aria-hidden', 'true');
+  } else {
+    filtersEl.removeAttribute('aria-hidden');
+  }
+}
+
+function openMobileFilters() {
+  if (!filtersEl || !filtersTriggerEl || !isMobileFiltersViewport()) return;
+  document.body.classList.add('filters-sheet-open');
+  filtersTriggerEl.setAttribute('aria-expanded', 'true');
+  filtersEl.setAttribute('aria-hidden', 'false');
+}
+
+function installMobileFiltersSheet() {
+  if (!filtersEl || !filtersTriggerEl) return;
+
+  closeMobileFilters();
+
+  filtersTriggerEl.addEventListener('click', () => {
+    if (document.body.classList.contains('filters-sheet-open')) {
+      closeMobileFilters();
+      return;
+    }
+    openMobileFilters();
+  });
+
+  filtersCloseEls.forEach(element => {
+    element.addEventListener('click', closeMobileFilters);
+  });
+
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+      closeMobileFilters();
+    }
+  });
+
+  const handleViewportChange = event => {
+    if (!event.matches) {
+      closeMobileFilters();
+      return;
+    }
+    filtersEl.setAttribute('aria-hidden', 'true');
+  };
+
+  if (typeof mobileFiltersMedia.addEventListener === 'function') {
+    mobileFiltersMedia.addEventListener('change', handleViewportChange);
+  } else if (typeof mobileFiltersMedia.addListener === 'function') {
+    mobileFiltersMedia.addListener(handleViewportChange);
+  }
 }
 
 function refreshProductsFromAdminState() {
@@ -1024,6 +1088,7 @@ if (clearEl) {
 
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
+installMobileFiltersSheet();
 installProductAdminAccess();
 renderProducts();
 renderProductDetail();

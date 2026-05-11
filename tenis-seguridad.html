@@ -43,36 +43,45 @@
   <main>
     <section id="catalogo" class="section catalog-only-section">
       <div class="container">
+        <div class="catalog-mobile-actions">
+          <button class="filters-mobile-trigger" type="button" aria-controls="catalogFilters" aria-expanded="false">Filtros</button>
+        </div>
         <div class="catalog-wrap">
-          <aside class="filters">
-            <h3>Filtrar productos</h3>
-            <div class="filter-group">
-              <label for="search">Buscar</label>
-              <input id="search" type="search" placeholder="Ej. dielectrico, casco..." />
+          <aside class="filters" id="catalogFilters" aria-label="Filtros de productos">
+            <div class="filters-sheet-header">
+              <h3>Filtrar productos</h3>
+              <button class="filters-sheet-close" type="button" data-close-filters aria-label="Cerrar filtros">Cerrar</button>
             </div>
-            <div class="filter-group">
-              <label for="category">Categoria</label>
-              <select id="category">
-                <option value="tenis">Tenis de seguridad</option>
-              </select>
-            </div>
-            <div class="filter-group">
-              <label for="sort">Ordenar</label>
-              <select id="sort">
-                <option value="default">Mas relevantes</option>
-                <option value="price-asc">Precio menor a mayor</option>
-                <option value="price-desc">Precio mayor a menor</option>
-                <option value="name">Nombre A-Z</option>
-              </select>
-            </div>
-            <button class="btn btn-primary" style="width:100%" id="clearFilters">Borrar filtros</button>
-            <div class="quick-tags">
-              <span class="tag">NOM</span><span class="tag">Dielectrico</span><span class="tag">Antiderrapante</span><span class="tag">Poliamida</span>
+            <div class="filters-sheet-body">
+              <div class="filter-group">
+                <label for="search">Buscar</label>
+                <input id="search" type="search" placeholder="Ej. dielectrico, casco..." />
+              </div>
+              <div class="filter-group">
+                <label for="category">Categoria</label>
+                <select id="category">
+                  <option value="tenis">Tenis de seguridad</option>
+                </select>
+              </div>
+              <div class="filter-group">
+                <label for="sort">Ordenar</label>
+                <select id="sort">
+                  <option value="default">Mas relevantes</option>
+                  <option value="price-asc">Precio menor a mayor</option>
+                  <option value="price-desc">Precio mayor a menor</option>
+                  <option value="name">Nombre A-Z</option>
+                </select>
+              </div>
+              <button class="btn btn-primary" style="width:100%" id="clearFilters">Borrar filtros</button>
+              <div class="quick-tags">
+                <span class="tag">NOM</span><span class="tag">Dielectrico</span><span class="tag">Antiderrapante</span><span class="tag">Poliamida</span>
+              </div>
             </div>
           </aside>
 
           <div class="product-grid" id="products"></div>
         </div>
+        <button class="filters-backdrop" type="button" data-close-filters aria-label="Cerrar filtros"></button>
       </div>
     </section>
   </main>
@@ -114,8 +123,6 @@
       <div class="copy">© <span id="year"></span> Zapateria Chihuahua.</div>
     </div>
   </footer>
-
-  <a class="whatsapp-float" href="https://wa.me/526142832898" target="_blank" rel="noopener" aria-label="WhatsApp">☘</a>
 
   <script src="inventory-site-data.js"></script>
   <script src="product-admin-data.js"></script>
