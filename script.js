@@ -488,6 +488,9 @@ const filtersEl = document.querySelector('.filters');
 const filtersTriggerEl = document.querySelector('.filters-mobile-trigger');
 const filtersCloseEls = Array.from(document.querySelectorAll('[data-close-filters]'));
 const mobileFiltersMedia = window.matchMedia('(max-width: 980px)');
+const mobileNavEl = document.querySelector('.site-nav');
+const mobileNavToggleEl = document.querySelector('.menu-toggle');
+const mobileNavMedia = window.matchMedia('(max-width: 991px)');
 
 function shoeSVG(category) {
   const boot = category === 'botas' || category === 'tactico';
@@ -698,6 +701,65 @@ function renderProductDetail() {
 
 function isMobileFiltersViewport() {
   return mobileFiltersMedia.matches;
+}
+
+function isMobileNavViewport() {
+  return mobileNavMedia.matches;
+}
+
+function closeMobileNav() {
+  if (!mobileNavEl || !mobileNavToggleEl) return;
+  document.body.classList.remove('mobile-nav-open');
+  mobileNavToggleEl.setAttribute('aria-expanded', 'false');
+}
+
+function openMobileNav() {
+  if (!mobileNavEl || !mobileNavToggleEl || !isMobileNavViewport()) return;
+  document.body.classList.add('mobile-nav-open');
+  mobileNavToggleEl.setAttribute('aria-expanded', 'true');
+}
+
+function installMobileNav() {
+  if (!mobileNavEl || !mobileNavToggleEl) return;
+
+  closeMobileNav();
+
+  mobileNavToggleEl.addEventListener('click', event => {
+    event.stopPropagation();
+    if (document.body.classList.contains('mobile-nav-open')) {
+      closeMobileNav();
+      return;
+    }
+    openMobileNav();
+  });
+
+  mobileNavEl.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', closeMobileNav);
+  });
+
+  document.addEventListener('click', event => {
+    if (!isMobileNavViewport() || !document.body.classList.contains('mobile-nav-open')) return;
+    if (mobileNavEl.contains(event.target) || mobileNavToggleEl.contains(event.target)) return;
+    closeMobileNav();
+  });
+
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+      closeMobileNav();
+    }
+  });
+
+  const handleViewportChange = event => {
+    if (!event.matches) {
+      closeMobileNav();
+    }
+  };
+
+  if (typeof mobileNavMedia.addEventListener === 'function') {
+    mobileNavMedia.addEventListener('change', handleViewportChange);
+  } else if (typeof mobileNavMedia.addListener === 'function') {
+    mobileNavMedia.addListener(handleViewportChange);
+  }
 }
 
 function closeMobileFilters() {
@@ -1088,6 +1150,7 @@ if (clearEl) {
 
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
+installMobileNav();
 installMobileFiltersSheet();
 installProductAdminAccess();
 renderProducts();
