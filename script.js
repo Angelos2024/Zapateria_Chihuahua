@@ -707,6 +707,10 @@ function getProductStockSizes(product) {
   return product.sizes && product.sizes.length ? product.sizes : DEFAULT_SIZES;
 }
 
+function getProductActiveSizeCount(product) {
+  return getProductStockSizes(product).length;
+}
+
 function getProductManufacturedSizes(product) {
   return product.manufacturedSizes && product.manufacturedSizes.length
     ? product.manufacturedSizes
@@ -816,7 +820,13 @@ function renderProducts() {
     return matchesPage && matchesTerm && matchesCat && matchesSize;
   });
 
-  if (sort === 'default' && pageCategory === 'tenis') list.sort((a, b) => a.name.localeCompare(b.name, 'es-MX'));
+  if (sort === 'default') {
+    list.sort((a, b) => {
+      const sizeDifference = getProductActiveSizeCount(b) - getProductActiveSizeCount(a);
+      if (sizeDifference !== 0) return sizeDifference;
+      return a.name.localeCompare(b.name, 'es-MX');
+    });
+  }
   if (sort === 'price-asc') list.sort((a, b) => a.price - b.price);
   if (sort === 'price-desc') list.sort((a, b) => b.price - a.price);
   if (sort === 'name') list.sort((a, b) => a.name.localeCompare(b.name, 'es-MX'));
