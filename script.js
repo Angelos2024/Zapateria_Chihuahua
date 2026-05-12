@@ -107,10 +107,7 @@ function getProductAdminKey(product) {
 }
 
 function getProductAdminAliases(product) {
-  const aliases = [];
-  if (product.legacyAdminKey) aliases.push(product.legacyAdminKey);
-  if (product.slug) aliases.push(product.slug);
-  return aliases.filter(Boolean);
+  return [product.slug].filter(Boolean);
 }
 
 function getSizeRange(minSize, maxSize) {
@@ -1095,6 +1092,25 @@ function createAdminCoverOptions(images, selected) {
     </option>`).join('');
 }
 
+function createAdminImageItems(images, coverImage) {
+  if (!images.length) {
+    return '<div class="admin-image-empty">Sin fotos cargadas para este modelo.</div>';
+  }
+
+  return images.map((image, index) => `
+    <article class="admin-image-item">
+      <div class="admin-image-item-media">
+        <img src="${escapeHtml(image)}" alt="${escapeHtml(`Foto ${index + 1}`)}">
+      </div>
+      <div class="admin-image-item-body">
+        <span class="admin-image-item-label">Foto ${index + 1}</span>
+        ${image === coverImage ? '<span class="admin-image-badge">Portada</span>' : ''}
+        <button class="admin-image-delete" type="button" data-admin-action="remove-single-image" data-admin-image="${escapeHtml(image)}">Quitar</button>
+      </div>
+    </article>
+  `).join('');
+}
+
 function renderAdminPanel() {
   let panel = document.getElementById('product-admin-panel');
   if (!panel) {
@@ -1159,6 +1175,9 @@ function renderAdminPanel() {
                 <select data-admin-field="coverImage" ${images.length ? '' : 'disabled'}>${createAdminCoverOptions(images, coverImage)}</select>
               </label>
               <button class="admin-clear-image" type="button" data-admin-action="clear-images">Quitar fotos</button>
+              <div class="admin-image-strip">
+                ${createAdminImageItems(images, coverImage)}
+              </div>
               <label class="admin-description-field">
                 <span>Descripcion principal</span>
                 <textarea data-admin-field="description" rows="3">${escapeHtml(description)}</textarea>
@@ -1254,6 +1273,21 @@ async function updateProductAdminMeta(productKey, updates) {
   );
 }
 
+function removeSingleProductImage(productKey, imageValue) {
+  const adminState = getStoredProductAdminState();
+  const meta = adminState[productKey] || {};
+  const images = normalizeProductImages(meta);
+  const nextImages = images.filter(image => image !== imageValue);
+  const currentCover = getProductCoverImage(meta, images);
+  const nextCover = nextImages.includes(currentCover) ? currentCover : (nextImages[0] || '');
+
+  updateProductAdminMeta(productKey, {
+    image: nextCover,
+    images: nextImages,
+    coverImage: nextCover
+  });
+}
+
 function installProductAdminAccess() {
   const logo = document.querySelector('.brand-logo-img');
   if (!logo) return;
@@ -1298,6 +1332,15 @@ document.addEventListener('click', event => {
     const productKey = row?.dataset.adminProductKey;
     if (!productKey) return;
     updateProductAdminMeta(productKey, { image: '', images: [], coverImage: '' });
+    return;
+  }
+
+  if (action === 'remove-single-image') {
+    const row = target.closest('[data-admin-product-key]');
+    const productKey = row?.dataset.adminProductKey;
+    const imageValue = target.dataset.adminImage;
+    if (!productKey || !imageValue) return;
+    removeSingleProductImage(productKey, imageValue);
     return;
   }
 

@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-  "savedAt": "2026-05-11T21:36:51.670Z",
+  "savedAt": "2026-05-12T22:49:17.529Z",
   "source": "product-admin",
   "products": {
     "inventory:botas:atx cafe": {
@@ -210,8 +210,7 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-casdo-suela-blanca-20260510-120720-1.jpg",
-        "img/productos/admin-inventory-botas-casdo-suela-blanca-20260510-120720-2.webp"
+        "img/productos/admin-inventory-botas-casdo-suela-blanca-20260510-120720-1.jpg"
       ],
       "coverImage": "img/productos/admin-inventory-botas-casdo-suela-blanca-20260510-120720-1.jpg",
       "image": "img/productos/admin-inventory-botas-casdo-suela-blanca-20260510-120720-1.jpg"
