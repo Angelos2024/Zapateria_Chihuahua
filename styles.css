@@ -151,6 +151,10 @@
       font-family: inherit;
     }
     .filters option { color: var(--negro); }
+.filters select:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}
     .quick-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
     .tag { padding: 8px 11px; border-radius: 999px; background: rgba(247,198,0,.13); color: var(--amarillo); font-weight: 800; font-size: .82rem; }
 

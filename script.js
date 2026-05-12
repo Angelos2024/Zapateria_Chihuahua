@@ -528,7 +528,19 @@ function getSelectedSizeValue() {
   return /^\d+$/.test(value) ? value : '';
 }
 
-function getCatalogVisibleSizes(activePageCategory = pageCategory) {
+function isSizeFilterActive() {
+  return Boolean(getSelectedSizeValue());
+}
+
+function syncCategoryFilterState() {
+  if (!categoryEl) return;
+
+  const sizeFilterActive = isSizeFilterActive();
+  categoryEl.disabled = sizeFilterActive;
+  categoryEl.title = sizeFilterActive ? 'La categoria se ignora cuando filtras por talla.' : '';
+}
+
+function getCatalogVisibleSizes(activePageCategory = 'todos') {
   const sizeSet = new Set();
 
   products.forEach(product => {
@@ -546,7 +558,7 @@ function populateSizeFilterOptions() {
   if (!sizeEl) return;
 
   const currentValue = getSelectedSizeValue() || getCatalogUrlParams().get('talla') || '';
-  const sizes = getCatalogVisibleSizes();
+  const sizes = getCatalogVisibleSizes('todos');
   sizeEl.innerHTML = [
     '<option value="">Todas las tallas</option>',
     ...sizes.map(size => `<option value="${escapeHtml(size)}">Talla ${escapeHtml(size)}</option>`)
@@ -789,12 +801,17 @@ function renderProducts() {
   const term = searchEl ? searchEl.value.toLowerCase().trim() : '';
   const cat = categoryEl ? categoryEl.value : pageCategory;
   const selectedSize = getSelectedSizeValue();
+  const ignoreCategoryFilter = Boolean(selectedSize);
   const sort = sortEl ? sortEl.value : 'default';
 
   let list = products.filter(product => {
-    const matchesPage = pageCategory === 'todos' || product.category === pageCategory || (pageCategory === 'botas' && product.category === 'tactico');
+    const matchesPage = ignoreCategoryFilter
+      ? true
+      : pageCategory === 'todos' || product.category === pageCategory || (pageCategory === 'botas' && product.category === 'tactico');
     const matchesTerm = [product.name, product.category, ...product.specs].join(' ').toLowerCase().includes(term);
-    const matchesCat = cat === 'todos' || product.category === cat || (cat === 'botas' && product.category === 'tactico');
+    const matchesCat = ignoreCategoryFilter
+      ? true
+      : cat === 'todos' || product.category === cat || (cat === 'botas' && product.category === 'tactico');
     const matchesSize = !selectedSize || getProductStockSizes(product).includes(Number(selectedSize));
     return matchesPage && matchesTerm && matchesCat && matchesSize;
   });
@@ -824,6 +841,7 @@ function renderProducts() {
       </a>`;
   }).join('') || '<p>No hay productos con esos filtros.</p>';
 
+  syncCategoryFilterState();
   renderActiveFilterChips();
   syncCatalogFiltersToUrl();
 }
