@@ -475,6 +475,7 @@ const staticProducts = [
 ];
 
 const products = buildCatalogProducts();
+const hasInventoryProducts = products.some(product => product.source === 'inventory');
 
 const productsEl = document.getElementById('products');
 const searchEl = document.getElementById('search');
@@ -528,6 +529,18 @@ function getSelectedSizeValue() {
   return /^\d+$/.test(value) ? value : '';
 }
 
+function normalizeSizeList(sizes) {
+  return Array.from(new Set((sizes || [])
+    .map(size => Number(size))
+    .filter(size => Number.isFinite(size)))).sort((a, b) => a - b);
+}
+
+function getFilterableStockSizes(product) {
+  const explicitSizes = normalizeSizeList(product?.sizes);
+  if (explicitSizes.length) return explicitSizes;
+  return hasInventoryProducts ? [] : DEFAULT_SIZES;
+}
+
 function isSizeFilterActive() {
   return Boolean(getSelectedSizeValue());
 }
@@ -545,7 +558,7 @@ function getCatalogVisibleSizes(activePageCategory = 'todos') {
 
   products.forEach(product => {
     if (!getCategoryMatch(product.category, activePageCategory)) return;
-    getProductStockSizes(product).forEach(size => {
+    getFilterableStockSizes(product).forEach(size => {
       const numericSize = Number(size);
       if (Number.isFinite(numericSize)) sizeSet.add(String(numericSize));
     });
@@ -816,7 +829,7 @@ function renderProducts() {
     const matchesCat = ignoreCategoryFilter
       ? true
       : cat === 'todos' || product.category === cat || (cat === 'botas' && product.category === 'tactico');
-    const matchesSize = !selectedSize || getProductStockSizes(product).includes(Number(selectedSize));
+    const matchesSize = !selectedSize || getFilterableStockSizes(product).includes(Number(selectedSize));
     return matchesPage && matchesTerm && matchesCat && matchesSize;
   });
 
