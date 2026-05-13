@@ -130,6 +130,39 @@
     .hero-card li { display: flex; gap: 10px; align-items: flex-start; font-weight: 700; }
     .check { color: var(--amarillo); font-weight: 900; }
 
+    /* Inicio: hero más legible alrededor de los CTAs y botones más grandes */
+    body[data-page-category="todos"] .hero .eyebrow {
+      font-size: .72rem;
+      letter-spacing: .1em;
+      margin-bottom: 10px;
+    }
+    body[data-page-category="todos"] .hero h2 {
+      font-size: clamp(1.85rem, 4.2vw, 3.35rem);
+      letter-spacing: -1px;
+    }
+    body[data-page-category="todos"] .hero-card h3 {
+      font-size: 1.12rem;
+      margin-bottom: 10px;
+    }
+    body[data-page-category="todos"] .hero-card ul {
+      gap: 10px;
+    }
+    body[data-page-category="todos"] .hero-card li {
+      font-size: .84rem;
+      font-weight: 600;
+      line-height: 1.35;
+    }
+    body[data-page-category="todos"] .hero-actions {
+      gap: 14px;
+      margin-top: 20px;
+    }
+    body[data-page-category="todos"] .hero-actions .btn {
+      padding: 16px 28px;
+      font-size: 1.06rem;
+      min-height: 54px;
+      font-weight: 800;
+    }
+
     .section { padding: 72px 0; }
     .section-title { display: flex; justify-content: space-between; gap: 20px; align-items: end; margin-bottom: 28px; }
     .section-title h2 { font-size: clamp(1.8rem, 3vw, 2.8rem); line-height: 1; text-transform: uppercase; font-weight: 900; }
@@ -1188,6 +1221,24 @@ footer a:hover{
     flex: 0 0 auto;
   }
 
+  body[data-page-category="todos"] .hero .eyebrow {
+    font-size: .68rem;
+  }
+  body[data-page-category="todos"] .hero h2 {
+    font-size: clamp(1.65rem, 4.5vw, 2.85rem);
+  }
+  body[data-page-category="todos"] .hero-card h3 {
+    font-size: 1.02rem;
+  }
+  body[data-page-category="todos"] .hero-card li {
+    font-size: .8rem;
+  }
+  body[data-page-category="todos"] .hero-actions .btn {
+    padding: 15px 24px;
+    font-size: 1rem;
+    min-height: 52px;
+  }
+
   .features,
   .categories {
     grid-template-columns: 1fr;
@@ -1297,6 +1348,28 @@ footer a:hover{
     flex: 0 0 auto;
     padding: 10px 14px;
     font-size: .86rem;
+  }
+
+  body[data-page-category="todos"] .hero .eyebrow {
+    font-size: .64rem;
+    margin-bottom: 8px;
+  }
+  body[data-page-category="todos"] .hero h2 {
+    font-size: clamp(1.45rem, 5.5vw, 2.35rem);
+  }
+  body[data-page-category="todos"] .hero-card h3 {
+    font-size: .95rem;
+  }
+  body[data-page-category="todos"] .hero-card li {
+    font-size: .76rem;
+  }
+  body[data-page-category="todos"] .hero-actions {
+    gap: 12px;
+  }
+  body[data-page-category="todos"] .hero-actions .btn {
+    padding: 14px 20px;
+    font-size: .98rem;
+    min-height: 50px;
   }
 
   .catalog-only-section {
@@ -1520,6 +1593,15 @@ footer a:hover{
 @media (max-width: 360px) {
   .hero h2 {
     font-size: clamp(1.9rem, 10vw, 2.4rem);
+  }
+
+  body[data-page-category="todos"] .hero h2 {
+    font-size: clamp(1.35rem, 8vw, 2.1rem);
+  }
+  body[data-page-category="todos"] .hero-actions .btn {
+    padding: 13px 18px;
+    font-size: .94rem;
+    min-height: 48px;
   }
 
   .hero-card,

@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-12T22:52:14.068Z",
+  "savedAt": "2026-05-13T00:01:22.560Z",
   "source": "zapatos",
   "data": {
     "nextId": 110,
@@ -97,13 +97,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin casco acero",
-        "size": "25 x2, 26 x3, 28",
+        "size": "25, 26 x3, 28",
         "sizeDetails": {
-          "25": 2,
+          "25": 1,
           "26": 3,
           "28": 1
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 1,
         "cost": 630,
         "salePrice": 970
@@ -419,13 +419,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx negra",
-        "size": "27 x3, 28 x3, 29 x2",
+        "size": "27 x3, 28 x2, 29 x2",
         "sizeDetails": {
           "27": 3,
-          "28": 3,
+          "28": 2,
           "29": 2
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
