@@ -1,10 +1,10 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-13T00:01:22.560Z",
+  "savedAt": "2026-05-13T00:14:03.277Z",
   "source": "zapatos",
   "data": {
     "nextId": 110,
     "filters": {
-      "audienceView": "damas",
+      "audienceView": "caballero",
       "onlyLowStock": false
     },
     "rows": [
@@ -419,13 +419,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx negra",
-        "size": "27 x3, 28 x2, 29 x2",
+        "size": "27 x3, 28, 29 x2",
         "sizeDetails": {
           "27": 3,
-          "28": 2,
+          "28": 1,
           "29": 2
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
