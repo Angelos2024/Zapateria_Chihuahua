@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-13T00:14:03.277Z",
+  "savedAt": "2026-05-13T00:44:27.589Z",
   "source": "zapatos",
   "data": {
     "nextId": 110,
@@ -644,12 +644,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Azul",
-        "size": "27 x5, 28 x2",
+        "size": "27 x5, 28",
         "sizeDetails": {
           "27": 5,
-          "28": 2
+          "28": 1
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -828,12 +828,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "plantillas",
-        "size": "27, 29 x3",
+        "size": "29 x3",
         "sizeDetails": {
-          "27": 1,
           "29": 3
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 45,
         "salePrice": 85
