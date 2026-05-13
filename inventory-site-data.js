@@ -1,8 +1,8 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-13T22:50:10.667Z",
+  "savedAt": "2026-05-13T22:56:07.652Z",
   "source": "zapatos",
   "data": {
-    "nextId": 110,
+    "nextId": 111,
     "filters": {
       "audienceView": "caballero",
       "onlyLowStock": false
@@ -30,16 +30,30 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre Truck",
-        "size": "26, 27 x2, 28 x3, 29 x3, 30",
+        "size": "26, 27 x2, 28 x3, 29 x2, 30",
         "sizeDetails": {
           "26": 1,
           "27": 2,
           "28": 3,
-          "29": 3,
+          "29": 2,
           "30": 1
         },
-        "quantity": 10,
+        "quantity": 9,
         "minimum": 4,
+        "cost": 400,
+        "salePrice": 740
+      },
+      {
+        "id": "inv-110",
+        "audienceGroup": "caballero",
+        "productGroup": "calzado-vaquero",
+        "model": "Nicadabra Ocre Truck talon negro",
+        "size": "29",
+        "sizeDetails": {
+          "29": 1
+        },
+        "quantity": 1,
+        "minimum": 0,
         "cost": 400,
         "salePrice": 740
       },
@@ -384,7 +398,7 @@ window.INVENTORY_SITE_DATA = {
         "quantity": 3,
         "minimum": 0,
         "cost": 455,
-        "salePrice": 795
+        "salePrice": 790
       },
       {
         "id": "inv-30",
@@ -916,7 +930,7 @@ window.INVENTORY_SITE_DATA = {
         "quantity": 4,
         "minimum": 2,
         "cost": 455,
-        "salePrice": 795
+        "salePrice": 790
       },
       {
         "id": "inv-78",
@@ -930,7 +944,7 @@ window.INVENTORY_SITE_DATA = {
         "quantity": 1,
         "minimum": 0,
         "cost": 455,
-        "salePrice": 795
+        "salePrice": 790
       },
       {
         "id": "inv-79",
@@ -944,7 +958,7 @@ window.INVENTORY_SITE_DATA = {
         "quantity": 1,
         "minimum": 0,
         "cost": 455,
-        "salePrice": 795
+        "salePrice": 790
       },
       {
         "id": "inv-64",
