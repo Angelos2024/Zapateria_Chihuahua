@@ -1,4 +1,4 @@
-﻿const WHATSAPP = '526142832898';
+const WHATSAPP = '526142832898';
 const DEFAULT_SIZES = Array.from({ length: 11 }, (_, index) => 22 + index);
 const ADMIN_PASSWORD = 'skytahor';
 const PRODUCT_ADMIN_STORAGE_KEY = 'zapateria_chihuahua_product_admin_v1';

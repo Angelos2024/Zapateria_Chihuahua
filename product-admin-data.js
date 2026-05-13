@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-  "savedAt": "2026-05-12T22:49:17.529Z",
+  "savedAt": "2026-05-13T22:49:19.583Z",
   "source": "product-admin",
   "products": {
     "inventory:botas:atx cafe": {
@@ -8,12 +8,13 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/inventory-botas-atx-cafe-1.jpg",
-        "img/productos/inventory-botas-atx-cafe-2.jpg",
-        "img/productos/inventory-botas-atx-cafe-3.jpg"
+        "img/productos/admin-inventory-botas-atx-cafe-20260513-135209-1.jpg",
+        "img/productos/admin-inventory-botas-atx-cafe-20260513-135209-2.jpg",
+        "img/productos/admin-inventory-botas-atx-cafe-20260513-135209-3.jpg",
+        "img/productos/admin-inventory-botas-atx-cafe-20260513-135209-4.jpg"
       ],
-      "coverImage": "img/productos/inventory-botas-atx-cafe-1.jpg",
-      "image": "img/productos/inventory-botas-atx-cafe-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-atx-cafe-20260513-135209-1.jpg",
+      "image": "img/productos/admin-inventory-botas-atx-cafe-20260513-135209-1.jpg"
     },
     "inventory:botas:atx negra": {
       "details": [
@@ -22,12 +23,13 @@ window.PRODUCT_ADMIN_DATA = {
       ],
       "maxSize": 31,
       "images": [
-        "img/productos/inventory-botas-atx-negra-1.jpg",
-        "img/productos/inventory-botas-atx-negra-2.jpg",
-        "img/productos/inventory-botas-atx-negra-3.jpg"
+        "img/productos/admin-inventory-botas-atx-negra-20260513-135541-1.jpg",
+        "img/productos/admin-inventory-botas-atx-negra-20260513-135541-2.jpg",
+        "img/productos/admin-inventory-botas-atx-negra-20260513-135541-3.jpg",
+        "img/productos/admin-inventory-botas-atx-negra-20260513-135541-4.jpg"
       ],
-      "coverImage": "img/productos/inventory-botas-atx-negra-2.jpg",
-      "image": "img/productos/inventory-botas-atx-negra-2.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-atx-negra-20260513-135541-1.jpg",
+      "image": "img/productos/admin-inventory-botas-atx-negra-20260513-135541-1.jpg"
     },
     "inventory:botas:axis 030 azul": {
       "maxSize": 30,
@@ -37,11 +39,10 @@ window.PRODUCT_ADMIN_DATA = {
       ],
       "description": "Calzado de Seguridad modelo Axis 030 Azul disponible en tienda.",
       "images": [
-        "img/productos/admin-inventory-botas-axis-030-azul-20260511-095926-1.jpg",
-        "img/productos/admin-inventory-botas-axis-030-azul-20260511-095927-2.jpg"
+        "img/productos/admin-inventory-botas-axis-030-azul-20260513-135723-1.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-axis-030-azul-20260511-095926-1.jpg",
-      "image": "img/productos/admin-inventory-botas-axis-030-azul-20260511-095926-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-axis-030-azul-20260513-135723-1.jpg",
+      "image": "img/productos/admin-inventory-botas-axis-030-azul-20260513-135723-1.jpg"
     },
     "inventory:botas:caribu amarilla 952": {
       "description": "Calzado de Seguridad modelo Caribú Amarilla 952 disponible en tienda.",
@@ -51,12 +52,14 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-caribu-amarilla-952-20260510-111348-1.jpg",
-        "img/productos/admin-inventory-botas-caribu-amarilla-952-20260510-111348-2.webp",
-        "img/productos/admin-inventory-botas-caribu-amarilla-952-20260510-111348-3.webp"
+        "img/productos/admin-inventory-botas-caribu-amarilla-952-20260513-140449-1.jpg",
+        "img/productos/admin-inventory-botas-caribu-amarilla-952-20260513-140449-2.jpg",
+        "img/productos/admin-inventory-botas-caribu-amarilla-952-20260513-140449-3.jpg",
+        "img/productos/admin-inventory-botas-caribu-amarilla-952-20260513-140449-4.jpg",
+        "img/productos/admin-inventory-botas-caribu-amarilla-952-20260513-140449-5.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-caribu-amarilla-952-20260510-111348-1.jpg",
-      "image": "img/productos/admin-inventory-botas-caribu-amarilla-952-20260510-111348-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-caribu-amarilla-952-20260513-140449-1.jpg",
+      "image": "img/productos/admin-inventory-botas-caribu-amarilla-952-20260513-140449-1.jpg"
     },
     "inventory:botas:caribu beige 340": {
       "details": [
@@ -66,13 +69,15 @@ window.PRODUCT_ADMIN_DATA = {
       "description": "Calzado de Seguridad modelo Caribú Beige 340 disponible en tienda.",
       "maxSize": 30,
       "images": [
-        "img/productos/admin-inventory-botas-caribu-beige-340-20260510-111558-1.jpg",
-        "img/productos/admin-inventory-botas-caribu-beige-340-20260510-111558-2.jpg",
-        "img/productos/admin-inventory-botas-caribu-beige-340-20260510-111558-3.jpg",
-        "img/productos/admin-inventory-botas-caribu-beige-340-20260510-111558-4.jpg"
+        "img/productos/admin-inventory-botas-caribu-beige-340-20260513-140746-1.jpg",
+        "img/productos/admin-inventory-botas-caribu-beige-340-20260513-140747-2.jpg",
+        "img/productos/admin-inventory-botas-caribu-beige-340-20260513-140747-3.jpg",
+        "img/productos/admin-inventory-botas-caribu-beige-340-20260513-140747-4.jpg",
+        "img/productos/admin-inventory-botas-caribu-beige-340-20260513-140747-5.jpg",
+        "img/productos/admin-inventory-botas-caribu-beige-340-20260513-140747-6.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-caribu-beige-340-20260510-111558-1.jpg",
-      "image": "img/productos/admin-inventory-botas-caribu-beige-340-20260510-111558-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-caribu-beige-340-20260513-140747-2.jpg",
+      "image": "img/productos/admin-inventory-botas-caribu-beige-340-20260513-140747-2.jpg"
     },
     "inventory:botas:caribu beige 952": {
       "minSize": 26,
@@ -82,12 +87,12 @@ window.PRODUCT_ADMIN_DATA = {
       ],
       "description": "Calzado de Seguridad modelo Caribú Beige 952 disponible en tienda.",
       "images": [
-        "img/productos/admin-inventory-botas-caribu-beige-952-20260510-113705-1.jpg",
-        "img/productos/admin-inventory-botas-caribu-beige-952-20260510-113705-2.jpg",
-        "img/productos/admin-inventory-botas-caribu-beige-952-20260510-113705-3.jpg"
+        "img/productos/admin-inventory-botas-caribu-beige-952-20260513-141036-1.jpg",
+        "img/productos/admin-inventory-botas-caribu-beige-952-20260513-141036-2.jpg",
+        "img/productos/admin-inventory-botas-caribu-beige-952-20260513-141036-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-caribu-beige-952-20260510-113705-1.jpg",
-      "image": "img/productos/admin-inventory-botas-caribu-beige-952-20260510-113705-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-caribu-beige-952-20260513-141036-1.jpg",
+      "image": "img/productos/admin-inventory-botas-caribu-beige-952-20260513-141036-1.jpg"
     },
     "inventory:botas:caribu lady lila piel": {
       "minSize": 23,
@@ -98,13 +103,12 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-caribu-lady-lila-piel-20260510-114255-1.jpg",
-        "img/productos/admin-inventory-botas-caribu-lady-lila-piel-20260510-114255-2.webp",
-        "img/productos/admin-inventory-botas-caribu-lady-lila-piel-20260510-114255-3.webp",
-        "img/productos/admin-inventory-botas-caribu-lady-lila-piel-20260510-114255-4.jpg"
+        "img/productos/admin-inventory-botas-caribu-lady-lila-piel-20260513-141144-1.jpg",
+        "img/productos/admin-inventory-botas-caribu-lady-lila-piel-20260513-141144-2.jpg",
+        "img/productos/admin-inventory-botas-caribu-lady-lila-piel-20260513-141144-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-caribu-lady-lila-piel-20260510-114255-1.jpg",
-      "image": "img/productos/admin-inventory-botas-caribu-lady-lila-piel-20260510-114255-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-caribu-lady-lila-piel-20260513-141144-2.jpg",
+      "image": "img/productos/admin-inventory-botas-caribu-lady-lila-piel-20260513-141144-2.jpg"
     },
     "inventory:botas:caribu lady lila textil": {
       "minSize": 23,
@@ -113,13 +117,12 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-caribu-lady-lila-textil-20260510-114609-1.jpg",
-        "img/productos/admin-inventory-botas-caribu-lady-lila-textil-20260510-114609-2.jpg",
-        "img/productos/admin-inventory-botas-caribu-lady-lila-textil-20260510-114609-3.webp",
-        "img/productos/admin-inventory-botas-caribu-lady-lila-textil-20260510-114609-4.webp"
+        "img/productos/admin-inventory-botas-caribu-lady-lila-textil-20260513-141238-1.jpg",
+        "img/productos/admin-inventory-botas-caribu-lady-lila-textil-20260513-141238-2.jpg",
+        "img/productos/admin-inventory-botas-caribu-lady-lila-textil-20260513-141238-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-caribu-lady-lila-textil-20260510-114609-2.jpg",
-      "image": "img/productos/admin-inventory-botas-caribu-lady-lila-textil-20260510-114609-2.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-caribu-lady-lila-textil-20260513-141238-1.jpg",
+      "image": "img/productos/admin-inventory-botas-caribu-lady-lila-textil-20260513-141238-1.jpg"
     },
     "inventory:botas:caribu lady menta piel": {
       "details": [
@@ -128,12 +131,12 @@ window.PRODUCT_ADMIN_DATA = {
       ],
       "minSize": 23,
       "images": [
-        "img/productos/admin-inventory-botas-caribu-lady-menta-piel-20260510-115201-1.jpg",
-        "img/productos/admin-inventory-botas-caribu-lady-menta-piel-20260510-115201-2.jpg",
-        "img/productos/admin-inventory-botas-caribu-lady-menta-piel-20260510-115201-3.jpg"
+        "img/productos/admin-inventory-botas-caribu-lady-menta-piel-20260513-141357-1.jpg",
+        "img/productos/admin-inventory-botas-caribu-lady-menta-piel-20260513-141357-2.jpg",
+        "img/productos/admin-inventory-botas-caribu-lady-menta-piel-20260513-141357-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-caribu-lady-menta-piel-20260510-115201-1.jpg",
-      "image": "img/productos/admin-inventory-botas-caribu-lady-menta-piel-20260510-115201-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-caribu-lady-menta-piel-20260513-141357-1.jpg",
+      "image": "img/productos/admin-inventory-botas-caribu-lady-menta-piel-20260513-141357-1.jpg"
     },
     "inventory:botas:caribu lady menta textil": {
       "maxSize": 26,
@@ -142,12 +145,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-caribu-lady-menta-textil-20260510-115314-1.jpg",
-        "img/productos/admin-inventory-botas-caribu-lady-menta-textil-20260510-115314-2.jpg",
-        "img/productos/admin-inventory-botas-caribu-lady-menta-textil-20260510-115314-3.jpg"
+        "img/productos/admin-inventory-botas-caribu-lady-menta-textil-20260513-141458-1.jpg",
+        "img/productos/admin-inventory-botas-caribu-lady-menta-textil-20260513-141458-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-caribu-lady-menta-textil-20260510-115314-1.jpg",
-      "image": "img/productos/admin-inventory-botas-caribu-lady-menta-textil-20260510-115314-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-caribu-lady-menta-textil-20260513-141458-1.jpg",
+      "image": "img/productos/admin-inventory-botas-caribu-lady-menta-textil-20260513-141458-1.jpg"
     },
     "inventory:botas:caribu lady rosa piel": {
       "minSize": 23,
@@ -157,12 +159,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-caribu-lady-rosa-piel-20260510-115508-1.jpg",
-        "img/productos/admin-inventory-botas-caribu-lady-rosa-piel-20260510-115508-2.jpg",
-        "img/productos/admin-inventory-botas-caribu-lady-rosa-piel-20260510-115508-3.jpg"
+        "img/productos/admin-inventory-botas-caribu-lady-rosa-piel-20260513-141602-1.jpg",
+        "img/productos/admin-inventory-botas-caribu-lady-rosa-piel-20260513-141602-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-caribu-lady-rosa-piel-20260510-115508-1.jpg",
-      "image": "img/productos/admin-inventory-botas-caribu-lady-rosa-piel-20260510-115508-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-caribu-lady-rosa-piel-20260513-141602-1.jpg",
+      "image": "img/productos/admin-inventory-botas-caribu-lady-rosa-piel-20260513-141602-1.jpg"
     },
     "inventory:botas:caribu lady rosa textil": {
       "minSize": 23,
@@ -171,12 +172,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-caribu-lady-rosa-textil-20260510-115647-1.jpg",
-        "img/productos/admin-inventory-botas-caribu-lady-rosa-textil-20260510-115647-2.jpg",
-        "img/productos/admin-inventory-botas-caribu-lady-rosa-textil-20260510-115647-3.jpg"
+        "img/productos/admin-inventory-botas-caribu-lady-rosa-textil-20260513-141650-1.jpg",
+        "img/productos/admin-inventory-botas-caribu-lady-rosa-textil-20260513-141650-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-caribu-lady-rosa-textil-20260510-115647-2.jpg",
-      "image": "img/productos/admin-inventory-botas-caribu-lady-rosa-textil-20260510-115647-2.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-caribu-lady-rosa-textil-20260513-141650-1.jpg",
+      "image": "img/productos/admin-inventory-botas-caribu-lady-rosa-textil-20260513-141650-1.jpg"
     },
     "inventory:botas:axis 030 rosa": {
       "details": [
@@ -184,11 +184,10 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-axis-030-rosa-20260510-120134-1.jpg",
-        "img/productos/admin-inventory-botas-axis-030-rosa-20260510-120134-2.jpg"
+        "img/productos/admin-inventory-botas-axis-030-rosa-20260513-132354-1.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-axis-030-rosa-20260510-120134-2.jpg",
-      "image": "img/productos/admin-inventory-botas-axis-030-rosa-20260510-120134-2.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-axis-030-rosa-20260513-132354-1.jpg",
+      "image": "img/productos/admin-inventory-botas-axis-030-rosa-20260513-132354-1.jpg"
     },
     "inventory:botas:caribu negra 340": {
       "details": [
@@ -197,12 +196,14 @@ window.PRODUCT_ADMIN_DATA = {
       ],
       "maxSize": 30,
       "images": [
-        "img/productos/admin-inventory-botas-caribu-negra-340-20260510-120520-1.jpg",
-        "img/productos/admin-inventory-botas-caribu-negra-340-20260510-120520-2.webp",
-        "img/productos/admin-inventory-botas-caribu-negra-340-20260510-120520-3.jpg"
+        "img/productos/admin-inventory-botas-caribu-negra-340-20260513-141842-1.jpg",
+        "img/productos/admin-inventory-botas-caribu-negra-340-20260513-141842-2.jpg",
+        "img/productos/admin-inventory-botas-caribu-negra-340-20260513-141842-3.jpg",
+        "img/productos/admin-inventory-botas-caribu-negra-340-20260513-141842-4.jpg",
+        "img/productos/admin-inventory-botas-caribu-negra-340-20260513-141842-5.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-caribu-negra-340-20260510-120520-1.jpg",
-      "image": "img/productos/admin-inventory-botas-caribu-negra-340-20260510-120520-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-caribu-negra-340-20260513-141842-1.jpg",
+      "image": "img/productos/admin-inventory-botas-caribu-negra-340-20260513-141842-1.jpg"
     },
     "inventory:botas:casdo suela blanca": {
       "details": [
@@ -210,10 +211,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-casdo-suela-blanca-20260510-120720-1.jpg"
+        "img/productos/admin-inventory-botas-casdo-suela-blanca-20260513-141926-1.jpg",
+        "img/productos/admin-inventory-botas-casdo-suela-blanca-20260513-141926-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-casdo-suela-blanca-20260510-120720-1.jpg",
-      "image": "img/productos/admin-inventory-botas-casdo-suela-blanca-20260510-120720-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-casdo-suela-blanca-20260513-141926-1.jpg",
+      "image": "img/productos/admin-inventory-botas-casdo-suela-blanca-20260513-141926-1.jpg"
     },
     "inventory:botas:chupacabras negra": {
       "details": [
@@ -221,12 +223,12 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-chupacabras-negra-20260510-120952-1.jpg",
-        "img/productos/admin-inventory-botas-chupacabras-negra-20260510-120952-2.jpg",
-        "img/productos/admin-inventory-botas-chupacabras-negra-20260510-120952-3.jpg"
+        "img/productos/admin-inventory-botas-chupacabras-negra-20260513-142032-1.jpg",
+        "img/productos/admin-inventory-botas-chupacabras-negra-20260513-142032-2.jpg",
+        "img/productos/admin-inventory-botas-chupacabras-negra-20260513-142032-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-chupacabras-negra-20260510-120952-1.jpg",
-      "image": "img/productos/admin-inventory-botas-chupacabras-negra-20260510-120952-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-chupacabras-negra-20260513-142032-1.jpg",
+      "image": "img/productos/admin-inventory-botas-chupacabras-negra-20260513-142032-1.jpg"
     },
     "inventory:botas:chupacabras ocre": {
       "details": [
@@ -234,11 +236,10 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-chupacabras-ocre-20260510-121339-1.jpg",
-        "img/productos/admin-inventory-botas-chupacabras-ocre-20260510-121339-2.webp"
+        "img/productos/admin-inventory-botas-chupacabras-ocre-20260513-142131-1.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-chupacabras-ocre-20260510-121339-1.jpg",
-      "image": "img/productos/admin-inventory-botas-chupacabras-ocre-20260510-121339-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-chupacabras-ocre-20260513-142131-1.jpg",
+      "image": "img/productos/admin-inventory-botas-chupacabras-ocre-20260513-142131-1.jpg"
     },
     "inventory:botas:chupacabras ocre doble densidad": {
       "minSize": 26,
@@ -247,11 +248,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-chupacabras-ocre-doble-densidad-20260510-122214-1.jpg",
-        "img/productos/admin-inventory-botas-chupacabras-ocre-doble-densidad-20260510-122214-2.jpg"
+        "img/productos/admin-inventory-botas-chupacabras-ocre-doble-densidad-20260513-143135-1.jpg",
+        "img/productos/admin-inventory-botas-chupacabras-ocre-doble-densidad-20260513-143135-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-chupacabras-ocre-doble-densidad-20260510-122214-1.jpg",
-      "image": "img/productos/admin-inventory-botas-chupacabras-ocre-doble-densidad-20260510-122214-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-chupacabras-ocre-doble-densidad-20260513-143135-1.jpg",
+      "image": "img/productos/admin-inventory-botas-chupacabras-ocre-doble-densidad-20260513-143135-1.jpg"
     },
     "inventory:botas:cuello largo amarilla": {
       "minSize": 26,
@@ -261,11 +262,12 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricas."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-cuello-largo-amarilla-20260510-122930-1.jpg",
-        "img/productos/admin-inventory-botas-cuello-largo-amarilla-20260510-122930-2.jpg"
+        "img/productos/admin-inventory-botas-cuello-largo-amarilla-20260513-144139-1.jpg",
+        "img/productos/admin-inventory-botas-cuello-largo-amarilla-20260513-144139-2.jpg",
+        "img/productos/admin-inventory-botas-cuello-largo-amarilla-20260513-144140-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-cuello-largo-amarilla-20260510-122930-1.jpg",
-      "image": "img/productos/admin-inventory-botas-cuello-largo-amarilla-20260510-122930-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-cuello-largo-amarilla-20260513-144139-1.jpg",
+      "image": "img/productos/admin-inventory-botas-cuello-largo-amarilla-20260513-144139-1.jpg"
     },
     "inventory:botas:cuello largo azul": {
       "minSize": 26,
@@ -275,11 +277,12 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricas."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-cuello-largo-azul-20260510-123214-1.jpg",
-        "img/productos/admin-inventory-botas-cuello-largo-azul-20260510-123214-2.jpg"
+        "img/productos/admin-inventory-botas-cuello-largo-azul-20260513-144737-1.jpg",
+        "img/productos/admin-inventory-botas-cuello-largo-azul-20260513-144737-2.jpg",
+        "img/productos/admin-inventory-botas-cuello-largo-azul-20260513-144737-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-cuello-largo-azul-20260510-123214-2.jpg",
-      "image": "img/productos/admin-inventory-botas-cuello-largo-azul-20260510-123214-2.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-cuello-largo-azul-20260513-144737-1.jpg",
+      "image": "img/productos/admin-inventory-botas-cuello-largo-azul-20260513-144737-1.jpg"
     },
     "inventory:botas:cuello largo negra": {
       "details": [
@@ -289,11 +292,12 @@ window.PRODUCT_ADMIN_DATA = {
       "minSize": 26,
       "maxSize": 31,
       "images": [
-        "img/productos/admin-inventory-botas-cuello-largo-negra-20260510-123335-1.jpg",
-        "img/productos/admin-inventory-botas-cuello-largo-negra-20260510-123335-2.jpg"
+        "img/productos/admin-inventory-botas-cuello-largo-negra-20260513-144804-1.jpg",
+        "img/productos/admin-inventory-botas-cuello-largo-negra-20260513-144804-2.jpg",
+        "img/productos/admin-inventory-botas-cuello-largo-negra-20260513-144804-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-cuello-largo-negra-20260510-123335-2.jpg",
-      "image": "img/productos/admin-inventory-botas-cuello-largo-negra-20260510-123335-2.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-cuello-largo-negra-20260513-144804-1.jpg",
+      "image": "img/productos/admin-inventory-botas-cuello-largo-negra-20260513-144804-1.jpg"
     },
     "inventory:botas:cuello largo rosa": {
       "minSize": 23,
@@ -302,11 +306,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricas."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-cuello-largo-rosa-20260510-124306-1.jpg",
-        "img/productos/admin-inventory-botas-cuello-largo-rosa-20260510-124306-2.jpg"
+        "img/productos/admin-inventory-botas-cuello-largo-rosa-20260513-145530-1.jpg",
+        "img/productos/admin-inventory-botas-cuello-largo-rosa-20260513-145530-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-cuello-largo-rosa-20260510-124306-1.jpg",
-      "image": "img/productos/admin-inventory-botas-cuello-largo-rosa-20260510-124306-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-cuello-largo-rosa-20260513-145530-1.jpg",
+      "image": "img/productos/admin-inventory-botas-cuello-largo-rosa-20260513-145530-1.jpg"
     },
     "inventory:botas:nicadabra everest": {
       "minSize": 26,
@@ -316,11 +320,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricas."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-nicadabra-everest-20260510-124511-1.jpg",
-        "img/productos/admin-inventory-botas-nicadabra-everest-20260510-124511-2.jpg"
+        "img/productos/admin-inventory-botas-nicadabra-everest-20260513-145645-1.jpg",
+        "img/productos/admin-inventory-botas-nicadabra-everest-20260513-145645-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-nicadabra-everest-20260510-124511-1.jpg",
-      "image": "img/productos/admin-inventory-botas-nicadabra-everest-20260510-124511-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-nicadabra-everest-20260513-145645-1.jpg",
+      "image": "img/productos/admin-inventory-botas-nicadabra-everest-20260513-145645-1.jpg"
     },
     "inventory:botas:nicadabra ocre suela de goma": {
       "details": [
@@ -328,11 +332,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricas."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-nicadabra-ocre-suela-de-goma-20260510-125213-1.jpg",
-        "img/productos/admin-inventory-botas-nicadabra-ocre-suela-de-goma-20260510-125213-2.jpg"
+        "img/productos/admin-inventory-botas-nicadabra-ocre-suela-de-goma-20260513-150211-1.jpg",
+        "img/productos/admin-inventory-botas-nicadabra-ocre-suela-de-goma-20260513-150211-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-nicadabra-ocre-suela-de-goma-20260510-125213-2.jpg",
-      "image": "img/productos/admin-inventory-botas-nicadabra-ocre-suela-de-goma-20260510-125213-2.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-nicadabra-ocre-suela-de-goma-20260513-150211-1.jpg",
+      "image": "img/productos/admin-inventory-botas-nicadabra-ocre-suela-de-goma-20260513-150211-1.jpg"
     },
     "inventory:botas:shein atx negro": {
       "details": [
@@ -355,11 +359,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricas."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-shein-atx-verde-20260510-134845-1.jpg",
-        "img/productos/admin-inventory-botas-shein-atx-verde-20260510-134845-2.jpg"
+        "img/productos/admin-inventory-botas-shein-atx-verde-20260513-150746-1.jpg",
+        "img/productos/admin-inventory-botas-shein-atx-verde-20260513-150746-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-shein-atx-verde-20260510-134845-1.jpg",
-      "image": "img/productos/admin-inventory-botas-shein-atx-verde-20260510-134845-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-shein-atx-verde-20260513-150746-1.jpg",
+      "image": "img/productos/admin-inventory-botas-shein-atx-verde-20260513-150746-1.jpg"
     },
     "inventory:botas:triples pro soldador": {
       "minSize": 26,
@@ -369,12 +373,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricas."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-triples-pro-soldador-20260510-134806-1.webp",
-        "img/productos/admin-inventory-botas-triples-pro-soldador-20260510-134806-2.webp",
-        "img/productos/admin-inventory-botas-triples-pro-soldador-20260510-134806-3.webp"
+        "img/productos/admin-inventory-botas-triples-pro-soldador-20260513-151735-1.jpg",
+        "img/productos/admin-inventory-botas-triples-pro-soldador-20260513-151735-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-triples-pro-soldador-20260510-134806-3.webp",
-      "image": "img/productos/admin-inventory-botas-triples-pro-soldador-20260510-134806-3.webp"
+      "coverImage": "img/productos/admin-inventory-botas-triples-pro-soldador-20260513-151735-1.jpg",
+      "image": "img/productos/admin-inventory-botas-triples-pro-soldador-20260513-151735-1.jpg"
     },
     "inventory:botas:trs avena": {
       "minSize": 26,
@@ -383,10 +386,13 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-trs-avena-20260510-135940-1.jpg"
+        "img/productos/admin-inventory-botas-trs-avena-20260513-151912-1.jpg",
+        "img/productos/admin-inventory-botas-trs-avena-20260513-151912-2.jpg",
+        "img/productos/admin-inventory-botas-trs-avena-20260513-151912-3.jpg",
+        "img/productos/admin-inventory-botas-trs-avena-20260513-151912-4.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-trs-avena-20260510-135940-1.jpg",
-      "image": "img/productos/admin-inventory-botas-trs-avena-20260510-135940-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-trs-avena-20260513-151912-1.jpg",
+      "image": "img/productos/admin-inventory-botas-trs-avena-20260513-151912-1.jpg"
     },
     "inventory:botas:trs coyote": {
       "maxSize": 30,
@@ -395,10 +401,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-trs-coyote-20260510-140346-1.jpg"
+        "img/productos/admin-inventory-botas-trs-coyote-20260513-153002-1.jpg",
+        "img/productos/admin-inventory-botas-trs-coyote-20260513-153002-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-trs-coyote-20260510-140346-1.jpg",
-      "image": "img/productos/admin-inventory-botas-trs-coyote-20260510-140346-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-trs-coyote-20260513-153002-2.jpg",
+      "image": "img/productos/admin-inventory-botas-trs-coyote-20260513-153002-2.jpg"
     },
     "inventory:botas:trs grizlee": {
       "minSize": 26,
@@ -408,12 +415,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-trs-grizlee-20260510-140448-1.webp",
-        "img/productos/admin-inventory-botas-trs-grizlee-20260510-140448-2.webp",
-        "img/productos/admin-inventory-botas-trs-grizlee-20260510-140448-3.jpg"
+        "img/productos/admin-inventory-botas-trs-grizlee-20260513-153350-1.jpg",
+        "img/productos/admin-inventory-botas-trs-grizlee-20260513-153350-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-trs-grizlee-20260510-140448-3.jpg",
-      "image": "img/productos/admin-inventory-botas-trs-grizlee-20260510-140448-3.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-trs-grizlee-20260513-153350-1.jpg",
+      "image": "img/productos/admin-inventory-botas-trs-grizlee-20260513-153350-1.jpg"
     },
     "inventory:botas:trs raptor": {
       "minSize": 26,
@@ -423,13 +429,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-trs-raptor-20260510-140534-1.png",
-        "img/productos/admin-inventory-botas-trs-raptor-20260510-140534-2.jpg",
-        "img/productos/admin-inventory-botas-trs-raptor-20260510-140534-3.jpg",
-        "img/productos/admin-inventory-botas-trs-raptor-20260510-140534-4.jpg"
+        "img/productos/admin-inventory-botas-trs-raptor-20260513-153547-1.jpg",
+        "img/productos/admin-inventory-botas-trs-raptor-20260513-153547-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-trs-raptor-20260510-140534-4.jpg",
-      "image": "img/productos/admin-inventory-botas-trs-raptor-20260510-140534-4.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-trs-raptor-20260513-153547-1.jpg",
+      "image": "img/productos/admin-inventory-botas-trs-raptor-20260513-153547-1.jpg"
     },
     "inventory:botas:trs basica": {
       "details": [
@@ -437,11 +441,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctrico."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-trs-basica-20260511-093253-1.png",
-        "img/productos/admin-inventory-botas-trs-basica-20260511-093253-2.png"
+        "img/productos/admin-inventory-botas-trs-basica-20260513-152557-1.jpg",
+        "img/productos/admin-inventory-botas-trs-basica-20260513-152557-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-trs-basica-20260511-093253-2.png",
-      "image": "img/productos/admin-inventory-botas-trs-basica-20260511-093253-2.png"
+      "coverImage": "img/productos/admin-inventory-botas-trs-basica-20260513-152557-1.jpg",
+      "image": "img/productos/admin-inventory-botas-trs-basica-20260513-152557-1.jpg"
     },
     "inventory:botas:trs bota rosa": {
       "details": [
@@ -449,14 +453,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctrico."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-trs-bota-rosa-20260511-094055-1.jpg",
-        "img/productos/admin-inventory-botas-trs-bota-rosa-20260511-094055-2.jpg",
-        "img/productos/admin-inventory-botas-trs-bota-rosa-20260511-094055-3.jpg",
-        "img/productos/admin-inventory-botas-trs-bota-rosa-20260511-094055-4.jpg",
-        "img/productos/admin-inventory-botas-trs-bota-rosa-20260511-094055-5.jpg"
+        "img/productos/admin-inventory-botas-trs-bota-rosa-20260513-152936-1.jpg",
+        "img/productos/admin-inventory-botas-trs-bota-rosa-20260513-152936-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-trs-bota-rosa-20260511-094055-5.jpg",
-      "image": "img/productos/admin-inventory-botas-trs-bota-rosa-20260511-094055-5.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-trs-bota-rosa-20260513-152936-1.jpg",
+      "image": "img/productos/admin-inventory-botas-trs-bota-rosa-20260513-152936-1.jpg"
     },
     "inventory:botas:trs soldador": {
       "details": [
@@ -464,12 +465,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-trs-soldador-20260511-093829-1.jpg",
-        "img/productos/admin-inventory-botas-trs-soldador-20260511-093829-2.webp",
-        "img/productos/admin-inventory-botas-trs-soldador-20260511-093829-3.webp"
+        "img/productos/admin-inventory-botas-trs-soldador-20260513-153710-1.jpg",
+        "img/productos/admin-inventory-botas-trs-soldador-20260513-153710-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-trs-soldador-20260511-093829-1.jpg",
-      "image": "img/productos/admin-inventory-botas-trs-soldador-20260511-093829-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-trs-soldador-20260513-153710-1.jpg",
+      "image": "img/productos/admin-inventory-botas-trs-soldador-20260513-153710-1.jpg"
     },
     "inventory:botas:trs soldador ligero": {
       "minSize": 26,
@@ -479,13 +479,12 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-trs-soldador-ligero-20260511-094624-1.webp",
-        "img/productos/admin-inventory-botas-trs-soldador-ligero-20260511-094624-2.webp",
-        "img/productos/admin-inventory-botas-trs-soldador-ligero-20260511-094624-3.webp",
-        "img/productos/admin-inventory-botas-trs-soldador-ligero-20260511-094624-4.jpg"
+        "img/productos/admin-inventory-botas-trs-soldador-ligero-20260513-153931-1.jpg",
+        "img/productos/admin-inventory-botas-trs-soldador-ligero-20260513-153931-2.jpg",
+        "img/productos/admin-inventory-botas-trs-soldador-ligero-20260513-153931-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-trs-soldador-ligero-20260511-094624-4.jpg",
-      "image": "img/productos/admin-inventory-botas-trs-soldador-ligero-20260511-094624-4.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-trs-soldador-ligero-20260513-153931-1.jpg",
+      "image": "img/productos/admin-inventory-botas-trs-soldador-ligero-20260513-153931-1.jpg"
     },
     "inventory:botas:trs sonic cafe": {
       "maxSize": 30,
@@ -494,11 +493,10 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-trs-sonic-cafe-20260511-095116-1.png",
-        "img/productos/admin-inventory-botas-trs-sonic-cafe-20260511-095116-2.jpg"
+        "img/productos/admin-inventory-botas-trs-sonic-cafe-20260513-154730-1.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-trs-sonic-cafe-20260511-095116-2.jpg",
-      "image": "img/productos/admin-inventory-botas-trs-sonic-cafe-20260511-095116-2.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-trs-sonic-cafe-20260513-154730-1.jpg",
+      "image": "img/productos/admin-inventory-botas-trs-sonic-cafe-20260513-154730-1.jpg"
     },
     "inventory:botas:trs tosca": {
       "minSize": 26,
@@ -507,12 +505,10 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-trs-tosca-20260511-095527-1.webp",
-        "img/productos/admin-inventory-botas-trs-tosca-20260511-095527-2.webp",
-        "img/productos/admin-inventory-botas-trs-tosca-20260511-095527-3.jpg"
+        "img/productos/admin-inventory-botas-trs-tosca-20260513-154906-1.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-trs-tosca-20260511-095527-3.jpg",
-      "image": "img/productos/admin-inventory-botas-trs-tosca-20260511-095527-3.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-trs-tosca-20260513-154906-1.jpg",
+      "image": "img/productos/admin-inventory-botas-trs-tosca-20260513-154906-1.jpg"
     },
     "inventory:botas:axis 030 negra": {
       "details": [
@@ -520,11 +516,12 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-axis-030-negra-20260511-100002-1.jpg",
-        "img/productos/admin-inventory-botas-axis-030-negra-20260511-100002-2.jpg"
+        "img/productos/admin-inventory-botas-axis-030-negra-20260513-135959-1.jpg",
+        "img/productos/admin-inventory-botas-axis-030-negra-20260513-135959-2.jpg",
+        "img/productos/admin-inventory-botas-axis-030-negra-20260513-135959-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-axis-030-negra-20260511-100002-1.jpg",
-      "image": "img/productos/admin-inventory-botas-axis-030-negra-20260511-100002-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-axis-030-negra-20260513-135959-1.jpg",
+      "image": "img/productos/admin-inventory-botas-axis-030-negra-20260513-135959-1.jpg"
     },
     "inventory:botas:axis 030 roja": {
       "details": [
@@ -532,10 +529,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-axis-030-roja-20260511-100530-1.jpg"
+        "img/productos/admin-inventory-botas-axis-030-roja-20260513-140102-1.jpg",
+        "img/productos/admin-inventory-botas-axis-030-roja-20260513-140102-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-axis-030-roja-20260511-100530-1.jpg",
-      "image": "img/productos/admin-inventory-botas-axis-030-roja-20260511-100530-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-axis-030-roja-20260513-140102-1.jpg",
+      "image": "img/productos/admin-inventory-botas-axis-030-roja-20260513-140102-1.jpg"
     },
     "inventory:botas:botin casco acero": {
       "details": [
@@ -543,10 +541,10 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Acero."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-botin-casco-acero-20260511-100722-1.jpg"
+        "img/productos/admin-inventory-botas-botin-casco-acero-20260513-132114-1.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-botin-casco-acero-20260511-100722-1.jpg",
-      "image": "img/productos/admin-inventory-botas-botin-casco-acero-20260511-100722-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-botin-casco-acero-20260513-132114-1.jpg",
+      "image": "img/productos/admin-inventory-botas-botin-casco-acero-20260513-132114-1.jpg"
     },
     "inventory:botas:botin doble densidad": {
       "details": [
@@ -554,11 +552,10 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricas."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-botin-doble-densidad-20260511-100834-1.jpg",
-        "img/productos/admin-inventory-botas-botin-doble-densidad-20260511-100834-2.jpg"
+        "img/productos/admin-inventory-botas-botin-doble-densidad-20260513-132133-1.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-botin-doble-densidad-20260511-100834-1.jpg",
-      "image": "img/productos/admin-inventory-botas-botin-doble-densidad-20260511-100834-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-botin-doble-densidad-20260513-132133-1.jpg",
+      "image": "img/productos/admin-inventory-botas-botin-doble-densidad-20260513-132133-1.jpg"
     },
     "inventory:botas:soldador riber s": {
       "details": [
@@ -566,10 +563,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-soldador-riber-s-20260511-101353-1.jpg"
+        "img/productos/admin-inventory-botas-soldador-riber-s-20260513-151456-1.jpg",
+        "img/productos/admin-inventory-botas-soldador-riber-s-20260513-151456-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-soldador-riber-s-20260511-101353-1.jpg",
-      "image": "img/productos/admin-inventory-botas-soldador-riber-s-20260511-101353-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-soldador-riber-s-20260513-151456-1.jpg",
+      "image": "img/productos/admin-inventory-botas-soldador-riber-s-20260513-151456-1.jpg"
     },
     "inventory:botas:nicadabra ocre truck": {
       "details": [
@@ -577,11 +575,10 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricas."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-nicadabra-ocre-truck-20260511-102653-1.jpg",
-        "img/productos/admin-inventory-botas-nicadabra-ocre-truck-20260511-102653-2.jpg"
+        "img/productos/admin-inventory-botas-nicadabra-ocre-truck-20260513-150345-1.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-nicadabra-ocre-truck-20260511-102653-2.jpg",
-      "image": "img/productos/admin-inventory-botas-nicadabra-ocre-truck-20260511-102653-2.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-nicadabra-ocre-truck-20260513-150345-1.jpg",
+      "image": "img/productos/admin-inventory-botas-nicadabra-ocre-truck-20260513-150345-1.jpg"
     },
     "inventory:tenis:axis 021 amarillo": {
       "details": [
@@ -589,12 +586,10 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-axis-021-amarillo-20260511-102955-1.jpg",
-        "img/productos/admin-inventory-tenis-axis-021-amarillo-20260511-102955-2.jpg",
-        "img/productos/admin-inventory-tenis-axis-021-amarillo-20260511-102955-3.jpg"
+        "img/productos/admin-inventory-tenis-axis-021-amarillo-20260513-155052-1.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-axis-021-amarillo-20260511-102955-3.jpg",
-      "image": "img/productos/admin-inventory-tenis-axis-021-amarillo-20260511-102955-3.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-axis-021-amarillo-20260513-155052-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-axis-021-amarillo-20260513-155052-1.jpg"
     },
     "inventory:tenis:axis 021 azul": {
       "details": [
@@ -602,10 +597,12 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-axis-021-azul-20260511-103532-1.jpg"
+        "img/productos/admin-inventory-tenis-axis-021-azul-20260513-155247-1.jpg",
+        "img/productos/admin-inventory-tenis-axis-021-azul-20260513-155247-2.jpg",
+        "img/productos/admin-inventory-tenis-axis-021-azul-20260513-155247-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-axis-021-azul-20260511-103532-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-axis-021-azul-20260511-103532-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-axis-021-azul-20260513-155247-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-axis-021-azul-20260513-155247-1.jpg"
     },
     "inventory:tenis:axis 021 negro": {
       "maxSize": 30,
@@ -614,12 +611,12 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-axis-021-negro-20260511-103826-1.jpg",
-        "img/productos/admin-inventory-tenis-axis-021-negro-20260511-103826-2.jpg",
-        "img/productos/admin-inventory-tenis-axis-021-negro-20260511-103826-3.jpg"
+        "img/productos/admin-inventory-tenis-axis-021-negro-20260513-155422-1.jpg",
+        "img/productos/admin-inventory-tenis-axis-021-negro-20260513-155422-2.jpg",
+        "img/productos/admin-inventory-tenis-axis-021-negro-20260513-155422-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-axis-021-negro-20260511-103826-2.jpg",
-      "image": "img/productos/admin-inventory-tenis-axis-021-negro-20260511-103826-2.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-axis-021-negro-20260513-155422-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-axis-021-negro-20260513-155422-1.jpg"
     },
     "inventory:tenis:axis 021 rosa": {
       "details": [
@@ -627,13 +624,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-axis-021-rosa-20260511-104052-1.jpg",
-        "img/productos/admin-inventory-tenis-axis-021-rosa-20260511-104052-2.jpg",
-        "img/productos/admin-inventory-tenis-axis-021-rosa-20260511-104052-3.jpg",
-        "img/productos/admin-inventory-tenis-axis-021-rosa-20260511-104052-4.jpg"
+        "img/productos/admin-inventory-tenis-axis-021-rosa-20260513-155546-1.jpg",
+        "img/productos/admin-inventory-tenis-axis-021-rosa-20260513-155546-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-axis-021-rosa-20260511-104052-4.jpg",
-      "image": "img/productos/admin-inventory-tenis-axis-021-rosa-20260511-104052-4.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-axis-021-rosa-20260513-155546-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-axis-021-rosa-20260513-155546-1.jpg"
     },
     "inventory:tenis:axis 028 azul": {
       "details": [
@@ -641,12 +636,13 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-axis-028-azul-20260511-104256-1.jpg",
-        "img/productos/admin-inventory-tenis-axis-028-azul-20260511-104256-2.jpg",
-        "img/productos/admin-inventory-tenis-axis-028-azul-20260511-104256-3.jpg"
+        "img/productos/admin-inventory-tenis-axis-028-azul-20260513-155712-1.jpg",
+        "img/productos/admin-inventory-tenis-axis-028-azul-20260513-155712-2.jpg",
+        "img/productos/admin-inventory-tenis-axis-028-azul-20260513-155712-3.jpg",
+        "img/productos/admin-inventory-tenis-axis-028-azul-20260513-155712-4.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-axis-028-azul-20260511-104256-2.jpg",
-      "image": "img/productos/admin-inventory-tenis-axis-028-azul-20260511-104256-2.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-axis-028-azul-20260513-155712-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-axis-028-azul-20260513-155712-1.jpg"
     },
     "inventory:tenis:axis 028 naranja": {
       "details": [
@@ -654,12 +650,10 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-axis-028-naranja-20260511-104707-1.jpg",
-        "img/productos/admin-inventory-tenis-axis-028-naranja-20260511-104707-2.jpg",
-        "img/productos/admin-inventory-tenis-axis-028-naranja-20260511-104707-3.webp"
+        "img/productos/admin-inventory-tenis-axis-028-naranja-20260513-161139-1.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-axis-028-naranja-20260511-104707-2.jpg",
-      "image": "img/productos/admin-inventory-tenis-axis-028-naranja-20260511-104707-2.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-axis-028-naranja-20260513-161139-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-axis-028-naranja-20260513-161139-1.jpg"
     },
     "inventory:tenis:axis 28 rosa": {
       "minSize": 23,
@@ -669,12 +663,14 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-axis-28-rosa-20260511-104848-1.jpg",
-        "img/productos/admin-inventory-tenis-axis-28-rosa-20260511-104848-2.jpg",
-        "img/productos/admin-inventory-tenis-axis-28-rosa-20260511-104848-3.jpg"
+        "img/productos/admin-inventory-tenis-axis-28-rosa-20260513-161150-1.jpg",
+        "img/productos/admin-inventory-tenis-axis-28-rosa-20260513-161151-2.jpg",
+        "img/productos/admin-inventory-tenis-axis-28-rosa-20260513-161151-3.jpg",
+        "img/productos/admin-inventory-tenis-axis-28-rosa-20260513-161151-4.jpg",
+        "img/productos/admin-inventory-tenis-axis-28-rosa-20260513-161151-5.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-axis-28-rosa-20260511-104848-2.jpg",
-      "image": "img/productos/admin-inventory-tenis-axis-28-rosa-20260511-104848-2.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-axis-28-rosa-20260513-161150-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-axis-28-rosa-20260513-161150-1.jpg"
     },
     "inventory:tenis:choclo caribu negro": {
       "minSize": 23,
@@ -683,25 +679,20 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-choclo-caribu-negro-20260511-105247-1.jpg",
-        "img/productos/admin-inventory-tenis-choclo-caribu-negro-20260511-105247-2.jpg",
-        "img/productos/admin-inventory-tenis-choclo-caribu-negro-20260511-105248-3.webp"
+        "img/productos/admin-inventory-tenis-choclo-caribu-negro-20260513-161408-1.jpg",
+        "img/productos/admin-inventory-tenis-choclo-caribu-negro-20260513-161409-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-choclo-caribu-negro-20260511-105247-2.jpg",
-      "image": "img/productos/admin-inventory-tenis-choclo-caribu-negro-20260511-105247-2.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-choclo-caribu-negro-20260513-161408-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-choclo-caribu-negro-20260513-161408-1.jpg"
     },
     "inventory:tenis:flow": {
       "details": [
         "Modelo Tenis Flow Negro , Suela de Eva.",
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
-      "images": [
-        "img/productos/admin-inventory-tenis-flow-20260511-105809-1.jpg",
-        "img/productos/admin-inventory-tenis-flow-20260511-105809-2.jpg",
-        "img/productos/admin-inventory-tenis-flow-20260511-105810-3.jpg"
-      ],
-      "coverImage": "img/productos/admin-inventory-tenis-flow-20260511-105810-3.jpg",
-      "image": "img/productos/admin-inventory-tenis-flow-20260511-105810-3.jpg"
+      "images": [],
+      "coverImage": "",
+      "image": ""
     },
     "inventory:tenis:force blanco": {
       "details": [
@@ -709,12 +700,14 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-force-blanco-20260511-105956-1.jpg",
-        "img/productos/admin-inventory-tenis-force-blanco-20260511-105956-2.jpg",
-        "img/productos/admin-inventory-tenis-force-blanco-20260511-105956-3.jpg"
+        "img/productos/admin-inventory-tenis-force-blanco-20260513-161550-1.jpg",
+        "img/productos/admin-inventory-tenis-force-blanco-20260513-161550-2.jpg",
+        "img/productos/admin-inventory-tenis-force-blanco-20260513-161550-3.jpg",
+        "img/productos/admin-inventory-tenis-force-blanco-20260513-161550-4.jpg",
+        "img/productos/admin-inventory-tenis-force-blanco-20260513-161550-5.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-force-blanco-20260511-105956-3.jpg",
-      "image": "img/productos/admin-inventory-tenis-force-blanco-20260511-105956-3.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-force-blanco-20260513-161550-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-force-blanco-20260513-161550-1.jpg"
     },
     "inventory:tenis:force negro": {
       "details": [
@@ -722,12 +715,14 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-force-negro-20260511-110452-1.jpg",
-        "img/productos/admin-inventory-tenis-force-negro-20260511-110452-2.jpg",
-        "img/productos/admin-inventory-tenis-force-negro-20260511-110452-3.jpg"
+        "img/productos/admin-inventory-tenis-force-negro-20260513-161734-1.jpg",
+        "img/productos/admin-inventory-tenis-force-negro-20260513-161734-2.jpg",
+        "img/productos/admin-inventory-tenis-force-negro-20260513-161734-3.jpg",
+        "img/productos/admin-inventory-tenis-force-negro-20260513-161734-4.jpg",
+        "img/productos/admin-inventory-tenis-force-negro-20260513-161734-5.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-force-negro-20260511-110452-2.jpg",
-      "image": "img/productos/admin-inventory-tenis-force-negro-20260511-110452-2.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-force-negro-20260513-161734-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-force-negro-20260513-161734-1.jpg"
     },
     "inventory:tenis:mopar rosa": {
       "minSize": 23,
@@ -736,12 +731,13 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-mopar-rosa-20260511-110944-1.jpg",
-        "img/productos/admin-inventory-tenis-mopar-rosa-20260511-110944-2.jpg",
-        "img/productos/admin-inventory-tenis-mopar-rosa-20260511-110944-3.jpg"
+        "img/productos/admin-inventory-tenis-mopar-rosa-20260513-161928-1.jpg",
+        "img/productos/admin-inventory-tenis-mopar-rosa-20260513-161928-2.jpg",
+        "img/productos/admin-inventory-tenis-mopar-rosa-20260513-161928-3.jpg",
+        "img/productos/admin-inventory-tenis-mopar-rosa-20260513-161928-4.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-mopar-rosa-20260511-110944-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-mopar-rosa-20260511-110944-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-mopar-rosa-20260513-161928-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-mopar-rosa-20260513-161928-1.jpg"
     },
     "inventory:tenis:pegasus negro": {
       "details": [
@@ -749,12 +745,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-pegasus-negro-20260511-111345-1.jpg",
-        "img/productos/admin-inventory-tenis-pegasus-negro-20260511-111345-2.jpg",
-        "img/productos/admin-inventory-tenis-pegasus-negro-20260511-111345-3.jpg"
+        "img/productos/admin-inventory-tenis-pegasus-negro-20260513-161952-1.jpg",
+        "img/productos/admin-inventory-tenis-pegasus-negro-20260513-161952-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-pegasus-negro-20260511-111345-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-pegasus-negro-20260511-111345-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-pegasus-negro-20260513-161952-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-pegasus-negro-20260513-161952-1.jpg"
     },
     "inventory:tenis:pegasus rosa": {
       "details": [
@@ -762,12 +757,10 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-pegasus-rosa-20260511-111709-1.jpg",
-        "img/productos/admin-inventory-tenis-pegasus-rosa-20260511-111709-2.jpg",
-        "img/productos/admin-inventory-tenis-pegasus-rosa-20260511-111709-3.jpg"
+        "img/productos/admin-inventory-tenis-pegasus-rosa-20260513-162055-1.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-pegasus-rosa-20260511-111709-3.jpg",
-      "image": "img/productos/admin-inventory-tenis-pegasus-rosa-20260511-111709-3.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-pegasus-rosa-20260513-162055-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-pegasus-rosa-20260513-162055-1.jpg"
     },
     "inventory:tenis:plantillas": {
       "maxSize": 29,
@@ -776,10 +769,10 @@ window.PRODUCT_ADMIN_DATA = {
       ],
       "description": "PLANTILLAS DE POLIURETANO",
       "images": [
-        "img/productos/admin-inventory-tenis-plantillas-20260511-111845-1.webp"
+        "img/productos/admin-inventory-tenis-plantillas-20260513-162214-1.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-plantillas-20260511-111845-1.webp",
-      "image": "img/productos/admin-inventory-tenis-plantillas-20260511-111845-1.webp"
+      "coverImage": "img/productos/admin-inventory-tenis-plantillas-20260513-162214-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-plantillas-20260513-162214-1.jpg"
     },
     "inventory:tenis:puma negro": {
       "minSize": 25,
@@ -801,11 +794,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-shein-rosa-20260511-112646-1.jpg",
-        "img/productos/admin-inventory-tenis-shein-rosa-20260511-112646-2.jpg"
+        "img/productos/admin-inventory-tenis-shein-rosa-20260513-162949-1.jpg",
+        "img/productos/admin-inventory-tenis-shein-rosa-20260513-162949-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-shein-rosa-20260511-112646-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-shein-rosa-20260511-112646-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-shein-rosa-20260513-162949-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-shein-rosa-20260513-162949-1.jpg"
     },
     "inventory:tenis:sport negro": {
       "minSize": 22,
@@ -815,11 +808,13 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-sport-negro-20260511-112950-1.jpg",
-        "img/productos/admin-inventory-tenis-sport-negro-20260511-112950-2.jpg"
+        "img/productos/admin-inventory-tenis-sport-negro-20260513-163127-1.jpg",
+        "img/productos/admin-inventory-tenis-sport-negro-20260513-163127-2.jpg",
+        "img/productos/admin-inventory-tenis-sport-negro-20260513-163127-3.jpg",
+        "img/productos/admin-inventory-tenis-sport-negro-20260513-163127-4.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-sport-negro-20260511-112950-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-sport-negro-20260511-112950-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-sport-negro-20260513-163127-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-sport-negro-20260513-163127-1.jpg"
     },
     "inventory:tenis:sport rosa": {
       "minSize": 22,
@@ -828,12 +823,12 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-sport-rosa-20260511-113430-1.jpg",
-        "img/productos/admin-inventory-tenis-sport-rosa-20260511-113430-2.jpg",
-        "img/productos/admin-inventory-tenis-sport-rosa-20260511-113430-3.jpg"
+        "img/productos/admin-inventory-tenis-sport-rosa-20260513-163202-1.jpg",
+        "img/productos/admin-inventory-tenis-sport-rosa-20260513-163202-2.jpg",
+        "img/productos/admin-inventory-tenis-sport-rosa-20260513-163202-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-sport-rosa-20260511-113430-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-sport-rosa-20260511-113430-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-sport-rosa-20260513-163202-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-sport-rosa-20260513-163202-1.jpg"
     },
     "inventory:tenis:terrax": {
       "details": [
@@ -853,11 +848,13 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-terrax-piel-20260511-150951-1.jpg",
-        "img/productos/admin-inventory-tenis-terrax-piel-20260511-150951-2.jpg"
+        "img/productos/admin-inventory-tenis-terrax-piel-20260513-163307-1.jpg",
+        "img/productos/admin-inventory-tenis-terrax-piel-20260513-163307-2.jpg",
+        "img/productos/admin-inventory-tenis-terrax-piel-20260513-163307-3.jpg",
+        "img/productos/admin-inventory-tenis-terrax-piel-20260513-163307-4.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-terrax-piel-20260511-150951-2.jpg",
-      "image": "img/productos/admin-inventory-tenis-terrax-piel-20260511-150951-2.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-terrax-piel-20260513-163307-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-terrax-piel-20260513-163307-1.jpg"
     },
     "inventory:botas:shein atx negra": {
       "details": [
@@ -865,12 +862,13 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricas."
       ],
       "images": [
-        "img/productos/admin-inventory-botas-shein-atx-negra-20260511-145718-1.jpg",
-        "img/productos/admin-inventory-botas-shein-atx-negra-20260511-145718-2.jpg",
-        "img/productos/admin-inventory-botas-shein-atx-negra-20260511-145718-3.jpg"
+        "img/productos/admin-inventory-botas-shein-atx-negra-20260513-150454-1.jpg",
+        "img/productos/admin-inventory-botas-shein-atx-negra-20260513-150454-2.jpg",
+        "img/productos/admin-inventory-botas-shein-atx-negra-20260513-150454-3.jpg",
+        "img/productos/admin-inventory-botas-shein-atx-negra-20260513-150454-4.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-shein-atx-negra-20260511-145718-3.jpg",
-      "image": "img/productos/admin-inventory-botas-shein-atx-negra-20260511-145718-3.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-shein-atx-negra-20260513-150454-1.jpg",
+      "image": "img/productos/admin-inventory-botas-shein-atx-negra-20260513-150454-1.jpg"
     },
     "inventory:tenis:puma": {
       "details": [
@@ -878,11 +876,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-puma-20260511-145839-1.jpg",
-        "img/productos/admin-inventory-tenis-puma-20260511-145839-2.jpg"
+        "img/productos/admin-inventory-tenis-puma-20260513-162448-1.jpg",
+        "img/productos/admin-inventory-tenis-puma-20260513-162448-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-puma-20260511-145839-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-puma-20260511-145839-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-puma-20260513-162448-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-puma-20260513-162448-1.jpg"
     },
     "inventory:tenis:shein negro": {
       "details": [
@@ -890,12 +888,13 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricas."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-shein-negro-20260511-150111-1.jpg",
-        "img/productos/admin-inventory-tenis-shein-negro-20260511-150111-2.jpg",
-        "img/productos/admin-inventory-tenis-shein-negro-20260511-150112-3.jpg"
+        "img/productos/admin-inventory-tenis-shein-negro-20260513-162806-1.jpg",
+        "img/productos/admin-inventory-tenis-shein-negro-20260513-162806-2.jpg",
+        "img/productos/admin-inventory-tenis-shein-negro-20260513-162806-3.jpg",
+        "img/productos/admin-inventory-tenis-shein-negro-20260513-162806-4.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-shein-negro-20260511-150111-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-shein-negro-20260511-150111-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-shein-negro-20260513-162806-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-shein-negro-20260513-162806-1.jpg"
     },
     "inventory:tenis:ultra azul": {
       "minSize": 26,
@@ -905,12 +904,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-ultra-azul-20260511-151319-1.jpg",
-        "img/productos/admin-inventory-tenis-ultra-azul-20260511-151319-2.jpg",
-        "img/productos/admin-inventory-tenis-ultra-azul-20260511-151319-3.jpg"
+        "img/productos/admin-inventory-tenis-ultra-azul-20260513-163653-1.jpg",
+        "img/productos/admin-inventory-tenis-ultra-azul-20260513-163653-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-ultra-azul-20260511-151319-3.jpg",
-      "image": "img/productos/admin-inventory-tenis-ultra-azul-20260511-151319-3.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-ultra-azul-20260513-163653-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-ultra-azul-20260513-163653-1.jpg"
     },
     "inventory:tenis:ultra negro": {
       "maxSize": 30,
@@ -919,12 +917,15 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-ultra-negro-20260511-151600-1.webp",
-        "img/productos/admin-inventory-tenis-ultra-negro-20260511-151600-2.webp",
-        "img/productos/admin-inventory-tenis-ultra-negro-20260511-151600-3.jpg"
+        "img/productos/admin-inventory-tenis-ultra-negro-20260513-163729-1.jpg",
+        "img/productos/admin-inventory-tenis-ultra-negro-20260513-163729-2.jpg",
+        "img/productos/admin-inventory-tenis-ultra-negro-20260513-163729-3.jpg",
+        "img/productos/admin-inventory-tenis-ultra-negro-20260513-163729-4.jpg",
+        "img/productos/admin-inventory-tenis-ultra-negro-20260513-163729-5.jpg",
+        "img/productos/admin-inventory-tenis-ultra-negro-20260513-163729-6.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-ultra-negro-20260511-151600-3.jpg",
-      "image": "img/productos/admin-inventory-tenis-ultra-negro-20260511-151600-3.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-ultra-negro-20260513-163729-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-ultra-negro-20260513-163729-1.jpg"
     },
     "inventory:tenis:ultra rojo": {
       "details": [
@@ -932,10 +933,10 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-ultra-rojo-20260511-151758-1.jpg"
+        "img/productos/admin-inventory-tenis-ultra-rojo-20260513-163756-1.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-ultra-rojo-20260511-151758-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-ultra-rojo-20260511-151758-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-ultra-rojo-20260513-163756-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-ultra-rojo-20260513-163756-1.jpg"
     },
     "inventory:tenis:ultra rosa": {
       "details": [
@@ -943,12 +944,12 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-ultra-rosa-20260511-151949-1.jpg",
-        "img/productos/admin-inventory-tenis-ultra-rosa-20260511-151949-2.jpg",
-        "img/productos/admin-inventory-tenis-ultra-rosa-20260511-151949-3.jpg"
+        "img/productos/admin-inventory-tenis-ultra-rosa-20260513-163814-1.jpg",
+        "img/productos/admin-inventory-tenis-ultra-rosa-20260513-163814-2.jpg",
+        "img/productos/admin-inventory-tenis-ultra-rosa-20260513-163814-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-ultra-rosa-20260511-151949-3.jpg",
-      "image": "img/productos/admin-inventory-tenis-ultra-rosa-20260511-151949-3.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-ultra-rosa-20260513-163814-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-ultra-rosa-20260513-163814-1.jpg"
     },
     "inventory:tenis:valentina": {
       "details": [
@@ -956,11 +957,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-valentina-20260511-152448-1.jpg",
-        "img/productos/admin-inventory-tenis-valentina-20260511-152448-2.jpg"
+        "img/productos/admin-inventory-tenis-valentina-20260513-163851-1.jpg",
+        "img/productos/admin-inventory-tenis-valentina-20260513-163852-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-valentina-20260511-152448-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-valentina-20260511-152448-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-valentina-20260513-163851-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-valentina-20260513-163851-1.jpg"
     },
     "inventory:tenis:vsport gris": {
       "details": [
@@ -968,11 +969,14 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-vsport-gris-20260511-152908-1.jpg",
-        "img/productos/admin-inventory-tenis-vsport-gris-20260511-152909-2.jpg"
+        "img/productos/admin-inventory-tenis-vsport-gris-20260513-164920-1.jpg",
+        "img/productos/admin-inventory-tenis-vsport-gris-20260513-164920-2.jpg",
+        "img/productos/admin-inventory-tenis-vsport-gris-20260513-164920-3.jpg",
+        "img/productos/admin-inventory-tenis-vsport-gris-20260513-164920-4.jpg",
+        "img/productos/admin-inventory-tenis-vsport-gris-20260513-164920-5.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-vsport-gris-20260511-152908-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-vsport-gris-20260511-152908-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-vsport-gris-20260513-164920-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-vsport-gris-20260513-164920-1.jpg"
     },
     "inventory:tenis:vsport": {
       "minSize": 23,
@@ -982,13 +986,14 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-vsport-20260511-153226-1.jpg",
-        "img/productos/admin-inventory-tenis-vsport-20260511-153227-2.jpg",
-        "img/productos/admin-inventory-tenis-vsport-20260511-153227-3.jpg",
-        "img/productos/admin-inventory-tenis-vsport-20260511-153227-4.jpg"
+        "img/productos/admin-inventory-tenis-vsport-20260513-164845-1.jpg",
+        "img/productos/admin-inventory-tenis-vsport-20260513-164845-2.jpg",
+        "img/productos/admin-inventory-tenis-vsport-20260513-164845-3.jpg",
+        "img/productos/admin-inventory-tenis-vsport-20260513-164845-4.jpg",
+        "img/productos/admin-inventory-tenis-vsport-20260513-164845-5.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-vsport-20260511-153227-2.jpg",
-      "image": "img/productos/admin-inventory-tenis-vsport-20260511-153227-2.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-vsport-20260513-164845-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-vsport-20260513-164845-1.jpg"
     },
     "inventory:tenis:vsport choclo": {
       "maxSize": 32,
@@ -997,10 +1002,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-vsport-choclo-20260511-153408-1.jpg"
+        "img/productos/admin-inventory-tenis-vsport-choclo-20260513-164713-1.jpg",
+        "img/productos/admin-inventory-tenis-vsport-choclo-20260513-164713-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-vsport-choclo-20260511-153408-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-vsport-choclo-20260511-153408-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-vsport-choclo-20260513-164713-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-vsport-choclo-20260513-164713-1.jpg"
     },
     "inventory:tenis:vsport choclo eva": {
       "details": [
@@ -1008,10 +1014,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-vsport-choclo-eva-20260511-153458-1.jpg"
+        "img/productos/admin-inventory-tenis-vsport-choclo-eva-20260513-164739-1.jpg",
+        "img/productos/admin-inventory-tenis-vsport-choclo-eva-20260513-164739-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-vsport-choclo-eva-20260511-153458-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-vsport-choclo-eva-20260511-153458-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-vsport-choclo-eva-20260513-164739-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-vsport-choclo-eva-20260513-164739-1.jpg"
     },
     "inventory:tenis:trs choclo rosa": {
       "details": [
@@ -1019,10 +1026,11 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-trs-choclo-rosa-20260511-153615-1.jpg"
+        "img/productos/admin-inventory-tenis-trs-choclo-rosa-20260513-163508-1.jpg",
+        "img/productos/admin-inventory-tenis-trs-choclo-rosa-20260513-163508-2.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-trs-choclo-rosa-20260511-153615-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-trs-choclo-rosa-20260511-153615-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-trs-choclo-rosa-20260513-163508-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-trs-choclo-rosa-20260513-163508-1.jpg"
     }
   }
 };
