@@ -1,8 +1,8 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-14T20:13:52.400Z",
+  "savedAt": "2026-05-14T21:55:27.994Z",
   "source": "zapatos",
   "data": {
-    "nextId": 111,
+    "nextId": 113,
     "filters": {
       "audienceView": "caballero",
       "onlyLowStock": false
@@ -448,11 +448,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Negra 340",
-        "size": "28 x2",
+        "size": "28 x2, 30",
         "sizeDetails": {
-          "28": 2
+          "28": 2,
+          "30": 1
         },
-        "quantity": 2,
+        "quantity": 3,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
@@ -462,11 +463,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Beige 340",
-        "size": "27",
+        "size": "27 x2, 28 x2, 29",
         "sizeDetails": {
-          "27": 1
+          "27": 2,
+          "28": 2,
+          "29": 1
         },
-        "quantity": 1,
+        "quantity": 5,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
@@ -500,6 +503,21 @@ window.INVENTORY_SITE_DATA = {
         "salePrice": 970
       },
       {
+        "id": "inv-112",
+        "audienceGroup": "caballero",
+        "productGroup": "botas",
+        "model": "Caribu Negra 952",
+        "size": "27 x2, 29",
+        "sizeDetails": {
+          "27": 2,
+          "29": 1
+        },
+        "quantity": 3,
+        "minimum": 0,
+        "cost": 630,
+        "salePrice": 970
+      },
+      {
         "id": "inv-37",
         "audienceGroup": "caballero",
         "productGroup": "botas",
@@ -518,12 +536,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Choclo caribu negro",
-        "size": "29, 30",
+        "size": "27, 28, 29, 30",
         "sizeDetails": {
+          "27": 1,
+          "28": 1,
           "29": 1,
           "30": 1
         },
-        "quantity": 2,
+        "quantity": 4,
         "minimum": 2,
         "cost": 560,
         "salePrice": 900
@@ -994,13 +1014,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Caribu negra 340",
-        "size": "23, 24, 25",
+        "size": "23, 24, 25, 26",
         "sizeDetails": {
           "23": 1,
           "24": 1,
-          "25": 1
+          "25": 1,
+          "26": 1
         },
-        "quantity": 3,
+        "quantity": 4,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
@@ -1027,12 +1048,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Caribu Lady Lila Textil",
-        "size": "24, 26",
+        "size": "24, 25, 26",
         "sizeDetails": {
           "24": 1,
+          "25": 1,
           "26": 1
         },
-        "quantity": 2,
+        "quantity": 3,
         "minimum": 1,
         "cost": 630,
         "salePrice": 970
@@ -1042,12 +1064,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Caribu Lady Rosa Textil",
-        "size": "25, 26",
+        "size": "23, 24, 25, 26",
         "sizeDetails": {
+          "23": 1,
+          "24": 1,
           "25": 1,
           "26": 1
         },
-        "quantity": 2,
+        "quantity": 4,
         "minimum": 1,
         "cost": 630,
         "salePrice": 970
@@ -1057,11 +1081,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Caribu Lady Menta Textil",
-        "size": "23",
+        "size": "23, 24, 25",
         "sizeDetails": {
-          "23": 1
+          "23": 1,
+          "24": 1,
+          "25": 1
         },
-        "quantity": 1,
+        "quantity": 3,
         "minimum": 1,
         "cost": 630,
         "salePrice": 970
