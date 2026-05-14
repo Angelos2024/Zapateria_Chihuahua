@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-14T17:48:37.453Z",
+  "savedAt": "2026-05-14T20:13:52.400Z",
   "source": "zapatos",
   "data": {
     "nextId": 111,
@@ -700,13 +700,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "27 x3, 28 x3, 29 x2",
+        "size": "27 x2, 28 x3, 29 x2",
         "sizeDetails": {
-          "27": 3,
+          "27": 2,
           "28": 3,
           "29": 2
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
