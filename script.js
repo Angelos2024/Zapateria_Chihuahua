@@ -230,6 +230,12 @@ function loadInventoryCatalogState() {
   return window.INVENTORY_SITE_DATA?.data || null;
 }
 
+function getAudienceLabel(audienceGroup) {
+  if (audienceGroup === 'damas') return 'Damas';
+  if (audienceGroup === 'caballero') return 'Caballero';
+  return '';
+}
+
 function buildInventoryProducts() {
   const inventoryState = loadInventoryCatalogState();
   const grouped = new Map();
@@ -238,20 +244,24 @@ function buildInventoryProducts() {
     const productGroup = String(row?.productGroup || '').trim();
     const category = productGroup === 'tenis' ? 'tenis' : 'botas';
     const categoryLabel = category === 'tenis' ? 'Tenis de Seguridad' : 'Calzado de Seguridad';
+    const audienceGroup = String(row?.audienceGroup || 'caballero').trim();
 
     const model = String(row?.model || '').trim();
     const sizes = getInventoryRowSizes(row);
     if (!model || !sizes.length) return;
 
     const normalizedModel = normalizeInventoryText(model);
-    const key = `${category}:${normalizedModel}`;
-    if (!key) return;
+    const groupKey = `${category}:${audienceGroup}:${normalizedModel}`;
+    if (!groupKey) return;
 
-    const existing = grouped.get(key) || {
-      slug: `${category}-${slugifyProductName(model) || 'modelo'}`,
+    const adminKey = `inventory:${category}:${normalizedModel}`;
+
+    const existing = grouped.get(groupKey) || {
+      slug: `${category}-${audienceGroup}-${slugifyProductName(model) || 'modelo'}`,
       name: `${categoryLabel} Modelo ${model}`,
       shortName: model,
       category,
+      audienceGroup,
       price: 0,
       old: null,
       specs: ['Tallas activas', productGroup === 'calzado-vaquero' ? 'Vaquero' : 'Inventario local'],
@@ -259,7 +269,7 @@ function buildInventoryProducts() {
       image: null,
       sizes: [],
       manufacturedSizes: [],
-      adminKey: `inventory:${key}`,
+      adminKey,
       description: `${categoryLabel} modelo ${model} disponible en tienda.`,
       details: [
         `Modelo ${model} con tallas activas sujetas a disponibilidad.`,
@@ -273,10 +283,29 @@ function buildInventoryProducts() {
     const mergedSizes = Array.from(new Set([...(existing.sizes || []), ...sizes])).sort((a, b) => a - b);
     const salePrice = Number(row?.salePrice || 0);
 
-    grouped.set(key, {
+    grouped.set(groupKey, {
       ...existing,
       price: salePrice > 0 ? salePrice : existing.price,
       sizes: mergedSizes
+    });
+  });
+
+  const modelAudiences = new Map();
+  grouped.forEach((product, key) => {
+    const modelKey = `${product.category}:${normalizeInventoryText(product.shortName)}`;
+    if (!modelAudiences.has(modelKey)) modelAudiences.set(modelKey, []);
+    modelAudiences.get(modelKey).push(key);
+  });
+
+  modelAudiences.forEach(keys => {
+    if (keys.length <= 1) return;
+    keys.forEach(key => {
+      const product = grouped.get(key);
+      if (!product) return;
+      const label = getAudienceLabel(product.audienceGroup);
+      if (label) {
+        product.name = `${product.name} ${label}`;
+      }
     });
   });
 
@@ -544,10 +573,8 @@ function isSizeFilterActive() {
 
 function syncCategoryFilterState() {
   if (!categoryEl) return;
-
-  const sizeFilterActive = isSizeFilterActive();
-  categoryEl.disabled = sizeFilterActive;
-  categoryEl.title = sizeFilterActive ? 'La categoria se ignora cuando filtras por talla.' : '';
+  categoryEl.disabled = false;
+  categoryEl.title = '';
 }
 
 function getCatalogVisibleSizes(activePageCategory = 'todos') {
@@ -815,17 +842,12 @@ function renderProducts() {
   const term = searchEl ? searchEl.value.toLowerCase().trim() : '';
   const cat = categoryEl ? categoryEl.value : pageCategory;
   const selectedSize = getSelectedSizeValue();
-  const ignoreCategoryFilter = Boolean(selectedSize);
   const sort = sortEl ? sortEl.value : 'default';
 
   let list = products.filter(product => {
-    const matchesPage = ignoreCategoryFilter
-      ? true
-      : pageCategory === 'todos' || product.category === pageCategory || (pageCategory === 'botas' && product.category === 'tactico');
+    const matchesPage = pageCategory === 'todos' || product.category === pageCategory || (pageCategory === 'botas' && product.category === 'tactico');
     const matchesTerm = [product.name, product.category, ...product.specs].join(' ').toLowerCase().includes(term);
-    const matchesCat = ignoreCategoryFilter
-      ? true
-      : cat === 'todos' || product.category === cat || (cat === 'botas' && product.category === 'tactico');
+    const matchesCat = cat === 'todos' || product.category === cat || (cat === 'botas' && product.category === 'tactico');
     const matchesSize = !selectedSize || getFilterableStockSizes(product).includes(Number(selectedSize));
     return matchesPage && matchesTerm && matchesCat && matchesSize;
   });
