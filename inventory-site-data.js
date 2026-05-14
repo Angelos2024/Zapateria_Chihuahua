@@ -1,10 +1,10 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-14T15:41:56.038Z",
+  "savedAt": "2026-05-14T16:43:35.544Z",
   "source": "zapatos",
   "data": {
     "nextId": 111,
     "filters": {
-      "audienceView": "damas",
+      "audienceView": "caballero",
       "onlyLowStock": false
     },
     "rows": [
@@ -111,13 +111,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin casco acero",
-        "size": "25, 26 x3, 28",
+        "size": "25, 26 x3",
         "sizeDetails": {
           "25": 1,
-          "26": 3,
-          "28": 1
+          "26": 3
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 1,
         "cost": 630,
         "salePrice": 970
