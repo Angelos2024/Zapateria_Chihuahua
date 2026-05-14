@@ -1,10 +1,10 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-13T23:39:38.334Z",
+  "savedAt": "2026-05-14T15:13:53.593Z",
   "source": "zapatos",
   "data": {
     "nextId": 111,
     "filters": {
-      "audienceView": "caballero",
+      "audienceView": "damas",
       "onlyLowStock": false
     },
     "rows": [
@@ -449,12 +449,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Negra 340",
-        "size": "27, 28 x2",
+        "size": "28 x2",
         "sizeDetails": {
-          "27": 1,
           "28": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
@@ -464,9 +463,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Beige 340",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "27",
+        "sizeDetails": {
+          "27": 1
+        },
+        "quantity": 1,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
