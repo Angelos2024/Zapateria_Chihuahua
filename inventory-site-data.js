@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-14T21:59:11.763Z",
+  "savedAt": "2026-05-15T15:25:24.251Z",
   "source": "zapatos",
   "data": {
     "nextId": 113,
@@ -371,14 +371,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Cuello largo Amarilla",
-        "size": "27, 28, 29, 30 x2",
+        "size": "27, 28, 29, 30",
         "sizeDetails": {
           "27": 1,
           "28": 1,
           "29": 1,
-          "30": 2
+          "30": 1
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 2,
         "cost": 475,
         "salePrice": 820
@@ -432,13 +432,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx negra",
-        "size": "27 x3, 28, 29 x2",
+        "size": "27 x2, 28, 29 x2",
         "sizeDetails": {
-          "27": 3,
+          "27": 2,
           "28": 1,
           "29": 2
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -553,13 +553,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Force blanco",
-        "size": "27 x3, 28 x4, 29 x3",
+        "size": "27 x3, 28 x3, 29 x3",
         "sizeDetails": {
           "27": 3,
-          "28": 4,
+          "28": 3,
           "29": 3
         },
-        "quantity": 10,
+        "quantity": 9,
         "minimum": 5,
         "cost": 260,
         "salePrice": 600
@@ -776,13 +776,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 naranja",
-        "size": "27, 29, 30",
+        "size": "27, 30",
         "sizeDetails": {
           "27": 1,
-          "29": 1,
           "30": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 425,
         "salePrice": 765
@@ -1498,14 +1497,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "23 x2, 24 x3, 25 x2, 26 x2",
+        "size": "23 x2, 24 x3, 25, 26 x2",
         "sizeDetails": {
           "23": 2,
           "24": 3,
-          "25": 2,
+          "25": 1,
           "26": 2
         },
-        "quantity": 9,
+        "quantity": 8,
         "minimum": 6,
         "cost": 310,
         "salePrice": 650
