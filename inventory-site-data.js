@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-15T15:25:24.251Z",
+  "savedAt": "2026-05-15T22:16:50.568Z",
   "source": "zapatos",
   "data": {
     "nextId": 113,
@@ -205,13 +205,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS grizlee",
-        "size": "27 x2, 28 x2, 29",
+        "size": "27, 28, 29",
         "sizeDetails": {
-          "27": 2,
-          "28": 2,
+          "27": 1,
+          "28": 1,
           "29": 1
         },
-        "quantity": 5,
+        "quantity": 3,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -266,12 +266,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS Sonic Café",
-        "size": "26 x2, 29",
+        "size": "26 x2",
         "sizeDetails": {
-          "26": 2,
-          "29": 1
+          "26": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
