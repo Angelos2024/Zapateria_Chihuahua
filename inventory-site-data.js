@@ -1,8 +1,8 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-15T23:07:03.183Z",
+  "savedAt": "2026-05-17T18:03:06.632Z",
   "source": "zapatos",
   "data": {
-    "nextId": 113,
+    "nextId": 114,
     "filters": {
       "audienceView": "caballero",
       "onlyLowStock": false
@@ -588,6 +588,20 @@ window.INVENTORY_SITE_DATA = {
           "27": 2
         },
         "quantity": 5,
+        "minimum": 0,
+        "cost": 260,
+        "salePrice": 570
+      },
+      {
+        "id": "inv-113",
+        "audienceGroup": "caballero",
+        "productGroup": "tenis",
+        "model": "vsport 10",
+        "size": "30",
+        "sizeDetails": {
+          "30": 1
+        },
+        "quantity": 1,
         "minimum": 0,
         "cost": 260,
         "salePrice": 570
