@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-17T18:12:07.939Z",
+  "savedAt": "2026-05-17T21:39:47.474Z",
   "source": "zapatos",
   "data": {
     "nextId": 114,
@@ -857,13 +857,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "27 x3, 28 x3, 29 x2",
+        "size": "27 x2, 28 x3, 29 x2",
         "sizeDetails": {
-          "27": 3,
+          "27": 2,
           "28": 3,
           "29": 2
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 0,
         "cost": 340,
         "salePrice": 680
@@ -1194,14 +1194,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Blanco",
-        "size": "23 x2, 24 x2, 25 x2, 26 x2",
+        "size": "23 x2, 24 x2, 25, 26 x2",
         "sizeDetails": {
           "23": 2,
           "24": 2,
-          "25": 2,
+          "25": 1,
           "26": 2
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 3,
         "cost": 260,
         "salePrice": 600
@@ -1494,12 +1494,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "25 x3, 26 x5",
+        "size": "25 x2, 26 x5",
         "sizeDetails": {
-          "25": 3,
+          "25": 2,
           "26": 5
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 3,
         "cost": 340,
         "salePrice": 680
@@ -1509,14 +1509,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "23 x2, 24 x3, 25, 26 x2",
+        "size": "23 x2, 24 x2, 25, 26 x2",
         "sizeDetails": {
           "23": 2,
-          "24": 3,
+          "24": 2,
           "25": 1,
           "26": 2
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 6,
         "cost": 310,
         "salePrice": 650
