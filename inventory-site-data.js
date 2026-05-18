@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-17T21:39:47.474Z",
+  "savedAt": "2026-05-18T22:00:47.798Z",
   "source": "zapatos",
   "data": {
     "nextId": 114,
@@ -935,13 +935,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Shein Atx negra",
-        "size": "23, 24, 26",
+        "size": "23, 24",
         "sizeDetails": {
           "23": 1,
-          "24": 1,
-          "26": 1
+          "24": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
