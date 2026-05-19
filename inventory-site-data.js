@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-18T22:00:47.798Z",
+  "savedAt": "2026-05-19T00:55:29.024Z",
   "source": "zapatos",
   "data": {
     "nextId": 114,
@@ -732,13 +732,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "27 x2, 28 x3, 29 x2",
+        "size": "27, 28 x3, 29 x2",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "28": 3,
           "29": 2
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
@@ -1259,14 +1259,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Ultra Rosa",
-        "size": "23, 24, 25, 26",
+        "size": "23, 25, 26",
         "sizeDetails": {
           "23": 1,
-          "24": 1,
           "25": 1,
           "26": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
