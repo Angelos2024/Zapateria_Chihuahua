@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-20T18:21:49.587Z",
+  "savedAt": "2026-05-20T21:26:48.628Z",
   "source": "zapatos",
   "data": {
     "nextId": 114,
@@ -382,13 +382,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Axis 030 Roja",
-        "size": "27, 28, 30",
+        "size": "27, 28",
         "sizeDetails": {
           "27": 1,
-          "28": 1,
-          "30": 1
+          "28": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 455,
         "salePrice": 790
