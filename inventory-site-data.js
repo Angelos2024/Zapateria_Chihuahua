@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-20T17:32:45.000Z",
+  "savedAt": "2026-05-20T18:21:49.587Z",
   "source": "zapatos",
   "data": {
     "nextId": 114,
@@ -30,15 +30,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre Truck",
-        "size": "26, 27 x2, 28 x3, 29 x2, 30",
+        "size": "26, 27 x2, 28 x2, 29 x2, 30",
         "sizeDetails": {
           "26": 1,
           "27": 2,
-          "28": 3,
+          "28": 2,
           "29": 2,
           "30": 1
         },
-        "quantity": 9,
+        "quantity": 8,
         "minimum": 4,
         "cost": 400,
         "salePrice": 740
@@ -202,13 +202,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS grizlee",
-        "size": "27, 28, 29",
+        "size": "27, 29",
         "sizeDetails": {
           "27": 1,
-          "28": 1,
           "29": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -702,12 +701,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Sport negro",
-        "size": "27, 28",
+        "size": "27",
         "sizeDetails": {
-          "27": 1,
-          "28": 1
+          "27": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 1,
         "cost": 370,
         "salePrice": 710
@@ -1192,14 +1190,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Blanco",
-        "size": "23 x2, 24 x2, 25, 26 x2",
+        "size": "23 x2, 24, 25, 26 x2",
         "sizeDetails": {
           "23": 2,
-          "24": 2,
+          "24": 1,
           "25": 1,
           "26": 2
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 3,
         "cost": 260,
         "salePrice": 600
