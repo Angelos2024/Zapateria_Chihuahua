@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-20T17:16:42.408Z",
+  "savedAt": "2026-05-20T17:32:45.000Z",
   "source": "zapatos",
   "data": {
     "nextId": 114,
@@ -187,13 +187,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS raptor",
-        "size": "27, 28, 29 x2",
+        "size": "27, 29 x2",
         "sizeDetails": {
           "27": 1,
-          "28": 1,
           "29": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -503,12 +502,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Negra 952",
-        "size": "27, 29",
+        "size": "27 x2, 29",
         "sizeDetails": {
-          "27": 1,
+          "27": 2,
           "29": 1
         },
-        "quantity": 2,
+        "quantity": 3,
         "minimum": 0,
         "cost": 630,
         "salePrice": 970
