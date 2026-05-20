@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-19T16:47:38.556Z",
+  "savedAt": "2026-05-20T17:16:42.408Z",
   "source": "zapatos",
   "data": {
     "nextId": 114,
@@ -111,12 +111,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin casco acero",
-        "size": "25, 26 x3",
+        "size": "27 x3",
         "sizeDetails": {
-          "25": 1,
-          "26": 3
+          "27": 3
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 1,
         "cost": 630,
         "salePrice": 970
@@ -157,13 +156,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS coyote",
-        "size": "27 x2, 28 x2, 29",
+        "size": "27, 28, 29",
         "sizeDetails": {
-          "27": 2,
-          "28": 2,
+          "27": 1,
+          "28": 1,
           "29": 1
         },
-        "quantity": 5,
+        "quantity": 3,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -504,12 +503,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Negra 952",
-        "size": "27 x2, 29",
+        "size": "27, 29",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "29": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 630,
         "salePrice": 970
@@ -856,13 +855,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "27 x2, 28 x3, 29 x2",
+        "size": "27 x2, 28 x3, 29",
         "sizeDetails": {
           "27": 2,
           "28": 3,
-          "29": 2
+          "29": 1
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 0,
         "cost": 340,
         "salePrice": 680
@@ -934,12 +933,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Shein Atx negra",
-        "size": "23, 24",
+        "size": "23, 24 x3, 25, 26 x2",
         "sizeDetails": {
           "23": 1,
-          "24": 1
+          "24": 3,
+          "25": 1,
+          "26": 2
         },
-        "quantity": 2,
+        "quantity": 7,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -1491,12 +1492,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "25 x2, 26 x5",
+        "size": "25 x2, 26 x4",
         "sizeDetails": {
           "25": 2,
-          "26": 5
+          "26": 4
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 3,
         "cost": 340,
         "salePrice": 680
