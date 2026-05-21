@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-20T21:26:48.628Z",
+  "savedAt": "2026-05-21T17:39:05.302Z",
   "source": "zapatos",
   "data": {
     "nextId": 114,
@@ -654,13 +654,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Negro",
-        "size": "27, 28 x2, 30 x2",
+        "size": "27, 28, 30 x2",
         "sizeDetails": {
           "27": 1,
-          "28": 2,
+          "28": 1,
           "30": 2
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -1300,14 +1300,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Sport rosa",
-        "size": "23, 24, 25, 26",
+        "size": "23, 25, 26",
         "sizeDetails": {
           "23": 1,
-          "24": 1,
           "25": 1,
           "26": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 370,
         "salePrice": 710
