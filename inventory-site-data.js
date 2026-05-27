@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-27T20:30:50.888Z",
+  "savedAt": "2026-05-27T23:59:25.347Z",
   "source": "zapatos",
   "data": {
     "nextId": 118,
@@ -649,13 +649,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "27 x2, 28 x2, 29 x3",
+        "size": "27 x2, 28, 29 x3",
         "sizeDetails": {
           "27": 2,
-          "28": 2,
+          "28": 1,
           "29": 3
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 4,
         "cost": 310,
         "salePrice": 650
@@ -1214,13 +1214,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Negro",
-        "size": "23 x2, 24 x2, 26 x2",
+        "size": "23 x2, 24 x2, 26",
         "sizeDetails": {
           "23": 2,
           "24": 2,
-          "26": 2
+          "26": 1
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 3,
         "cost": 290,
         "salePrice": 630
