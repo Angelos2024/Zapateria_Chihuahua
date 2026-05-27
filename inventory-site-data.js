@@ -1,10 +1,10 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-27T20:27:04.539Z",
+  "savedAt": "2026-05-27T20:28:59.659Z",
   "source": "zapatos",
   "data": {
     "nextId": 118,
     "filters": {
-      "audienceView": "caballero",
+      "audienceView": "damas",
       "onlyLowStock": false
     },
     "rows": [
@@ -937,7 +937,7 @@ window.INVENTORY_SITE_DATA = {
         "id": "inv-62",
         "audienceGroup": "damas",
         "productGroup": "botas",
-        "model": "Shein Atx negra",
+        "model": "Shein Atx negro",
         "size": "23, 24 x3, 25, 26",
         "sizeDetails": {
           "23": 1,
