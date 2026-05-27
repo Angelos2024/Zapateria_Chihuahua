@@ -1,8 +1,8 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-27T19:17:40.330Z",
+  "savedAt": "2026-05-27T20:27:04.539Z",
   "source": "zapatos",
   "data": {
-    "nextId": 117,
+    "nextId": 118,
     "filters": {
       "audienceView": "caballero",
       "onlyLowStock": false
@@ -435,6 +435,20 @@ window.INVENTORY_SITE_DATA = {
         "salePrice": 660
       },
       {
+        "id": "inv-117",
+        "audienceGroup": "caballero",
+        "productGroup": "botas",
+        "model": "Shein Atx Negro",
+        "size": "29 x2",
+        "sizeDetails": {
+          "29": 2
+        },
+        "quantity": 2,
+        "minimum": 3,
+        "cost": 320,
+        "salePrice": 660
+      },
+      {
         "id": "inv-33",
         "audienceGroup": "caballero",
         "productGroup": "botas",
@@ -448,18 +462,6 @@ window.INVENTORY_SITE_DATA = {
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
-      },
-      {
-        "id": "inv-115",
-        "audienceGroup": "caballero",
-        "productGroup": "botas",
-        "model": "",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
-        "minimum": 0,
-        "cost": 0,
-        "salePrice": 0
       },
       {
         "id": "inv-34",
