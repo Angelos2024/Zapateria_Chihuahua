@@ -1,10 +1,10 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-27T15:55:13.662Z",
+  "savedAt": "2026-05-27T19:14:01.229Z",
   "source": "zapatos",
   "data": {
-    "nextId": 114,
+    "nextId": 117,
     "filters": {
-      "audienceView": "ambos",
+      "audienceView": "caballero",
       "onlyLowStock": false
     },
     "rows": [
@@ -162,6 +162,24 @@ window.INVENTORY_SITE_DATA = {
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
+      },
+      {
+        "id": "inv-116",
+        "audienceGroup": "caballero",
+        "productGroup": "botas",
+        "model": "Tornado piel",
+        "size": "26 x2, 27 x2, 28 x2, 29 x2, 30 x2",
+        "sizeDetails": {
+          "26": 2,
+          "27": 2,
+          "28": 2,
+          "29": 2,
+          "30": 2
+        },
+        "quantity": 10,
+        "minimum": 4,
+        "cost": 315,
+        "salePrice": 655
       },
       {
         "id": "inv-15",
@@ -417,22 +435,6 @@ window.INVENTORY_SITE_DATA = {
         "salePrice": 660
       },
       {
-        "id": "inv-32",
-        "audienceGroup": "caballero",
-        "productGroup": "botas",
-        "model": "Shein Atx negra",
-        "size": "27 x2, 28, 29 x2",
-        "sizeDetails": {
-          "27": 2,
-          "28": 1,
-          "29": 2
-        },
-        "quantity": 5,
-        "minimum": 3,
-        "cost": 320,
-        "salePrice": 660
-      },
-      {
         "id": "inv-33",
         "audienceGroup": "caballero",
         "productGroup": "botas",
@@ -446,6 +448,18 @@ window.INVENTORY_SITE_DATA = {
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
+      },
+      {
+        "id": "inv-115",
+        "audienceGroup": "caballero",
+        "productGroup": "botas",
+        "model": "",
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
+        "minimum": 0,
+        "cost": 0,
+        "salePrice": 0
       },
       {
         "id": "inv-34",
