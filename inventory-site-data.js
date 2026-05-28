@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-27T23:59:25.347Z",
+  "savedAt": "2026-05-28T00:58:55.640Z",
   "source": "zapatos",
   "data": {
     "nextId": 118,
@@ -168,15 +168,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Tornado piel",
-        "size": "26 x2, 27 x2, 28 x2, 29 x2, 30 x2",
+        "size": "26 x2, 28 x2, 30",
         "sizeDetails": {
           "26": 2,
-          "27": 2,
           "28": 2,
-          "29": 2,
-          "30": 2
+          "30": 1
         },
-        "quantity": 10,
+        "quantity": 5,
         "minimum": 4,
         "cost": 315,
         "salePrice": 655
@@ -201,12 +199,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS raptor",
-        "size": "27, 29 x2",
+        "size": "27, 29",
         "sizeDetails": {
           "27": 1,
-          "29": 2
+          "29": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
