@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-28T15:24:49.041Z",
+  "savedAt": "2026-05-28T17:46:20.464Z",
   "source": "zapatos",
   "data": {
     "nextId": 118,
@@ -168,13 +168,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Tornado piel",
-        "size": "26 x2, 28 x2, 30",
+        "size": "26 x2, 28, 30",
         "sizeDetails": {
           "26": 2,
-          "28": 2,
+          "28": 1,
           "30": 1
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 4,
         "cost": 315,
         "salePrice": 655
@@ -1354,13 +1354,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Axis 021 Rosa",
-        "size": "23, 25, 26",
+        "size": "25, 26",
         "sizeDetails": {
-          "23": 1,
           "25": 1,
           "26": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 435,
         "salePrice": 775
