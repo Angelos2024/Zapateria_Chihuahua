@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-05-29T17:12:18.059Z",
+  "savedAt": "2026-05-29T17:32:34.796Z",
   "source": "zapatos",
   "data": {
     "nextId": 118,
@@ -61,11 +61,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Everest",
-        "size": "30 x2",
+        "size": "30",
         "sizeDetails": {
-          "30": 2
+          "30": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -227,13 +227,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS soldador",
-        "size": "27 x2, 28 x2, 29",
+        "size": "27 x2, 28 x2",
         "sizeDetails": {
           "27": 2,
-          "28": 2,
-          "29": 1
+          "28": 2
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -992,12 +991,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Cuello largo Rosa",
-        "size": "24, 26",
+        "size": "26",
         "sizeDetails": {
-          "24": 1,
           "26": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 480,
         "salePrice": 820
