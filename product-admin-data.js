@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-    "savedAt":  "2026-05-31T16:52:00.957Z",
+    "savedAt":  "2026-05-31T17:14:04.279Z",
     "source":  "product-admin",
     "products":  {
                      "inventory:botas:atx cafe":  {
@@ -346,12 +346,13 @@ window.PRODUCT_ADMIN_DATA = {
                                                              "minSize":  23,
                                                              "maxSize":  29,
                                                              "images":  [
-                                                                            "img/productos/admin-inventory-botas-shein-atx-negro-20260531-105155-1.jpg",
-                                                                            "img/productos/admin-inventory-botas-shein-atx-negro-20260531-105155-2.jpg",
-                                                                            "img/productos/admin-inventory-botas-shein-atx-negro-20260531-105155-3.jpg"
+                                                                            "img/productos/admin-inventory-botas-shein-atx-negro-20260531-111359-1.jpg",
+                                                                            "img/productos/admin-inventory-botas-shein-atx-negro-20260531-111359-2.jpg",
+                                                                            "img/productos/admin-inventory-botas-shein-atx-negro-20260531-111359-3.jpg",
+                                                                            "img/productos/admin-inventory-botas-shein-atx-negro-20260531-111359-4.jpg"
                                                                         ],
-                                                             "coverImage":  "img/productos/admin-inventory-botas-shein-atx-negro-20260531-105155-3.jpg",
-                                                             "image":  "img/productos/admin-inventory-botas-shein-atx-negro-20260531-105155-3.jpg"
+                                                             "coverImage":  "img/productos/admin-inventory-botas-shein-atx-negro-20260531-111359-3.jpg",
+                                                             "image":  "img/productos/admin-inventory-botas-shein-atx-negro-20260531-111359-3.jpg"
                                                          },
                      "inventory:botas:shein atx verde":  {
                                                              "details":  [
