@@ -1,10 +1,10 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-01T19:06:02.057Z",
+  "savedAt": "2026-06-03T18:17:41.031Z",
   "source": "zapatos",
   "data": {
     "nextId": 118,
     "filters": {
-      "audienceView": "caballero",
+      "audienceView": "damas",
       "onlyLowStock": false
     },
     "rows": [
@@ -431,12 +431,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx Negro",
-        "size": "28, 29 x2",
+        "size": "28, 29",
         "sizeDetails": {
           "28": 1,
-          "29": 2
+          "29": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -505,12 +505,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Negra 952",
-        "size": "27 x2, 29",
+        "size": "27, 29",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "29": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 630,
         "salePrice": 970
@@ -640,12 +640,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "27 x2, 29 x2",
+        "size": "27 x2",
         "sizeDetails": {
-          "27": 2,
-          "29": 2
+          "27": 2
         },
-        "quantity": 4,
+        "quantity": 2,
         "minimum": 4,
         "cost": 310,
         "salePrice": 650
@@ -753,11 +752,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 021 azul",
-        "size": "28",
-        "sizeDetails": {
-          "28": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 2,
         "cost": 435,
         "salePrice": 775
@@ -796,11 +793,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 azul",
-        "size": "30",
-        "sizeDetails": {
-          "30": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 2,
         "cost": 425,
         "salePrice": 765
@@ -848,12 +843,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "28, 29",
+        "size": "29",
         "sizeDetails": {
-          "28": 1,
           "29": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 340,
         "salePrice": 680
@@ -1013,14 +1007,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Caribu negra 340",
-        "size": "23, 24, 25, 26",
+        "size": "23, 24, 26",
         "sizeDetails": {
           "23": 1,
           "24": 1,
-          "25": 1,
           "26": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
@@ -1198,11 +1191,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Negro",
-        "size": "24",
-        "sizeDetails": {
-          "24": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 3,
         "cost": 290,
         "salePrice": 630
@@ -1212,13 +1203,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Flow",
-        "size": "22, 23, 24 x2",
+        "size": "22, 23, 24",
         "sizeDetails": {
           "22": 1,
           "23": 1,
-          "24": 2
+          "24": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 250,
         "salePrice": 570
@@ -1267,7 +1258,7 @@ window.INVENTORY_SITE_DATA = {
         "quantity": 4,
         "minimum": 0,
         "cost": 250,
-        "salePrice": 650
+        "salePrice": 580
       },
       {
         "id": "inv-85",
@@ -1282,7 +1273,7 @@ window.INVENTORY_SITE_DATA = {
         "quantity": 8,
         "minimum": 0,
         "cost": 250,
-        "salePrice": 650
+        "salePrice": 580
       },
       {
         "id": "inv-86",
