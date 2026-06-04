@@ -1,10 +1,10 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-03T18:17:41.031Z",
+  "savedAt": "2026-06-04T21:32:10.139Z",
   "source": "zapatos",
   "data": {
-    "nextId": 118,
+    "nextId": 120,
     "filters": {
-      "audienceView": "damas",
+      "audienceView": "caballero",
       "onlyLowStock": false
     },
     "rows": [
@@ -25,6 +25,23 @@ window.INVENTORY_SITE_DATA = {
         "salePrice": 740
       },
       {
+        "id": "inv-118",
+        "audienceGroup": "caballero",
+        "productGroup": "calzado-vaquero",
+        "model": "Nicadabra mil rayas",
+        "size": "26 x2, 27 x2, 28 x2, 29 x2",
+        "sizeDetails": {
+          "26": 2,
+          "27": 2,
+          "28": 2,
+          "29": 2
+        },
+        "quantity": 8,
+        "minimum": 3,
+        "cost": 400,
+        "salePrice": 740
+      },
+      {
         "id": "inv-7",
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
@@ -39,8 +56,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 7,
         "minimum": 4,
-        "cost": 400,
-        "salePrice": 740
+        "cost": 410,
+        "salePrice": 750
       },
       {
         "id": "inv-110",
@@ -61,11 +78,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Everest",
-        "size": "30",
+        "size": "26 x2, 27 x3, 28 x3, 29, 30",
         "sizeDetails": {
+          "26": 2,
+          "27": 3,
+          "28": 3,
+          "29": 1,
           "30": 1
         },
-        "quantity": 1,
+        "quantity": 10,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -75,14 +96,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Chupacabras Ocre doble densidad",
-        "size": "27 x2, 28, 29, 30",
+        "size": "27 x2, 28, 30",
         "sizeDetails": {
           "27": 2,
           "28": 1,
-          "29": 1,
           "30": 1
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 2,
         "cost": 450,
         "salePrice": 790
@@ -161,6 +181,24 @@ window.INVENTORY_SITE_DATA = {
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
+      },
+      {
+        "id": "inv-119",
+        "audienceGroup": "caballero",
+        "productGroup": "botas",
+        "model": "Nicadabra Rambo",
+        "size": "26 x2, 27 x2, 28 x2, 29 x2, 30",
+        "sizeDetails": {
+          "26": 2,
+          "27": 2,
+          "28": 2,
+          "29": 2,
+          "30": 1
+        },
+        "quantity": 9,
+        "minimum": 3,
+        "cost": 220,
+        "salePrice": 540
       },
       {
         "id": "inv-116",
@@ -725,12 +763,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "28 x3, 29 x2",
+        "size": "28 x3, 29",
         "sizeDetails": {
           "28": 3,
-          "29": 2
+          "29": 1
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
