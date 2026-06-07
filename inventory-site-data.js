@@ -1,10 +1,10 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-07T18:45:08.664Z",
+  "savedAt": "2026-06-07T20:57:10.148Z",
   "source": "zapatos",
   "data": {
     "nextId": 120,
     "filters": {
-      "audienceView": "caballero",
+      "audienceView": "damas",
       "onlyLowStock": false
     },
     "rows": [
@@ -167,12 +167,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS coyote",
-        "size": "27, 29",
+        "size": "29",
         "sizeDetails": {
-          "27": 1,
           "29": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -273,12 +272,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS tosca",
-        "size": "27, 30",
+        "size": "27",
         "sizeDetails": {
-          "27": 1,
-          "30": 1
+          "27": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 370,
         "salePrice": 710
@@ -357,12 +355,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "ATX café",
-        "size": "26 x2, 28",
+        "size": "26 x2",
         "sizeDetails": {
-          "26": 2,
-          "28": 1
+          "26": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 3,
         "cost": 380,
         "salePrice": 770
@@ -1118,12 +1115,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Caribu Lady Menta Piel ",
-        "size": "24, 26",
+        "size": "24",
         "sizeDetails": {
-          "24": 1,
-          "26": 1
+          "24": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 680,
         "salePrice": 1020
