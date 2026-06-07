@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-04T22:17:19.969Z",
+  "savedAt": "2026-06-07T18:45:08.664Z",
   "source": "zapatos",
   "data": {
     "nextId": 120,
@@ -13,13 +13,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre suela de Goma",
-        "size": "27 x2, 29, 30",
+        "size": "30",
         "sizeDetails": {
-          "27": 2,
-          "29": 1,
           "30": 1
         },
-        "quantity": 4,
+        "quantity": 1,
         "minimum": 4,
         "cost": 400,
         "salePrice": 740
@@ -46,15 +44,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre Truck",
-        "size": "26, 27 x2, 28, 29 x2, 30",
+        "size": "27 x2, 28 x2, 29, 30",
         "sizeDetails": {
-          "26": 1,
           "27": 2,
-          "28": 1,
-          "29": 2,
+          "28": 2,
+          "29": 1,
           "30": 1
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 4,
         "cost": 410,
         "salePrice": 750
@@ -64,11 +61,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre Truck talon negro",
-        "size": "29",
-        "sizeDetails": {
-          "29": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 0,
         "cost": 400,
         "salePrice": 740
@@ -78,15 +73,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Everest",
-        "size": "26 x2, 27 x3, 28 x3, 29, 30",
+        "size": "26 x2, 27 x3, 28, 29, 30",
         "sizeDetails": {
           "26": 2,
           "27": 3,
-          "28": 3,
+          "28": 1,
           "29": 1,
           "30": 1
         },
-        "quantity": 10,
+        "quantity": 8,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -187,15 +182,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Nicadabra Rambo",
-        "size": "26 x2, 27 x2, 28 x2, 29 x2, 30",
+        "size": "26 x2, 27 x2, 29 x2, 30",
         "sizeDetails": {
           "26": 2,
           "27": 2,
-          "28": 2,
           "29": 2,
           "30": 1
         },
-        "quantity": 9,
+        "quantity": 7,
         "minimum": 3,
         "cost": 220,
         "salePrice": 540
@@ -363,13 +357,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "ATX café",
-        "size": "26 x2, 27, 28",
+        "size": "26 x2, 28",
         "sizeDetails": {
           "26": 2,
-          "27": 1,
           "28": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 380,
         "salePrice": 770
@@ -453,13 +446,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx verde",
-        "size": "27 x2, 28 x4, 29",
+        "size": "27 x2, 28 x3, 29",
         "sizeDetails": {
           "27": 2,
-          "28": 4,
+          "28": 3,
           "29": 1
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -956,13 +949,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Shein Atx negro",
-        "size": "23, 24 x3, 26",
+        "size": "23, 24 x3",
         "sizeDetails": {
           "23": 1,
-          "24": 3,
-          "26": 1
+          "24": 3
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -1550,14 +1542,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "23, 24 x4, 25 x4, 26 x2",
+        "size": "23, 24 x4, 25 x3, 26 x2",
         "sizeDetails": {
           "23": 1,
           "24": 4,
-          "25": 4,
+          "25": 3,
           "26": 2
         },
-        "quantity": 11,
+        "quantity": 10,
         "minimum": 6,
         "cost": 310,
         "salePrice": 680

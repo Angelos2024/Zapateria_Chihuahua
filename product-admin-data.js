@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-  "savedAt": "2026-06-04T22:03:02.348Z",
+  "savedAt": "2026-06-05T10:53:08.921Z",
   "source": "product-admin",
   "products": {
     "inventory:botas:atx cafe": {
@@ -1080,10 +1080,12 @@ window.PRODUCT_ADMIN_DATA = {
       ],
       "description": "Modelo Bota Rambo, Antiderrapante, Suela de Hule.\nConfeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricas.",
       "images": [
-        "img/productos/admin-inventory-botas-nicadabra-rambo-20260604-160303-1.jpg"
+        "img/productos/admin-inventory-botas-nicadabra-rambo-20260605-045309-1.jpg",
+        "img/productos/admin-inventory-botas-nicadabra-rambo-20260605-045310-2.jpg",
+        "img/productos/admin-inventory-botas-nicadabra-rambo-20260605-045310-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-nicadabra-rambo-20260604-160303-1.jpg",
-      "image": "img/productos/admin-inventory-botas-nicadabra-rambo-20260604-160303-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-nicadabra-rambo-20260605-045309-1.jpg",
+      "image": "img/productos/admin-inventory-botas-nicadabra-rambo-20260605-045309-1.jpg"
     },
     "inventory:botas:nicadabra mil rayas": {
       "images": [
