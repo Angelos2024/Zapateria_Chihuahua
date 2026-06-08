@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-  "savedAt": "2026-06-05T10:53:08.921Z",
+  "savedAt": "2026-06-08T21:37:12.532Z",
   "source": "product-admin",
   "products": {
     "inventory:botas:atx cafe": {
@@ -1093,6 +1093,13 @@ window.PRODUCT_ADMIN_DATA = {
       ],
       "coverImage": "img/productos/admin-inventory-botas-nicadabra-mil-rayas-20260604-160249-1.jpg",
       "image": "img/productos/admin-inventory-botas-nicadabra-mil-rayas-20260604-160249-1.jpg"
+    },
+    "inventory:botas:botin corto ocre": {
+      "images": [
+        "img/productos/admin-inventory-botas-botin-corto-ocre-20260608-153713-1.jpg"
+      ],
+      "coverImage": "img/productos/admin-inventory-botas-botin-corto-ocre-20260608-153713-1.jpg",
+      "image": "img/productos/admin-inventory-botas-botin-corto-ocre-20260608-153713-1.jpg"
     }
   }
 };
