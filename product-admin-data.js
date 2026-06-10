@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-  "savedAt": "2026-06-08T21:37:12.532Z",
+  "savedAt": "2026-06-10T17:17:38.941Z",
   "source": "product-admin",
   "products": {
     "inventory:botas:atx cafe": {
@@ -1100,6 +1100,14 @@ window.PRODUCT_ADMIN_DATA = {
       ],
       "coverImage": "img/productos/admin-inventory-botas-botin-corto-ocre-20260608-153713-1.jpg",
       "image": "img/productos/admin-inventory-botas-botin-corto-ocre-20260608-153713-1.jpg"
+    },
+    "inventory:tenis:axis 028 negro": {
+      "images": [
+        "img/productos/admin-inventory-tenis-axis-028-negro-20260610-111739-1.jpg",
+        "img/productos/admin-inventory-tenis-axis-028-negro-20260610-111739-2.jpg"
+      ],
+      "coverImage": "img/productos/admin-inventory-tenis-axis-028-negro-20260610-111739-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-axis-028-negro-20260610-111739-1.jpg"
     }
   }
 };

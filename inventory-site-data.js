@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-10T17:04:41.413Z",
+  "savedAt": "2026-06-10T17:19:50.754Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -37,7 +37,7 @@ window.INVENTORY_SITE_DATA = {
         "quantity": 8,
         "minimum": 3,
         "cost": 400,
-        "salePrice": 740
+        "salePrice": 750
       },
       {
         "id": "inv-7",
