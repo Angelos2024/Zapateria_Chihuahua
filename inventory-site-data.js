@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-08T21:38:20.702Z",
+  "savedAt": "2026-06-10T17:04:41.413Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -668,14 +668,16 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Vsport choclo",
-        "size": "27, 28, 29, 30",
+        "size": "27, 28, 29, 30, 31, 32",
         "sizeDetails": {
           "27": 1,
           "28": 1,
           "29": 1,
-          "30": 1
+          "30": 1,
+          "31": 1,
+          "32": 1
         },
-        "quantity": 4,
+        "quantity": 6,
         "minimum": 0,
         "cost": 260,
         "salePrice": 570
@@ -859,14 +861,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 negro",
-        "size": "27, 28, 29, 30",
+        "size": "27, 29, 30",
         "sizeDetails": {
           "27": 1,
-          "28": 1,
           "29": 1,
           "30": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
         "cost": 425,
         "salePrice": 765
@@ -1403,13 +1404,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Axis 021 Negro",
-        "size": "23, 24 x2, 26",
+        "size": "24, 26",
         "sizeDetails": {
-          "23": 1,
-          "24": 2,
+          "24": 1,
           "26": 1
         },
-        "quantity": 4,
+        "quantity": 2,
         "minimum": 2,
         "cost": 435,
         "salePrice": 775
@@ -1527,12 +1527,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "25, 26 x3",
+        "size": "26",
         "sizeDetails": {
-          "25": 1,
-          "26": 3
+          "26": 1
         },
-        "quantity": 4,
+        "quantity": 1,
         "minimum": 3,
         "cost": 340,
         "salePrice": 680
@@ -1542,14 +1541,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "23, 24, 25, 26 x2",
+        "size": "25, 26 x2",
         "sizeDetails": {
-          "23": 1,
-          "24": 1,
           "25": 1,
           "26": 2
         },
-        "quantity": 5,
+        "quantity": 3,
         "minimum": 6,
         "cost": 310,
         "salePrice": 650
@@ -1573,14 +1570,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "23, 24 x4, 25 x3, 26 x2",
+        "size": "23, 24 x4, 25 x2, 26 x2",
         "sizeDetails": {
           "23": 1,
           "24": 4,
-          "25": 3,
+          "25": 2,
           "26": 2
         },
-        "quantity": 10,
+        "quantity": 9,
         "minimum": 6,
         "cost": 310,
         "salePrice": 680
