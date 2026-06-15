@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-10T17:19:50.754Z",
+  "savedAt": "2026-06-15T20:51:18.092Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -73,15 +73,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Everest",
-        "size": "26 x2, 27 x3, 28, 29, 30",
+        "size": "26 x2, 28, 30",
         "sizeDetails": {
           "26": 2,
-          "27": 3,
           "28": 1,
-          "29": 1,
           "30": 1
         },
-        "quantity": 8,
+        "quantity": 4,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -155,14 +153,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Chupacabras negra",
-        "size": "26, 27 x4, 28 x2, 30",
+        "size": "26, 27 x3, 28 x2, 30",
         "sizeDetails": {
           "26": 1,
-          "27": 4,
+          "27": 3,
           "28": 2,
           "30": 1
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 3,
         "cost": 370,
         "salePrice": 410
@@ -257,12 +255,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS grizlee",
-        "size": "27, 29",
+        "size": "27",
         "sizeDetails": {
-          "27": 1,
-          "29": 1
+          "27": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -477,11 +474,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx Negro",
-        "size": "28",
-        "sizeDetails": {
-          "28": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -491,12 +486,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Negra 340",
-        "size": "28 x2, 30",
+        "size": "28, 30",
         "sizeDetails": {
-          "28": 2,
+          "28": 1,
           "30": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
@@ -550,12 +545,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Negra 952",
-        "size": "27, 29",
+        "size": "29",
         "sizeDetails": {
-          "27": 1,
           "29": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 630,
         "salePrice": 970
@@ -609,11 +603,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Force negro",
-        "size": "29",
+        "size": "27 x3, 28 x3, 29 x2",
         "sizeDetails": {
-          "29": 1
+          "27": 3,
+          "28": 3,
+          "29": 2
         },
-        "quantity": 1,
+        "quantity": 8,
         "minimum": 5,
         "cost": 290,
         "salePrice": 630
@@ -668,16 +664,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Vsport choclo",
-        "size": "27, 28, 29, 30, 31, 32",
+        "size": "27, 28, 29, 30, 32",
         "sizeDetails": {
           "27": 1,
           "28": 1,
           "29": 1,
           "30": 1,
-          "31": 1,
           "32": 1
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 0,
         "cost": 260,
         "salePrice": 570
@@ -687,11 +682,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "27 x2",
+        "size": "27 x4, 28 x2, 29 x2",
         "sizeDetails": {
-          "27": 2
+          "27": 4,
+          "28": 2,
+          "29": 2
         },
-        "quantity": 2,
+        "quantity": 8,
         "minimum": 4,
         "cost": 310,
         "salePrice": 650
@@ -701,12 +698,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Negro",
-        "size": "28 x2, 30",
+        "size": "28, 30",
         "sizeDetails": {
-          "28": 2,
+          "28": 1,
           "30": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -772,12 +769,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "28 x3, 29",
+        "size": "28 x2, 29",
         "sizeDetails": {
-          "28": 3,
+          "28": 2,
           "29": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
@@ -903,11 +900,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "29",
+        "size": "27 x2, 28 x2, 29 x3",
         "sizeDetails": {
-          "29": 1
+          "27": 2,
+          "28": 2,
+          "29": 3
         },
-        "quantity": 1,
+        "quantity": 7,
         "minimum": 0,
         "cost": 340,
         "salePrice": 680
@@ -931,14 +930,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "ATX Negra",
-        "size": "22, 23, 25, 26",
+        "size": "22, 23, 26",
         "sizeDetails": {
           "22": 1,
           "23": 1,
-          "25": 1,
           "26": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
         "cost": 380,
         "salePrice": 770
@@ -1234,14 +1232,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Blanco",
-        "size": "23, 24, 25, 26 x2",
+        "size": "23, 24, 26 x2",
         "sizeDetails": {
           "23": 1,
           "24": 1,
-          "25": 1,
           "26": 2
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 3,
         "cost": 260,
         "salePrice": 600
@@ -1251,9 +1248,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Negro",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "23, 24 x2, 25 x4, 26 x2",
+        "sizeDetails": {
+          "23": 1,
+          "24": 2,
+          "25": 4,
+          "26": 2
+        },
+        "quantity": 9,
         "minimum": 3,
         "cost": 290,
         "salePrice": 630
@@ -1279,14 +1281,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Ultra negro",
-        "size": "23, 24, 25, 26",
+        "size": "23, 24, 25",
         "sizeDetails": {
           "23": 1,
           "24": 1,
-          "25": 1,
-          "26": 1
+          "25": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -1312,11 +1313,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Pegasus Negro",
-        "size": "23 x4",
+        "size": "23 x3",
         "sizeDetails": {
-          "23": 4
+          "23": 3
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 0,
         "cost": 250,
         "salePrice": 580
@@ -1404,12 +1405,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Axis 021 Negro",
-        "size": "24, 26",
+        "size": "24 x2, 26",
         "sizeDetails": {
-          "24": 1,
+          "24": 2,
           "26": 1
         },
-        "quantity": 2,
+        "quantity": 3,
         "minimum": 2,
         "cost": 435,
         "salePrice": 775
@@ -1527,11 +1528,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "26",
+        "size": "25 x2, 26 x3",
         "sizeDetails": {
-          "26": 1
+          "25": 2,
+          "26": 3
         },
-        "quantity": 1,
+        "quantity": 5,
         "minimum": 3,
         "cost": 340,
         "salePrice": 680
@@ -1541,12 +1543,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "25, 26 x2",
+        "size": "23, 24 x2, 25 x4, 26 x4",
         "sizeDetails": {
-          "25": 1,
-          "26": 2
+          "23": 1,
+          "24": 2,
+          "25": 4,
+          "26": 4
         },
-        "quantity": 3,
+        "quantity": 11,
         "minimum": 6,
         "cost": 310,
         "salePrice": 650
@@ -1587,17 +1591,17 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Plantillas",
-        "size": "23 x2, 24 x2, 25 x3, 26 x3, 27 x3, 28 x3, 29 x2",
+        "size": "23 x2, 24 x2, 25 x3, 26 x3, 27 x3, 28 x2, 29 x2",
         "sizeDetails": {
           "23": 2,
           "24": 2,
           "25": 3,
           "26": 3,
           "27": 3,
-          "28": 3,
+          "28": 2,
           "29": 2
         },
-        "quantity": 18,
+        "quantity": 17,
         "minimum": 2,
         "cost": 45,
         "salePrice": 85
