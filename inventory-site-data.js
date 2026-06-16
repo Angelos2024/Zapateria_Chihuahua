@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-15T23:47:58.558Z",
+  "savedAt": "2026-06-16T00:42:43.331Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -182,11 +182,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS coyote",
-        "size": "29",
+        "size": "26, 27, 28 x2, 29 x2, 30",
         "sizeDetails": {
-          "29": 1
+          "26": 1,
+          "27": 1,
+          "28": 2,
+          "29": 2,
+          "30": 1
         },
-        "quantity": 1,
+        "quantity": 7,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -219,7 +223,7 @@ window.INVENTORY_SITE_DATA = {
           "30": 2
         },
         "quantity": 4,
-        "minimum": 4,
+        "minimum": 3,
         "cost": 315,
         "salePrice": 655
       },
@@ -228,9 +232,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "26, 27 x2, 28 x2, 29 x2, 30",
+        "sizeDetails": {
+          "26": 1,
+          "27": 2,
+          "28": 2,
+          "29": 2,
+          "30": 1
+        },
+        "quantity": 8,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -239,13 +249,15 @@ window.INVENTORY_SITE_DATA = {
         "id": "inv-16",
         "audienceGroup": "caballero",
         "productGroup": "botas",
-        "model": "TRS raptor",
-        "size": "27, 29 x2",
+        "model": "TRS oso negro",
+        "size": "27, 28, 29 x2, 30",
         "sizeDetails": {
           "27": 1,
-          "29": 2
+          "28": 1,
+          "29": 2,
+          "30": 1
         },
-        "quantity": 3,
+        "quantity": 5,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -255,11 +267,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS grizlee",
-        "size": "27",
+        "size": "27, 28, 30",
         "sizeDetails": {
-          "27": 1
+          "27": 1,
+          "28": 1,
+          "30": 1
         },
-        "quantity": 1,
+        "quantity": 3,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -297,12 +311,15 @@ window.INVENTORY_SITE_DATA = {
         "id": "inv-21",
         "audienceGroup": "caballero",
         "productGroup": "botas",
-        "model": "TRS soldador ligero",
-        "size": "26",
+        "model": "TRS soldador Dakota",
+        "size": "26, 27 x2, 28 x2, 29 x2",
         "sizeDetails": {
-          "26": 1
+          "26": 1,
+          "27": 2,
+          "28": 2,
+          "29": 2
         },
-        "quantity": 1,
+        "quantity": 7,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -396,14 +413,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Cuello largo Negra",
-        "size": "27, 28, 29, 30",
+        "size": "27, 29, 30",
         "sizeDetails": {
           "27": 1,
-          "28": 1,
           "29": 1,
           "30": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
         "cost": 475,
         "salePrice": 820
