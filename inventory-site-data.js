@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-17T19:07:24.729Z",
+  "savedAt": "2026-06-17T21:56:36.738Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -116,14 +116,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin corto ocre",
-        "size": "26 x3, 27 x3, 28 x2, 29 x2",
+        "size": "26 x3, 27 x3, 28, 29 x2",
         "sizeDetails": {
           "26": 3,
           "27": 3,
-          "28": 2,
+          "28": 1,
           "29": 2
         },
-        "quantity": 10,
+        "quantity": 9,
         "minimum": 0,
         "cost": 620,
         "salePrice": 970
@@ -909,13 +909,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "27 x2, 28, 29 x3",
+        "size": "27, 28, 29 x3",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "28": 1,
           "29": 3
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 0,
         "cost": 340,
         "salePrice": 680
@@ -1600,17 +1600,16 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Plantillas",
-        "size": "23 x2, 24 x2, 25 x3, 26 x3, 27 x3, 28, 29 x2",
+        "size": "23 x2, 24 x2, 25 x3, 26 x3, 27 x3, 29 x2",
         "sizeDetails": {
           "23": 2,
           "24": 2,
           "25": 3,
           "26": 3,
           "27": 3,
-          "28": 1,
           "29": 2
         },
-        "quantity": 16,
+        "quantity": 15,
         "minimum": 2,
         "cost": 45,
         "salePrice": 85
