@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-17T15:13:03.519Z",
+  "savedAt": "2026-06-17T15:39:15.699Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -27,14 +27,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra mil rayas",
-        "size": "26 x2, 27 x2, 28 x2, 29 x2",
+        "size": "26 x2, 27, 28 x2, 29",
         "sizeDetails": {
           "26": 2,
-          "27": 2,
+          "27": 1,
           "28": 2,
-          "29": 2
+          "29": 1
         },
-        "quantity": 8,
+        "quantity": 6,
         "minimum": 3,
         "cost": 400,
         "salePrice": 750
@@ -44,13 +44,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre Truck",
-        "size": "27, 29, 30",
-        "sizeDetails": {
-          "27": 1,
-          "29": 1,
-          "30": 1
-        },
-        "quantity": 3,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 4,
         "cost": 410,
         "salePrice": 750
@@ -72,13 +68,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Everest",
-        "size": "26 x2, 28, 30",
+        "size": "26 x2, 30",
         "sizeDetails": {
           "26": 2,
-          "28": 1,
           "30": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
