@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-17T15:39:15.699Z",
+  "savedAt": "2026-06-17T19:07:24.729Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -176,15 +176,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS coyote",
-        "size": "26, 27, 28 x2, 29 x2, 30",
+        "size": "26, 27, 28, 29 x2, 30",
         "sizeDetails": {
           "26": 1,
           "27": 1,
-          "28": 2,
+          "28": 1,
           "29": 2,
           "30": 1
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -1552,14 +1552,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "23, 24 x2, 25 x4, 26 x3",
+        "size": "23, 24 x2, 25 x3, 26 x3",
         "sizeDetails": {
           "23": 1,
           "24": 2,
-          "25": 4,
+          "25": 3,
           "26": 3
         },
-        "quantity": 10,
+        "quantity": 9,
         "minimum": 6,
         "cost": 310,
         "salePrice": 650
