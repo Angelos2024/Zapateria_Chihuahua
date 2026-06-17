@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-16T00:43:09.575Z",
+  "savedAt": "2026-06-17T15:13:03.519Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -44,14 +44,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre Truck",
-        "size": "27 x2, 28 x2, 29, 30",
+        "size": "27, 29, 30",
         "sizeDetails": {
-          "27": 2,
-          "28": 2,
+          "27": 1,
           "29": 1,
           "30": 1
         },
-        "quantity": 6,
+        "quantity": 3,
         "minimum": 4,
         "cost": 410,
         "salePrice": 750
@@ -744,12 +743,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Azul",
-        "size": "27 x5, 28",
+        "size": "27 x5",
         "sizeDetails": {
-          "27": 5,
-          "28": 1
+          "27": 5
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -1559,14 +1557,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "23, 24 x2, 25 x4, 26 x4",
+        "size": "23, 24 x2, 25 x4, 26 x3",
         "sizeDetails": {
           "23": 1,
           "24": 2,
           "25": 4,
-          "26": 4
+          "26": 3
         },
-        "quantity": 11,
+        "quantity": 10,
         "minimum": 6,
         "cost": 310,
         "salePrice": 650
