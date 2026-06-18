@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-18T16:47:52.342Z",
+  "savedAt": "2026-06-18T23:12:00.170Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -242,14 +242,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS oso negro",
-        "size": "27, 28, 29 x2, 30",
+        "size": "27, 28, 29 x2",
         "sizeDetails": {
           "27": 1,
           "28": 1,
-          "29": 2,
-          "30": 1
+          "29": 2
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -705,12 +704,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Negro",
-        "size": "28, 30",
+        "size": "28",
         "sizeDetails": {
-          "28": 1,
-          "30": 1
+          "28": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -1548,14 +1546,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "23, 24 x2, 25 x3, 26 x3",
+        "size": "23, 24, 25 x3, 26 x3",
         "sizeDetails": {
           "23": 1,
-          "24": 2,
+          "24": 1,
           "25": 3,
           "26": 3
         },
-        "quantity": 9,
+        "quantity": 8,
         "minimum": 6,
         "cost": 310,
         "salePrice": 650
