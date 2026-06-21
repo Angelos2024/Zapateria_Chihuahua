@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-18T23:12:00.170Z",
+  "savedAt": "2026-06-21T18:33:58.130Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -404,13 +404,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Cuello largo Negra",
-        "size": "27, 29, 30",
+        "size": "29, 30",
         "sizeDetails": {
-          "27": 1,
           "29": 1,
           "30": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 475,
         "salePrice": 820
@@ -551,11 +550,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Negra 952",
-        "size": "29",
-        "sizeDetails": {
-          "29": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 0,
         "cost": 630,
         "salePrice": 970
@@ -1577,14 +1574,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "23, 24 x4, 25 x2, 26 x2",
+        "size": "23, 24 x3, 25 x2, 26 x2",
         "sizeDetails": {
           "23": 1,
-          "24": 4,
+          "24": 3,
           "25": 2,
           "26": 2
         },
-        "quantity": 9,
+        "quantity": 8,
         "minimum": 6,
         "cost": 310,
         "salePrice": 680
