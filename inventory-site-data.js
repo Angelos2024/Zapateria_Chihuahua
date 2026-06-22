@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-21T18:33:58.130Z",
+  "savedAt": "2026-06-22T21:43:19.338Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -27,13 +27,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra mil rayas",
-        "size": "26 x2, 28 x2, 29",
+        "size": "26 x2, 29",
         "sizeDetails": {
           "26": 2,
-          "28": 2,
           "29": 1
         },
-        "quantity": 5,
+        "quantity": 3,
         "minimum": 3,
         "cost": 400,
         "salePrice": 750
@@ -67,12 +66,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Everest",
-        "size": "26 x2, 30",
+        "size": "26 x2",
         "sizeDetails": {
-          "26": 2,
-          "30": 1
+          "26": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -174,15 +172,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS coyote",
-        "size": "26, 27, 28, 29 x2, 30",
+        "size": "26, 27, 28, 29, 30",
         "sizeDetails": {
           "26": 1,
           "27": 1,
           "28": 1,
-          "29": 2,
+          "29": 1,
           "30": 1
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -464,12 +462,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx verde",
-        "size": "27 x2, 28 x3",
+        "size": "27 x2, 28 x2",
         "sizeDetails": {
           "27": 2,
-          "28": 3
+          "28": 2
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -685,13 +683,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "27 x4, 28 x2, 29",
+        "size": "27 x3, 28 x2, 29",
         "sizeDetails": {
-          "27": 4,
+          "27": 3,
           "28": 2,
           "29": 1
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 4,
         "cost": 310,
         "salePrice": 650
@@ -916,11 +914,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "plantillas",
-        "size": "29 x2",
+        "size": "29",
         "sizeDetails": {
-          "29": 2
+          "29": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 3,
         "cost": 45,
         "salePrice": 85
@@ -1248,14 +1246,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Negro",
-        "size": "23, 24 x2, 25 x4, 26 x2",
+        "size": "23, 24 x2, 25 x4, 26",
         "sizeDetails": {
           "23": 1,
           "24": 2,
           "25": 4,
-          "26": 2
+          "26": 1
         },
-        "quantity": 9,
+        "quantity": 8,
         "minimum": 3,
         "cost": 290,
         "salePrice": 630
@@ -1281,13 +1279,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Ultra negro",
-        "size": "23, 24, 25",
+        "size": "23, 24",
         "sizeDetails": {
           "23": 1,
-          "24": 1,
-          "25": 1
+          "24": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -1543,14 +1540,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "23, 24, 25 x3, 26 x3",
+        "size": "24, 25 x3, 26 x3",
         "sizeDetails": {
-          "23": 1,
           "24": 1,
           "25": 3,
           "26": 3
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 6,
         "cost": 310,
         "salePrice": 650
