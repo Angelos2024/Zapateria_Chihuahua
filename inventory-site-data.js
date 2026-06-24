@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-23T22:52:09.368Z",
+  "savedAt": "2026-06-24T17:02:11.627Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -190,14 +190,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Nicadabra Rambo",
-        "size": "26 x2, 27 x2, 29, 30",
+        "size": "26 x2, 27 x2, 30",
         "sizeDetails": {
           "26": 2,
           "27": 2,
-          "29": 1,
           "30": 1
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 3,
         "cost": 220,
         "salePrice": 540
@@ -604,13 +603,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Force negro",
-        "size": "27 x3, 28 x2, 29 x2",
+        "size": "27 x3, 29 x2",
         "sizeDetails": {
           "27": 3,
-          "28": 2,
           "29": 2
         },
-        "quantity": 7,
+        "quantity": 5,
         "minimum": 5,
         "cost": 290,
         "salePrice": 630
