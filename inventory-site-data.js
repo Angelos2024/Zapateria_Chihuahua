@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-24T17:02:11.627Z",
+  "savedAt": "2026-06-24T23:56:30.734Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -190,13 +190,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Nicadabra Rambo",
-        "size": "26 x2, 27 x2, 30",
+        "size": "26 x4, 27 x6, 28 x4, 29 x3, 30 x3",
         "sizeDetails": {
-          "26": 2,
-          "27": 2,
-          "30": 1
+          "26": 4,
+          "27": 6,
+          "28": 4,
+          "29": 3,
+          "30": 3
         },
-        "quantity": 5,
+        "quantity": 20,
         "minimum": 3,
         "cost": 220,
         "salePrice": 540
@@ -300,14 +302,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS soldador Dakota",
-        "size": "26, 27 x2, 28 x2, 29 x2",
+        "size": "26, 27 x2, 28 x2, 29",
         "sizeDetails": {
           "26": 1,
           "27": 2,
           "28": 2,
-          "29": 2
+          "29": 1
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -1276,12 +1278,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Ultra negro",
-        "size": "23, 24",
+        "size": "23",
         "sizeDetails": {
-          "23": 1,
-          "24": 1
+          "23": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
