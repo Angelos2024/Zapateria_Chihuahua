@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-24T23:56:30.734Z",
+  "savedAt": "2026-06-25T22:31:28.582Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -302,14 +302,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS soldador Dakota",
-        "size": "26, 27 x2, 28 x2, 29",
+        "size": "26, 27 x2, 28, 29",
         "sizeDetails": {
           "26": 1,
           "27": 2,
-          "28": 2,
+          "28": 1,
           "29": 1
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -699,9 +699,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Negro",
-        "size": "28",
+        "size": "24",
         "sizeDetails": {
-          "28": 1
+          "24": 1
         },
         "quantity": 1,
         "minimum": 3,
@@ -856,13 +856,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 negro",
-        "size": "27, 29, 30",
+        "size": "27, 30",
         "sizeDetails": {
           "27": 1,
-          "29": 1,
           "30": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 425,
         "salePrice": 765
@@ -1536,13 +1535,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "24, 25 x3, 26 x3",
+        "size": "24, 25 x3, 26 x2",
         "sizeDetails": {
           "24": 1,
           "25": 3,
-          "26": 3
+          "26": 2
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 6,
         "cost": 310,
         "salePrice": 650
