@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-28T20:07:09.302Z",
+  "savedAt": "2026-06-28T21:04:02.050Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -460,12 +460,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx verde",
-        "size": "27, 28",
+        "size": "27",
         "sizeDetails": {
-          "27": 1,
-          "28": 1
+          "27": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -1515,12 +1514,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "25 x2, 26 x2",
+        "size": "25, 26 x2",
         "sizeDetails": {
-          "25": 2,
+          "25": 1,
           "26": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 340,
         "salePrice": 680
@@ -1530,13 +1529,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "24, 25 x3, 26 x2",
+        "size": "24, 25 x2, 26 x2",
         "sizeDetails": {
           "24": 1,
-          "25": 3,
+          "25": 2,
           "26": 2
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 6,
         "cost": 310,
         "salePrice": 650
