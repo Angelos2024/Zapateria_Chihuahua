@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-28T17:51:25.632Z",
+  "savedAt": "2026-06-28T20:07:07.110Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -27,12 +27,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra mil rayas",
-        "size": "26 x2, 29",
+        "size": "26 x2",
         "sizeDetails": {
-          "26": 2,
-          "29": 1
+          "26": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 3,
         "cost": 400,
         "salePrice": 750
@@ -681,12 +680,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "27 x2, 29",
+        "size": "27, 29",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "29": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 4,
         "cost": 310,
         "salePrice": 650
