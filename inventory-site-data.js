@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-28T22:00:52.467Z",
+  "savedAt": "2026-06-29T15:54:23.112Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -128,11 +128,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin casco acero",
-        "size": "27 x2",
+        "size": "27",
         "sizeDetails": {
-          "27": 2
+          "27": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 1,
         "cost": 630,
         "salePrice": 970
@@ -1255,13 +1255,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Flow",
-        "size": "22, 23, 24",
+        "size": "22, 23",
         "sizeDetails": {
           "22": 1,
-          "23": 1,
-          "24": 1
+          "23": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 3,
         "cost": 250,
         "salePrice": 570
