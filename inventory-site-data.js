@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-29T15:54:23.112Z",
+  "savedAt": "2026-06-30T22:25:28.325Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -27,11 +27,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra mil rayas",
-        "size": "26 x2",
+        "size": "26 x2, 28",
         "sizeDetails": {
-          "26": 2
+          "26": 2,
+          "28": 1
         },
-        "quantity": 2,
+        "quantity": 3,
         "minimum": 3,
         "cost": 400,
         "salePrice": 750
@@ -171,14 +172,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS coyote",
-        "size": "26, 28, 29, 30",
+        "size": "26, 29, 30",
         "sizeDetails": {
           "26": 1,
-          "28": 1,
           "29": 1,
           "30": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -400,12 +400,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Cuello largo Negra",
-        "size": "29, 30",
+        "size": "29",
         "sizeDetails": {
-          "29": 1,
-          "30": 1
+          "29": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 475,
         "salePrice": 820
@@ -763,12 +762,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "28 x2, 29",
+        "size": "28",
         "sizeDetails": {
-          "28": 2,
-          "29": 1
+          "28": 1
         },
-        "quantity": 3,
+        "quantity": 1,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
@@ -1345,15 +1343,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Sport negro",
-        "size": "22, 23, 24, 25, 26",
+        "size": "23, 24, 25, 26",
         "sizeDetails": {
-          "22": 1,
           "23": 1,
           "24": 1,
           "25": 1,
           "26": 1
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 3,
         "cost": 370,
         "salePrice": 710
