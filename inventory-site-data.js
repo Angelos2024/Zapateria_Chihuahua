@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-06-30T22:25:28.325Z",
+  "savedAt": "2026-07-01T22:27:42.050Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -154,18 +154,6 @@ window.INVENTORY_SITE_DATA = {
         "minimum": 3,
         "cost": 370,
         "salePrice": 410
-      },
-      {
-        "id": "inv-13",
-        "audienceGroup": "caballero",
-        "productGroup": "calzado-vaquero",
-        "model": "Casdo suela blanca",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
-        "minimum": 0,
-        "cost": 380,
-        "salePrice": 740
       },
       {
         "id": "inv-14",
@@ -776,13 +764,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 021 negro",
-        "size": "28, 29, 30",
+        "size": "28, 30",
         "sizeDetails": {
           "28": 1,
-          "29": 1,
           "30": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 435,
         "salePrice": 775
