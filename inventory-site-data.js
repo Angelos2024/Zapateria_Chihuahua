@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-03T18:05:16.790Z",
+  "savedAt": "2026-07-03T19:41:39.840Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -1201,13 +1201,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Blanco",
-        "size": "23, 24, 26 x2",
+        "size": "24, 26 x2",
         "sizeDetails": {
-          "23": 1,
           "24": 1,
           "26": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 260,
         "salePrice": 600
@@ -1506,13 +1505,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "24, 25 x2, 26 x2",
+        "size": "24, 25, 26",
         "sizeDetails": {
           "24": 1,
-          "25": 2,
-          "26": 2
+          "25": 1,
+          "26": 1
         },
-        "quantity": 5,
+        "quantity": 3,
         "minimum": 6,
         "cost": 310,
         "salePrice": 650
