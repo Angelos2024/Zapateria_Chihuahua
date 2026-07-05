@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-05T19:16:41.882Z",
+  "savedAt": "2026-07-05T22:34:48.897Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -956,14 +956,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Axis 030 Rosa",
-        "size": "23, 24, 25, 26",
+        "size": "23, 25, 26",
         "sizeDetails": {
           "23": 1,
-          "24": 1,
           "25": 1,
           "26": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
         "cost": 455,
         "salePrice": 790
@@ -1303,13 +1302,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Sport rosa",
-        "size": "23, 25, 26",
+        "size": "23, 26",
         "sizeDetails": {
           "23": 1,
-          "25": 1,
           "26": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 3,
         "cost": 370,
         "salePrice": 710
