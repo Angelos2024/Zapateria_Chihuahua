@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-05T17:12:34.892Z",
+  "savedAt": "2026-07-05T18:49:28.856Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -160,13 +160,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS coyote",
-        "size": "26, 29, 30",
+        "size": "26, 29",
         "sizeDetails": {
           "26": 1,
-          "29": 1,
-          "30": 1
+          "29": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -243,13 +242,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS grizlee",
-        "size": "27, 28, 30",
+        "size": "28",
         "sizeDetails": {
-          "27": 1,
-          "28": 1,
-          "30": 1
+          "28": 1
         },
-        "quantity": 3,
+        "quantity": 1,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -708,11 +705,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Azul",
-        "size": "27 x5",
+        "size": "27 x4",
         "sizeDetails": {
-          "27": 5
+          "27": 4
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -1503,13 +1500,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "24, 25, 26",
+        "size": "24, 26",
         "sizeDetails": {
           "24": 1,
-          "25": 1,
           "26": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 6,
         "cost": 310,
         "salePrice": 650
@@ -1533,14 +1529,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "23, 24 x2, 25 x2, 26 x2",
+        "size": "23, 24, 25 x2, 26 x2",
         "sizeDetails": {
           "23": 1,
-          "24": 2,
+          "24": 1,
           "25": 2,
           "26": 2
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 6,
         "cost": 310,
         "salePrice": 680
