@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-06T18:29:16.528Z",
+  "savedAt": "2026-07-06T19:19:59.548Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -1028,13 +1028,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Caribu negra 340",
-        "size": "23, 24, 26",
+        "size": "23, 24",
         "sizeDetails": {
           "23": 1,
-          "24": 1,
-          "26": 1
+          "24": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
@@ -1541,16 +1540,16 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Plantillas",
-        "size": "23 x2, 24 x2, 25 x3, 26 x3, 27 x3, 29 x2",
+        "size": "23 x2, 24 x2, 25 x2, 26 x3, 27 x3, 29 x2",
         "sizeDetails": {
           "23": 2,
           "24": 2,
-          "25": 3,
+          "25": 2,
           "26": 3,
           "27": 3,
           "29": 2
         },
-        "quantity": 15,
+        "quantity": 14,
         "minimum": 2,
         "cost": 45,
         "salePrice": 85
