@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-07T17:56:01.128Z",
+  "savedAt": "2026-07-07T23:16:00.080Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -113,13 +113,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin corto ocre",
-        "size": "26 x3, 27 x3, 29 x2",
+        "size": "26 x2, 27 x3, 29 x2",
         "sizeDetails": {
-          "26": 3,
+          "26": 2,
           "27": 3,
           "29": 2
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 0,
         "cost": 620,
         "salePrice": 970
@@ -160,12 +160,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS coyote",
-        "size": "26, 29",
+        "size": "26",
         "sizeDetails": {
-          "26": 1,
-          "29": 1
+          "26": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -585,12 +584,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Force negro",
-        "size": "27 x3, 29 x2",
+        "size": "27 x3, 29",
         "sizeDetails": {
           "27": 3,
-          "29": 2
+          "29": 1
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 5,
         "cost": 290,
         "salePrice": 630
