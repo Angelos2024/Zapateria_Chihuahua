@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-06T19:38:10.419Z",
+  "savedAt": "2026-07-07T15:59:42.655Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -175,15 +175,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Nicadabra Rambo",
-        "size": "26 x4, 27 x6, 28 x4, 29, 30 x2",
+        "size": "26 x4, 27 x5, 28 x4, 29, 30 x2",
         "sizeDetails": {
           "26": 4,
-          "27": 6,
+          "27": 5,
           "28": 4,
           "29": 1,
           "30": 2
         },
-        "quantity": 17,
+        "quantity": 16,
         "minimum": 3,
         "cost": 220,
         "salePrice": 540
@@ -663,11 +663,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "29",
-        "sizeDetails": {
-          "29": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 4,
         "cost": 310,
         "salePrice": 650
