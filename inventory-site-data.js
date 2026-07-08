@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-08T18:50:56.316Z",
+  "savedAt": "2026-07-08T23:07:36.761Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -1213,14 +1213,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Negro",
-        "size": "23, 24 x2, 25 x4, 26",
+        "size": "23, 24 x2, 25 x4",
         "sizeDetails": {
           "23": 1,
           "24": 2,
-          "25": 4,
-          "26": 1
+          "25": 4
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 3,
         "cost": 290,
         "salePrice": 630
@@ -1527,14 +1526,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "23, 24, 25 x2, 26 x2",
+        "size": "24, 25 x2, 26 x2",
         "sizeDetails": {
-          "23": 1,
           "24": 1,
           "25": 2,
           "26": 2
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 6,
         "cost": 310,
         "salePrice": 680
