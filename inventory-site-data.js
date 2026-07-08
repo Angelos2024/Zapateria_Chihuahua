@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-08T00:12:03.325Z",
+  "savedAt": "2026-07-08T18:50:38.855Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -13,11 +13,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre suela de Goma",
-        "size": "30",
+        "size": "26, 27 x2, 28 x2, 29, 30",
         "sizeDetails": {
+          "26": 1,
+          "27": 2,
+          "28": 2,
+          "29": 1,
           "30": 1
         },
-        "quantity": 1,
+        "quantity": 7,
         "minimum": 4,
         "cost": 400,
         "salePrice": 740
@@ -42,9 +46,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre Truck",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "27 x2, 28 x2, 29 x2",
+        "sizeDetails": {
+          "27": 2,
+          "28": 2,
+          "29": 2
+        },
+        "quantity": 6,
         "minimum": 4,
         "cost": 410,
         "salePrice": 750
@@ -66,11 +74,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Everest",
-        "size": "26",
+        "size": "26, 27 x2, 28 x2, 29 x2",
         "sizeDetails": {
-          "26": 1
+          "26": 1,
+          "27": 2,
+          "28": 2,
+          "29": 2
         },
-        "quantity": 1,
+        "quantity": 7,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -80,13 +91,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Chupacabras Ocre doble densidad",
-        "size": "27 x2, 28, 30",
+        "size": "27 x2, 30",
         "sizeDetails": {
           "27": 2,
-          "28": 1,
           "30": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
         "cost": 450,
         "salePrice": 790
@@ -207,15 +217,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "26, 27 x2, 28 x2, 29 x2, 30",
+        "size": "26, 27 x2, 28 x2, 29, 30",
         "sizeDetails": {
           "26": 1,
           "27": 2,
           "28": 2,
-          "29": 2,
+          "29": 1,
           "30": 1
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
