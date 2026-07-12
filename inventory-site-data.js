@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-08T23:07:36.761Z",
+  "savedAt": "2026-07-10T23:46:19.575Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -13,15 +13,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre suela de Goma",
-        "size": "26, 27 x2, 28 x2, 29, 30",
+        "size": "26, 27 x2, 28 x2, 29",
         "sizeDetails": {
           "26": 1,
           "27": 2,
           "28": 2,
-          "29": 1,
-          "30": 1
+          "29": 1
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 4,
         "cost": 400,
         "salePrice": 740
@@ -123,13 +122,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin corto ocre",
-        "size": "26 x2, 27 x3, 29 x2",
+        "size": "26 x2, 27 x2, 29",
         "sizeDetails": {
           "26": 2,
-          "27": 3,
-          "29": 2
+          "27": 2,
+          "29": 1
         },
-        "quantity": 7,
+        "quantity": 5,
         "minimum": 0,
         "cost": 620,
         "salePrice": 970
@@ -139,11 +138,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin casco acero",
-        "size": "27",
-        "sizeDetails": {
-          "27": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 1,
         "cost": 630,
         "salePrice": 970
@@ -217,15 +214,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "26, 27 x2, 28 x2, 29, 30",
+        "size": "26, 27 x2, 28 x2, 30",
         "sizeDetails": {
           "26": 1,
           "27": 2,
           "28": 2,
-          "29": 1,
           "30": 1
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -408,15 +404,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Cuello largo Amarilla",
-        "size": "27, 28, 29, 30, 31",
+        "size": "28, 29, 30, 31",
         "sizeDetails": {
-          "27": 1,
           "28": 1,
           "29": 1,
           "30": 1,
           "31": 1
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 2,
         "cost": 475,
         "salePrice": 820
@@ -817,13 +812,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 azul",
-        "size": "27, 28, 29",
+        "size": "27, 29",
         "sizeDetails": {
           "27": 1,
-          "28": 1,
           "29": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 425,
         "salePrice": 765
