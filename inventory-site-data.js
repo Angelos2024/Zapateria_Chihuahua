@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-12T20:03:14.845Z",
+  "savedAt": "2026-07-12T21:50:22.107Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -1237,11 +1237,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Ultra negro",
-        "size": "23",
+        "size": "23, 24",
         "sizeDetails": {
-          "23": 1
+          "23": 1,
+          "24": 1
         },
-        "quantity": 1,
+        "quantity": 2,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -1326,11 +1327,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Mopar Rosa",
-        "size": "26",
+        "size": "23, 24, 26",
         "sizeDetails": {
+          "23": 1,
+          "24": 1,
           "26": 1
         },
-        "quantity": 1,
+        "quantity": 3,
         "minimum": 1,
         "cost": 380,
         "salePrice": 795
