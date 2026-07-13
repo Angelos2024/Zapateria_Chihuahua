@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-12T21:50:22.107Z",
+  "savedAt": "2026-07-13T21:55:16.007Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -90,12 +90,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Chupacabras Ocre doble densidad",
-        "size": "27 x2, 30",
+        "size": "27, 30",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "30": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 450,
         "salePrice": 790
@@ -122,13 +122,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin corto ocre",
-        "size": "26 x2, 27 x2, 29",
+        "size": "26 x2, 27 x2",
         "sizeDetails": {
           "26": 2,
-          "27": 2,
-          "29": 1
+          "27": 2
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 0,
         "cost": 620,
         "salePrice": 970
@@ -390,11 +389,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Cuello largo Negra",
-        "size": "29",
+        "size": "27, 28, 29, 30",
         "sizeDetails": {
-          "29": 1
+          "27": 1,
+          "28": 1,
+          "29": 1,
+          "30": 1
         },
-        "quantity": 1,
+        "quantity": 4,
         "minimum": 2,
         "cost": 475,
         "salePrice": 820
@@ -404,14 +406,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Cuello largo Amarilla",
-        "size": "28, 29, 30, 31",
+        "size": "28, 29, 30, 31 x2",
         "sizeDetails": {
           "28": 1,
           "29": 1,
           "30": 1,
-          "31": 1
+          "31": 2
         },
-        "quantity": 4,
+        "quantity": 5,
         "minimum": 2,
         "cost": 475,
         "salePrice": 820
@@ -489,12 +491,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Beige 340",
-        "size": "27 x2, 29",
+        "size": "27 x2",
         "sizeDetails": {
-          "27": 2,
-          "29": 1
+          "27": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
@@ -677,11 +678,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Negro",
-        "size": "24",
+        "size": "28 x2, 30 x2",
         "sizeDetails": {
-          "24": 1
+          "28": 2,
+          "30": 2
         },
-        "quantity": 1,
+        "quantity": 4,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -719,11 +721,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Sport negro",
-        "size": "27",
+        "size": "27, 28",
         "sizeDetails": {
-          "27": 1
+          "27": 1,
+          "28": 1
         },
-        "quantity": 1,
+        "quantity": 2,
         "minimum": 1,
         "cost": 370,
         "salePrice": 710
@@ -771,9 +774,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 021 azul",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "28",
+        "sizeDetails": {
+          "28": 1
+        },
+        "quantity": 1,
         "minimum": 2,
         "cost": 435,
         "salePrice": 775
@@ -797,11 +802,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 naranja",
-        "size": "30",
+        "size": "28, 30",
         "sizeDetails": {
+          "28": 1,
           "30": 1
         },
-        "quantity": 1,
+        "quantity": 2,
         "minimum": 2,
         "cost": 425,
         "salePrice": 765
@@ -840,9 +846,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Flow",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "28, 29",
+        "sizeDetails": {
+          "28": 1,
+          "29": 1
+        },
+        "quantity": 2,
         "minimum": 1,
         "cost": 250,
         "salePrice": 570
@@ -878,11 +887,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "plantillas",
-        "size": "29",
+        "size": "29 x2",
         "sizeDetails": {
-          "29": 1
+          "29": 2
         },
-        "quantity": 1,
+        "quantity": 2,
         "minimum": 3,
         "cost": 45,
         "salePrice": 100
@@ -1222,12 +1231,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Flow",
-        "size": "22, 23",
+        "size": "22, 23, 24",
         "sizeDetails": {
           "22": 1,
-          "23": 1
+          "23": 1,
+          "24": 1
         },
-        "quantity": 2,
+        "quantity": 3,
         "minimum": 3,
         "cost": 250,
         "salePrice": 570
@@ -1237,12 +1247,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Ultra negro",
-        "size": "23, 24",
+        "size": "23, 24, 25",
         "sizeDetails": {
           "23": 1,
-          "24": 1
+          "24": 1,
+          "25": 1
         },
-        "quantity": 2,
+        "quantity": 3,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -1373,9 +1384,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Axis 28 Rosa",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "24, 25",
+        "sizeDetails": {
+          "24": 1,
+          "25": 1
+        },
+        "quantity": 2,
         "minimum": 1,
         "cost": 425,
         "salePrice": 765
@@ -1493,12 +1507,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "24, 26",
+        "size": "24",
         "sizeDetails": {
-          "24": 1,
-          "26": 1
+          "24": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 6,
         "cost": 310,
         "salePrice": 650
@@ -1538,16 +1551,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Plantillas",
-        "size": "23 x2, 24 x2, 25 x2, 26 x3, 27 x3, 29 x2",
+        "size": "23 x2, 24 x2, 25 x2, 26 x2",
         "sizeDetails": {
           "23": 2,
           "24": 2,
           "25": 2,
-          "26": 3,
-          "27": 3,
-          "29": 2
+          "26": 2
         },
-        "quantity": 14,
+        "quantity": 8,
         "minimum": 2,
         "cost": 45,
         "salePrice": 85

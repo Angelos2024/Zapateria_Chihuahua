@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-  "savedAt": "2026-07-12T17:11:09.549Z",
+  "savedAt": "2026-07-13T21:54:56.504Z",
   "source": "product-admin",
   "products": {
     "inventory:botas:atx cafe": {
@@ -776,10 +776,10 @@ window.PRODUCT_ADMIN_DATA = {
       ],
       "description": "PLANTILLAS DE POLIURETANO",
       "images": [
-        "img/productos/admin-inventory-tenis-plantillas-20260513-162214-1.jpg"
+        "img/productos/admin-inventory-tenis-plantillas-20260713-155456-1.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-plantillas-20260513-162214-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-plantillas-20260513-162214-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-plantillas-20260713-155456-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-plantillas-20260713-155456-1.jpg"
     },
     "inventory:tenis:puma negro": {
       "minSize": 25,
