@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-13T21:55:16.007Z",
+  "savedAt": "2026-07-14T22:09:35.697Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -180,15 +180,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Nicadabra Rambo",
-        "size": "26 x4, 27 x5, 28 x3, 29, 30 x2",
+        "size": "26 x4, 27 x5, 28 x2, 29, 30 x2",
         "sizeDetails": {
           "26": 4,
           "27": 5,
-          "28": 3,
+          "28": 2,
           "29": 1,
           "30": 2
         },
-        "quantity": 15,
+        "quantity": 14,
         "minimum": 3,
         "cost": 220,
         "salePrice": 540
@@ -213,14 +213,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "26, 27 x2, 28 x2, 30",
+        "size": "26, 27 x2, 28, 30",
         "sizeDetails": {
           "26": 1,
           "27": 2,
-          "28": 2,
+          "28": 1,
           "30": 1
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -406,14 +406,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Cuello largo Amarilla",
-        "size": "28, 29, 30, 31 x2",
+        "size": "28, 29, 30, 31",
         "sizeDetails": {
           "28": 1,
           "29": 1,
           "30": 1,
-          "31": 2
+          "31": 1
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 2,
         "cost": 475,
         "salePrice": 820
@@ -678,12 +678,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Negro",
-        "size": "28 x2, 30 x2",
+        "size": "28 x2, 30",
         "sizeDetails": {
           "28": 2,
-          "30": 2
+          "30": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -946,12 +946,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Shein Atx negro",
-        "size": "23, 24 x3",
+        "size": "23, 24 x2",
         "sizeDetails": {
           "23": 1,
-          "24": 3
+          "24": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -1231,13 +1231,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Flow",
-        "size": "22, 23, 24",
+        "size": "22, 24",
         "sizeDetails": {
           "22": 1,
-          "23": 1,
           "24": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 3,
         "cost": 250,
         "salePrice": 570
