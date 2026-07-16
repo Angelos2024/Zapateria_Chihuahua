@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-16T00:36:45.768Z",
+  "savedAt": "2026-07-16T22:26:42.243Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -13,14 +13,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre suela de Goma",
-        "size": "26, 27 x3, 28 x2, 29 x3",
+        "size": "26, 27 x3, 28, 29 x3",
         "sizeDetails": {
           "26": 1,
           "27": 3,
-          "28": 2,
+          "28": 1,
           "29": 3
         },
-        "quantity": 9,
+        "quantity": 8,
         "minimum": 4,
         "cost": 400,
         "salePrice": 740
@@ -44,13 +44,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre Truck",
-        "size": "27 x2, 28 x2, 29 x2",
+        "size": "27, 28 x2, 29 x2",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "28": 2,
           "29": 2
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 4,
         "cost": 410,
         "salePrice": 750
@@ -865,11 +865,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "plantillas",
-        "size": "29 x2",
+        "size": "29",
         "sizeDetails": {
-          "29": 2
+          "29": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 3,
         "cost": 45,
         "salePrice": 100
@@ -1524,14 +1524,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Plantillas",
-        "size": "23 x2, 24 x2, 25 x2, 26 x2",
+        "size": "23 x2, 24 x2, 25 x2, 26",
         "sizeDetails": {
           "23": 2,
           "24": 2,
           "25": 2,
-          "26": 2
+          "26": 1
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 2,
         "cost": 45,
         "salePrice": 85
