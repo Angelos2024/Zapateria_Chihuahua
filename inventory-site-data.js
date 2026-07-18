@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-16T22:26:42.243Z",
+  "savedAt": "2026-07-17T21:31:31.502Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -118,12 +118,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin corto ocre",
-        "size": "26 x2, 27 x2",
+        "size": "26 x2, 27",
         "sizeDetails": {
           "26": 2,
-          "27": 2
+          "27": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 0,
         "cost": 620,
         "salePrice": 970
@@ -672,11 +672,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Rojo",
-        "size": "28",
-        "sizeDetails": {
-          "28": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 1,
         "cost": 400,
         "salePrice": 740
@@ -686,11 +684,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Azul",
-        "size": "27 x4",
+        "size": "27 x3",
         "sizeDetails": {
-          "27": 4
+          "27": 3
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -779,12 +777,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 naranja",
-        "size": "28, 30",
+        "size": "28",
         "sizeDetails": {
-          "28": 1,
-          "30": 1
+          "28": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 425,
         "salePrice": 765
@@ -1178,12 +1175,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Blanco",
-        "size": "24 x2, 26",
+        "size": "24",
         "sizeDetails": {
-          "24": 2,
-          "26": 1
+          "24": 1
         },
-        "quantity": 3,
+        "quantity": 1,
         "minimum": 3,
         "cost": 260,
         "salePrice": 600
@@ -1524,14 +1520,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Plantillas",
-        "size": "23 x2, 24 x2, 25 x2, 26",
+        "size": "23 x2, 24 x2, 25 x2",
         "sizeDetails": {
           "23": 2,
           "24": 2,
-          "25": 2,
-          "26": 1
+          "25": 2
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 2,
         "cost": 45,
         "salePrice": 85
