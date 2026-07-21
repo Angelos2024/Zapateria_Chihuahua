@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-21T18:30:50.666Z",
+  "savedAt": "2026-07-21T19:41:01.854Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -179,12 +179,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Tornado piel",
-        "size": "26 x2, 30 x2",
+        "size": "26, 30 x2",
         "sizeDetails": {
-          "26": 2,
+          "26": 1,
           "30": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 315,
         "salePrice": 655
@@ -813,12 +813,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Flow",
-        "size": "28, 29",
+        "size": "28",
         "sizeDetails": {
-          "28": 1,
-          "29": 1
+          "28": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 1,
         "cost": 250,
         "salePrice": 570
