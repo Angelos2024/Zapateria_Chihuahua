@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-17T21:31:31.502Z",
+  "savedAt": "2026-07-21T18:30:50.666Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -13,14 +13,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre suela de Goma",
-        "size": "26, 27 x3, 28, 29 x3",
+        "size": "26, 27 x2, 28, 29 x3",
         "sizeDetails": {
           "26": 1,
-          "27": 3,
+          "27": 2,
           "28": 1,
           "29": 3
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 4,
         "cost": 400,
         "salePrice": 740
@@ -44,13 +44,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre Truck",
-        "size": "27, 28 x2, 29 x2",
+        "size": "28 x2, 29 x2",
         "sizeDetails": {
-          "27": 1,
           "28": 2,
           "29": 2
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 4,
         "cost": 410,
         "salePrice": 750
@@ -72,14 +71,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Everest",
-        "size": "26, 27 x2, 28 x2, 29 x2",
+        "size": "26, 27, 28 x2, 29 x2",
         "sizeDetails": {
           "26": 1,
-          "27": 2,
+          "27": 1,
           "28": 2,
           "29": 2
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -89,11 +88,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Chupacabras Ocre doble densidad",
-        "size": "27 x2",
-        "sizeDetails": {
-          "27": 2
-        },
-        "quantity": 2,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 2,
         "cost": 450,
         "salePrice": 790
@@ -103,12 +100,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Chupacabras Ocre ",
-        "size": "26 x2, 30 x2",
+        "size": "26 x2, 27, 30 x2",
         "sizeDetails": {
           "26": 2,
+          "27": 1,
           "30": 2
         },
-        "quantity": 4,
+        "quantity": 5,
         "minimum": 3,
         "cost": 370,
         "salePrice": 710
@@ -196,14 +194,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "26 x2, 27 x2, 28, 30",
+        "size": "26, 27 x2, 28, 30",
         "sizeDetails": {
-          "26": 2,
+          "26": 1,
           "27": 2,
           "28": 1,
           "30": 1
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -272,13 +270,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS soldador Dakota",
-        "size": "26, 27 x2, 29",
+        "size": "26, 27 x2",
         "sizeDetails": {
           "26": 1,
-          "27": 2,
-          "29": 1
+          "27": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -328,12 +325,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Triples Pro Soldador",
-        "size": "27, 29",
+        "size": "29",
         "sizeDetails": {
-          "27": 1,
           "29": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 480,
         "salePrice": 820
@@ -389,14 +385,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Cuello largo Amarilla",
-        "size": "28, 29, 30, 31",
+        "size": "29, 30, 31",
         "sizeDetails": {
-          "28": 1,
           "29": 1,
           "30": 1,
           "31": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
         "cost": 475,
         "salePrice": 820
@@ -433,11 +428,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx verde",
-        "size": "27",
-        "sizeDetails": {
-          "27": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -555,13 +548,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Force blanco",
-        "size": "27 x3, 28 x2, 29 x3",
+        "size": "27 x3, 28, 29 x3",
         "sizeDetails": {
           "27": 3,
-          "28": 2,
+          "28": 1,
           "29": 3
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 5,
         "cost": 260,
         "salePrice": 600
@@ -791,13 +784,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 azul",
-        "size": "27, 28, 29",
+        "size": "27, 29",
         "sizeDetails": {
           "27": 1,
-          "28": 1,
           "29": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 425,
         "salePrice": 765
@@ -876,12 +868,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "ATX Negra",
-        "size": "23, 26",
+        "size": "23",
         "sizeDetails": {
-          "23": 1,
-          "26": 1
+          "23": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 380,
         "salePrice": 770
@@ -1189,13 +1180,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Negro",
-        "size": "23, 24 x2, 25 x3",
+        "size": "23, 24 x2, 25",
         "sizeDetails": {
           "23": 1,
           "24": 2,
-          "25": 3
+          "25": 1
         },
-        "quantity": 6,
+        "quantity": 4,
         "minimum": 3,
         "cost": 290,
         "salePrice": 630
@@ -1432,13 +1423,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Terrax piel",
-        "size": "23, 25, 26",
+        "size": "23, 25",
         "sizeDetails": {
           "23": 1,
-          "25": 1,
-          "26": 1
+          "25": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 390,
         "salePrice": 730
