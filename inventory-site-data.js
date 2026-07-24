@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-21T19:41:01.854Z",
+  "savedAt": "2026-07-24T00:38:27.694Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -162,10 +162,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Nicadabra Rambo",
-        "size": "26 x4, 27 x5, 29 x2, 30 x2",
+        "size": "26 x4, 27 x4, 28, 29 x2, 30 x2",
         "sizeDetails": {
           "26": 4,
-          "27": 5,
+          "27": 4,
+          "28": 1,
           "29": 2,
           "30": 2
         },
@@ -211,12 +212,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS oso negro",
-        "size": "28, 29 x2",
+        "size": "29 x2",
         "sizeDetails": {
-          "28": 1,
           "29": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -385,13 +385,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Cuello largo Amarilla",
-        "size": "29, 30, 31",
+        "size": "29, 31",
         "sizeDetails": {
           "29": 1,
-          "30": 1,
           "31": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 475,
         "salePrice": 820
@@ -650,10 +649,10 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Negro",
-        "size": "28 x2, 30",
+        "size": "24, 28 x2",
         "sizeDetails": {
-          "28": 2,
-          "30": 1
+          "24": 1,
+          "28": 2
         },
         "quantity": 3,
         "minimum": 3,
@@ -784,12 +783,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 azul",
-        "size": "27, 29",
+        "size": "29",
         "sizeDetails": {
-          "27": 1,
           "29": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 425,
         "salePrice": 765
@@ -1165,11 +1163,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Blanco",
-        "size": "24",
-        "sizeDetails": {
-          "24": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 3,
         "cost": 260,
         "salePrice": 600
@@ -1179,13 +1175,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Negro",
-        "size": "23, 24 x2, 25",
+        "size": "23, 24 x2",
         "sizeDetails": {
           "23": 1,
-          "24": 2,
-          "25": 1
+          "24": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 290,
         "salePrice": 630
@@ -1210,13 +1205,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Ultra negro",
-        "size": "23, 24, 25",
+        "size": "25",
         "sizeDetails": {
-          "23": 1,
-          "24": 1,
           "25": 1
         },
-        "quantity": 3,
+        "quantity": 1,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -1242,11 +1235,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Pegasus Negro",
-        "size": "23 x3",
+        "size": "23 x2",
         "sizeDetails": {
-          "23": 3
+          "23": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 250,
         "salePrice": 580
@@ -1437,13 +1430,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "TRS choclo Rosa",
-        "size": "24, 26, 27",
+        "size": "24, 27",
         "sizeDetails": {
           "24": 1,
-          "26": 1,
           "27": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 455,
         "salePrice": 650
@@ -1467,11 +1459,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "24",
-        "sizeDetails": {
-          "24": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 6,
         "cost": 310,
         "salePrice": 650
