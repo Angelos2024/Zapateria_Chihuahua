@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-24T00:38:27.694Z",
+  "savedAt": "2026-07-24T18:42:08.630Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -1338,12 +1338,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Axis 28 Rosa",
-        "size": "24, 25",
+        "size": "24",
         "sizeDetails": {
-          "24": 1,
-          "25": 1
+          "24": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 1,
         "cost": 425,
         "salePrice": 765
