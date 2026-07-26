@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-26T18:32:51.884Z",
+  "savedAt": "2026-07-26T18:47:18.433Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
