@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-24T18:42:08.630Z",
+  "savedAt": "2026-07-26T18:00:05.425Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -30,11 +30,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra mil rayas",
-        "size": "26 x2",
+        "size": "26",
         "sizeDetails": {
-          "26": 2
+          "26": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 3,
         "cost": 400,
         "salePrice": 750
@@ -131,14 +131,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Chupacabras negra",
-        "size": "26 x2, 27 x4, 28 x3, 30",
+        "size": "26 x2, 27 x4, 28 x2, 30",
         "sizeDetails": {
           "26": 2,
           "27": 4,
-          "28": 3,
+          "28": 2,
           "30": 1
         },
-        "quantity": 10,
+        "quantity": 9,
         "minimum": 3,
         "cost": 370,
         "salePrice": 410
@@ -162,15 +162,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Nicadabra Rambo",
-        "size": "26 x4, 27 x4, 28, 29 x2, 30 x2",
+        "size": "26 x3, 27 x4, 28, 29 x2, 30 x2",
         "sizeDetails": {
-          "26": 4,
+          "26": 3,
           "27": 4,
           "28": 1,
           "29": 2,
           "30": 2
         },
-        "quantity": 13,
+        "quantity": 12,
         "minimum": 3,
         "cost": 220,
         "salePrice": 540
@@ -368,14 +368,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Cuello largo Negra",
-        "size": "27, 28, 29, 30",
+        "size": "27, 29",
         "sizeDetails": {
           "27": 1,
-          "28": 1,
-          "29": 1,
-          "30": 1
+          "29": 1
         },
-        "quantity": 4,
+        "quantity": 2,
         "minimum": 2,
         "cost": 475,
         "salePrice": 820
@@ -605,12 +603,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Vsport choclo Eva",
-        "size": "26, 28",
+        "size": "26",
         "sizeDetails": {
-          "26": 1,
-          "28": 1
+          "26": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 260,
         "salePrice": 570
@@ -649,12 +646,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Negro",
-        "size": "24, 28 x2",
+        "size": "24, 28",
         "sizeDetails": {
           "24": 1,
-          "28": 2
+          "28": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -769,11 +766,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 naranja",
-        "size": "28",
-        "sizeDetails": {
-          "28": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 2,
         "cost": 425,
         "salePrice": 765
@@ -1219,13 +1214,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Ultra Rosa",
-        "size": "23, 25, 26",
+        "size": "25, 26",
         "sizeDetails": {
-          "23": 1,
           "25": 1,
           "26": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
