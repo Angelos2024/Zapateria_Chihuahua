@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-    "savedAt":  "2026-07-26T18:41:04.792Z",
+    "savedAt":  "2026-07-26T18:46:42.260Z",
     "source":  "product-admin",
     "products":  {
                      "inventory:botas:atx cafe":  {
@@ -39,10 +39,10 @@ window.PRODUCT_ADMIN_DATA = {
                                                                        ],
                                                            "description":  "Calzado de Seguridad modelo Axis 030 Azul disponible en tienda.",
                                                            "images":  [
-                                                                          "img/productos/admin-inventory-botas-axis-030-azul-20260513-135723-1.jpg"
+                                                                          "img/productos/admin-inventory-botas-axis-030-azul-20260726-124557-1.jpg"
                                                                       ],
-                                                           "coverImage":  "img/productos/admin-inventory-botas-axis-030-azul-20260513-135723-1.jpg",
-                                                           "image":  "img/productos/admin-inventory-botas-axis-030-azul-20260513-135723-1.jpg"
+                                                           "coverImage":  "img/productos/admin-inventory-botas-axis-030-azul-20260726-124557-1.jpg",
+                                                           "image":  "img/productos/admin-inventory-botas-axis-030-azul-20260726-124557-1.jpg"
                                                        },
                      "inventory:botas:caribu amarilla 952":  {
                                                                  "description":  "Calzado de Seguridad modelo Caribú Amarilla 952 disponible en tienda.",
@@ -517,12 +517,11 @@ window.PRODUCT_ADMIN_DATA = {
                                                                             "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida."
                                                                         ],
                                                             "images":  [
-                                                                           "img/productos/admin-inventory-botas-axis-030-negra-20260513-135959-1.jpg",
-                                                                           "img/productos/admin-inventory-botas-axis-030-negra-20260513-135959-2.jpg",
-                                                                           "img/productos/admin-inventory-botas-axis-030-negra-20260513-135959-3.jpg"
+                                                                           "img/productos/admin-inventory-botas-axis-030-negra-20260726-124610-1.jpg",
+                                                                           "img/productos/admin-inventory-botas-axis-030-negra-20260726-124610-2.jpg"
                                                                        ],
-                                                            "coverImage":  "img/productos/admin-inventory-botas-axis-030-negra-20260513-135959-1.jpg",
-                                                            "image":  "img/productos/admin-inventory-botas-axis-030-negra-20260513-135959-1.jpg"
+                                                            "coverImage":  "img/productos/admin-inventory-botas-axis-030-negra-20260726-124610-1.jpg",
+                                                            "image":  "img/productos/admin-inventory-botas-axis-030-negra-20260726-124610-1.jpg"
                                                         },
                      "inventory:botas:axis 030 roja":  {
                                                            "details":  [
@@ -591,10 +590,10 @@ window.PRODUCT_ADMIN_DATA = {
                                                                                "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
                                                                            ],
                                                                "images":  [
-                                                                              "img/productos/admin-inventory-tenis-axis-021-amarillo-20260513-155052-1.jpg"
+                                                                              "img/productos/admin-inventory-tenis-axis-021-amarillo-20260726-124642-1.jpg"
                                                                           ],
-                                                               "coverImage":  "img/productos/admin-inventory-tenis-axis-021-amarillo-20260513-155052-1.jpg",
-                                                               "image":  "img/productos/admin-inventory-tenis-axis-021-amarillo-20260513-155052-1.jpg"
+                                                               "coverImage":  "img/productos/admin-inventory-tenis-axis-021-amarillo-20260726-124642-1.jpg",
+                                                               "image":  "img/productos/admin-inventory-tenis-axis-021-amarillo-20260726-124642-1.jpg"
                                                            },
                      "inventory:tenis:axis 021 azul":  {
                                                            "details":  [
