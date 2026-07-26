@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-07-26T18:00:05.425Z",
+  "savedAt": "2026-07-26T18:32:51.884Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -360,8 +360,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 2,
         "minimum": 2,
-        "cost": 475,
-        "salePrice": 820
+        "cost": 545,
+        "salePrice": 885
       },
       {
         "id": "inv-27",
@@ -375,8 +375,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 2,
         "minimum": 2,
-        "cost": 475,
-        "salePrice": 820
+        "cost": 545,
+        "salePrice": 885
       },
       {
         "id": "inv-28",
@@ -390,8 +390,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 2,
         "minimum": 2,
-        "cost": 475,
-        "salePrice": 820
+        "cost": 545,
+        "salePrice": 885
       },
       {
         "id": "inv-29",
@@ -405,20 +405,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 2,
         "minimum": 0,
-        "cost": 455,
-        "salePrice": 790
-      },
-      {
-        "id": "inv-30",
-        "audienceGroup": "caballero",
-        "productGroup": "botas",
-        "model": "Soldador Ribers",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
-        "minimum": 0,
-        "cost": 455,
-        "salePrice": 795
+        "cost": 530,
+        "salePrice": 870
       },
       {
         "id": "inv-31",
@@ -653,8 +641,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 2,
         "minimum": 3,
-        "cost": 400,
-        "salePrice": 740
+        "cost": 450,
+        "salePrice": 790
       },
       {
         "id": "inv-47",
@@ -665,8 +653,8 @@ window.INVENTORY_SITE_DATA = {
         "sizeDetails": {},
         "quantity": 0,
         "minimum": 1,
-        "cost": 400,
-        "salePrice": 740
+        "cost": 450,
+        "salePrice": 790
       },
       {
         "id": "inv-48",
@@ -679,8 +667,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 3,
         "minimum": 3,
-        "cost": 400,
-        "salePrice": 740
+        "cost": 450,
+        "salePrice": 790
       },
       {
         "id": "inv-49",
@@ -694,8 +682,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 2,
         "minimum": 1,
-        "cost": 370,
-        "salePrice": 710
+        "cost": 405,
+        "salePrice": 745
       },
       {
         "id": "inv-50",
@@ -706,8 +694,8 @@ window.INVENTORY_SITE_DATA = {
         "sizeDetails": {},
         "quantity": 0,
         "minimum": 2,
-        "cost": 370,
-        "salePrice": 710
+        "cost": 405,
+        "salePrice": 745
       },
       {
         "id": "inv-109",
@@ -732,8 +720,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 1,
         "minimum": 2,
-        "cost": 435,
-        "salePrice": 775
+        "cost": 500,
+        "salePrice": 840
       },
       {
         "id": "inv-51",
@@ -744,8 +732,8 @@ window.INVENTORY_SITE_DATA = {
         "sizeDetails": {},
         "quantity": 0,
         "minimum": 2,
-        "cost": 435,
-        "salePrice": 775
+        "cost": 500,
+        "salePrice": 840
       },
       {
         "id": "inv-53",
@@ -758,8 +746,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 1,
         "minimum": 0,
-        "cost": 435,
-        "salePrice": 775
+        "cost": 500,
+        "salePrice": 840
       },
       {
         "id": "inv-54",
@@ -770,8 +758,8 @@ window.INVENTORY_SITE_DATA = {
         "sizeDetails": {},
         "quantity": 0,
         "minimum": 2,
-        "cost": 425,
-        "salePrice": 765
+        "cost": 490,
+        "salePrice": 830
       },
       {
         "id": "inv-55",
@@ -784,8 +772,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 1,
         "minimum": 2,
-        "cost": 425,
-        "salePrice": 765
+        "cost": 490,
+        "salePrice": 830
       },
       {
         "id": "inv-56",
@@ -798,8 +786,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 1,
         "minimum": 2,
-        "cost": 425,
-        "salePrice": 765
+        "cost": 490,
+        "salePrice": 830
       },
       {
         "id": "inv-57",
@@ -852,7 +840,7 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 1,
         "minimum": 3,
-        "cost": 45,
+        "cost": 50,
         "salePrice": 100
       },
       {
@@ -927,8 +915,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 3,
         "minimum": 2,
-        "cost": 455,
-        "salePrice": 790
+        "cost": 530,
+        "salePrice": 870
       },
       {
         "id": "inv-78",
@@ -941,8 +929,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 1,
         "minimum": 0,
-        "cost": 455,
-        "salePrice": 790
+        "cost": 530,
+        "salePrice": 870
       },
       {
         "id": "inv-79",
@@ -955,8 +943,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 1,
         "minimum": 0,
-        "cost": 455,
-        "salePrice": 790
+        "cost": 530,
+        "salePrice": 870
       },
       {
         "id": "inv-64",
@@ -971,8 +959,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 3,
         "minimum": 2,
-        "cost": 480,
-        "salePrice": 820
+        "cost": 545,
+        "salePrice": 885
       },
       {
         "id": "inv-65",
@@ -1206,8 +1194,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 1,
         "minimum": 2,
-        "cost": 400,
-        "salePrice": 740
+        "cost": 450,
+        "salePrice": 790
       },
       {
         "id": "inv-83",
@@ -1221,8 +1209,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 2,
         "minimum": 2,
-        "cost": 400,
-        "salePrice": 740
+        "cost": 450,
+        "salePrice": 790
       },
       {
         "id": "inv-84",
@@ -1265,8 +1253,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 2,
         "minimum": 3,
-        "cost": 370,
-        "salePrice": 710
+        "cost": 405,
+        "salePrice": 745
       },
       {
         "id": "inv-88",
@@ -1280,8 +1268,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 2,
         "minimum": 3,
-        "cost": 370,
-        "salePrice": 710
+        "cost": 405,
+        "salePrice": 745
       },
       {
         "id": "inv-87",
@@ -1294,8 +1282,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 1,
         "minimum": 1,
-        "cost": 380,
-        "salePrice": 795
+        "cost": 505,
+        "salePrice": 845
       },
       {
         "id": "inv-89",
@@ -1309,8 +1297,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 2,
         "minimum": 2,
-        "cost": 435,
-        "salePrice": 775
+        "cost": 500,
+        "salePrice": 840
       },
       {
         "id": "inv-90",
@@ -1324,8 +1312,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 3,
         "minimum": 2,
-        "cost": 435,
-        "salePrice": 775
+        "cost": 500,
+        "salePrice": 840
       },
       {
         "id": "inv-91",
@@ -1338,8 +1326,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 1,
         "minimum": 1,
-        "cost": 425,
-        "salePrice": 765
+        "cost": 490,
+        "salePrice": 830
       },
       {
         "id": "inv-92",
@@ -1500,8 +1488,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 6,
         "minimum": 2,
-        "cost": 45,
-        "salePrice": 85
+        "cost": 50,
+        "salePrice": 100
       }
     ]
   }

@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-    "savedAt":  "2026-07-26T18:20:57.227Z",
+    "savedAt":  "2026-07-26T18:41:04.792Z",
     "source":  "product-admin",
     "products":  {
                      "inventory:botas:atx cafe":  {
@@ -616,10 +616,12 @@ window.PRODUCT_ADMIN_DATA = {
                                                                             "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
                                                                         ],
                                                             "images":  [
-
+                                                                           "img/productos/admin-inventory-tenis-axis-021-negro-20260726-124052-1.jpg",
+                                                                           "img/productos/admin-inventory-tenis-axis-021-negro-20260726-124052-2.jpg",
+                                                                           "img/productos/admin-inventory-tenis-axis-021-negro-20260726-124052-3.jpg"
                                                                        ],
-                                                            "coverImage":  "",
-                                                            "image":  ""
+                                                            "coverImage":  "img/productos/admin-inventory-tenis-axis-021-negro-20260726-124052-1.jpg",
+                                                            "image":  "img/productos/admin-inventory-tenis-axis-021-negro-20260726-124052-1.jpg"
                                                         },
                      "inventory:tenis:axis 021 rosa":  {
                                                            "details":  [
@@ -1089,10 +1091,11 @@ window.PRODUCT_ADMIN_DATA = {
                                                           },
                      "inventory:tenis:axis 028 negro":  {
                                                             "images":  [
-
+                                                                           "img/productos/admin-inventory-tenis-axis-028-negro-20260726-124104-1.jpg",
+                                                                           "img/productos/admin-inventory-tenis-axis-028-negro-20260726-124104-2.jpg"
                                                                        ],
-                                                            "coverImage":  "",
-                                                            "image":  ""
+                                                            "coverImage":  "img/productos/admin-inventory-tenis-axis-028-negro-20260726-124104-1.jpg",
+                                                            "image":  "img/productos/admin-inventory-tenis-axis-028-negro-20260726-124104-1.jpg"
                                                         },
                      "inventory:botas:trs oso negro":  {
                                                            "images":  [
