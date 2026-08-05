@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-    "savedAt":  "2026-07-26T18:55:10.340Z",
+    "savedAt":  "2026-08-05T19:06:39.360Z",
     "source":  "product-admin",
     "products":  {
                      "inventory:botas:atx cafe":  {
@@ -628,11 +628,11 @@ window.PRODUCT_ADMIN_DATA = {
                                                                            "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
                                                                        ],
                                                            "images":  [
-                                                                          "img/productos/admin-inventory-tenis-axis-021-rosa-20260513-155546-1.jpg",
-                                                                          "img/productos/admin-inventory-tenis-axis-021-rosa-20260513-155546-2.jpg"
+                                                                          "img/productos/admin-inventory-tenis-axis-021-rosa-20260805-130608-1.jpg",
+                                                                          "img/productos/admin-inventory-tenis-axis-021-rosa-20260805-130608-2.jpg"
                                                                       ],
-                                                           "coverImage":  "img/productos/admin-inventory-tenis-axis-021-rosa-20260513-155546-1.jpg",
-                                                           "image":  "img/productos/admin-inventory-tenis-axis-021-rosa-20260513-155546-1.jpg"
+                                                           "coverImage":  "img/productos/admin-inventory-tenis-axis-021-rosa-20260805-130608-1.jpg",
+                                                           "image":  "img/productos/admin-inventory-tenis-axis-021-rosa-20260805-130608-1.jpg"
                                                        },
                      "inventory:tenis:axis 028 azul":  {
                                                            "details":  [
@@ -936,12 +936,12 @@ window.PRODUCT_ADMIN_DATA = {
                                                                         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
                                                                     ],
                                                         "images":  [
-                                                                       "img/productos/admin-inventory-tenis-ultra-rosa-20260726-122057-1.jpg",
-                                                                       "img/productos/admin-inventory-tenis-ultra-rosa-20260726-122057-2.jpg",
-                                                                       "img/productos/admin-inventory-tenis-ultra-rosa-20260726-122057-3.jpg"
+                                                                       "img/productos/admin-inventory-tenis-ultra-rosa-20260805-130639-1.jpg",
+                                                                       "img/productos/admin-inventory-tenis-ultra-rosa-20260805-130639-2.jpg",
+                                                                       "img/productos/admin-inventory-tenis-ultra-rosa-20260805-130639-3.jpg"
                                                                    ],
-                                                        "coverImage":  "img/productos/admin-inventory-tenis-ultra-rosa-20260726-122057-1.jpg",
-                                                        "image":  "img/productos/admin-inventory-tenis-ultra-rosa-20260726-122057-1.jpg"
+                                                        "coverImage":  "img/productos/admin-inventory-tenis-ultra-rosa-20260805-130639-1.jpg",
+                                                        "image":  "img/productos/admin-inventory-tenis-ultra-rosa-20260805-130639-1.jpg"
                                                     },
                      "inventory:tenis:valentina":  {
                                                        "details":  [
