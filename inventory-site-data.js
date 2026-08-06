@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-06T19:44:17.950Z",
+  "savedAt": "2026-08-06T21:59:00.885Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -13,14 +13,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre suela de Goma",
-        "size": "26, 27 x2, 28, 29 x3",
+        "size": "26, 29",
         "sizeDetails": {
           "26": 1,
-          "27": 2,
-          "28": 1,
-          "29": 3
+          "29": 1
         },
-        "quantity": 7,
+        "quantity": 2,
         "minimum": 4,
         "cost": 400,
         "salePrice": 740
@@ -44,12 +42,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre Truck",
-        "size": "28, 29 x2",
+        "size": "29 x2",
         "sizeDetails": {
-          "28": 1,
           "29": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 4,
         "cost": 410,
         "salePrice": 750
@@ -71,10 +68,10 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Everest",
-        "size": "26, 28 x2, 29 x2",
+        "size": "26 x2, 28, 29 x2",
         "sizeDetails": {
-          "26": 1,
-          "28": 2,
+          "26": 2,
+          "28": 1,
           "29": 2
         },
         "quantity": 5,
@@ -159,15 +156,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Nicadabra Rambo",
-        "size": "26 x4, 27 x4, 28, 29 x2, 30 x2",
+        "size": "30",
         "sizeDetails": {
-          "26": 4,
-          "27": 4,
-          "28": 1,
-          "29": 2,
-          "30": 2
+          "30": 1
         },
-        "quantity": 13,
+        "quantity": 1,
         "minimum": 3,
         "cost": 220,
         "salePrice": 540
@@ -192,13 +185,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "26, 27 x2, 28",
+        "size": "26, 27 x2",
         "sizeDetails": {
           "26": 1,
-          "27": 2,
-          "28": 1
+          "27": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -457,13 +449,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Beige 340",
-        "size": "27 x2, 28 x2, 30",
+        "size": "27 x2, 28 x2",
         "sizeDetails": {
           "27": 2,
-          "28": 2,
-          "30": 1
+          "28": 2
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
@@ -1182,12 +1173,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Negro",
-        "size": "23, 24 x2",
+        "size": "23, 24",
         "sizeDetails": {
           "23": 1,
-          "24": 2
+          "24": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 3,
         "cost": 290,
         "salePrice": 630
