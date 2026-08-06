@@ -296,6 +296,130 @@ function buildCatalogProducts() {
   return applyProductAdminState([...inventoryProducts, ...staticFallbackProducts]);
 }
 
+function titleCaseModelName(value) {
+  return String(value || '')
+    .replace(/[-_]+/g, ' ')
+    .trim()
+    .split(/\s+/)
+    .map(word => word ? `${word.charAt(0).toUpperCase()}${word.slice(1)}` : '')
+    .join(' ')
+    .trim();
+}
+
+function parseSobrepedidoAdminKey(key) {
+  const raw = String(key || '');
+  const match = raw.match(/^inventory:(tenis|botas):(.+)$/i);
+  if (match) {
+    return { category: match[1].toLowerCase(), modelName: titleCaseModelName(match[2]) };
+  }
+  const category = /^tenis/i.test(raw) ? 'tenis' : 'botas';
+  const modelName = titleCaseModelName(raw.replace(/^inventory:/i, '').replace(/^(tenis|botas)[-:]/i, ''));
+  return { category, modelName };
+}
+
+function getSobrepedidoOverride(config, entry) {
+  const overrides = config.overrides || {};
+  return overrides[entry.adminKey]
+    || overrides[entry.modelName]
+    || overrides[normalizeInventoryText(entry.modelName)]
+    || {};
+}
+
+function buildSobrepedidoProduct(entry, config) {
+  const adminState = getStoredProductAdminState();
+  const meta = adminState[entry.adminKey] || {};
+  const override = getSobrepedidoOverride(config, entry);
+  const defaults = config.defaults || { minSize: 25, maxSize: 31 };
+
+  const category = override.category || entry.category || 'botas';
+  const images = normalizeProductImages(meta, entry.image || null);
+  const coverImage = getProductCoverImage(meta, images);
+
+  const rawMin = Number(override.minSize ?? meta.minSize ?? entry.minSize ?? defaults.minSize);
+  const rawMax = Number(override.maxSize ?? meta.maxSize ?? entry.maxSize ?? defaults.maxSize);
+  const minSize = Math.min(rawMin, rawMax);
+  const maxSize = Math.max(rawMin, rawMax);
+  const sizes = getSizeRange(minSize, maxSize);
+  const range = sizes.length ? sizes : DEFAULT_SIZES;
+
+  const price = Number(override.salePrice ?? entry.price ?? 0);
+  const name = override.name || entry.name || titleCaseModelName(entry.modelName);
+
+  return {
+    slug: `sobre-${category}-${slugifyProductName(entry.modelName) || 'modelo'}`,
+    name,
+    shortName: entry.modelName,
+    category,
+    price,
+    old: null,
+    specs: [],
+    sale: false,
+    image: coverImage || null,
+    images,
+    coverImage,
+    description: (typeof meta.description === 'string' && meta.description.trim()) ? meta.description.trim() : (entry.description || ''),
+    details: normalizeProductDetails(meta.details, entry.details || []),
+    sizes: range,
+    rangeMin: range[0],
+    rangeMax: range[range.length - 1],
+    hidden: override.hidden === true,
+    source: 'sobrepedido'
+  };
+}
+
+function buildSobrepedidoProducts() {
+  const config = window.SOBREPEDIDOS_CONFIG || {};
+  const adminState = getStoredProductAdminState();
+  const inventoryRows = loadInventoryCatalogState()?.rows || [];
+  const entries = new Map();
+
+  inventoryRows.forEach(row => {
+    const model = String(row?.model || '').trim();
+    if (!model) return;
+    const category = row?.productGroup === 'tenis' ? 'tenis' : 'botas';
+    const adminKey = `inventory:${category}:${normalizeInventoryText(model)}`;
+    const salePrice = Number(row?.salePrice || 0);
+
+    if (entries.has(adminKey)) {
+      const existing = entries.get(adminKey);
+      if (!(existing.price > 0) && salePrice > 0) existing.price = salePrice;
+      return;
+    }
+
+    entries.set(adminKey, { adminKey, category, modelName: model, name: model, price: salePrice });
+  });
+
+  Object.keys(adminState || {}).forEach(adminKey => {
+    if (entries.has(adminKey)) return;
+    const parsed = parseSobrepedidoAdminKey(adminKey);
+    entries.set(adminKey, { adminKey, category: parsed.category, modelName: parsed.modelName, name: parsed.modelName, price: 0 });
+  });
+
+  const products = Array.from(entries.values())
+    .map(entry => buildSobrepedidoProduct(entry, config))
+    .filter(product => !product.hidden);
+
+  (config.extraModels || []).forEach((extra, index) => {
+    const model = String(extra?.model || '').trim();
+    if (!model) return;
+    const category = extra.category === 'tenis' ? 'tenis' : 'botas';
+    products.push(buildSobrepedidoProduct({
+      adminKey: `extra:${index}`,
+      category,
+      modelName: model,
+      name: model,
+      price: Number(extra.salePrice || 0),
+      minSize: extra.minSize,
+      maxSize: extra.maxSize,
+      description: extra.description || '',
+      details: Array.isArray(extra.details) ? extra.details : [],
+      image: Array.isArray(extra.images) && extra.images.length ? extra.images[0] : null
+    }, config));
+  });
+
+  return products.sort((a, b) => a.name.localeCompare(b.name, 'es-MX'));
+}
+
 
 const staticProducts = [
   {
@@ -471,7 +595,8 @@ const staticProducts = [
   }
 ];
 
-const products = buildCatalogProducts();
+const catalogMode = document.body.dataset.catalogMode || 'tienda';
+const products = catalogMode === 'sobrepedidos' ? buildSobrepedidoProducts() : buildCatalogProducts();
 const hasInventoryProducts = products.some(product => product.source === 'inventory');
 
 const productsEl = document.getElementById('products');
@@ -843,6 +968,31 @@ function renderProducts() {
   if (sort === 'name') list.sort((a, b) => a.name.localeCompare(b.name, 'es-MX'));
 
   productsEl.innerHTML = list.map(product => {
+    if (catalogMode === 'sobrepedidos') {
+      const priceMarkup = product.price > 0
+        ? `<strong>$${product.price.toLocaleString('es-MX')}.00</strong>`
+        : '<strong>Precio a consultar</strong>';
+      const rangeBadges = (product.sizes || [])
+        .map(size => `<span title="Disponible sobre pedido">${Number(size)}</span>`)
+        .join('');
+      return `
+      <div class="product product-sobrepedido">
+        <div class="product-img"><span class="sale sale-order">Sobre pedido</span>${getProductImageMarkup(product)}</div>
+        <div class="product-body">
+          <div class="product-copy">
+            <h3>${product.name}</h3>
+            <div class="product-price-row">
+              <div class="price">${priceMarkup}</div>
+            </div>
+            <div class="sizes-block">
+              <p>Tallas sobre pedido (del ${product.rangeMin} al ${product.rangeMax})</p>
+              <div class="sizes">${rangeBadges}</div>
+            </div>
+          </div>
+        </div>
+      </div>`;
+    }
+
     return `
       <a class="product product-link" href="producto.html?slug=${product.slug}" aria-label="Ver detalle de ${product.name}">
         <div class="product-img">${product.sale ? '<span class="sale">Oferta</span>' : ''}${getProductImageMarkup(product)}</div>
@@ -1075,7 +1225,7 @@ function installMobileFiltersSheet() {
 }
 
 function refreshProductsFromAdminState() {
-  const freshProducts = buildCatalogProducts();
+  const freshProducts = catalogMode === 'sobrepedidos' ? buildSobrepedidoProducts() : buildCatalogProducts();
   products.splice(0, products.length, ...freshProducts);
   renderProducts();
   renderProductDetail();
