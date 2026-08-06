@@ -417,7 +417,9 @@ function buildSobrepedidoProducts() {
     }, config));
   });
 
-  return products.sort((a, b) => a.name.localeCompare(b.name, 'es-MX'));
+  return products
+    .filter(product => Array.isArray(product.images) && product.images.length > 0)
+    .sort((a, b) => a.name.localeCompare(b.name, 'es-MX'));
 }
 
 
