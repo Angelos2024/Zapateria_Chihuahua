@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-06T00:56:07.107Z",
+  "savedAt": "2026-08-06T19:44:17.950Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -1212,12 +1212,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Ultra negro",
-        "size": "24, 25 x2",
+        "size": "24, 25",
         "sizeDetails": {
           "24": 1,
-          "25": 2
+          "25": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 450,
         "salePrice": 790
