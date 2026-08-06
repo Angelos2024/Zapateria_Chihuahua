@@ -56,7 +56,7 @@ function canWriteProductAdminFiles() {
 
 async function saveProductAdminState(state) {
   if (!canWriteProductAdminFiles()) {
-    setAdminSaveStatus('Abre la pagina desde el servidor local: http://127.0.0.1:45126/Zapateria_Chihuahua/botas-seguridad.html', true);
+    setAdminSaveStatus('Abre la pagina desde el servidor local: http://127.0.0.1:45126/Zapateria_Chihuahua/catalogo.html', true);
     return null;
   }
 
@@ -480,6 +480,7 @@ const categoryEl = document.getElementById('category');
 const sizeEl = document.getElementById('sizeFilter');
 const sortEl = document.getElementById('sort');
 const clearEl = document.getElementById('clearFilters');
+const applyEl = document.getElementById('applyFilters');
 const activeFilterChipsEl = document.getElementById('activeFilterChips');
 const yearEl = document.getElementById('year');
 const detailRootEl = document.getElementById('product-detail');
@@ -508,7 +509,7 @@ function getCategoryLabel(category) {
 }
 
 function getCategoryUrl(category) {
-  return category === 'botas' ? 'botas-seguridad.html' : 'tenis-seguridad.html';
+  return 'catalogo.html';
 }
 
 function getCategoryMatch(category, activePageCategory = pageCategory) {
@@ -1239,7 +1240,7 @@ function closeAdminPanel() {
 
 async function updateProductAdminMeta(productKey, updates) {
   if (!canWriteProductAdminFiles()) {
-    setAdminSaveStatus('Abre la pagina desde el servidor local: http://127.0.0.1:45126/Zapateria_Chihuahua/botas-seguridad.html', true);
+    setAdminSaveStatus('Abre la pagina desde el servidor local: http://127.0.0.1:45126/Zapateria_Chihuahua/catalogo.html', true);
     return;
   }
 
@@ -1436,16 +1437,11 @@ document.addEventListener('change', event => {
   }
 });
 
-[searchEl].forEach(element => {
-  if (element) element.addEventListener('input', renderProducts);
-});
-
-[sizeEl, sortEl].forEach(element => {
-  if (element) element.addEventListener('change', renderProducts);
-});
-
-if (categoryEl && pageCategory === 'todos') {
-  categoryEl.addEventListener('input', renderProducts);
+if (applyEl) {
+  applyEl.addEventListener('click', () => {
+    renderProducts();
+    closeMobileFilters();
+  });
 }
 
 if (clearEl) {
@@ -1455,6 +1451,7 @@ if (clearEl) {
     if (sizeEl) sizeEl.value = '';
     if (sortEl) sortEl.value = 'default';
     renderProducts();
+    closeMobileFilters();
   });
 }
 

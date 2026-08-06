@@ -4,7 +4,7 @@ $ProjectDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $ProjectName = Split-Path -Leaf $ProjectDir
 $Port = 45126
 $BaseUrl = "http://127.0.0.1:$Port/"
-$StartUrl = "${BaseUrl}${ProjectName}/botas-seguridad.html?admin=1"
+$StartUrl = "${BaseUrl}${ProjectName}/catalogo.html?admin=1"
 $AdminDataPath = Join-Path $ProjectDir 'product-admin-data.js'
 $ProductImagesDir = Join-Path $ProjectDir 'img\productos'
 

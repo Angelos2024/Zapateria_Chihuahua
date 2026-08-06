@@ -14,7 +14,7 @@ if not exist "%SERVER_SCRIPT%" (
 echo Iniciando Zapateria Chihuahua en servidor local...
 echo.
 echo URL:
-echo http://127.0.0.1:45126/Zapateria_Chihuahua/botas-seguridad.html?admin=1
+echo http://127.0.0.1:45126/Zapateria_Chihuahua/catalogo.html?admin=1
 echo.
 echo Deja esta ventana abierta mientras subes/guardas imagenes.
 echo Para detener el servidor, cierra esta ventana o presiona Ctrl+C.
