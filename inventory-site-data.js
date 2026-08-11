@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-10T22:32:21.704Z",
+  "savedAt": "2026-08-10T23:20:06.122Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -546,12 +546,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Force negro",
-        "size": "27 x3, 29",
+        "size": "27 x3",
         "sizeDetails": {
-          "27": 3,
-          "29": 1
+          "27": 3
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 5,
         "cost": 290,
         "salePrice": 630
@@ -1169,12 +1168,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Negro",
-        "size": "23, 24",
+        "size": "24",
         "sizeDetails": {
-          "23": 1,
           "24": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 3,
         "cost": 290,
         "salePrice": 630
@@ -1335,11 +1333,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Axis 28 Rosa",
-        "size": "24",
-        "sizeDetails": {
-          "24": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 1,
         "cost": 490,
         "salePrice": 830
