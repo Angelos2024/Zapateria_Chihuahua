@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-11T19:42:16.220Z",
+  "savedAt": "2026-08-11T21:46:35.043Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -186,11 +186,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "27",
+        "size": "26 x2, 27 x3, 28 x2, 29 x2, 30 x2",
         "sizeDetails": {
-          "27": 1
+          "26": 2,
+          "27": 3,
+          "28": 2,
+          "29": 2,
+          "30": 2
         },
-        "quantity": 1,
+        "quantity": 11,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -200,11 +204,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS oso negro",
-        "size": "29",
+        "size": "27, 29 x2, 30",
         "sizeDetails": {
-          "29": 1
+          "27": 1,
+          "29": 2,
+          "30": 1
         },
-        "quantity": 1,
+        "quantity": 4,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -214,11 +220,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS grizlee",
-        "size": "28",
-        "sizeDetails": {
-          "28": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -258,12 +262,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS soldador Dakota",
-        "size": "26, 27 x2",
+        "size": "26, 27 x2, 28 x2, 29 x2, 30 x2",
         "sizeDetails": {
           "26": 1,
-          "27": 2
+          "27": 2,
+          "28": 2,
+          "29": 2,
+          "30": 2
         },
-        "quantity": 3,
+        "quantity": 9,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
