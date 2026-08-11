@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-10T23:20:06.122Z",
+  "savedAt": "2026-08-11T19:42:16.220Z",
   "source": "zapatos",
   "data": {
     "nextId": 121,
@@ -68,12 +68,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Everest",
-        "size": "26 x2, 29 x2",
+        "size": "26, 29 x2",
         "sizeDetails": {
-          "26": 2,
+          "26": 1,
           "29": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -126,14 +126,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Chupacabras negra",
-        "size": "26 x2, 27 x4, 28 x2, 30",
+        "size": "26, 27 x3, 28 x2, 30",
         "sizeDetails": {
-          "26": 2,
-          "27": 4,
+          "26": 1,
+          "27": 3,
           "28": 2,
           "30": 1
         },
-        "quantity": 9,
+        "quantity": 7,
         "minimum": 3,
         "cost": 370,
         "salePrice": 410
@@ -155,11 +155,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Nicadabra Rambo",
-        "size": "30",
+        "size": "26 x2, 29 x2, 30",
         "sizeDetails": {
+          "26": 2,
+          "29": 2,
           "30": 1
         },
-        "quantity": 1,
+        "quantity": 5,
         "minimum": 3,
         "cost": 220,
         "salePrice": 540
@@ -184,12 +186,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "26, 27",
+        "size": "27",
         "sizeDetails": {
-          "26": 1,
           "27": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -199,11 +200,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS oso negro",
-        "size": "29 x2",
+        "size": "29",
         "sizeDetails": {
-          "29": 2
+          "29": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -326,11 +327,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "ATX café",
-        "size": "26",
-        "sizeDetails": {
-          "26": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 3,
         "cost": 380,
         "salePrice": 770
@@ -370,11 +369,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Cuello largo Amarilla",
-        "size": "29",
-        "sizeDetails": {
-          "29": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 2,
         "cost": 545,
         "salePrice": 885
@@ -399,13 +396,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx verde",
-        "size": "27 x4, 28, 29 x3",
+        "size": "27 x3, 28, 29 x3",
         "sizeDetails": {
-          "27": 4,
+          "27": 3,
           "28": 1,
           "29": 3
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -415,13 +412,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx Negro",
-        "size": "27 x2, 28 x2, 29 x2",
+        "size": "27 x2, 28, 29",
         "sizeDetails": {
           "27": 2,
-          "28": 2,
-          "29": 2
+          "28": 1,
+          "29": 1
         },
-        "quantity": 6,
+        "quantity": 4,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -1127,11 +1124,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "25",
-        "sizeDetails": {
-          "25": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 0,
         "cost": 400,
         "salePrice": 740
