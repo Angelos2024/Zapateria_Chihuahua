@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-12T16:22:07.014Z",
+  "savedAt": "2026-08-12T20:27:24.851Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -1386,12 +1386,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Vsport",
-        "size": "25 x2, 26 x2",
+        "size": "25, 26 x2",
         "sizeDetails": {
-          "25": 2,
+          "25": 1,
           "26": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 0,
         "cost": 260,
         "salePrice": 570
