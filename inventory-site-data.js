@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-12T20:53:59.579Z",
+  "savedAt": "2026-08-12T23:15:30.257Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -1082,13 +1082,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Caribu Lady Menta Textil",
-        "size": "23, 24, 25",
+        "size": "23, 24",
         "sizeDetails": {
           "23": 1,
-          "24": 1,
-          "25": 1
+          "24": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 1,
         "cost": 630,
         "salePrice": 970
