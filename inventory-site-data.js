@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-12T00:59:20.926Z",
+  "savedAt": "2026-08-12T16:22:07.014Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -136,12 +136,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin corto ocre",
-        "size": "26 x2, 27",
+        "size": "26 x2",
         "sizeDetails": {
-          "26": 2,
-          "27": 1
+          "26": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 620,
         "salePrice": 970
@@ -444,11 +443,10 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx Negro",
-        "size": "27 x2, 28, 29",
+        "size": "27 x2, 29 x2",
         "sizeDetails": {
           "27": 2,
-          "28": 1,
-          "29": 1
+          "29": 2
         },
         "quantity": 4,
         "minimum": 3,
