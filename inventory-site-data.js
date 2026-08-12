@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-11T22:50:07.955Z",
+  "savedAt": "2026-08-12T00:59:20.926Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -1372,14 +1372,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Vsport gris",
-        "size": "23 x3, 24 x2, 25 x3, 26",
+        "size": "23 x3, 24 x2, 25 x3",
         "sizeDetails": {
           "23": 3,
           "24": 2,
-          "25": 3,
-          "26": 1
+          "25": 3
         },
-        "quantity": 9,
+        "quantity": 8,
         "minimum": 0,
         "cost": 260,
         "salePrice": 570
