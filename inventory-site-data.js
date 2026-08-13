@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-13T01:06:27.357Z",
+  "savedAt": "2026-08-13T19:46:18.458Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -179,13 +179,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Nicadabra Rambo",
-        "size": "26 x2, 29 x2, 30",
+        "size": "29, 30",
         "sizeDetails": {
-          "26": 2,
-          "29": 2,
+          "29": 1,
           "30": 1
         },
-        "quantity": 5,
+        "quantity": 2,
         "minimum": 3,
         "cost": 220,
         "salePrice": 540
@@ -1503,14 +1502,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "23, 24 x3, 25 x2, 26 x4",
+        "size": "23, 24 x2, 25 x2, 26 x4",
         "sizeDetails": {
           "23": 1,
-          "24": 3,
+          "24": 2,
           "25": 2,
           "26": 4
         },
-        "quantity": 10,
+        "quantity": 9,
         "minimum": 6,
         "cost": 310,
         "salePrice": 680
