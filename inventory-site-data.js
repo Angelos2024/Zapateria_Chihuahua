@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-14T22:43:15.255Z",
+  "savedAt": "2026-08-14T22:53:07.626Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -659,13 +659,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Negro",
-        "size": "27, 28, 29",
+        "size": "27, 29",
         "sizeDetails": {
           "27": 1,
-          "28": 1,
           "29": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 3,
         "cost": 450,
         "salePrice": 790
