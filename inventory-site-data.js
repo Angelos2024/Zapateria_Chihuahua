@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-13T21:42:46.636Z",
+  "savedAt": "2026-08-14T22:43:15.255Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -1220,12 +1220,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Ultra negro",
-        "size": "24, 25",
+        "size": "25",
         "sizeDetails": {
-          "24": 1,
           "25": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 450,
         "salePrice": 790
@@ -1368,13 +1367,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Vsport gris",
-        "size": "23 x3, 24 x2, 25 x3",
+        "size": "23 x3, 24, 25 x3",
         "sizeDetails": {
           "23": 3,
-          "24": 2,
+          "24": 1,
           "25": 3
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 0,
         "cost": 260,
         "salePrice": 570
@@ -1473,12 +1472,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "23, 24 x2",
+        "size": "24 x2",
         "sizeDetails": {
-          "23": 1,
           "24": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 6,
         "cost": 310,
         "salePrice": 655
