@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-16T20:50:30.982Z",
+  "savedAt": "2026-08-17T15:59:55.403Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -209,15 +209,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "26 x2, 27 x3, 28 x2, 29 x2, 30 x2",
+        "size": "26 x2, 27 x3, 28, 29 x2, 30 x2",
         "sizeDetails": {
           "26": 2,
           "27": 3,
-          "28": 2,
+          "28": 1,
           "29": 2,
           "30": 2
         },
-        "quantity": 11,
+        "quantity": 10,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -426,13 +426,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx verde",
-        "size": "27 x3, 28, 29 x3",
+        "size": "27 x2, 28, 29 x3",
         "sizeDetails": {
-          "27": 3,
+          "27": 2,
           "28": 1,
           "29": 3
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -488,11 +488,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Beige 952",
-        "size": "30",
-        "sizeDetails": {
-          "30": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 2,
         "cost": 630,
         "salePrice": 970
@@ -644,12 +642,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "28 x2, 29 x2",
+        "size": "28, 29 x2",
         "sizeDetails": {
-          "28": 2,
+          "28": 1,
           "29": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 4,
         "cost": 310,
         "salePrice": 655
