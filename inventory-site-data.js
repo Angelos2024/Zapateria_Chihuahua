@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-18T18:53:35.441Z",
+  "savedAt": "2026-08-18T22:30:35.106Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -640,12 +640,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "28, 29 x2",
+        "size": "29 x2",
         "sizeDetails": {
-          "28": 1,
           "29": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 4,
         "cost": 310,
         "salePrice": 655
