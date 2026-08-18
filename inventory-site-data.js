@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-17T21:48:04.833Z",
+  "savedAt": "2026-08-18T00:17:35.308Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -724,12 +724,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "27 x2, 29 x2",
+        "size": "27, 29 x2",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "29": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
@@ -1409,12 +1409,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Vsport Choclo",
-        "size": "23, 26 x3",
+        "size": "26 x3",
         "sizeDetails": {
-          "23": 1,
           "26": 3
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 0,
         "cost": 260,
         "salePrice": 570
