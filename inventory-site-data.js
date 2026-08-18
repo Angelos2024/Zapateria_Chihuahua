@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-18T00:18:09.300Z",
+  "savedAt": "2026-08-18T00:51:52.807Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -13,15 +13,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre suela de Goma",
-        "size": "26 x2, 27, 28 x2, 29 x2, 30",
+        "size": "26 x2, 27, 28, 29 x2, 30",
         "sizeDetails": {
           "26": 2,
           "27": 1,
-          "28": 2,
+          "28": 1,
           "29": 2,
           "30": 1
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 4,
         "cost": 400,
         "salePrice": 740
