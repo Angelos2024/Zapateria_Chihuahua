@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-18T22:30:35.106Z",
+  "savedAt": "2026-08-19T16:41:34.993Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -208,15 +208,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "26 x2, 27 x3, 28, 29 x2, 30 x2",
+        "size": "26 x2, 27 x3, 28, 29, 30 x2",
         "sizeDetails": {
           "26": 2,
           "27": 3,
           "28": 1,
-          "29": 2,
+          "29": 1,
           "30": 2
         },
-        "quantity": 10,
+        "quantity": 9,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -860,13 +860,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "plantillas",
-        "size": "27, 28 x3, 29 x3",
+        "size": "27, 28 x3, 29 x2",
         "sizeDetails": {
           "27": 1,
           "28": 3,
-          "29": 3
+          "29": 2
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 3,
         "cost": 50,
         "salePrice": 100
