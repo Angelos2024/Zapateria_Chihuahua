@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-20T21:32:00.725Z",
+  "savedAt": "2026-08-21T01:45:00.765Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -1257,12 +1257,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Pegasus Rosa",
-        "size": "23 x4, 25 x2",
+        "size": "23 x4, 25",
         "sizeDetails": {
           "23": 4,
-          "25": 2
+          "25": 1
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 0,
         "cost": 250,
         "salePrice": 580
