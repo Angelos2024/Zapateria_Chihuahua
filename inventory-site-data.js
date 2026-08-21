@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-21T16:55:31.756Z",
+  "savedAt": "2026-08-21T17:27:07.672Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -820,11 +820,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Flow",
-        "size": "28",
-        "sizeDetails": {
-          "28": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 1,
         "cost": 250,
         "salePrice": 570
@@ -860,13 +858,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "plantillas",
-        "size": "27, 28 x3, 29 x2",
+        "size": "27, 28 x3, 29",
         "sizeDetails": {
           "27": 1,
           "28": 3,
-          "29": 2
+          "29": 1
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 3,
         "cost": 50,
         "salePrice": 100
