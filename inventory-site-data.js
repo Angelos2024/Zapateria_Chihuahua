@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-23T20:11:32.417Z",
+  "savedAt": "2026-08-23T22:48:30.101Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -1040,12 +1040,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Caribu Lady Lila Textil",
-        "size": "25, 26",
+        "size": "26",
         "sizeDetails": {
-          "25": 1,
           "26": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 1,
         "cost": 630,
         "salePrice": 970
