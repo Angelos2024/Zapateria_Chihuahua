@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-23T18:49:28.331Z",
+  "savedAt": "2026-08-23T20:11:32.417Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -803,13 +803,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 negro",
-        "size": "27, 28, 30",
+        "size": "28, 30",
         "sizeDetails": {
-          "27": 1,
           "28": 1,
           "30": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 490,
         "salePrice": 830
