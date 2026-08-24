@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-24T17:06:39.836Z",
+  "savedAt": "2026-08-24T17:29:56.172Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -1022,14 +1022,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Caribu beige 340",
-        "size": "23, 24, 25, 26",
+        "size": "24, 25, 26",
         "sizeDetails": {
-          "23": 1,
           "24": 1,
           "25": 1,
           "26": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
