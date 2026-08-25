@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-24T23:54:07.620Z",
+  "savedAt": "2026-08-25T19:37:09.404Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -534,13 +534,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Choclo caribu negro",
-        "size": "28, 29, 30",
+        "size": "28, 30",
         "sizeDetails": {
           "28": 1,
-          "29": 1,
           "30": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 560,
         "salePrice": 900
@@ -719,12 +718,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "27, 29 x2",
+        "size": "27",
         "sizeDetails": {
-          "27": 1,
-          "29": 2
+          "27": 1
         },
-        "quantity": 3,
+        "quantity": 1,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
