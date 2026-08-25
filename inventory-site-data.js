@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-25T19:40:26.097Z",
+  "savedAt": "2026-08-25T23:57:54.714Z",
   "source": "zapatos",
   "data": {
     "nextId": 122,
@@ -13,13 +13,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre suela de Goma",
-        "size": "26, 27, 28",
+        "size": "26, 27, 28, 30",
         "sizeDetails": {
           "26": 1,
           "27": 1,
-          "28": 1
+          "28": 1,
+          "30": 1
         },
-        "quantity": 3,
+        "quantity": 4,
         "minimum": 4,
         "cost": 400,
         "salePrice": 740
@@ -148,14 +149,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Chupacabras negra",
-        "size": "26, 27 x3, 28 x2, 30",
+        "size": "26, 27 x3, 28 x2",
         "sizeDetails": {
           "26": 1,
           "27": 3,
-          "28": 2,
-          "30": 1
+          "28": 2
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 3,
         "cost": 370,
         "salePrice": 410
