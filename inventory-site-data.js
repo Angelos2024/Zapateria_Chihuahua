@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-27T01:04:45.491Z",
+  "savedAt": "2026-08-27T16:01:32.471Z",
   "source": "zapatos",
   "data": {
     "nextId": 126,
@@ -245,13 +245,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Nicadabra Rambo",
-        "size": "26 x2, 29 x4, 30 x2",
+        "size": "26 x2, 29 x3, 30 x2",
         "sizeDetails": {
           "26": 2,
-          "29": 4,
+          "29": 3,
           "30": 2
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 3,
         "cost": 220,
         "salePrice": 540
