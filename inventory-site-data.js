@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-27T00:58:46.420Z",
+  "savedAt": "2026-08-27T01:00:41.336Z",
   "source": "zapatos",
   "data": {
     "nextId": 126,
@@ -174,8 +174,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 6,
         "minimum": 0,
-        "cost": 0,
-        "salePrice": 0
+        "cost": 400,
+        "salePrice": 740
       },
       {
         "id": "inv-123",
@@ -191,8 +191,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 7,
         "minimum": 0,
-        "cost": 0,
-        "salePrice": 0
+        "cost": 400,
+        "salePrice": 740
       },
       {
         "id": "inv-124",
@@ -208,8 +208,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 6,
         "minimum": 0,
-        "cost": 0,
-        "salePrice": 0
+        "cost": 360,
+        "salePrice": 700
       },
       {
         "id": "inv-125",
@@ -225,8 +225,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 7,
         "minimum": 0,
-        "cost": 0,
-        "salePrice": 0
+        "cost": 500,
+        "salePrice": 840
       },
       {
         "id": "inv-14",
