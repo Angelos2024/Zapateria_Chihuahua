@@ -1,8 +1,8 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-26T00:14:22.571Z",
+  "savedAt": "2026-08-27T00:58:46.420Z",
   "source": "zapatos",
   "data": {
-    "nextId": 122,
+    "nextId": 126,
     "filters": {
       "audienceView": "ambos",
       "onlyLowStock": false
@@ -159,6 +159,74 @@ window.INVENTORY_SITE_DATA = {
         "minimum": 3,
         "cost": 370,
         "salePrice": 410
+      },
+      {
+        "id": "inv-122",
+        "audienceGroup": "caballero",
+        "productGroup": "calzado-vaquero",
+        "model": "Coyote 2070 Miel",
+        "size": "27 x2, 28 x2, 29, 30",
+        "sizeDetails": {
+          "27": 2,
+          "28": 2,
+          "29": 1,
+          "30": 1
+        },
+        "quantity": 6,
+        "minimum": 0,
+        "cost": 0,
+        "salePrice": 0
+      },
+      {
+        "id": "inv-123",
+        "audienceGroup": "caballero",
+        "productGroup": "calzado-vaquero",
+        "model": "Coyote 2070 café",
+        "size": "27 x2, 28 x2, 29 x2, 30",
+        "sizeDetails": {
+          "27": 2,
+          "28": 2,
+          "29": 2,
+          "30": 1
+        },
+        "quantity": 7,
+        "minimum": 0,
+        "cost": 0,
+        "salePrice": 0
+      },
+      {
+        "id": "inv-124",
+        "audienceGroup": "caballero",
+        "productGroup": "calzado-vaquero",
+        "model": "Coyote 1040 botin mil rayas",
+        "size": "27 x2, 28 x2, 29, 30",
+        "sizeDetails": {
+          "27": 2,
+          "28": 2,
+          "29": 1,
+          "30": 1
+        },
+        "quantity": 6,
+        "minimum": 0,
+        "cost": 0,
+        "salePrice": 0
+      },
+      {
+        "id": "inv-125",
+        "audienceGroup": "caballero",
+        "productGroup": "calzado-vaquero",
+        "model": "Coyote cuadrado",
+        "size": "27 x2, 28 x2, 29 x2, 30",
+        "sizeDetails": {
+          "27": 2,
+          "28": 2,
+          "29": 2,
+          "30": 1
+        },
+        "quantity": 7,
+        "minimum": 0,
+        "cost": 0,
+        "salePrice": 0
       },
       {
         "id": "inv-14",
