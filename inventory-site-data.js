@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-30T18:43:53.979Z",
+  "savedAt": "2026-08-30T20:23:58.626Z",
   "source": "zapatos",
   "data": {
     "nextId": 126,
@@ -164,14 +164,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Coyote 2070 Miel",
-        "size": "27, 28 x2, 29, 30",
+        "size": "27, 28 x2, 30",
         "sizeDetails": {
           "27": 1,
           "28": 2,
-          "29": 1,
           "30": 1
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 0,
         "cost": 400,
         "salePrice": 740
