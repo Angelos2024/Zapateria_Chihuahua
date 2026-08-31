@@ -1,8 +1,8 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-08-30T22:02:59.750Z",
+  "savedAt": "2026-08-31T19:32:38.512Z",
   "source": "zapatos",
   "data": {
-    "nextId": 126,
+    "nextId": 130,
     "filters": {
       "audienceView": "ambos",
       "onlyLowStock": false
@@ -629,11 +629,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Force negro",
-        "size": "27 x3",
+        "size": "27 x5, 28 x3, 29 x2",
         "sizeDetails": {
-          "27": 3
+          "27": 5,
+          "28": 3,
+          "29": 2
         },
-        "quantity": 3,
+        "quantity": 10,
         "minimum": 5,
         "cost": 290,
         "salePrice": 630
@@ -901,12 +903,48 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "27 x3, 28 x3, 29 x2",
+        "sizeDetails": {
+          "27": 3,
+          "28": 3,
+          "29": 2
+        },
+        "quantity": 8,
         "minimum": 0,
         "cost": 340,
         "salePrice": 680
+      },
+      {
+        "id": "inv-126",
+        "audienceGroup": "caballero",
+        "productGroup": "tenis",
+        "model": "puma Mega amarillo",
+        "size": "27 x3, 28 x3, 29 x2",
+        "sizeDetails": {
+          "27": 3,
+          "28": 3,
+          "29": 2
+        },
+        "quantity": 8,
+        "minimum": 0,
+        "cost": 0,
+        "salePrice": 0
+      },
+      {
+        "id": "inv-128",
+        "audienceGroup": "caballero",
+        "productGroup": "tenis",
+        "model": "Puma valvula azul",
+        "size": "27 x2, 28 x2, 29 x2",
+        "sizeDetails": {
+          "27": 2,
+          "28": 2,
+          "29": 2
+        },
+        "quantity": 6,
+        "minimum": 0,
+        "cost": 0,
+        "salePrice": 0
       },
       {
         "id": "inv-104",
@@ -1235,9 +1273,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Negro",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "23, 24 x2, 25 x2, 26 x2",
+        "sizeDetails": {
+          "23": 1,
+          "24": 2,
+          "25": 2,
+          "26": 2
+        },
+        "quantity": 7,
         "minimum": 3,
         "cost": 290,
         "salePrice": 630
@@ -1499,14 +1542,47 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "26",
+        "size": "25 x3, 26 x2",
         "sizeDetails": {
-          "26": 1
+          "25": 3,
+          "26": 2
         },
-        "quantity": 1,
+        "quantity": 5,
         "minimum": 3,
         "cost": 340,
         "salePrice": 680
+      },
+      {
+        "id": "inv-127",
+        "audienceGroup": "damas",
+        "productGroup": "tenis",
+        "model": "Puma Mega amarillo",
+        "size": "25 x2, 26 x2",
+        "sizeDetails": {
+          "25": 2,
+          "26": 2
+        },
+        "quantity": 4,
+        "minimum": 0,
+        "cost": 0,
+        "salePrice": 0
+      },
+      {
+        "id": "inv-129",
+        "audienceGroup": "damas",
+        "productGroup": "tenis",
+        "model": "Puma valvula azul",
+        "size": "23 x2, 24 x2, 25 x2, 26 x2",
+        "sizeDetails": {
+          "23": 2,
+          "24": 2,
+          "25": 2,
+          "26": 2
+        },
+        "quantity": 8,
+        "minimum": 0,
+        "cost": 0,
+        "salePrice": 0
       },
       {
         "id": "inv-98",
