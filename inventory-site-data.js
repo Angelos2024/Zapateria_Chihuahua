@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-01T00:20:20.635Z",
+  "savedAt": "2026-09-01T18:35:08.574Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -916,13 +916,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "puma Mega amarillo",
-        "size": "27 x3, 28 x2, 29 x2",
+        "size": "27 x2, 28 x2, 29 x2",
         "sizeDetails": {
-          "27": 3,
+          "27": 2,
           "28": 2,
           "29": 2
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 0,
         "cost": 280,
         "salePrice": 630
@@ -1569,14 +1569,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma valvula azul",
-        "size": "23 x2, 24 x2, 25 x2, 26 x2",
+        "size": "23 x2, 24 x2, 25, 26 x2",
         "sizeDetails": {
           "23": 2,
           "24": 2,
-          "25": 2,
+          "25": 1,
           "26": 2
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 0,
         "cost": 307,
         "salePrice": 655
