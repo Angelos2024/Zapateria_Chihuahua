@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-01T18:35:08.574Z",
+  "savedAt": "2026-09-02T00:49:13.645Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -90,12 +90,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Everest",
-        "size": "26, 29 x2",
+        "size": "29 x2",
         "sizeDetails": {
-          "26": 1,
           "29": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -900,13 +899,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "27 x3, 28 x2, 29 x2",
+        "size": "27 x3, 28, 29 x2",
         "sizeDetails": {
           "27": 3,
-          "28": 2,
+          "28": 1,
           "29": 2
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 0,
         "cost": 340,
         "salePrice": 680
