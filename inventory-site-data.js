@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-03T22:33:44.856Z",
+  "savedAt": "2026-09-03T22:37:28.648Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -254,12 +254,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Tornado piel",
-        "size": "26, 30 x2",
+        "size": "26, 27 x3, 28 x2, 29 x3, 30 x2",
         "sizeDetails": {
           "26": 1,
+          "27": 3,
+          "28": 2,
+          "29": 3,
           "30": 2
         },
-        "quantity": 3,
+        "quantity": 11,
         "minimum": 3,
         "cost": 315,
         "salePrice": 655
