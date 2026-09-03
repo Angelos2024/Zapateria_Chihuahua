@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-  "savedAt": "2026-09-01T18:18:00.874Z",
+  "savedAt": "2026-09-03T18:22:00.836Z",
   "source": "product-admin",
   "products": {
     "inventory:botas:atx cafe": {
@@ -1162,11 +1162,12 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-puma-mega-amarillo-20260901-121742-1.jpg",
-        "img/productos/admin-inventory-tenis-puma-mega-amarillo-20260901-121742-2.jpg"
+        "img/productos/admin-inventory-tenis-puma-mega-amarillo-20260903-122141-1.jpg",
+        "img/productos/admin-inventory-tenis-puma-mega-amarillo-20260903-122141-2.jpg",
+        "img/productos/admin-inventory-tenis-puma-mega-amarillo-20260903-122141-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-puma-mega-amarillo-20260901-121742-2.jpg",
-      "image": "img/productos/admin-inventory-tenis-puma-mega-amarillo-20260901-121742-2.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-puma-mega-amarillo-20260903-122141-3.jpg",
+      "image": "img/productos/admin-inventory-tenis-puma-mega-amarillo-20260903-122141-3.jpg"
     },
     "inventory:tenis:puma valvula azul": {
       "details": [
@@ -1174,11 +1175,12 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-puma-valvula-azul-20260901-121801-1.jpg",
-        "img/productos/admin-inventory-tenis-puma-valvula-azul-20260901-121801-2.jpg"
+        "img/productos/admin-inventory-tenis-puma-valvula-azul-20260903-122200-1.jpg",
+        "img/productos/admin-inventory-tenis-puma-valvula-azul-20260903-122200-2.jpg",
+        "img/productos/admin-inventory-tenis-puma-valvula-azul-20260903-122200-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-puma-valvula-azul-20260901-121801-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-puma-valvula-azul-20260901-121801-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-puma-valvula-azul-20260903-122200-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-puma-valvula-azul-20260903-122200-1.jpg"
     }
   }
 };
