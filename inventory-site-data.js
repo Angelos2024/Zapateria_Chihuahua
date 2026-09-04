@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-03T22:37:28.648Z",
+  "savedAt": "2026-09-04T17:38:46.551Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -209,14 +209,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Coyote cuadrado",
-        "size": "27 x2, 28 x2, 29 x2, 30",
+        "size": "27 x2, 28 x2, 29 x2",
         "sizeDetails": {
           "27": 2,
           "28": 2,
-          "29": 2,
-          "30": 1
+          "29": 2
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 0,
         "cost": 500,
         "salePrice": 840
