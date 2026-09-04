@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-04T17:38:46.551Z",
+  "savedAt": "2026-09-04T23:48:03.943Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -330,11 +330,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS tosca",
-        "size": "27",
-        "sizeDetails": {
-          "27": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 2,
         "cost": 370,
         "salePrice": 710
