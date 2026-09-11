@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-11T00:48:55.900Z",
+  "savedAt": "2026-09-11T16:19:28.257Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -781,11 +781,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 021 negro",
-        "size": "30",
-        "sizeDetails": {
-          "30": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 2,
         "cost": 500,
         "salePrice": 840
@@ -889,12 +887,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "27 x2, 29 x2",
+        "size": "27 x2, 29",
         "sizeDetails": {
           "27": 2,
-          "29": 2
+          "29": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 0,
         "cost": 340,
         "salePrice": 680
@@ -904,13 +902,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "puma Mega amarillo",
-        "size": "27, 28, 29 x2",
+        "size": "27, 28, 29",
         "sizeDetails": {
           "27": 1,
           "28": 1,
-          "29": 2
+          "29": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 0,
         "cost": 280,
         "salePrice": 630
@@ -920,12 +918,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Puma valvula azul",
-        "size": "28, 29 x2",
+        "size": "29 x2",
         "sizeDetails": {
-          "28": 1,
           "29": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 307,
         "salePrice": 655
