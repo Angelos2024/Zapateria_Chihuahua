@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-11T21:04:05.974Z",
+  "savedAt": "2026-09-11T21:51:24.339Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -1596,14 +1596,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "23, 24 x2, 25 x2, 26 x4",
+        "size": "24 x2, 25 x2, 26 x4",
         "sizeDetails": {
-          "23": 1,
           "24": 2,
           "25": 2,
           "26": 4
         },
-        "quantity": 9,
+        "quantity": 8,
         "minimum": 6,
         "cost": 310,
         "salePrice": 680
