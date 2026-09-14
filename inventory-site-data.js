@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-11T21:51:24.339Z",
+  "savedAt": "2026-09-14T17:10:49.749Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -173,13 +173,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Coyote 2070 café",
-        "size": "27 x2, 28 x2, 30",
+        "size": "27 x2, 28 x2",
         "sizeDetails": {
           "27": 2,
-          "28": 2,
-          "30": 1
+          "28": 2
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 0,
         "cost": 400,
         "salePrice": 740
