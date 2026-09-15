@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-15T17:14:17.077Z",
+  "savedAt": "2026-09-15T20:09:56.624Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -884,12 +884,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "27 x2, 29",
+        "size": "27 x2",
         "sizeDetails": {
-          "27": 2,
-          "29": 1
+          "27": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 340,
         "salePrice": 680
