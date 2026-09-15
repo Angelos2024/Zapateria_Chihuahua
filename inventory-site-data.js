@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-14T17:10:49.749Z",
+  "savedAt": "2026-09-15T00:58:51.013Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -204,13 +204,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Coyote cuadrado",
-        "size": "27 x2, 28, 29",
+        "size": "27, 28, 29",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "28": 1,
           "29": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 0,
         "cost": 500,
         "salePrice": 840
@@ -583,12 +583,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Choclo caribu negro",
-        "size": "28, 30",
+        "size": "30",
         "sizeDetails": {
-          "28": 1,
           "30": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 560,
         "salePrice": 900
@@ -1536,12 +1535,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma Mega amarillo",
-        "size": "25, 26 x2",
+        "size": "26 x2",
         "sizeDetails": {
-          "25": 1,
           "26": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 280,
         "salePrice": 630
