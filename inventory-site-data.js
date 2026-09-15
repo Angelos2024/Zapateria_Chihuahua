@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-15T00:58:51.013Z",
+  "savedAt": "2026-09-15T17:14:17.077Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -142,13 +142,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Chupacabras negra",
-        "size": "26, 27 x3, 28",
+        "size": "26, 27 x3",
         "sizeDetails": {
           "26": 1,
-          "27": 3,
-          "28": 1
+          "27": 3
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 3,
         "cost": 370,
         "salePrice": 410
