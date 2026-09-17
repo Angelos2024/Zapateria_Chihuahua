@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-17T20:30:22.622Z",
+  "savedAt": "2026-09-17T22:21:58.136Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -611,13 +611,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Force negro",
-        "size": "27 x5, 28 x3, 29 x2",
+        "size": "27 x5, 28 x2, 29 x2",
         "sizeDetails": {
           "27": 5,
-          "28": 3,
+          "28": 2,
           "29": 2
         },
-        "quantity": 10,
+        "quantity": 9,
         "minimum": 5,
         "cost": 290,
         "salePrice": 630
@@ -898,13 +898,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "puma Mega amarillo",
-        "size": "27, 28, 29",
+        "size": "27, 29",
         "sizeDetails": {
           "27": 1,
-          "28": 1,
           "29": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 280,
         "salePrice": 630
