@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-15T20:59:20.930Z",
+  "savedAt": "2026-09-17T20:30:22.622Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -44,13 +44,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra mil rayas",
-        "size": "26, 28 x2, 30",
+        "size": "26, 28, 30",
         "sizeDetails": {
           "26": 1,
-          "28": 2,
+          "28": 1,
           "30": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 400,
         "salePrice": 750
