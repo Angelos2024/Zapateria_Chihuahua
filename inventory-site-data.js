@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-17T22:21:58.136Z",
+  "savedAt": "2026-09-18T18:05:47.703Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -927,13 +927,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "plantillas",
-        "size": "27 x3, 28 x3, 29 x4",
+        "size": "27 x3, 28 x3, 29 x3",
         "sizeDetails": {
           "27": 3,
           "28": 3,
-          "29": 4
+          "29": 3
         },
-        "quantity": 10,
+        "quantity": 9,
         "minimum": 3,
         "cost": 50,
         "salePrice": 100
