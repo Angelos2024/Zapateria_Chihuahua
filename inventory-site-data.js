@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-18T18:05:47.703Z",
+  "savedAt": "2026-09-18T22:55:31.123Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -352,11 +352,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS Sonic Café",
-        "size": "26 x2",
-        "sizeDetails": {
-          "26": 2
-        },
-        "quantity": 2,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
