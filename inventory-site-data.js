@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-20T16:38:14.223Z",
+  "savedAt": "2026-09-20T17:47:00.051Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -458,12 +458,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Axis 030 Roja",
-        "size": "27, 28",
+        "size": "27",
         "sizeDetails": {
-          "27": 1,
-          "28": 1
+          "27": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 530,
         "salePrice": 870
@@ -925,13 +924,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "plantillas",
-        "size": "27 x3, 28 x3, 29 x3",
+        "size": "27 x2, 28 x3, 29 x3",
         "sizeDetails": {
-          "27": 3,
+          "27": 2,
           "28": 3,
           "29": 3
         },
-        "quantity": 9,
+        "quantity": 8,
         "minimum": 3,
         "cost": 50,
         "salePrice": 100
