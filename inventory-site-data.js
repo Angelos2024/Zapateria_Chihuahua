@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-20T18:16:58.724Z",
+  "savedAt": "2026-09-21T19:47:03.847Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -954,13 +954,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "ATX Café",
-        "size": "23, 24, 25",
+        "size": "23, 24",
         "sizeDetails": {
           "23": 1,
-          "24": 1,
-          "25": 1
+          "24": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 380,
         "salePrice": 770
