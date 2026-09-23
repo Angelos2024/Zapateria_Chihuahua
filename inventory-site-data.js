@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-23T22:25:14.463Z",
+  "savedAt": "2026-09-23T22:51:28.579Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -895,12 +895,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "puma Mega amarillo",
-        "size": "27, 29",
+        "size": "29",
         "sizeDetails": {
-          "27": 1,
           "29": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 280,
         "salePrice": 630
