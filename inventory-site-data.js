@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-21T23:27:29.573Z",
+  "savedAt": "2026-09-23T22:25:14.463Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -881,11 +881,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "27 x2",
+        "size": "27",
         "sizeDetails": {
-          "27": 2
+          "27": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 340,
         "salePrice": 680
@@ -924,13 +924,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "plantillas",
-        "size": "27 x2, 28 x3, 29 x3",
+        "size": "27, 28 x3, 29 x3",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "28": 3,
           "29": 3
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 3,
         "cost": 50,
         "salePrice": 100
@@ -1397,12 +1397,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Axis 021 Negro",
-        "size": "24 x2, 26",
+        "size": "24, 26",
         "sizeDetails": {
-          "24": 2,
+          "24": 1,
           "26": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 500,
         "salePrice": 840
@@ -1528,11 +1528,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma Mega amarillo",
-        "size": "26 x2",
+        "size": "26",
         "sizeDetails": {
-          "26": 2
+          "26": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 280,
         "salePrice": 630
