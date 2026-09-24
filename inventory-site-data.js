@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-24T04:59:54.569Z",
+  "savedAt": "2026-09-24T22:27:52.067Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -172,12 +172,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Coyote 2070 café",
-        "size": "27 x2, 28 x2",
+        "size": "27, 28 x2",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "28": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 0,
         "cost": 400,
         "salePrice": 740
@@ -919,13 +919,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "plantillas",
-        "size": "27, 28 x3, 29 x3",
+        "size": "27, 28 x3, 29 x2",
         "sizeDetails": {
           "27": 1,
           "28": 3,
-          "29": 3
+          "29": 2
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 3,
         "cost": 50,
         "salePrice": 100
@@ -1537,13 +1537,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma valvula azul",
-        "size": "23 x2, 24 x2, 26 x2",
+        "size": "23 x2, 24, 26 x2",
         "sizeDetails": {
           "23": 2,
-          "24": 2,
+          "24": 1,
           "26": 2
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 0,
         "cost": 307,
         "salePrice": 655
