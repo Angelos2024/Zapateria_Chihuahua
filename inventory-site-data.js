@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-23T22:51:28.579Z",
+  "savedAt": "2026-09-24T00:02:32.009Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -881,11 +881,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "27",
-        "sizeDetails": {
-          "27": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 0,
         "cost": 340,
         "salePrice": 680
@@ -1601,13 +1599,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Plantillas",
-        "size": "23 x3, 24 x3, 25 x4",
+        "size": "23 x3, 24 x3, 25 x4, 26 x4",
         "sizeDetails": {
           "23": 3,
           "24": 3,
-          "25": 4
+          "25": 4,
+          "26": 4
         },
-        "quantity": 10,
+        "quantity": 14,
         "minimum": 2,
         "cost": 50,
         "salePrice": 100
