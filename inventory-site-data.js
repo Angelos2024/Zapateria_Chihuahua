@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-24T00:55:53.859Z",
+  "savedAt": "2026-09-24T04:59:54.569Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -13,12 +13,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre suela de Goma",
-        "size": "28, 30",
+        "size": "26 x2, 30",
         "sizeDetails": {
-          "28": 1,
+          "26": 2,
           "30": 1
         },
-        "quantity": 2,
+        "quantity": 3,
         "minimum": 4,
         "cost": 400,
         "salePrice": 740
@@ -335,14 +335,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS soldador Dakota",
-        "size": "26, 27, 28, 30 x2",
+        "size": "26, 27, 30 x2",
         "sizeDetails": {
           "26": 1,
           "27": 1,
-          "28": 1,
           "30": 2
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
