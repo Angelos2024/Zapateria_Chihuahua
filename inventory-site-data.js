@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-25T21:47:25.677Z",
+  "savedAt": "2026-09-25T22:20:05.389Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -157,12 +157,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Coyote 2070 Miel",
-        "size": "28, 30",
+        "size": "28",
         "sizeDetails": {
-          "28": 1,
-          "30": 1
+          "28": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 400,
         "salePrice": 740
@@ -172,11 +171,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Coyote 2070 café",
-        "size": "28 x2",
+        "size": "28",
         "sizeDetails": {
-          "28": 2
+          "28": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 400,
         "salePrice": 740
@@ -605,12 +604,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Force negro",
-        "size": "27 x5, 29 x2",
+        "size": "27 x4, 29 x2",
         "sizeDetails": {
-          "27": 5,
+          "27": 4,
           "29": 2
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 5,
         "cost": 290,
         "salePrice": 630
@@ -1249,14 +1248,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Negro",
-        "size": "23, 24, 25, 26 x2",
+        "size": "24, 25, 26 x2",
         "sizeDetails": {
-          "23": 1,
           "24": 1,
           "25": 1,
           "26": 2
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 3,
         "cost": 290,
         "salePrice": 630
@@ -1553,13 +1551,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma valvula azul",
-        "size": "23 x2, 24, 26 x2",
+        "size": "23 x2, 24, 26",
         "sizeDetails": {
           "23": 2,
           "24": 1,
-          "26": 2
+          "26": 1
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 0,
         "cost": 307,
         "salePrice": 655
