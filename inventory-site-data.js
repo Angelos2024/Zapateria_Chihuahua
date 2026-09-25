@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-25T00:40:45.544Z",
+  "savedAt": "2026-09-25T18:53:52.303Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -157,12 +157,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Coyote 2070 Miel",
-        "size": "28 x2, 30",
+        "size": "28, 30",
         "sizeDetails": {
-          "28": 2,
+          "28": 1,
           "30": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 400,
         "salePrice": 740
@@ -172,12 +172,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Coyote 2070 café",
-        "size": "27, 28 x2",
+        "size": "28 x2",
         "sizeDetails": {
-          "27": 1,
           "28": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 400,
         "salePrice": 740
