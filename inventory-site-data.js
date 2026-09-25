@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-25T18:53:52.303Z",
+  "savedAt": "2026-09-25T19:28:26.639Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -772,9 +772,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 021 negro",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "27 x2, 28 x2, 29, 30",
+        "sizeDetails": {
+          "27": 2,
+          "28": 2,
+          "29": 1,
+          "30": 1
+        },
+        "quantity": 6,
         "minimum": 2,
         "cost": 500,
         "salePrice": 840
@@ -810,11 +815,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 naranja",
-        "size": "27",
+        "size": "27, 28, 29, 30",
         "sizeDetails": {
-          "27": 1
+          "27": 1,
+          "28": 1,
+          "29": 1,
+          "30": 1
         },
-        "quantity": 1,
+        "quantity": 4,
         "minimum": 2,
         "cost": 490,
         "salePrice": 830
@@ -824,11 +832,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 azul",
-        "size": "29",
+        "size": "27 x2, 28 x2, 29, 30",
         "sizeDetails": {
-          "29": 1
+          "27": 2,
+          "28": 2,
+          "29": 1,
+          "30": 1
         },
-        "quantity": 1,
+        "quantity": 6,
         "minimum": 2,
         "cost": 490,
         "salePrice": 830
@@ -838,11 +849,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 negro",
-        "size": "30",
+        "size": "27, 28, 29, 30 x2",
         "sizeDetails": {
-          "30": 1
+          "27": 1,
+          "28": 1,
+          "29": 1,
+          "30": 2
         },
-        "quantity": 1,
+        "quantity": 5,
         "minimum": 2,
         "cost": 490,
         "salePrice": 830
@@ -1406,9 +1420,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Axis 28 Rosa",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "23 x2, 24 x2, 25 x2, 26",
+        "sizeDetails": {
+          "23": 2,
+          "24": 2,
+          "25": 2,
+          "26": 1
+        },
+        "quantity": 7,
         "minimum": 1,
         "cost": 490,
         "salePrice": 830
