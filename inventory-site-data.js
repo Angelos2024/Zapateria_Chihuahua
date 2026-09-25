@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-25T19:28:26.639Z",
+  "savedAt": "2026-09-25T20:05:40.505Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -605,13 +605,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Force negro",
-        "size": "27 x5, 28, 29 x2",
+        "size": "27 x5, 29 x2",
         "sizeDetails": {
           "27": 5,
-          "28": 1,
           "29": 2
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 5,
         "cost": 290,
         "salePrice": 630
