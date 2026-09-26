@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-25T22:59:33.840Z",
+  "savedAt": "2026-09-26T00:27:07.917Z",
   "source": "zapatos",
   "data": {
     "nextId": 130,
@@ -142,12 +142,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Chupacabras negra",
-        "size": "26, 27 x3",
+        "size": "26, 27 x2",
         "sizeDetails": {
           "26": 1,
-          "27": 3
+          "27": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 370,
         "salePrice": 410
@@ -484,11 +484,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx Negro",
-        "size": "27",
-        "sizeDetails": {
-          "27": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -1567,11 +1565,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "24",
-        "sizeDetails": {
-          "24": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 6,
         "cost": 310,
         "salePrice": 655
@@ -1611,14 +1607,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Plantillas",
-        "size": "23 x3, 24 x3, 25 x4, 26 x4",
+        "size": "23 x3, 24 x3, 25 x4, 26 x3",
         "sizeDetails": {
           "23": 3,
           "24": 3,
           "25": 4,
-          "26": 4
+          "26": 3
         },
-        "quantity": 14,
+        "quantity": 13,
         "minimum": 2,
         "cost": 50,
         "salePrice": 100
