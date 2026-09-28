@@ -1,8 +1,8 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-28T19:59:27.264Z",
+  "savedAt": "2026-09-28T20:34:45.909Z",
   "source": "zapatos",
   "data": {
-    "nextId": 130,
+    "nextId": 131,
     "filters": {
       "audienceView": "ambos",
       "onlyLowStock": false
@@ -216,6 +216,24 @@ window.INVENTORY_SITE_DATA = {
         "minimum": 0,
         "cost": 500,
         "salePrice": 840
+      },
+      {
+        "id": "inv-130",
+        "audienceGroup": "caballero",
+        "productGroup": "calzado-vaquero",
+        "model": "Botin BullDog",
+        "size": "25, 26 x2, 27 x5, 28 x3, 29",
+        "sizeDetails": {
+          "25": 1,
+          "26": 2,
+          "27": 5,
+          "28": 3,
+          "29": 1
+        },
+        "quantity": 12,
+        "minimum": 0,
+        "cost": 0,
+        "salePrice": 0
       },
       {
         "id": "inv-14",
