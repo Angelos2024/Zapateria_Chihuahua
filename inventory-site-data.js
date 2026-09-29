@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-28T20:59:36.830Z",
+  "savedAt": "2026-09-29T18:51:35.450Z",
   "source": "zapatos",
   "data": {
     "nextId": 131,
@@ -799,8 +799,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 5,
         "minimum": 2,
-        "cost": 500,
-        "salePrice": 840
+        "cost": 420,
+        "salePrice": 760
       },
       {
         "id": "inv-51",
@@ -811,8 +811,8 @@ window.INVENTORY_SITE_DATA = {
         "sizeDetails": {},
         "quantity": 0,
         "minimum": 2,
-        "cost": 500,
-        "salePrice": 840
+        "cost": 420,
+        "salePrice": 760
       },
       {
         "id": "inv-53",
@@ -825,8 +825,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 1,
         "minimum": 0,
-        "cost": 500,
-        "salePrice": 840
+        "cost": 420,
+        "salePrice": 760
       },
       {
         "id": "inv-54",
@@ -842,8 +842,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 4,
         "minimum": 2,
-        "cost": 490,
-        "salePrice": 830
+        "cost": 405,
+        "salePrice": 750
       },
       {
         "id": "inv-55",
@@ -859,8 +859,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 6,
         "minimum": 2,
-        "cost": 490,
-        "salePrice": 830
+        "cost": 405,
+        "salePrice": 750
       },
       {
         "id": "inv-56",
@@ -876,8 +876,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 5,
         "minimum": 2,
-        "cost": 490,
-        "salePrice": 830
+        "cost": 405,
+        "salePrice": 750
       },
       {
         "id": "inv-57",
@@ -1414,8 +1414,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 2,
         "minimum": 2,
-        "cost": 500,
-        "salePrice": 840
+        "cost": 420,
+        "salePrice": 760
       },
       {
         "id": "inv-90",
@@ -1429,8 +1429,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 2,
         "minimum": 2,
-        "cost": 500,
-        "salePrice": 840
+        "cost": 420,
+        "salePrice": 760
       },
       {
         "id": "inv-91",
@@ -1446,8 +1446,8 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 7,
         "minimum": 1,
-        "cost": 490,
-        "salePrice": 830
+        "cost": 405,
+        "salePrice": 750
       },
       {
         "id": "inv-92",
