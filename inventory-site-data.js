@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-29T23:30:23.020Z",
+  "savedAt": "2026-09-30T20:26:34.537Z",
   "source": "zapatos",
   "data": {
     "nextId": 131,
@@ -638,12 +638,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Vsport",
-        "size": "26 x3, 27",
+        "size": "26 x2, 27",
         "sizeDetails": {
-          "26": 3,
+          "26": 2,
           "27": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 0,
         "cost": 260,
         "salePrice": 570
@@ -919,11 +919,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "puma Mega amarillo",
-        "size": "29",
-        "sizeDetails": {
-          "29": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 0,
         "cost": 280,
         "salePrice": 630
@@ -947,13 +945,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "plantillas",
-        "size": "27, 28 x3, 29 x2",
+        "size": "27, 28 x3, 29",
         "sizeDetails": {
           "27": 1,
           "28": 3,
-          "29": 2
+          "29": 1
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 3,
         "cost": 50,
         "salePrice": 100
@@ -1627,14 +1625,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Plantillas",
-        "size": "23 x3, 24 x3, 25 x3, 26 x3",
+        "size": "23 x3, 24 x3, 25 x2, 26 x3",
         "sizeDetails": {
           "23": 3,
           "24": 3,
-          "25": 3,
+          "25": 2,
           "26": 3
         },
-        "quantity": 12,
+        "quantity": 11,
         "minimum": 2,
         "cost": 50,
         "salePrice": 100
