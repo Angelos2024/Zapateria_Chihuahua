@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-09-30T20:26:34.537Z",
+  "savedAt": "2026-09-30T20:52:05.768Z",
   "source": "zapatos",
   "data": {
     "nextId": 131,
@@ -490,12 +490,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx verde",
-        "size": "27 x2, 29 x3",
+        "size": "27, 29 x3",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "29": 3
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
