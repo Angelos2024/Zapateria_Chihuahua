@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-    "savedAt":  "2026-10-01T18:21:25.525Z",
+    "savedAt":  "2026-10-01T18:29:22.065Z",
     "source":  "product-admin",
     "products":  {
                      "inventory:botas:atx cafe":  {
@@ -335,7 +335,8 @@ window.PRODUCT_ADMIN_DATA = {
                                                                                       ],
                                                                           "images":  [
                                                                                          "img/productos/admin-inventory-botas-nicadabra-ocre-suela-de-goma-20260513-150211-1.jpg",
-                                                                                         "img/productos/admin-inventory-botas-nicadabra-ocre-suela-de-goma-20260513-150211-2.jpg"
+                                                                                         "img/productos/admin-inventory-botas-nicadabra-ocre-suela-de-goma-20260513-150211-2.jpg",
+                                                                                         "img/productos/admin-inventory-botas-nicadabra-ocre-suela-de-goma-20261001-122853-3.jpg"
                                                                                      ],
                                                                           "coverImage":  "img/productos/admin-inventory-botas-nicadabra-ocre-suela-de-goma-20260513-150211-1.jpg",
                                                                           "image":  "img/productos/admin-inventory-botas-nicadabra-ocre-suela-de-goma-20260513-150211-1.jpg"
@@ -1081,7 +1082,8 @@ window.PRODUCT_ADMIN_DATA = {
                      "inventory:botas:nicadabra mil rayas":  {
                                                                  "images":  [
                                                                                 "img/productos/admin-inventory-botas-nicadabra-mil-rayas-20260701-174844-1.jpg",
-                                                                                "img/productos/admin-inventory-botas-nicadabra-mil-rayas-20260701-174844-2.jpg"
+                                                                                "img/productos/admin-inventory-botas-nicadabra-mil-rayas-20260701-174844-2.jpg",
+                                                                                "img/productos/admin-inventory-botas-nicadabra-mil-rayas-20261001-122922-3.jpg"
                                                                             ],
                                                                  "coverImage":  "img/productos/admin-inventory-botas-nicadabra-mil-rayas-20260701-174844-1.jpg",
                                                                  "image":  "img/productos/admin-inventory-botas-nicadabra-mil-rayas-20260701-174844-1.jpg"

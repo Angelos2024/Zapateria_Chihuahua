@@ -1258,7 +1258,7 @@ function createAdminImageItems(images, coverImage) {
       <div class="admin-image-item-body">
         <span class="admin-image-item-label">Foto ${index + 1}</span>
         ${image === coverImage ? '<span class="admin-image-badge">Portada</span>' : ''}
-        <button class="admin-image-delete" type="button" data-admin-action="remove-single-image" data-admin-image="${escapeHtml(image)}">Quitar</button>
+        <button class="admin-image-delete" type="button" data-admin-action="remove-single-image" data-admin-image-index="${index}">Quitar esta</button>
       </div>
     </article>
   `).join('');
@@ -1319,15 +1319,15 @@ function renderAdminPanel() {
                 <select data-admin-field="maxSize">${createAdminSizeOptions(maxSize)}</select>
               </label>
               <label class="admin-file-field">
-                <span>Fotos del modelo</span>
+                <span>Agregar fotos</span>
                 <input type="file" accept="image/*" multiple data-admin-field="images">
-                <small>${imageSummary}</small>
+                <small>${imageSummary} Las que ya están se conservan; aquí solo eliges las nuevas.</small>
               </label>
               <label>
                 <span>Portada catalogo</span>
                 <select data-admin-field="coverImage" ${images.length ? '' : 'disabled'}>${createAdminCoverOptions(images, coverImage)}</select>
               </label>
-              <button class="admin-clear-image" type="button" data-admin-action="clear-images">Quitar fotos</button>
+              <button class="admin-clear-image" type="button" data-admin-action="clear-images">Quitar todas las fotos</button>
               <div class="admin-image-strip">
                 ${createAdminImageItems(images, coverImage)}
               </div>
@@ -1426,11 +1426,13 @@ async function updateProductAdminMeta(productKey, updates) {
   );
 }
 
-function removeSingleProductImage(productKey, imageValue) {
+function removeSingleProductImage(productKey, imageIndex) {
   const adminState = getStoredProductAdminState();
   const meta = adminState[productKey] || {};
   const images = normalizeProductImages(meta);
-  const nextImages = images.filter(image => image !== imageValue);
+  const index = Number(imageIndex);
+  if (!Number.isInteger(index) || index < 0 || index >= images.length) return;
+  const nextImages = images.filter((_, imagePosition) => imagePosition !== index);
   const currentCover = getProductCoverImage(meta, images);
   const nextCover = nextImages.includes(currentCover) ? currentCover : (nextImages[0] || '');
 
@@ -1491,9 +1493,9 @@ document.addEventListener('click', event => {
   if (action === 'remove-single-image') {
     const row = target.closest('[data-admin-product-key]');
     const productKey = row?.dataset.adminProductKey;
-    const imageValue = target.dataset.adminImage;
-    if (!productKey || !imageValue) return;
-    removeSingleProductImage(productKey, imageValue);
+    const imageIndex = target.dataset.adminImageIndex;
+    if (!productKey || imageIndex === undefined) return;
+    removeSingleProductImage(productKey, imageIndex);
     return;
   }
 
@@ -1571,16 +1573,23 @@ document.addEventListener('change', event => {
       });
       reader.readAsDataURL(file);
     }))).then(images => {
-      const nextImages = images.filter(Boolean);
-      if (!nextImages.length) {
+      const addedImages = images.filter(Boolean);
+      if (!addedImages.length) {
         target.disabled = false;
+        target.value = '';
         setAdminSaveStatus('No se pudieron leer las imagenes seleccionadas.', true);
         return;
       }
+      const meta = getStoredProductAdminState()[productKey] || {};
+      const currentImages = normalizeProductImages(meta);
+      const mergedImages = Array.from(new Set(currentImages.concat(addedImages)));
+      const currentCover = getProductCoverImage(meta, currentImages);
+      const coverImage = mergedImages.includes(currentCover) ? currentCover : (mergedImages[0] || '');
+      target.value = '';
       updateProductAdminMeta(productKey, {
-        image: '',
-        images: nextImages,
-        coverImage: nextImages[0] || ''
+        image: coverImage,
+        images: mergedImages,
+        coverImage
       });
     }).catch(() => {
       target.disabled = false;
