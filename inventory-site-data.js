@@ -1,8 +1,8 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-01T18:30:03.874Z",
+  "savedAt": "2026-10-01T21:16:40.378Z",
   "source": "zapatos",
   "data": {
-    "nextId": 131,
+    "nextId": 132,
     "filters": {
       "audienceView": "ambos",
       "onlyLowStock": false
@@ -422,11 +422,17 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "ATX café",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "27 x4, 28 x4, 29 x4, 30 x3, 31 x2",
+        "sizeDetails": {
+          "27": 4,
+          "28": 4,
+          "29": 4,
+          "30": 3,
+          "31": 2
+        },
+        "quantity": 17,
         "minimum": 3,
-        "cost": 380,
+        "cost": 406,
         "salePrice": 770
       },
       {
@@ -490,12 +496,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx verde",
-        "size": "27, 29 x3",
+        "size": "27 x5, 28 x4, 29 x7",
         "sizeDetails": {
-          "27": 1,
-          "29": 3
+          "27": 5,
+          "28": 4,
+          "29": 7
         },
-        "quantity": 4,
+        "quantity": 16,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -505,9 +512,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx Negro",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "27 x4, 28 x4, 29 x4",
+        "sizeDetails": {
+          "27": 4,
+          "28": 4,
+          "29": 4
+        },
+        "quantity": 12,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -588,6 +599,23 @@ window.INVENTORY_SITE_DATA = {
         "minimum": 2,
         "cost": 380,
         "salePrice": 770
+      },
+      {
+        "id": "inv-131",
+        "audienceGroup": "caballero",
+        "productGroup": "botas",
+        "model": "Bota Leo",
+        "size": "27 x4, 28 x4, 29 x3, 30 x2",
+        "sizeDetails": {
+          "27": 4,
+          "28": 4,
+          "29": 3,
+          "30": 2
+        },
+        "quantity": 13,
+        "minimum": 0,
+        "cost": 397,
+        "salePrice": 740
       },
       {
         "id": "inv-39",
@@ -774,11 +802,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "27",
+        "size": "27 x5, 28 x4, 29 x5",
         "sizeDetails": {
-          "27": 1
+          "27": 5,
+          "28": 4,
+          "29": 5
         },
-        "quantity": 1,
+        "quantity": 14,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
