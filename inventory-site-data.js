@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-02T18:44:41.530Z",
+  "savedAt": "2026-10-02T21:56:10.297Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -528,12 +528,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Negra 340",
-        "size": "27, 29",
+        "size": "27, 28 x3, 29 x2, 30",
         "sizeDetails": {
           "27": 1,
-          "29": 1
+          "28": 3,
+          "29": 2,
+          "30": 1
         },
-        "quantity": 2,
+        "quantity": 7,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
@@ -543,11 +545,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Beige 340",
-        "size": "27",
+        "size": "27, 28 x2, 29, 30",
         "sizeDetails": {
-          "27": 1
+          "27": 1,
+          "28": 2,
+          "29": 1,
+          "30": 1
         },
-        "quantity": 1,
+        "quantity": 5,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
@@ -651,12 +656,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Force negro",
-        "size": "27 x4, 29 x2",
+        "size": "27 x3, 29 x2",
         "sizeDetails": {
-          "27": 4,
+          "27": 3,
           "29": 2
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 5,
         "cost": 290,
         "salePrice": 630

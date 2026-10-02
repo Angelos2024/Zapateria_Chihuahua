@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-  "savedAt": "2026-10-02T17:48:18.460Z",
+  "savedAt": "2026-10-02T21:54:53.453Z",
   "source": "product-admin",
   "products": {
     "inventory:botas:atx cafe": {
@@ -671,7 +671,7 @@ window.PRODUCT_ADMIN_DATA = {
       ],
       "images": [
         "img/productos/admin-inventory-tenis-axis-28-rosa-20260929-125611-1.jpg",
-        "img/productos/admin-inventory-tenis-axis-28-rosa-20260929-125611-2.jpg"
+        "img/productos/admin-inventory-tenis-axis-28-rosa-20261002-155453-2.jpg"
       ],
       "coverImage": "img/productos/admin-inventory-tenis-axis-28-rosa-20260929-125611-1.jpg",
       "image": "img/productos/admin-inventory-tenis-axis-28-rosa-20260929-125611-1.jpg"
