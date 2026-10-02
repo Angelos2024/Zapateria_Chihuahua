@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-  "savedAt": "2026-10-01T21:31:25.507Z",
+  "savedAt": "2026-10-02T17:48:18.460Z",
   "source": "product-admin",
   "products": {
     "inventory:botas:atx cafe": {
@@ -1200,7 +1200,9 @@ window.PRODUCT_ADMIN_DATA = {
     },
     "inventory:botas:bota leo": {
       "images": [
-        "img/productos/admin-inventory-botas-bota-leo-20261001-153126-1.jpg"
+        "img/productos/admin-inventory-botas-bota-leo-20261001-153126-1.jpg",
+        "img/productos/admin-inventory-botas-bota-leo-20261002-114818-2.jpg",
+        "img/productos/admin-inventory-botas-bota-leo-20261002-114818-3.jpg"
       ],
       "coverImage": "img/productos/admin-inventory-botas-bota-leo-20261001-153126-1.jpg",
       "image": "img/productos/admin-inventory-botas-bota-leo-20261001-153126-1.jpg"
