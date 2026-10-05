@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-03T00:15:32.138Z",
+  "savedAt": "2026-10-05T18:56:12.804Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -741,11 +741,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Negro",
-        "size": "27",
+        "size": "27 x3, 29 x2, 30 x2",
         "sizeDetails": {
-          "27": 1
+          "27": 3,
+          "29": 2,
+          "30": 2
         },
-        "quantity": 1,
+        "quantity": 7,
         "minimum": 3,
         "cost": 450,
         "salePrice": 790
@@ -980,13 +982,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "plantillas",
-        "size": "27, 28 x2, 29",
+        "size": "27 x4, 28 x4, 29 x4",
         "sizeDetails": {
-          "27": 1,
-          "28": 2,
-          "29": 1
+          "27": 4,
+          "28": 4,
+          "29": 4
         },
-        "quantity": 4,
+        "quantity": 12,
         "minimum": 3,
         "cost": 50,
         "salePrice": 100
@@ -1329,12 +1331,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Ultra negro",
-        "size": "24, 25 x2",
+        "size": "24, 25 x2, 26",
         "sizeDetails": {
           "24": 1,
-          "25": 2
+          "25": 2,
+          "26": 1
         },
-        "quantity": 3,
+        "quantity": 4,
         "minimum": 2,
         "cost": 450,
         "salePrice": 790
