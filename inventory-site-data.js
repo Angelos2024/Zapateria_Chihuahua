@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-06T16:02:42.057Z",
+  "savedAt": "2026-10-06T19:57:58.055Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -116,13 +116,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Chupacabras Ocre ",
-        "size": "26 x2, 27, 30 x2",
+        "size": "26, 27, 30 x2",
         "sizeDetails": {
-          "26": 2,
+          "26": 1,
           "27": 1,
           "30": 2
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 3,
         "cost": 370,
         "salePrice": 710
