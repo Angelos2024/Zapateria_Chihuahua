@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-06T20:31:25.490Z",
+  "savedAt": "2026-10-06T20:49:07.579Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -1298,13 +1298,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Negro",
-        "size": "24, 25, 26 x2",
+        "size": "24, 26 x2",
         "sizeDetails": {
           "24": 1,
-          "25": 1,
           "26": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 290,
         "salePrice": 630
@@ -1572,11 +1571,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "25 x3",
+        "size": "25 x2",
         "sizeDetails": {
-          "25": 3
+          "25": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 3,
         "cost": 340,
         "salePrice": 680
