@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-  "savedAt": "2026-10-05T18:59:51.017Z",
+  "savedAt": "2026-10-06T00:52:03.069Z",
   "source": "product-admin",
   "products": {
     "inventory:botas:atx cafe": {
@@ -296,7 +296,8 @@ window.PRODUCT_ADMIN_DATA = {
       "images": [
         "img/productos/admin-inventory-botas-cuello-largo-negra-20260726-121434-1.jpg",
         "img/productos/admin-inventory-botas-cuello-largo-negra-20260726-121434-2.jpg",
-        "img/productos/admin-inventory-botas-cuello-largo-negra-20260726-121434-3.jpg"
+        "img/productos/admin-inventory-botas-cuello-largo-negra-20260726-121434-3.jpg",
+        "img/productos/admin-inventory-botas-cuello-largo-negra-20261005-185203-4.jpg"
       ],
       "coverImage": "img/productos/admin-inventory-botas-cuello-largo-negra-20260726-121434-1.jpg",
       "image": "img/productos/admin-inventory-botas-cuello-largo-negra-20260726-121434-1.jpg"
