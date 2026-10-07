@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-07T20:02:58.204Z",
+  "savedAt": "2026-10-07T22:02:24.944Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -189,13 +189,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Coyote 1040 botin mil rayas",
-        "size": "27, 29, 30",
+        "size": "27, 30",
         "sizeDetails": {
           "27": 1,
-          "29": 1,
           "30": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 360,
         "salePrice": 700
