@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-07T22:02:24.944Z",
+  "savedAt": "2026-10-08T17:47:25.572Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -132,11 +132,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin corto ocre",
-        "size": "26 x2",
+        "size": "27, 30 x2",
         "sizeDetails": {
-          "26": 2
+          "27": 1,
+          "30": 2
         },
-        "quantity": 2,
+        "quantity": 3,
         "minimum": 0,
         "cost": 620,
         "salePrice": 970
@@ -350,14 +351,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS soldador Dakota",
-        "size": "26, 27, 28, 30 x2",
+        "size": "27, 30 x2",
         "sizeDetails": {
-          "26": 1,
           "27": 1,
-          "28": 1,
           "30": 2
         },
-        "quantity": 5,
+        "quantity": 3,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
