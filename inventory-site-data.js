@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-08T22:19:52.980Z",
+  "savedAt": "2026-10-08T23:16:48.615Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -491,13 +491,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx verde",
-        "size": "27 x5, 28 x4, 29 x6",
+        "size": "27 x5, 28 x3, 29 x6",
         "sizeDetails": {
           "27": 5,
-          "28": 4,
+          "28": 3,
           "29": 6
         },
-        "quantity": 15,
+        "quantity": 14,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -975,13 +975,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "plantillas",
-        "size": "27 x4, 28 x4, 29 x4",
+        "size": "27 x3, 28 x4, 29 x4",
         "sizeDetails": {
-          "27": 4,
+          "27": 3,
           "28": 4,
           "29": 4
         },
-        "quantity": 12,
+        "quantity": 11,
         "minimum": 3,
         "cost": 50,
         "salePrice": 100
