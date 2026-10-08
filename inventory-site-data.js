@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-08T20:44:03.139Z",
+  "savedAt": "2026-10-08T22:19:52.980Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -523,14 +523,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Negra 340",
-        "size": "27, 28 x3, 29, 30",
+        "size": "28 x3, 29, 30",
         "sizeDetails": {
-          "27": 1,
           "28": 3,
           "29": 1,
           "30": 1
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
