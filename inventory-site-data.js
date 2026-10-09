@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-09T18:28:56.973Z",
+  "savedAt": "2026-10-09T19:08:38.180Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -417,15 +417,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "ATX café",
-        "size": "27 x4, 28 x4, 29 x4, 30 x3, 31 x2",
+        "size": "27 x4, 28 x3, 29 x4, 30 x3, 31 x2",
         "sizeDetails": {
           "27": 4,
-          "28": 4,
+          "28": 3,
           "29": 4,
           "30": 3,
           "31": 2
         },
-        "quantity": 17,
+        "quantity": 16,
         "minimum": 3,
         "cost": 406,
         "salePrice": 770
@@ -880,14 +880,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 azul",
-        "size": "27 x2, 28 x2, 29, 30",
+        "size": "27, 28 x2, 29, 30",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "28": 2,
           "29": 1,
           "30": 1
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 2,
         "cost": 405,
         "salePrice": 750
