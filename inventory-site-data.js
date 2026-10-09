@@ -1,11 +1,11 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-09T21:06:32.559Z",
+  "savedAt": "2026-10-09T23:32:30.838Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
     "filters": {
       "audienceView": "ambos",
-      "onlyLowStock": true
+      "onlyLowStock": false
     },
     "rows": [
       {
@@ -809,13 +809,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "27 x5, 28 x4, 29 x4",
+        "size": "27 x4, 28 x4, 29 x4",
         "sizeDetails": {
-          "27": 5,
+          "27": 4,
           "28": 4,
           "29": 4
         },
-        "quantity": 13,
+        "quantity": 12,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
