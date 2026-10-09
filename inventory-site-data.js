@@ -1,11 +1,11 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-09T20:59:41.803Z",
+  "savedAt": "2026-10-09T21:06:32.559Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
     "filters": {
       "audienceView": "ambos",
-      "onlyLowStock": false
+      "onlyLowStock": true
     },
     "rows": [
       {
@@ -282,14 +282,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "27 x2, 28 x3, 29 x2, 30 x2",
+        "size": "27 x2, 28 x2, 29 x2, 30 x2",
         "sizeDetails": {
           "27": 2,
-          "28": 3,
+          "28": 2,
           "29": 2,
           "30": 2
         },
-        "quantity": 9,
+        "quantity": 8,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -809,13 +809,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "27 x5, 28 x4, 29 x5",
+        "size": "27 x5, 28 x4, 29 x4",
         "sizeDetails": {
           "27": 5,
           "28": 4,
-          "29": 5
+          "29": 4
         },
-        "quantity": 14,
+        "quantity": 13,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
@@ -902,13 +902,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 negro",
-        "size": "27, 28, 30 x2",
+        "size": "27, 28, 30",
         "sizeDetails": {
           "27": 1,
           "28": 1,
-          "30": 2
+          "30": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
         "cost": 405,
         "salePrice": 750
