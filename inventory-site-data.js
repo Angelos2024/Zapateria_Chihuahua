@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-08T23:16:48.615Z",
+  "savedAt": "2026-10-09T16:51:47.574Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -1292,12 +1292,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Negro",
-        "size": "24, 26 x2",
+        "size": "26 x2",
         "sizeDetails": {
-          "24": 1,
           "26": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 3,
         "cost": 290,
         "salePrice": 630
