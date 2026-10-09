@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-09T19:48:43.108Z",
+  "savedAt": "2026-10-09T19:51:10.990Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -283,11 +283,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "30",
+        "size": "27 x2, 28 x3, 29 x2, 30 x2",
         "sizeDetails": {
-          "30": 1
+          "27": 2,
+          "28": 3,
+          "29": 2,
+          "30": 2
         },
-        "quantity": 1,
+        "quantity": 9,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -297,11 +300,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS oso negro",
-        "size": "30",
+        "size": "27, 28 x2, 29, 30",
         "sizeDetails": {
+          "27": 1,
+          "28": 2,
+          "29": 1,
           "30": 1
         },
-        "quantity": 1,
+        "quantity": 5,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
