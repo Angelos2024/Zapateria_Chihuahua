@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-09T19:51:10.990Z",
+  "savedAt": "2026-10-09T20:59:41.803Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -132,12 +132,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin corto ocre",
-        "size": "27, 30 x2",
+        "size": "26 x2",
         "sizeDetails": {
-          "27": 1,
-          "30": 2
+          "26": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 620,
         "salePrice": 970
