@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-  "savedAt": "2026-10-06T00:52:03.069Z",
+  "savedAt": "2026-10-11T16:32:58.294Z",
   "source": "product-admin",
   "products": {
     "inventory:botas:atx cafe": {
@@ -1195,7 +1195,8 @@ window.PRODUCT_ADMIN_DATA = {
     "inventory:botas:botin bulldog": {
       "images": [
         "img/productos/admin-inventory-botas-botin-bulldog-20260928-143552-1.jpg",
-        "img/productos/admin-inventory-botas-botin-bulldog-20260928-143552-2.jpg"
+        "img/productos/admin-inventory-botas-botin-bulldog-20260928-143552-2.jpg",
+        "img/productos/admin-inventory-botas-botin-bulldog-20261011-103258-3.jpg"
       ],
       "coverImage": "img/productos/admin-inventory-botas-botin-bulldog-20260928-143552-1.jpg",
       "image": "img/productos/admin-inventory-botas-botin-bulldog-20260928-143552-1.jpg"
