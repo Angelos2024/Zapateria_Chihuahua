@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-11T18:27:28.862Z",
+  "savedAt": "2026-10-11T20:55:40.228Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -188,12 +188,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Coyote 1040 botin mil rayas",
-        "size": "27, 30",
+        "size": "30",
         "sizeDetails": {
-          "27": 1,
           "30": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 360,
         "salePrice": 700
@@ -297,14 +296,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS oso negro",
-        "size": "27, 28 x2, 29, 30",
+        "size": "27, 28 x2, 30",
         "sizeDetails": {
           "27": 1,
           "28": 2,
-          "29": 1,
           "30": 1
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -1213,11 +1211,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Caribu Lady Lila Piel ",
-        "size": "25",
-        "sizeDetails": {
-          "25": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 0,
         "cost": 680,
         "salePrice": 1020
@@ -1429,12 +1425,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Axis 021 Rosa",
-        "size": "25, 26",
+        "size": "26",
         "sizeDetails": {
-          "25": 1,
           "26": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 420,
         "salePrice": 760
