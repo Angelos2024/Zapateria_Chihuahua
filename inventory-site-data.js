@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-11T20:55:40.228Z",
+  "savedAt": "2026-10-11T21:37:19.980Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -174,11 +174,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Coyote 2070 café",
-        "size": "28",
-        "sizeDetails": {
-          "28": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 0,
         "cost": 400,
         "salePrice": 740
@@ -805,13 +803,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "27 x4, 28 x4, 29 x4",
+        "size": "27 x4, 28 x3, 29 x4",
         "sizeDetails": {
           "27": 4,
-          "28": 4,
+          "28": 3,
           "29": 4
         },
-        "quantity": 12,
+        "quantity": 11,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
