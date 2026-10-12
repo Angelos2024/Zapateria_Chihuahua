@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-12T20:49:50.657Z",
+  "savedAt": "2026-10-12T21:00:42.651Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -663,10 +663,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Vsport",
-        "size": "26 x2, 27",
+        "size": "26 x3",
         "sizeDetails": {
-          "26": 2,
-          "27": 1
+          "26": 3
         },
         "quantity": 3,
         "minimum": 0,
@@ -690,11 +689,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Vsport choclo Eva",
-        "size": "26",
+        "size": "26 x2",
         "sizeDetails": {
-          "26": 1
+          "26": 2
         },
-        "quantity": 1,
+        "quantity": 2,
         "minimum": 0,
         "cost": 260,
         "salePrice": 570
@@ -1527,12 +1526,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Terrax piel",
-        "size": "23, 25",
+        "size": "23",
         "sizeDetails": {
-          "23": 1,
-          "25": 1
+          "23": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 390,
         "salePrice": 730
