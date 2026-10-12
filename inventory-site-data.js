@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-12T23:35:04.416Z",
+  "savedAt": "2026-10-12T23:54:26.742Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -648,12 +648,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Force negro",
-        "size": "27 x3, 29",
+        "size": "27 x2, 29",
         "sizeDetails": {
-          "27": 3,
+          "27": 2,
           "29": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 5,
         "cost": 290,
         "salePrice": 630
@@ -1555,11 +1555,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "25",
-        "sizeDetails": {
-          "25": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 3,
         "cost": 340,
         "salePrice": 680
