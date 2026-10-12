@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-12T20:11:43.328Z",
+  "savedAt": "2026-10-12T20:37:52.859Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -1558,11 +1558,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "25 x2",
+        "size": "25",
         "sizeDetails": {
-          "25": 2
+          "25": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 3,
         "cost": 340,
         "salePrice": 680
