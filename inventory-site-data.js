@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-12T19:31:39.334Z",
+  "savedAt": "2026-10-12T20:11:43.328Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -62,11 +62,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre Truck",
-        "size": "29 x2",
+        "size": "29",
         "sizeDetails": {
-          "29": 2
+          "29": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 4,
         "cost": 410,
         "salePrice": 750
@@ -648,12 +648,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Force negro",
-        "size": "27 x3, 29 x2",
+        "size": "27 x3, 29",
         "sizeDetails": {
           "27": 3,
-          "29": 2
+          "29": 1
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 5,
         "cost": 290,
         "salePrice": 630
