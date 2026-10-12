@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-11T21:37:19.980Z",
+  "savedAt": "2026-10-12T18:00:22.145Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -1615,11 +1615,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Shein Rosa",
-        "size": "26",
-        "sizeDetails": {
-          "26": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 0,
         "cost": 310,
         "salePrice": 680
