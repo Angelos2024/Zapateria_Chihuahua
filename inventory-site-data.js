@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-12T23:54:26.742Z",
+  "savedAt": "2026-10-13T22:12:46.774Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -62,11 +62,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre Truck",
-        "size": "29",
-        "sizeDetails": {
-          "29": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 4,
         "cost": 410,
         "salePrice": 750
@@ -276,14 +274,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "27 x4, 28 x2, 29 x3, 30 x2",
+        "size": "27 x4, 28 x2, 29 x2, 30 x2",
         "sizeDetails": {
           "27": 4,
           "28": 2,
-          "29": 3,
+          "29": 2,
           "30": 2
         },
-        "quantity": 11,
+        "quantity": 10,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -521,13 +519,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Negra 340",
-        "size": "28 x3, 29, 30",
+        "size": "28 x2, 29, 30",
         "sizeDetails": {
-          "28": 3,
+          "28": 2,
           "29": 1,
           "30": 1
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
@@ -817,14 +815,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 021 negro",
-        "size": "27, 28 x2, 29, 30",
+        "size": "28 x2, 29, 30",
         "sizeDetails": {
-          "27": 1,
           "28": 2,
           "29": 1,
           "30": 1
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 2,
         "cost": 420,
         "salePrice": 760
