@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-13T22:12:46.774Z",
+  "savedAt": "2026-10-13T23:00:46.565Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -13,12 +13,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre suela de Goma",
-        "size": "26 x2, 30 x2",
+        "size": "26 x2, 30",
         "sizeDetails": {
           "26": 2,
-          "30": 2
+          "30": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 4,
         "cost": 400,
         "salePrice": 740
@@ -1618,14 +1618,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "23 x5, 24 x6, 25 x5, 26 x4",
+        "size": "23 x5, 24 x6, 25 x5, 26 x3",
         "sizeDetails": {
           "23": 5,
           "24": 6,
           "25": 5,
-          "26": 4
+          "26": 3
         },
-        "quantity": 20,
+        "quantity": 19,
         "minimum": 6,
         "cost": 310,
         "salePrice": 680
