@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-14T22:25:40.674Z",
+  "savedAt": "2026-10-14T22:52:35.161Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -799,13 +799,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "27 x4, 28 x3, 29 x4",
+        "size": "27 x3, 28 x3, 29 x4",
         "sizeDetails": {
-          "27": 4,
+          "27": 3,
           "28": 3,
           "29": 4
         },
-        "quantity": 11,
+        "quantity": 10,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
@@ -969,13 +969,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "plantillas",
-        "size": "27 x3, 28 x4, 29 x4",
+        "size": "27 x3, 28 x3, 29 x4",
         "sizeDetails": {
           "27": 3,
-          "28": 4,
+          "28": 3,
           "29": 4
         },
-        "quantity": 11,
+        "quantity": 10,
         "minimum": 3,
         "cost": 50,
         "salePrice": 100
