@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-16T19:00:52.310Z",
+  "savedAt": "2026-10-16T20:36:59.678Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -212,13 +212,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin BullDog",
-        "size": "26 x2, 27 x4, 28",
+        "size": "26 x2, 27 x3, 28",
         "sizeDetails": {
           "26": 2,
-          "27": 4,
+          "27": 3,
           "28": 1
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 0,
         "cost": 410,
         "salePrice": 750
@@ -318,12 +318,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS soldador",
-        "size": "27, 28",
+        "size": "28",
         "sizeDetails": {
-          "27": 1,
           "28": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -968,13 +967,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "plantillas",
-        "size": "27 x3, 28 x3, 29 x4",
+        "size": "27 x3, 28 x2, 29 x4",
         "sizeDetails": {
           "27": 3,
-          "28": 3,
+          "28": 2,
           "29": 4
         },
-        "quantity": 10,
+        "quantity": 9,
         "minimum": 3,
         "cost": 50,
         "salePrice": 100
