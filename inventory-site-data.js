@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-16T22:10:26.431Z",
+  "savedAt": "2026-10-18T18:17:08.098Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -196,13 +196,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Coyote cuadrado",
-        "size": "27, 28, 29",
+        "size": "28, 29",
         "sizeDetails": {
-          "27": 1,
           "28": 1,
           "29": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 500,
         "salePrice": 840
@@ -517,13 +516,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Negra 340",
-        "size": "28 x2, 29, 30",
+        "size": "28, 29, 30",
         "sizeDetails": {
-          "28": 2,
+          "28": 1,
           "29": 1,
           "30": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
