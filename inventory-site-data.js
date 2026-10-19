@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-19T17:46:56.670Z",
+  "savedAt": "2026-10-19T22:48:45.374Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -1381,12 +1381,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Sport negro",
-        "size": "22, 23",
+        "size": "22",
         "sizeDetails": {
-          "22": 1,
-          "23": 1
+          "22": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 3,
         "cost": 405,
         "salePrice": 745
