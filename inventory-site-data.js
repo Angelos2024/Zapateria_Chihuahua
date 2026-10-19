@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-19T16:40:14.922Z",
+  "savedAt": "2026-10-19T17:46:56.670Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -273,14 +273,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "27 x4, 28 x2, 29 x2, 30",
+        "size": "27 x4, 28 x2, 29 x2",
         "sizeDetails": {
           "27": 4,
           "28": 2,
-          "29": 2,
-          "30": 1
+          "29": 2
         },
-        "quantity": 9,
+        "quantity": 8,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -501,13 +500,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx Negro",
-        "size": "27 x3, 28 x3, 29 x4",
+        "size": "27 x3, 28, 29 x4",
         "sizeDetails": {
           "27": 3,
-          "28": 3,
+          "28": 1,
           "29": 4
         },
-        "quantity": 10,
+        "quantity": 8,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -1110,12 +1109,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Caribu negra 340",
-        "size": "24, 25",
+        "size": "24",
         "sizeDetails": {
-          "24": 1,
-          "25": 1
+          "24": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
