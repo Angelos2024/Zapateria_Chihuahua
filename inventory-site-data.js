@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-19T16:12:54.441Z",
+  "savedAt": "2026-10-19T16:40:14.922Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -112,13 +112,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Chupacabras Ocre ",
-        "size": "26, 27, 30 x2",
+        "size": "26, 27, 30",
         "sizeDetails": {
           "26": 1,
           "27": 1,
-          "30": 2
+          "30": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 370,
         "salePrice": 710
@@ -273,14 +273,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "27 x4, 28 x2, 29 x2, 30 x2",
+        "size": "27 x4, 28 x2, 29 x2, 30",
         "sizeDetails": {
           "27": 4,
           "28": 2,
           "29": 2,
-          "30": 2
+          "30": 1
         },
-        "quantity": 10,
+        "quantity": 9,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
