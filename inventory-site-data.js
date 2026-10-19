@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-18T22:55:20.761Z",
+  "savedAt": "2026-10-19T16:12:54.441Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -212,13 +212,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin BullDog",
-        "size": "26 x2, 27 x2, 28",
+        "size": "26 x2, 27, 28",
         "sizeDetails": {
           "26": 2,
-          "27": 2,
+          "27": 1,
           "28": 1
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 0,
         "cost": 410,
         "salePrice": 750
@@ -1025,12 +1025,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Shein Atx negro",
-        "size": "25, 26",
-        "sizeDetails": {
-          "25": 1,
-          "26": 1
-        },
-        "quantity": 2,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
