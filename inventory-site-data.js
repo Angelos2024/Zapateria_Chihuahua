@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-19T22:48:45.374Z",
+  "savedAt": "2026-10-20T00:16:14.337Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -273,13 +273,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "27 x4, 28 x2, 29 x2",
+        "size": "27 x4",
         "sizeDetails": {
-          "27": 4,
-          "28": 2,
-          "29": 2
+          "27": 4
         },
-        "quantity": 8,
+        "quantity": 4,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -289,13 +287,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS oso negro",
-        "size": "27, 28 x2, 30",
+        "size": "27, 28 x2",
         "sizeDetails": {
           "27": 1,
-          "28": 2,
-          "30": 1
+          "28": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -597,14 +594,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Bota Leo",
-        "size": "27 x4, 28 x4, 29 x3, 30",
+        "size": "27 x3, 28 x4, 29 x3, 30",
         "sizeDetails": {
-          "27": 4,
+          "27": 3,
           "28": 4,
           "29": 3,
           "30": 1
         },
-        "quantity": 12,
+        "quantity": 11,
         "minimum": 0,
         "cost": 397,
         "salePrice": 740
