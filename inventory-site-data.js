@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-21T16:25:04.954Z",
+  "savedAt": "2026-10-21T17:59:35.477Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -1020,9 +1020,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Shein Atx negro",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "24",
+        "sizeDetails": {
+          "24": 1
+        },
+        "quantity": 1,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -1301,12 +1303,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Ultra negro",
-        "size": "24, 25",
+        "size": "25",
         "sizeDetails": {
-          "24": 1,
           "25": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 450,
         "salePrice": 790
