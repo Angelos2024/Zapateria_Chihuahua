@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-20T23:35:45.534Z",
+  "savedAt": "2026-10-21T16:25:04.954Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -765,12 +765,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Sport negro",
-        "size": "26, 27",
+        "size": "23, 26, 27",
         "sizeDetails": {
+          "23": 1,
           "26": 1,
           "27": 1
         },
-        "quantity": 2,
+        "quantity": 3,
         "minimum": 1,
         "cost": 405,
         "salePrice": 745
@@ -1376,10 +1377,10 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Sport negro",
-        "size": "22, 24, 26, 27",
+        "size": "22, 23, 26, 27",
         "sizeDetails": {
           "22": 1,
-          "24": 1,
+          "23": 1,
           "26": 1,
           "27": 1
         },
