@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-21T23:40:40.279Z",
+  "savedAt": "2026-10-22T18:01:48.521Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -407,15 +407,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "ATX café",
-        "size": "27 x4, 28 x3, 29 x4, 30 x3, 31 x2",
+        "size": "27 x4, 28 x2, 29 x4, 30 x3, 31 x2",
         "sizeDetails": {
           "27": 4,
-          "28": 3,
+          "28": 2,
           "29": 4,
           "30": 3,
           "31": 2
         },
-        "quantity": 16,
+        "quantity": 15,
         "minimum": 3,
         "cost": 406,
         "salePrice": 770
@@ -723,13 +723,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Negro",
-        "size": "27 x3, 29 x2, 30 x2",
+        "size": "27 x3, 29, 30 x2",
         "sizeDetails": {
           "27": 3,
-          "29": 2,
+          "29": 1,
           "30": 2
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 3,
         "cost": 450,
         "salePrice": 790
