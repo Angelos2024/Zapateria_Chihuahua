@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-22T20:32:37.127Z",
+  "savedAt": "2026-10-22T23:29:24.733Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -340,12 +340,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS soldador Dakota",
-        "size": "27, 30 x2",
+        "size": "27, 30",
         "sizeDetails": {
           "27": 1,
-          "30": 2
+          "30": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
