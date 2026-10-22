@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-22T18:01:48.521Z",
+  "savedAt": "2026-10-22T20:07:11.467Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -594,14 +594,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Bota Leo",
-        "size": "27 x3, 28 x4, 29 x3, 30",
+        "size": "27 x3, 28 x3, 29 x3, 30",
         "sizeDetails": {
           "27": 3,
-          "28": 4,
+          "28": 3,
           "29": 3,
           "30": 1
         },
-        "quantity": 11,
+        "quantity": 10,
         "minimum": 0,
         "cost": 397,
         "salePrice": 740
