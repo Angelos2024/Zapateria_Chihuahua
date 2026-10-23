@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-23T20:23:50.158Z",
+  "savedAt": "2026-10-23T22:32:02.818Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -273,11 +273,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "27 x4",
+        "size": "27 x4, 28 x4, 29 x3, 30 x3",
         "sizeDetails": {
-          "27": 4
+          "27": 4,
+          "28": 4,
+          "29": 3,
+          "30": 3
         },
-        "quantity": 4,
+        "quantity": 14,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -302,9 +305,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS grizlee",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "28 x2, 29 x2",
+        "sizeDetails": {
+          "28": 2,
+          "29": 2
+        },
+        "quantity": 4,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -340,12 +346,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS soldador Dakota",
-        "size": "27, 30",
+        "size": "27 x2, 28 x3, 29, 30",
         "sizeDetails": {
-          "27": 1,
+          "27": 2,
+          "28": 3,
+          "29": 1,
           "30": 1
         },
-        "quantity": 2,
+        "quantity": 7,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
