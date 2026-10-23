@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-22T23:29:24.733Z",
+  "savedAt": "2026-10-23T20:23:50.158Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -255,15 +255,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Tornado piel",
-        "size": "26, 27 x3, 28, 29 x3, 30 x2",
+        "size": "26, 27 x3, 28, 29 x3, 30",
         "sizeDetails": {
           "26": 1,
           "27": 3,
           "28": 1,
           "29": 3,
-          "30": 2
+          "30": 1
         },
-        "quantity": 10,
+        "quantity": 9,
         "minimum": 3,
         "cost": 315,
         "salePrice": 655
@@ -722,13 +722,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Negro",
-        "size": "27 x3, 29, 30 x2",
+        "size": "27 x3, 30",
         "sizeDetails": {
           "27": 3,
-          "29": 1,
-          "30": 2
+          "30": 1
         },
-        "quantity": 6,
+        "quantity": 4,
         "minimum": 3,
         "cost": 450,
         "salePrice": 790
@@ -1607,14 +1606,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "23 x5, 24 x5, 25 x4, 26 x2",
+        "size": "23 x5, 24 x5, 25 x3, 26 x2",
         "sizeDetails": {
           "23": 5,
           "24": 5,
-          "25": 4,
+          "25": 3,
           "26": 2
         },
-        "quantity": 16,
+        "quantity": 15,
         "minimum": 6,
         "cost": 310,
         "salePrice": 680
