@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-25T17:47:35.573Z",
+  "savedAt": "2026-10-25T18:11:59.882Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -273,14 +273,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "27 x4, 28 x4, 29 x3, 30 x3",
+        "size": "27 x4, 28 x3, 29 x3, 30 x3",
         "sizeDetails": {
           "27": 4,
-          "28": 4,
+          "28": 3,
           "29": 3,
           "30": 3
         },
-        "quantity": 14,
+        "quantity": 13,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -797,13 +797,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "27 x3, 28 x3, 29 x4",
+        "size": "27 x2, 28 x3, 29 x4",
         "sizeDetails": {
-          "27": 3,
+          "27": 2,
           "28": 3,
           "29": 4
         },
-        "quantity": 10,
+        "quantity": 9,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
