@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-25T18:11:59.882Z",
+  "savedAt": "2026-10-25T18:53:34.172Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -305,12 +305,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS grizlee",
-        "size": "28 x2, 29 x2",
+        "size": "28 x2, 29",
         "sizeDetails": {
           "28": 2,
-          "29": 2
+          "29": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -797,13 +797,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "27 x2, 28 x3, 29 x4",
+        "size": "27 x2, 28 x2, 29 x4",
         "sizeDetails": {
           "27": 2,
-          "28": 3,
+          "28": 2,
           "29": 4
         },
-        "quantity": 9,
+        "quantity": 8,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
