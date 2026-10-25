@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-23T23:57:05.598Z",
+  "savedAt": "2026-10-25T16:53:48.838Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -887,13 +887,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 negro",
-        "size": "27, 28, 30",
+        "size": "27, 28",
         "sizeDetails": {
           "27": 1,
-          "28": 1,
-          "30": 1
+          "28": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 405,
         "salePrice": 750
@@ -1458,13 +1457,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Vsport gris",
-        "size": "23 x3, 24, 25 x2",
+        "size": "23 x2, 24, 25 x2",
         "sizeDetails": {
-          "23": 3,
+          "23": 2,
           "24": 1,
           "25": 2
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 0,
         "cost": 260,
         "salePrice": 570
