@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-25T16:53:48.838Z",
+  "savedAt": "2026-10-25T17:47:35.573Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -1168,12 +1168,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Caribu Lady Menta Textil",
-        "size": "23, 24",
+        "size": "24",
         "sizeDetails": {
-          "23": 1,
           "24": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 1,
         "cost": 630,
         "salePrice": 970
@@ -1363,14 +1362,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Sport rosa",
-        "size": "22, 23, 24, 26",
+        "size": "22, 23, 26",
         "sizeDetails": {
           "22": 1,
           "23": 1,
-          "24": 1,
           "26": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 405,
         "salePrice": 745
