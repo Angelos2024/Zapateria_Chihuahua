@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-26T19:47:59.560Z",
+  "savedAt": "2026-10-26T20:04:45.373Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -13,12 +13,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre suela de Goma",
-        "size": "26 x2, 30 x2",
+        "size": "26 x2, 29 x2, 30 x2",
         "sizeDetails": {
           "26": 2,
+          "29": 2,
           "30": 2
         },
-        "quantity": 4,
+        "quantity": 6,
         "minimum": 4,
         "cost": 400,
         "salePrice": 740
@@ -44,14 +45,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra mil rayas",
-        "size": "26, 27 x2, 28, 30 x2",
+        "size": "26, 27 x2, 28 x3, 30 x2",
         "sizeDetails": {
           "26": 1,
           "27": 2,
-          "28": 1,
+          "28": 3,
           "30": 2
         },
-        "quantity": 6,
+        "quantity": 8,
         "minimum": 3,
         "cost": 400,
         "salePrice": 750
