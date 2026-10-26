@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-26T16:19:35.311Z",
+  "savedAt": "2026-10-26T19:33:51.514Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -271,14 +271,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "27 x4, 28 x3, 29 x4, 30 x2",
+        "size": "27 x4, 28 x3, 29 x4, 30",
         "sizeDetails": {
           "27": 4,
           "28": 3,
           "29": 4,
-          "30": 2
+          "30": 1
         },
-        "quantity": 13,
+        "quantity": 12,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -1551,11 +1551,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma Mega amarillo",
-        "size": "26",
-        "sizeDetails": {
-          "26": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 0,
         "cost": 280,
         "salePrice": 630
