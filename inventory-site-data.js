@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-26T22:32:12.313Z",
+  "savedAt": "2026-10-27T00:26:11.407Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -343,14 +343,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS soldador Dakota",
-        "size": "27 x2, 28 x3, 29, 30",
+        "size": "27 x2, 28 x3, 30",
         "sizeDetails": {
           "27": 2,
           "28": 3,
-          "29": 1,
           "30": 1
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -792,13 +791,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "27 x2, 28 x2, 29 x4",
+        "size": "27 x2, 28, 29 x4",
         "sizeDetails": {
           "27": 2,
-          "28": 2,
+          "28": 1,
           "29": 4
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
