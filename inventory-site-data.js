@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-27T00:26:11.407Z",
+  "savedAt": "2026-10-28T22:04:52.286Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -45,14 +45,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra mil rayas",
-        "size": "26, 27 x2, 28 x3, 30 x2",
+        "size": "26, 27, 28 x2, 30 x2",
         "sizeDetails": {
           "26": 1,
-          "27": 2,
-          "28": 3,
+          "27": 1,
+          "28": 2,
           "30": 2
         },
-        "quantity": 8,
+        "quantity": 6,
         "minimum": 3,
         "cost": 400,
         "salePrice": 750
@@ -271,13 +271,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "27 x4, 28 x3, 29 x4",
+        "size": "27 x4, 28 x2, 29 x3",
         "sizeDetails": {
           "27": 4,
-          "28": 3,
-          "29": 4
+          "28": 2,
+          "29": 3
         },
-        "quantity": 11,
+        "quantity": 9,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -287,12 +287,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS oso negro",
-        "size": "28 x2, 29",
+        "size": "28, 29",
         "sizeDetails": {
-          "28": 2,
+          "28": 1,
           "29": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -343,13 +343,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS soldador Dakota",
-        "size": "27 x2, 28 x3, 30",
+        "size": "28, 30",
         "sizeDetails": {
-          "27": 2,
-          "28": 3,
+          "28": 1,
           "30": 1
         },
-        "quantity": 6,
+        "quantity": 2,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
