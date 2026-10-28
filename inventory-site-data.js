@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-28T22:04:52.286Z",
+  "savedAt": "2026-10-28T23:42:58.758Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -212,12 +212,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin BullDog",
-        "size": "26 x2, 27",
+        "size": "26 x2",
         "sizeDetails": {
-          "26": 2,
-          "27": 1
+          "26": 2
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 0,
         "cost": 410,
         "salePrice": 750
@@ -1268,11 +1267,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Force Negro",
-        "size": "26 x2",
+        "size": "26",
         "sizeDetails": {
-          "26": 2
+          "26": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 3,
         "cost": 290,
         "salePrice": 630
