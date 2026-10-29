@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-28T23:42:58.758Z",
+  "savedAt": "2026-10-29T18:11:45.131Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -13,13 +13,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre suela de Goma",
-        "size": "26 x2, 29 x2, 30 x2",
+        "size": "26 x2, 29, 30 x2",
         "sizeDetails": {
           "26": 2,
-          "29": 2,
+          "29": 1,
           "30": 2
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 4,
         "cost": 400,
         "salePrice": 740
@@ -197,12 +197,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Coyote cuadrado",
-        "size": "28, 29",
+        "size": "29",
         "sizeDetails": {
-          "28": 1,
           "29": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 500,
         "salePrice": 840
@@ -483,12 +482,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx verde",
-        "size": "27 x2, 29 x6",
+        "size": "27, 29 x6",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "29": 6
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
