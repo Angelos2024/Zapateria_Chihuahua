@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-29T18:43:35.643Z",
+  "savedAt": "2026-10-29T22:55:37.028Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -512,13 +512,16 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Negra 340",
-        "size": "28, 29, 30",
+        "size": "25, 26, 27, 28 x2, 29, 30",
         "sizeDetails": {
-          "28": 1,
+          "25": 1,
+          "26": 1,
+          "27": 1,
+          "28": 2,
           "29": 1,
           "30": 1
         },
-        "quantity": 3,
+        "quantity": 7,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
@@ -528,11 +531,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Beige 340",
-        "size": "27",
+        "size": "27 x2, 28 x2, 29, 30",
         "sizeDetails": {
-          "27": 1
+          "27": 2,
+          "28": 2,
+          "29": 1,
+          "30": 1
         },
-        "quantity": 1,
+        "quantity": 6,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
@@ -607,11 +613,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Choclo caribu negro",
-        "size": "30",
+        "size": "27, 28, 30",
         "sizeDetails": {
+          "27": 1,
+          "28": 1,
           "30": 1
         },
-        "quantity": 1,
+        "quantity": 3,
         "minimum": 2,
         "cost": 560,
         "salePrice": 900
