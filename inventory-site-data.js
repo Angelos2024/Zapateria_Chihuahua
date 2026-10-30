@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-30T15:20:07.776Z",
+  "savedAt": "2026-10-30T19:04:58.323Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -315,11 +315,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS soldador",
-        "size": "28",
-        "sizeDetails": {
-          "28": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -644,11 +642,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Force negro",
-        "size": "29",
-        "sizeDetails": {
-          "29": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 5,
         "cost": 290,
         "salePrice": 630
