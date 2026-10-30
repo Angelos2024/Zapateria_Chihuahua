@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-  "savedAt": "2026-10-11T16:32:58.294Z",
+  "savedAt": "2026-10-30T15:18:58.437Z",
   "source": "product-admin",
   "products": {
     "inventory:botas:atx cafe": {
@@ -69,16 +69,14 @@ window.PRODUCT_ADMIN_DATA = {
       "description": "Calzado de Seguridad modelo Caribú Beige 340 disponible en tienda.",
       "maxSize": 30,
       "images": [
-        "img/productos/admin-inventory-botas-caribu-beige-340-20261001-122125-1.jpg",
-        "img/productos/admin-inventory-botas-caribu-beige-340-20261001-122125-2.jpg",
-        "img/productos/admin-inventory-botas-caribu-beige-340-20261001-122125-3.jpg",
-        "img/productos/admin-inventory-botas-caribu-beige-340-20261001-122125-4.jpg",
-        "img/productos/admin-inventory-botas-caribu-beige-340-20261001-122125-5.jpg",
-        "img/productos/admin-inventory-botas-caribu-beige-340-20261001-122125-6.jpg",
-        "img/productos/admin-inventory-botas-caribu-beige-340-20261001-122125-7.jpg"
+        "img/productos/admin-inventory-botas-caribu-beige-340-20261030-091313-1.jpg",
+        "img/productos/admin-inventory-botas-caribu-beige-340-20261030-091313-2.jpg",
+        "img/productos/admin-inventory-botas-caribu-beige-340-20261030-091313-3.jpg",
+        "img/productos/admin-inventory-botas-caribu-beige-340-20261030-091313-4.jpg",
+        "img/productos/admin-inventory-botas-caribu-beige-340-20261030-091604-5.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-caribu-beige-340-20261001-122125-1.jpg",
-      "image": "img/productos/admin-inventory-botas-caribu-beige-340-20261001-122125-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-caribu-beige-340-20261030-091313-1.jpg",
+      "image": "img/productos/admin-inventory-botas-caribu-beige-340-20261030-091313-1.jpg"
     },
     "inventory:botas:caribu beige 952": {
       "minSize": 26,
@@ -197,15 +195,12 @@ window.PRODUCT_ADMIN_DATA = {
       ],
       "maxSize": 30,
       "images": [
-        "img/productos/admin-inventory-botas-caribu-negra-340-20260513-141842-1.jpg",
-        "img/productos/admin-inventory-botas-caribu-negra-340-20260513-141842-2.jpg",
-        "img/productos/admin-inventory-botas-caribu-negra-340-20260513-141842-3.jpg",
-        "img/productos/admin-inventory-botas-caribu-negra-340-20260513-141842-4.jpg",
-        "img/productos/admin-inventory-botas-caribu-negra-340-20260513-141842-5.jpg",
-        "img/productos/admin-inventory-botas-caribu-negra-340-20261005-125951-6.jpg"
+        "img/productos/admin-inventory-botas-caribu-negra-340-20261005-125951-6.jpg",
+        "img/productos/admin-inventory-botas-caribu-negra-340-20261030-091858-2.jpg",
+        "img/productos/admin-inventory-botas-caribu-negra-340-20261030-091858-3.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-botas-caribu-negra-340-20260513-141842-1.jpg",
-      "image": "img/productos/admin-inventory-botas-caribu-negra-340-20260513-141842-1.jpg"
+      "coverImage": "img/productos/admin-inventory-botas-caribu-negra-340-20261005-125951-6.jpg",
+      "image": "img/productos/admin-inventory-botas-caribu-negra-340-20261005-125951-6.jpg"
     },
     "inventory:botas:casdo suela blanca": {
       "details": [
@@ -685,11 +680,10 @@ window.PRODUCT_ADMIN_DATA = {
         "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
       ],
       "images": [
-        "img/productos/admin-inventory-tenis-choclo-caribu-negro-20260513-161408-1.jpg",
-        "img/productos/admin-inventory-tenis-choclo-caribu-negro-20260513-161409-2.jpg"
+        "img/productos/admin-inventory-tenis-choclo-caribu-negro-20261030-091635-1.jpg"
       ],
-      "coverImage": "img/productos/admin-inventory-tenis-choclo-caribu-negro-20260513-161408-1.jpg",
-      "image": "img/productos/admin-inventory-tenis-choclo-caribu-negro-20260513-161408-1.jpg"
+      "coverImage": "img/productos/admin-inventory-tenis-choclo-caribu-negro-20261030-091635-1.jpg",
+      "image": "img/productos/admin-inventory-tenis-choclo-caribu-negro-20261030-091635-1.jpg"
     },
     "inventory:tenis:flow": {
       "details": [
