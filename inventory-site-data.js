@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-30T22:08:19.923Z",
+  "savedAt": "2026-10-30T22:49:38.964Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -1558,13 +1558,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma valvula azul",
-        "size": "23 x2, 24, 26",
+        "size": "23 x2, 24",
         "sizeDetails": {
           "23": 2,
-          "24": 1,
-          "26": 1
+          "24": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 0,
         "cost": 307,
         "salePrice": 655
