@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-10-30T19:04:58.323Z",
+  "savedAt": "2026-10-30T22:08:19.923Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -495,12 +495,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx Negro",
-        "size": "27 x2, 29 x4",
+        "size": "27, 29 x4",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "29": 4
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
@@ -723,12 +723,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Ultra Negro",
-        "size": "27 x3, 30",
+        "size": "27 x3",
         "sizeDetails": {
-          "27": 3,
-          "30": 1
+          "27": 3
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 450,
         "salePrice": 790
@@ -792,13 +791,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "27 x2, 28, 29 x4",
+        "size": "29 x4",
         "sizeDetails": {
-          "27": 2,
-          "28": 1,
           "29": 4
         },
-        "quantity": 7,
+        "quantity": 4,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
@@ -882,12 +879,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 negro",
-        "size": "27, 28",
+        "size": "27",
         "sizeDetails": {
-          "27": 1,
-          "28": 1
+          "27": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 405,
         "salePrice": 750
