@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-01T18:51:18.332Z",
+  "savedAt": "2026-11-01T20:31:19.586Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -1196,11 +1196,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Caribu Lady Rosa Piel ",
-        "size": "24 x2",
+        "size": "24",
         "sizeDetails": {
-          "24": 2
+          "24": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 680,
         "salePrice": 1020
