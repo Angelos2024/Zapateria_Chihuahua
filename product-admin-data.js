@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-  "savedAt": "2026-10-30T15:18:58.437Z",
+  "savedAt": "2026-11-01T18:50:52.345Z",
   "source": "product-admin",
   "products": {
     "inventory:botas:atx cafe": {
@@ -1070,7 +1070,9 @@ window.PRODUCT_ADMIN_DATA = {
       "images": [
         "img/productos/admin-inventory-botas-nicadabra-rambo-20260605-045309-1.jpg",
         "img/productos/admin-inventory-botas-nicadabra-rambo-20260605-045310-2.jpg",
-        "img/productos/admin-inventory-botas-nicadabra-rambo-20260605-045310-3.jpg"
+        "img/productos/admin-inventory-botas-nicadabra-rambo-20260605-045310-3.jpg",
+        "img/productos/admin-inventory-botas-nicadabra-rambo-20261101-125052-4.jpg",
+        "img/productos/admin-inventory-botas-nicadabra-rambo-20261101-125052-5.jpg"
       ],
       "coverImage": "img/productos/admin-inventory-botas-nicadabra-rambo-20260605-045309-1.jpg",
       "image": "img/productos/admin-inventory-botas-nicadabra-rambo-20260605-045309-1.jpg"
