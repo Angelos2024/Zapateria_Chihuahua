@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-01T20:31:19.586Z",
+  "savedAt": "2026-11-02T21:07:42.656Z",
   "source": "zapatos",
   "data": {
     "nextId": 132,
@@ -711,9 +711,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "27 x6, 28 x6, 29 x5",
+        "sizeDetails": {
+          "27": 6,
+          "28": 6,
+          "29": 5
+        },
+        "quantity": 17,
         "minimum": 4,
         "cost": 310,
         "salePrice": 655
@@ -918,9 +922,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "27 x3, 28 x4, 29 x3",
+        "sizeDetails": {
+          "27": 3,
+          "28": 4,
+          "29": 3
+        },
+        "quantity": 10,
         "minimum": 0,
         "cost": 340,
         "salePrice": 680
@@ -1531,9 +1539,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "26 x2",
+        "sizeDetails": {
+          "26": 2
+        },
+        "quantity": 2,
         "minimum": 3,
         "cost": 340,
         "salePrice": 680
@@ -1570,9 +1580,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "",
-        "sizeDetails": {},
-        "quantity": 0,
+        "size": "23 x2, 24 x3, 25 x5, 26 x5",
+        "sizeDetails": {
+          "23": 2,
+          "24": 3,
+          "25": 5,
+          "26": 5
+        },
+        "quantity": 15,
         "minimum": 6,
         "cost": 310,
         "salePrice": 655
@@ -1594,14 +1609,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "23 x5, 24 x5, 25 x3, 26 x2",
+        "size": "23 x5, 24 x5, 25 x2, 26 x2",
         "sizeDetails": {
           "23": 5,
           "24": 5,
-          "25": 3,
+          "25": 2,
           "26": 2
         },
-        "quantity": 15,
+        "quantity": 14,
         "minimum": 6,
         "cost": 310,
         "salePrice": 680
