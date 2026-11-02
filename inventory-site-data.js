@@ -1,8 +1,8 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-02T21:07:42.656Z",
+  "savedAt": "2026-11-02T21:16:12.844Z",
   "source": "zapatos",
   "data": {
-    "nextId": 132,
+    "nextId": 133,
     "filters": {
       "audienceView": "ambos",
       "onlyLowStock": false
@@ -941,6 +941,23 @@ window.INVENTORY_SITE_DATA = {
         "size": "",
         "sizeDetails": {},
         "quantity": 0,
+        "minimum": 0,
+        "cost": 280,
+        "salePrice": 630
+      },
+      {
+        "id": "inv-132",
+        "audienceGroup": "caballero",
+        "productGroup": "tenis",
+        "model": "Mega Negro total",
+        "size": "26 x2, 27 x5, 28 x6, 29 x3",
+        "sizeDetails": {
+          "26": 2,
+          "27": 5,
+          "28": 6,
+          "29": 3
+        },
+        "quantity": 16,
         "minimum": 0,
         "cost": 280,
         "salePrice": 630
