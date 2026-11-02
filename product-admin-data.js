@@ -1,5 +1,5 @@
 window.PRODUCT_ADMIN_DATA = {
-    "savedAt":  "2026-11-02T21:16:52.959Z",
+    "savedAt":  "2026-11-02T22:50:01.172Z",
     "source":  "product-admin",
     "products":  {
                      "inventory:botas:atx cafe":  {
@@ -667,11 +667,11 @@ window.PRODUCT_ADMIN_DATA = {
                                                                           "Confeccionado bajo la NOM113-STPS-2009 Casco de Poliamida dieléctricos."
                                                                       ],
                                                           "images":  [
-                                                                         "img/productos/admin-inventory-tenis-axis-28-rosa-20260929-125611-1.jpg",
-                                                                         "img/productos/admin-inventory-tenis-axis-28-rosa-20261002-155453-2.jpg"
+                                                                         "img/productos/admin-inventory-tenis-axis-28-rosa-20261002-155453-2.jpg",
+                                                                         "img/productos/admin-inventory-tenis-axis-28-rosa-20261102-165001-2.jpg"
                                                                      ],
-                                                          "coverImage":  "img/productos/admin-inventory-tenis-axis-28-rosa-20260929-125611-1.jpg",
-                                                          "image":  "img/productos/admin-inventory-tenis-axis-28-rosa-20260929-125611-1.jpg"
+                                                          "coverImage":  "img/productos/admin-inventory-tenis-axis-28-rosa-20261002-155453-2.jpg",
+                                                          "image":  "img/productos/admin-inventory-tenis-axis-28-rosa-20261002-155453-2.jpg"
                                                       },
                      "inventory:tenis:choclo caribu negro":  {
                                                                  "minSize":  23,
@@ -1208,7 +1208,8 @@ window.PRODUCT_ADMIN_DATA = {
                                                   },
                      "inventory:tenis:mega negro total":  {
                                                               "images":  [
-                                                                             "img/productos/admin-inventory-tenis-mega-negro-total-20261102-151653-1.jpg"
+                                                                             "img/productos/admin-inventory-tenis-mega-negro-total-20261102-151653-1.jpg",
+                                                                             "img/productos/admin-inventory-tenis-mega-negro-total-20261102-164945-2.jpg"
                                                                          ],
                                                               "coverImage":  "img/productos/admin-inventory-tenis-mega-negro-total-20261102-151653-1.jpg",
                                                               "image":  "img/productos/admin-inventory-tenis-mega-negro-total-20261102-151653-1.jpg"
