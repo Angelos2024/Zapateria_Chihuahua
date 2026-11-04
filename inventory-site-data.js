@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-03T21:06:59.598Z",
+  "savedAt": "2026-11-04T00:40:06.429Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -296,12 +296,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS oso negro",
-        "size": "28, 29",
+        "size": "29",
         "sizeDetails": {
-          "28": 1,
           "29": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
@@ -821,13 +820,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 021 negro",
-        "size": "27, 29, 30",
+        "size": "27, 30",
         "sizeDetails": {
           "27": 1,
-          "29": 1,
           "30": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 420,
         "salePrice": 760
