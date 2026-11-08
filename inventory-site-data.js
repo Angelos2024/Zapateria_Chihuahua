@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-08T20:38:52.733Z",
+  "savedAt": "2026-11-08T21:35:03.346Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -719,13 +719,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "27 x6, 28 x5, 29 x5",
+        "size": "27 x6, 28 x5, 29 x4",
         "sizeDetails": {
           "27": 6,
           "28": 5,
-          "29": 5
+          "29": 4
         },
-        "quantity": 16,
+        "quantity": 15,
         "minimum": 4,
         "cost": 310,
         "salePrice": 655
@@ -927,13 +927,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Puma",
-        "size": "27 x2, 28 x4, 29 x3",
+        "size": "27 x2, 28 x4, 29 x2",
         "sizeDetails": {
           "27": 2,
           "28": 4,
-          "29": 3
+          "29": 2
         },
-        "quantity": 9,
+        "quantity": 8,
         "minimum": 0,
         "cost": 340,
         "salePrice": 680
