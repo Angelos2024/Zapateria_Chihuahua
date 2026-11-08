@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-08T17:40:12.726Z",
+  "savedAt": "2026-11-08T18:18:14.856Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -703,14 +703,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Vsport choclo",
-        "size": "27, 28, 30, 32",
+        "size": "28, 30, 32",
         "sizeDetails": {
-          "27": 1,
           "28": 1,
           "30": 1,
           "32": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 0,
         "cost": 260,
         "salePrice": 570
