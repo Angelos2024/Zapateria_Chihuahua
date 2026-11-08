@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-08T18:18:14.856Z",
+  "savedAt": "2026-11-08T18:41:16.397Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -859,13 +859,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 naranja",
-        "size": "27, 29, 30",
+        "size": "27, 29",
         "sizeDetails": {
           "27": 1,
-          "29": 1,
-          "30": 1
+          "29": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 405,
         "salePrice": 750
@@ -1454,14 +1453,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Axis 28 Rosa",
-        "size": "23 x2, 24 x2, 25 x2, 26",
+        "size": "23, 24 x2, 25 x2, 26",
         "sizeDetails": {
-          "23": 2,
+          "23": 1,
           "24": 2,
           "25": 2,
           "26": 1
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 1,
         "cost": 405,
         "salePrice": 750
