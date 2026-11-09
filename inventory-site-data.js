@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-08T21:41:27.434Z",
+  "savedAt": "2026-11-09T17:33:03.360Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -93,15 +93,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Everest",
-        "size": "27 x2, 28 x3, 29 x2, 30, 31",
+        "size": "27, 28 x2, 29 x2, 30, 31",
         "sizeDetails": {
-          "27": 2,
-          "28": 3,
+          "27": 1,
+          "28": 2,
           "29": 2,
           "30": 1,
           "31": 1
         },
-        "quantity": 9,
+        "quantity": 7,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
