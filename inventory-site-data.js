@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-09T17:33:03.360Z",
+  "savedAt": "2026-11-09T18:13:52.339Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -415,15 +415,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "ATX café",
-        "size": "27 x4, 28 x2, 29 x4, 30 x3, 31 x2",
+        "size": "27 x4, 28 x2, 29 x4, 30 x3, 31",
         "sizeDetails": {
           "27": 4,
           "28": 2,
           "29": 4,
           "30": 3,
-          "31": 2
+          "31": 1
         },
-        "quantity": 15,
+        "quantity": 14,
         "minimum": 3,
         "cost": 406,
         "salePrice": 770
@@ -955,14 +955,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Mega Negro total",
-        "size": "26 x2, 27 x5, 28 x6, 29 x3",
+        "size": "26 x2, 27 x5, 28 x5, 29 x3",
         "sizeDetails": {
           "26": 2,
           "27": 5,
-          "28": 6,
+          "28": 5,
           "29": 3
         },
-        "quantity": 16,
+        "quantity": 15,
         "minimum": 0,
         "cost": 280,
         "salePrice": 630
@@ -1320,11 +1320,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Ultra negro",
-        "size": "25",
-        "sizeDetails": {
-          "25": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 2,
         "cost": 450,
         "salePrice": 790
@@ -1627,14 +1625,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "23 x5, 24 x5, 25 x2, 26 x2",
+        "size": "23 x5, 24 x5, 25, 26 x2",
         "sizeDetails": {
           "23": 5,
           "24": 5,
-          "25": 2,
+          "25": 1,
           "26": 2
         },
-        "quantity": 14,
+        "quantity": 13,
         "minimum": 6,
         "cost": 310,
         "salePrice": 680
