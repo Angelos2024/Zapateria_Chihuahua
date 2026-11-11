@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-11T19:08:53.084Z",
+  "savedAt": "2026-11-11T21:18:16.312Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -412,15 +412,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "ATX café",
-        "size": "27 x4, 28 x2, 29 x4, 30 x3, 31",
+        "size": "27 x4, 28, 29 x4, 30 x3, 31",
         "sizeDetails": {
           "27": 4,
-          "28": 2,
+          "28": 1,
           "29": 4,
           "30": 3,
           "31": 1
         },
-        "quantity": 14,
+        "quantity": 13,
         "minimum": 3,
         "cost": 406,
         "salePrice": 770
