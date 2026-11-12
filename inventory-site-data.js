@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-11T21:18:16.312Z",
+  "savedAt": "2026-11-12T18:45:38.984Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -13,15 +13,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre suela de Goma",
-        "size": "26 x2, 27 x2, 28 x2, 29, 30",
+        "size": "26 x2, 27 x2, 28 x2, 29",
         "sizeDetails": {
           "26": 2,
           "27": 2,
           "28": 2,
-          "29": 1,
-          "30": 1
+          "29": 1
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 4,
         "cost": 400,
         "salePrice": 740
@@ -221,11 +220,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Botin BullDog",
-        "size": "26 x2",
-        "sizeDetails": {
-          "26": 2
-        },
-        "quantity": 2,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 0,
         "cost": 410,
         "salePrice": 750
@@ -1593,14 +1590,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "23, 24 x3, 25 x2, 26 x5",
+        "size": "23, 24 x3, 25 x2, 26 x3",
         "sizeDetails": {
           "23": 1,
           "24": 3,
           "25": 2,
-          "26": 5
+          "26": 3
         },
-        "quantity": 11,
+        "quantity": 9,
         "minimum": 6,
         "cost": 310,
         "salePrice": 655
