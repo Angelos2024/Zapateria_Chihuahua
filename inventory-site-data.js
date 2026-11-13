@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-12T18:45:38.984Z",
+  "savedAt": "2026-11-13T00:43:27.287Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -62,14 +62,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre Truck",
-        "size": "27 x2, 28 x3, 29, 30",
+        "size": "27, 28 x3, 29, 30",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "28": 3,
           "29": 1,
           "30": 1
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 4,
         "cost": 410,
         "salePrice": 750
@@ -166,11 +166,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Coyote 2070 Miel",
-        "size": "28",
-        "sizeDetails": {
-          "28": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 0,
         "cost": 400,
         "salePrice": 740
@@ -532,14 +530,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Beige 340",
-        "size": "27 x2, 28, 29, 30",
+        "size": "27 x2, 28, 30",
         "sizeDetails": {
           "27": 2,
           "28": 1,
-          "29": 1,
           "30": 1
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 2,
         "cost": 610,
         "salePrice": 950
