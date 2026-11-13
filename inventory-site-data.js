@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-13T00:43:27.287Z",
+  "savedAt": "2026-11-13T22:57:56.706Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -407,15 +407,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "ATX café",
-        "size": "27 x4, 28, 29 x4, 30 x3, 31",
+        "size": "27 x4, 29 x4, 30 x3, 31",
         "sizeDetails": {
           "27": 4,
-          "28": 1,
           "29": 4,
           "30": 3,
           "31": 1
         },
-        "quantity": 13,
+        "quantity": 12,
         "minimum": 3,
         "cost": 406,
         "salePrice": 770
@@ -1587,14 +1586,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "23, 24 x3, 25 x2, 26 x3",
+        "size": "23, 24 x3, 25, 26 x3",
         "sizeDetails": {
           "23": 1,
           "24": 3,
-          "25": 2,
+          "25": 1,
           "26": 3
         },
-        "quantity": 9,
+        "quantity": 8,
         "minimum": 6,
         "cost": 310,
         "salePrice": 655
