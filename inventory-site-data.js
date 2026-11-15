@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-13T22:57:56.706Z",
+  "savedAt": "2026-11-15T17:16:39.390Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -1337,11 +1337,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Pegasus Negro",
-        "size": "23 x2",
+        "size": "23",
         "sizeDetails": {
-          "23": 2
+          "23": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 250,
         "salePrice": 580
@@ -1351,12 +1351,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Pegasus Rosa",
-        "size": "23 x4, 25",
+        "size": "23 x4",
         "sizeDetails": {
-          "23": 4,
-          "25": 1
+          "23": 4
         },
-        "quantity": 5,
+        "quantity": 4,
         "minimum": 0,
         "cost": 250,
         "salePrice": 580
