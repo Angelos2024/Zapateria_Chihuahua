@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-17T19:01:31.397Z",
+  "savedAt": "2026-11-17T22:59:17.473Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -62,14 +62,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre Truck",
-        "size": "27, 28 x3, 29, 30",
+        "size": "28 x3, 29, 30",
         "sizeDetails": {
-          "27": 1,
           "28": 3,
           "29": 1,
           "30": 1
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 4,
         "cost": 410,
         "salePrice": 750
