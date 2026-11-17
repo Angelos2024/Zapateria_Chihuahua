@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-17T16:44:26.417Z",
+  "savedAt": "2026-11-17T19:01:31.397Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -1529,12 +1529,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "TRS choclo Rosa",
-        "size": "24, 27",
+        "size": "27",
         "sizeDetails": {
-          "24": 1,
           "27": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 0,
         "cost": 455,
         "salePrice": 650
