@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-15T21:12:04.207Z",
+  "savedAt": "2026-11-17T16:44:26.417Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -864,12 +864,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 azul",
-        "size": "28 x2, 29",
+        "size": "28, 29",
         "sizeDetails": {
-          "28": 2,
+          "28": 1,
           "29": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 405,
         "salePrice": 750
