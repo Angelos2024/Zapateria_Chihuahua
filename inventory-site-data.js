@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-19T22:02:06.354Z",
+  "savedAt": "2026-11-19T23:32:21.474Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -301,12 +301,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS grizlee",
-        "size": "28, 29",
+        "size": "29",
         "sizeDetails": {
-          "28": 1,
           "29": 1
         },
-        "quantity": 2,
+        "quantity": 1,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
