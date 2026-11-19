@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-18T00:47:11.574Z",
+  "savedAt": "2026-11-19T15:19:00.338Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -90,15 +90,15 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Everest",
-        "size": "27, 28 x2, 29 x2, 30, 31",
+        "size": "27, 28, 29 x2, 30, 31",
         "sizeDetails": {
           "27": 1,
-          "28": 2,
+          "28": 1,
           "29": 2,
           "30": 1,
           "31": 1
         },
-        "quantity": 7,
+        "quantity": 6,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
@@ -520,24 +520,24 @@ window.INVENTORY_SITE_DATA = {
         },
         "quantity": 7,
         "minimum": 2,
-        "cost": 610,
-        "salePrice": 950
+        "cost": 630,
+        "salePrice": 970
       },
       {
         "id": "inv-34",
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Beige 340",
-        "size": "27 x2, 28, 30",
+        "size": "27, 28, 30",
         "sizeDetails": {
-          "27": 2,
+          "27": 1,
           "28": 1,
           "30": 1
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 2,
-        "cost": 610,
-        "salePrice": 950
+        "cost": 630,
+        "salePrice": 970
       },
       {
         "id": "inv-35",
@@ -708,13 +708,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "27 x6, 28 x4, 29 x4",
+        "size": "27 x6, 28 x3, 29 x4",
         "sizeDetails": {
           "27": 6,
-          "28": 4,
+          "28": 3,
           "29": 4
         },
-        "quantity": 14,
+        "quantity": 13,
         "minimum": 4,
         "cost": 310,
         "salePrice": 655
@@ -1072,11 +1072,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "Axis 030 Azul",
-        "size": "26",
-        "sizeDetails": {
-          "26": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 0,
         "cost": 530,
         "salePrice": 870
@@ -1629,14 +1627,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Plantillas",
-        "size": "23 x3, 24 x3, 25 x2, 26 x3",
+        "size": "23 x3, 24 x2, 25 x2, 26 x3",
         "sizeDetails": {
           "23": 3,
-          "24": 3,
+          "24": 2,
           "25": 2,
           "26": 3
         },
-        "quantity": 11,
+        "quantity": 10,
         "minimum": 2,
         "cost": 50,
         "salePrice": 100
