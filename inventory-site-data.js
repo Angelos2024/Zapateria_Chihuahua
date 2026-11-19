@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-19T19:03:25.340Z",
+  "savedAt": "2026-11-19T22:02:06.354Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -528,13 +528,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Caribu Beige 340",
-        "size": "27, 28, 30",
+        "size": "27, 30",
         "sizeDetails": {
           "27": 1,
-          "28": 1,
           "30": 1
         },
-        "quantity": 3,
+        "quantity": 2,
         "minimum": 2,
         "cost": 630,
         "salePrice": 970
