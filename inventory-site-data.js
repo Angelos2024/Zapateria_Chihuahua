@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-20T18:06:51.255Z",
+  "savedAt": "2026-11-20T18:43:29.564Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -590,14 +590,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Bota Leo",
-        "size": "27, 28, 29 x3, 30",
+        "size": "27, 28, 29 x3",
         "sizeDetails": {
           "27": 1,
           "28": 1,
-          "29": 3,
-          "30": 1
+          "29": 3
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 0,
         "cost": 397,
         "salePrice": 740
@@ -860,10 +859,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Axis 028 azul",
-        "size": "28, 29",
+        "size": "28 x2",
         "sizeDetails": {
-          "28": 1,
-          "29": 1
+          "28": 2
         },
         "quantity": 2,
         "minimum": 2,
