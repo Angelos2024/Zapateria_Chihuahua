@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-23T16:50:51.148Z",
+  "savedAt": "2026-11-23T20:43:08.179Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -622,12 +622,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Force blanco",
-        "size": "27, 29 x3",
+        "size": "27, 29 x2",
         "sizeDetails": {
           "27": 1,
-          "29": 3
+          "29": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 5,
         "cost": 260,
         "salePrice": 600
@@ -789,11 +789,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "tenis",
         "model": "Shein Negro",
-        "size": "29 x4",
+        "size": "29 x3",
         "sizeDetails": {
-          "29": 4
+          "29": 3
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 4,
         "cost": 310,
         "salePrice": 680
