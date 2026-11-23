@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-22T20:25:00.267Z",
+  "savedAt": "2026-11-23T16:50:51.148Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -984,11 +984,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "botas",
         "model": "ATX Negra",
-        "size": "23",
-        "sizeDetails": {
-          "23": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 2,
         "cost": 380,
         "salePrice": 770
