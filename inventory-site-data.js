@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-23T20:43:08.179Z",
+  "savedAt": "2026-11-23T21:40:23.992Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -287,11 +287,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS oso negro",
-        "size": "29",
-        "sizeDetails": {
-          "29": 1
-        },
-        "quantity": 1,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 2,
         "cost": 400,
         "salePrice": 740
