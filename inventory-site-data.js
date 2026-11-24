@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-24T17:56:44.443Z",
+  "savedAt": "2026-11-24T18:23:22.979Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -490,12 +490,12 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "Shein Atx Negro",
-        "size": "27, 29 x3",
+        "size": "27, 29 x2",
         "sizeDetails": {
           "27": 1,
-          "29": 3
+          "29": 2
         },
-        "quantity": 4,
+        "quantity": 3,
         "minimum": 3,
         "cost": 320,
         "salePrice": 660
