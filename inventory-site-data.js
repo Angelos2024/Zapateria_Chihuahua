@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-26T17:32:55.184Z",
+  "savedAt": "2026-11-26T22:07:14.690Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -13,13 +13,14 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Ocre suela de Goma",
-        "size": "26, 27, 28",
+        "size": "26, 27, 28, 29",
         "sizeDetails": {
           "26": 1,
           "27": 1,
-          "28": 1
+          "28": 1,
+          "29": 1
         },
-        "quantity": 3,
+        "quantity": 4,
         "minimum": 4,
         "cost": 400,
         "salePrice": 740
@@ -29,13 +30,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra total black",
-        "size": "26, 29, 30",
+        "size": "26 x2, 29, 30",
         "sizeDetails": {
-          "26": 1,
+          "26": 2,
           "29": 1,
           "30": 1
         },
-        "quantity": 3,
+        "quantity": 4,
         "minimum": 3,
         "cost": 500,
         "salePrice": 840
@@ -45,10 +46,11 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra mil rayas",
-        "size": "27, 28 x2, 30",
+        "size": "26, 27, 28, 30",
         "sizeDetails": {
+          "26": 1,
           "27": 1,
-          "28": 2,
+          "28": 1,
           "30": 1
         },
         "quantity": 4,
@@ -89,15 +91,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "calzado-vaquero",
         "model": "Nicadabra Everest",
-        "size": "27, 28, 29 x2, 30, 31",
+        "size": "29 x2, 30, 31",
         "sizeDetails": {
-          "27": 1,
-          "28": 1,
           "29": 2,
           "30": 1,
           "31": 1
         },
-        "quantity": 6,
+        "quantity": 4,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
