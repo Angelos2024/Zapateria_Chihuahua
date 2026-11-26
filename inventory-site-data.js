@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-25T21:06:48.234Z",
+  "savedAt": "2026-11-26T01:25:38.262Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -270,13 +270,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "caballero",
         "productGroup": "botas",
         "model": "TRS avena",
-        "size": "27 x4, 28 x2, 29 x2",
+        "size": "27 x4, 28 x2, 29",
         "sizeDetails": {
           "27": 4,
           "28": 2,
-          "29": 2
+          "29": 1
         },
-        "quantity": 8,
+        "quantity": 7,
         "minimum": 3,
         "cost": 400,
         "salePrice": 740
