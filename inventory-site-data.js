@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-27T22:25:32.116Z",
+  "savedAt": "2026-11-27T22:26:13.236Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -1561,14 +1561,13 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Valentina",
-        "size": "23, 24 x2, 25, 26 x2",
+        "size": "23, 24 x2, 26 x2",
         "sizeDetails": {
           "23": 1,
           "24": 2,
-          "25": 1,
           "26": 2
         },
-        "quantity": 6,
+        "quantity": 5,
         "minimum": 6,
         "cost": 310,
         "salePrice": 655
