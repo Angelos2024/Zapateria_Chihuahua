@@ -1,5 +1,5 @@
 window.INVENTORY_SITE_DATA = {
-  "savedAt": "2026-11-27T00:10:52.786Z",
+  "savedAt": "2026-11-27T16:24:14.594Z",
   "source": "zapatos",
   "data": {
     "nextId": 133,
@@ -1407,12 +1407,9 @@ window.INVENTORY_SITE_DATA = {
         "audienceGroup": "damas",
         "productGroup": "tenis",
         "model": "Axis 021 Negro",
-        "size": "24, 26",
-        "sizeDetails": {
-          "24": 1,
-          "26": 1
-        },
-        "quantity": 2,
+        "size": "",
+        "sizeDetails": {},
+        "quantity": 0,
         "minimum": 2,
         "cost": 420,
         "salePrice": 760
